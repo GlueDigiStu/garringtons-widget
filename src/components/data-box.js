@@ -26,9 +26,9 @@ class DataBox extends React.Component{
                         <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
                     <p>Overall rank: <span className="result">{val[0].OR} /<span className="mini"> 1373</span></span> </p>
-                    <p>Natural beauty: <span className="result">{val[0].PE} /<span className="mini"> 1373</span></span></p>
-                    <p>Quality of life: <span className="result">{val[0].QL} /<span className="mini"> 1373</span></span></p>
-                    <p>Architectural beauty: <span className="result">{val[0].AC} /<span className="mini"> 1373</span></span></p>
+                    <p>Natural beauty rank: <span className="result">{val[0].PE} /<span className="mini"> 1373</span></span></p>
+                    <p>Quality of life rank: <span className="result">{val[0].QL} /<span className="mini"> 1373</span></span></p>
+                    <p>Architectural beauty rank: <span className="result">{val[0].AC} /<span className="mini"> 1373</span></span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <p>Average family home cost: <span className="result">{val[0].PB}</span></p>
                     <p>Rank in price band: <span className="result">{val[0].PBR} / <span className="mini"> {PBC}</span></span></p>
