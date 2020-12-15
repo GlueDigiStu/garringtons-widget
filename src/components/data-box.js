@@ -20,24 +20,25 @@ class DataBox extends React.Component{
                 PBC = null;
             }
             return (
-                <div>
+                <div className="data-box">
                     {!this.props.unpin ?
-                    <button onClick={this.handleClick}>Pin This Result</button> :
-                        <button onClick={this.handleClick}>Unpin This Result</button>}
+                    <button onClick={this.handleClick}><i className="fas fa-thumbtack"></i></button> :
+                        <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
-                    <p>Physical Environment Score: {val[0].PE} / 1373</p>
-                    <p>Quality of living Score: {val[0].QL} / 1373</p>
-                    <p>Architecture, heritage, environmental credentials Score: {val[0].AC} / 1373</p>
-                    <p>Overall Ranking: {val[0].OR} / 1373</p>
-                    <p>Price band of average family home: {val[0].PB}</p>
-                    <p>Price Bracket Ranking: {val[0].PBR} / {PBC}</p>
+                    <p>Overall rank: <span className="result">{val[0].OR} /<span className="mini"> 1373</span></span> </p>
+                    <p>Natural beauty: <span className="result">{val[0].PE} /<span className="mini"> 1373</span></span></p>
+                    <p>Quality of life: <span className="result">{val[0].QL} /<span className="mini"> 1373</span></span></p>
+                    <p>Architectural beauty: <span className="result">{val[0].AC} /<span className="mini"> 1373</span></span></p>
+                    {/*<p>Overall Ranking: </p>*/}
+                    <p>Average family home cost: <span className="result">{val[0].PB}</span></p>
+                    <p>Rank in price band: <span className="result">{val[0].PBR} / <span className="mini"> {PBC}</span></span></p>
                 </div>
             )
         } else {
             return (
                 <div>
                     {!this.props.unpin ?
-                    <p>Please choose a town</p> :
+                    <p>Please Choose a Town</p> :
                         null}
                 </div>
             )

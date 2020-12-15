@@ -37,8 +37,7 @@ class App extends React.Component {
 
     handleClick(value) {
         const selected = this.state._data.filter(v => v.OR === value)
-        this.setState({_selected: selected}, () => {
-        })
+        this.setState({_selected: selected, searchValue: '', _data: []})
     }
 
     handlePin(value) {
@@ -60,7 +59,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className="App" style={{padding: '100px'}}>
+            <div className="App">
                 <SearchBox
                     handleKeyUp={(value) => this.handleKeyUp(value)}
                     value={this.state.searchValue}
@@ -70,6 +69,7 @@ class App extends React.Component {
                     data={this.state._data}
                     query={this.state.searchValue}
                 />
+                <div className="data-boxes">
 
                 <DataBox
                     handlePin={(value) => this.handlePin(value)}
@@ -80,7 +80,7 @@ class App extends React.Component {
                     unpin={true}
                     handlePin={(value) => this.handleUnPin(value)}
                     values={this.state._pinned}/>
-
+                </div>
             </div>
         )
     }
