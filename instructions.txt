@@ -1,0 +1,35 @@
+Installation of Widget on Garringtons Website
+
+Step 1.
+
+Copy the below code snippet:
+
+
+<style>#garrington1234{height:500px}@media(max-width:809px){#garrington1234{height:750px}}</style>
+<iframe id="garrington1234" src="https://reverent-easley-137487.netlify.app/" style="width: 100%;border: 0;"></iframe>
+
+
+
+Step 2.
+
+Navigate to the Wordpress Admin page.
+
+Step 3.
+
+Open up the Post you would like to insert the widget from the backend editor
+
+Step 4.
+
+On the top right hand corner of the text editor window you should see two tabs, Visual and Text - click "Text"
+
+Step 5.
+
+Find the Position you would like to insert the widget within the text and paste the code you copied in step 1.
+
+Step 6.
+
+Save the post as a draft and preview the post to make sure it is formatted / displays correctly.
+
+Step 7.
+
+When you are happy with the positioning of the widget, click the Publish button to make it live.

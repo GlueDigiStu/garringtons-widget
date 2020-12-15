@@ -6,6 +6,7 @@ class ResultsBox extends React.Component {
         if(this.props.query.length === 0){
             return(
                 <div>
+                    <p>Where are you looking for?</p>
                     <p>To get started, type the first three letters</p>
                 </div>
             )
@@ -23,7 +24,7 @@ class ResultsBox extends React.Component {
                         {
                             this.props.data.map((item) =>
                                 <li
-                                    onClick={(event) => this.props.handleClick(item.OR)}
+                                    onClick={(event) => this.props.handleClick(item.UID)}
                                     key={item.UID}>{item.SN}</li>
                             )
                         }

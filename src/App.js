@@ -23,11 +23,7 @@ class App extends React.Component {
                 if (this.state.searchValue.length > 2) {
                     const s = this.state.searchValue.toLowerCase()
                     const matches = this.state.data.filter(v => v.SN.toLowerCase().startsWith(s))
-                    this.setState({_data: matches},
-                        () => {
-                            console.log(this.state._data)
-                        }
-                    )
+                    this.setState({_data: matches})
                 } else {
                     this.setState({_data: []})
                 }
@@ -36,8 +32,8 @@ class App extends React.Component {
     }
 
     handleClick(value) {
-        const selected = this.state._data.filter(v => v.OR === value)
-        this.setState({_selected: selected, searchValue: '', _data: []})
+        const selected = this.state._data.filter(v => v.UID === value)
+        this.setState({_selected: selected, searchValue: '', _data: []}, ()=>  {console.log(this.state)})
     }
 
     handlePin(value) {
@@ -57,10 +53,19 @@ class App extends React.Component {
         )
     }
 
+    onFormSubmit(e){
+        e.preventDefault();
+        if(this.state._data.length === 1){
+            this.handleClick(this.state._data[0].UID)
+        }
+
+    }
+
     render() {
         return (
             <div className="App">
                 <SearchBox
+                    onFormSubmit={(e)=>this.onFormSubmit(e)}
                     handleKeyUp={(value) => this.handleKeyUp(value)}
                     value={this.state.searchValue}
                 />
