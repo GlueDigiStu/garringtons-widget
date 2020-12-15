@@ -6,13 +6,13 @@ class ResultsBox extends React.Component {
         if(this.props.query.length === 0){
             return(
                 <div>
-                    <p>Type more than three letters to get suggestions</p>
+                    <p>To get started, type the first three letters</p>
                 </div>
             )
         } else if (this.props.data.length === 0 && this.props.query.length > 2) {
             return (
                 <div>
-                    <p>Sorry We couldn't find anything</p>
+                    <p>Hmm, we can’t seem to find that one. Try somewhere nearby.</p>
                 </div>
             )
         } else {

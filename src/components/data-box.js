@@ -38,7 +38,7 @@ class DataBox extends React.Component{
             return (
                 <div>
                     {!this.props.unpin ?
-                    <p>Please Choose a Town</p> :
+                    <p>Where are you looking for? </p> :
                         null}
                 </div>
             )
