@@ -22,7 +22,7 @@ class DataBox extends React.Component{
             return (
                 <div className="data-box">
                     {!this.props.unpin ?
-                    <button onClick={this.handleClick}><i className="fas fa-thumbtack"></i></button> :
+                    <button className="pin-me" onClick={this.handleClick}>Pin Me</button> :
                         <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
                     <p>Overall rank: <span className="result">{val[0].OR} /<span className="mini"> 1373</span></span> </p>

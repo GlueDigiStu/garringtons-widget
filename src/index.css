@@ -74,6 +74,8 @@ input{
   justify-content: space-between;
 }
 
+
+
 .data-boxes > div{
   flex: 1 1 calc(50% - 10px);
 
@@ -91,6 +93,17 @@ input{
   border: none;
   float: right;
   cursor: pointer;
+}
+.data-box .pin-me{
+  border: 1px solid black;
+  padding: 5px;
+  transition: all 0.2s;
+}
+
+.data-box .pin-me:hover{
+  background-color: black;
+  color: white;
+  transition: all 0.2s;
 }
 
 .data-box h1{
