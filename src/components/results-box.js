@@ -1,6 +1,8 @@
 import React from 'react'
 
-class ResultsBox extends React.Component {
+
+
+    class ResultsBox extends React.Component {
     render() {
 
         if(this.props.query.length === 0){
