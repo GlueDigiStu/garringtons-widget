@@ -4,21 +4,34 @@
 }
 
 body{
-  background-color: #e7e3e0;
+  background-color: #f5f3ed;
+}
+
+.headers{
+  font-family: aktiv-grotesk, sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
 
 body * {
-  font-family: petala-pro, sans-serif;
-  font-weight: 300;
+  font-family: ivyjournal, sans-serif;
+  font-weight: 400;
   font-style: normal;
   box-sizing: border-box;
+  color: #BB775A;
 }
 
-.results-box{
+
+
+.results-box, .region-select{
   position: relative;
 }
 
-.results-box ul{
+.region-select{
+  height: 200px;
+  overflow: scroll;
+}
+.results-box ul, .region-select ul{
   position: absolute;
   background-color: white;
   width: 100%;
@@ -30,7 +43,7 @@ body * {
   overflow: hidden;
   /*max-width: 200px;*/
 }
-.results-box li{
+.results-box li, .region-select li{
   list-style: none;
   margin-left: 0;
   padding: 5px;
@@ -38,11 +51,11 @@ body * {
   cursor: pointer;
 }
 
-.results-box li:hover{
+.results-box li:hover, .region-select li:hover{
   background-color: #f3f3f3;
 }
 
-.results-box li:last-child{
+.results-box li:last-child, .region-select li:last-child{
   border-bottom: 0;
 }
 
@@ -59,9 +72,19 @@ input{
 }
 
 .result{
-  background-color:#7c6c63;
+  background-color:#BB775A;
   color: white;
   padding: 5px;
+  float: right;
+  border-radius: 5px;
+}
+
+hr{
+  border: 1px solid
+}
+
+.result span {
+  color: white;
 }
 
 .mini{
@@ -72,6 +95,8 @@ input{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-left: -5px;
+  margin-right: -5px;
 }
 
 
@@ -83,9 +108,10 @@ input{
 
 .data-box{
   flex: 1 1 calc(50% - 10px);
-  background: #f3f3f3;
+  background: #fff;
   padding: 10px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .data-box button{
@@ -108,6 +134,34 @@ input{
 
 .data-box h1{
   margin-top: 0;
+}
+
+.select-region{
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+
+}
+
+.tab-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-buttons button{
+  flex: 0 0 50%;
+  padding: 20px;
+  background: #BB775A;
+  color: white;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-buttons button.active{
+  opacity: 1;
+  cursor: default;
 }
 
 @media(max-width: 742px){

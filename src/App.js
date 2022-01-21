@@ -1,8 +1,10 @@
 import React from 'react';
 import SearchBox from "./components/search-box";
-import data from "./data/data";
+import data from "./data/data-2022";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
+import SelectRegion from "./components/select-region";
+import SelectPlaceInRegion from "./components/select-place-in-region";
 
 
 class App extends React.Component {
@@ -13,7 +15,10 @@ class App extends React.Component {
             data: data,
             _data: [],
             _selected: {},
-            _pinned: {}
+            _pinned: {},
+            _regionPlaces : [],
+            activeTab: 'search',
+            selectedRegion: ''
         }
     }
 
@@ -31,9 +36,30 @@ class App extends React.Component {
         )
     }
 
+    handleSelectRegion(value){
+        console.log(value);
+        const matches = this.state.data.filter(v => v.REG === value)
+        this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value});
+    }
+
+    changeActiveTab(value) {
+        this.setState({
+            activeTab: value
+        })
+    }
+
     handleClick(value) {
         const selected = this.state._data.filter(v => v.UID === value)
-        this.setState({_selected: selected, searchValue: '', _data: []}, ()=>  {console.log(this.state)})
+        this.setState({_selected: selected, searchValue: '', _data: []}, () => {
+            console.log(this.state)
+        })
+    }
+
+    handleRegionPlaceClick(value){
+        const selected = this.state._data.filter(v => v.UID === value)
+        this.setState({_selected: selected, searchValue: ''}, () => {
+            console.log(this.state)
+        })
     }
 
     handlePin(value) {
@@ -53,38 +79,71 @@ class App extends React.Component {
         )
     }
 
-    onFormSubmit(e){
+    onFormSubmit(e) {
         e.preventDefault();
-        if(this.state._data.length === 1){
+        if (this.state._data.length === 1) {
             this.handleClick(this.state._data[0].UID)
         }
 
     }
 
     render() {
+
+        const activeTab = () => {
+            if (this.state.activeTab === 'search') {
+                return <div>
+                    <SearchBox
+                    onFormSubmit={(e) => this.onFormSubmit(e)}
+                    handleKeyUp={(value) => this.handleKeyUp(value)}
+                    value={this.state.searchValue}/>
+                    <ResultsBox
+                        handleClick={(value) => this.handleClick(value)}
+                        data={this.state._data}
+                        query={this.state.searchValue}/></div>
+            } else {
+                return <div><SelectRegion
+                            selectedRegion={this.state.selectedRegion}
+                            handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
+                <SelectPlaceInRegion
+                    handleClick={(value) => this.handleRegionPlaceClick(value)}
+                    places={this.state._regionPlaces}
+                />
+                </div>
+            }
+        }
+
+        const currentTab = this.state.activeTab;
+
         return (
             <div className="App">
-                <SearchBox
-                    onFormSubmit={(e)=>this.onFormSubmit(e)}
-                    handleKeyUp={(value) => this.handleKeyUp(value)}
-                    value={this.state.searchValue}
-                />
-                <ResultsBox
-                    handleClick={(value) => this.handleClick(value)}
-                    data={this.state._data}
-                    query={this.state.searchValue}
-                />
+
+                <div className="tab-buttons">
+                    <button
+                        className={currentTab === 'search' ? 'active' : null}
+                        onClick={() => this.changeActiveTab('search')}>
+                        Search For a Place
+                    </button>
+                    <button
+                        className={currentTab === 'browse' ? 'active' : null}
+                        onClick={() => this.changeActiveTab('browse')}>
+                        Browse By Region
+                    </button>
+                </div>
+
+                {activeTab()}
+
+
                 <div className="data-boxes">
 
-                <DataBox
-                    handlePin={(value) => this.handlePin(value)}
-                    values={this.state._selected
-                    }/>
+                    <DataBox
+                        handlePin={(value) => this.handlePin(value)}
+                        values={this.state._selected
+                        }/>
 
-                <DataBox
-                    unpin={true}
-                    handlePin={(value) => this.handleUnPin(value)}
-                    values={this.state._pinned}/>
+                    <DataBox
+                        unpin={true}
+                        handlePin={(value) => this.handleUnPin(value)}
+                        values={this.state._pinned}/>
                 </div>
             </div>
         )

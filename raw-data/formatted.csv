@@ -1,0 +1,1373 @@
+UID,LYOR,OR,CHANGE,SN,REG,PE,QL,AC,GGR,PB,PBR
+1,1,1,0,Bath,South West,43,596,1,58,Over £650k,1
+2,15,2,-13,Lyme Regis,South West,57,663,19,23,£350k-£650k,1
+3,129,3,-126,Salisbury,South West,186,413,107,18,£350k-£650k,2
+4,68,4,-64,Caton,North West,15,275,294,117,less than £350k,1
+5,171,5,-166,Kidwelly,Wales,223,66,165,382,less than £350k,2
+6,23,6,-17,Fowey,South West,7,352,18,632,Over £650k,2
+7,9,7,-2,Wilton (Wiltshire),South West,65,465,28,368,£350k-£650k,3
+8,41,8,-33,Hadleigh,East of England,230,591,89,25,£350k-£650k,4
+9,144,9,-135,Folkestone,South East,144,293,163,195,£350k-£650k,5
+10,17,10,-7,Newport (Isle of Wight),South East,246,591,69,35,less than £350k,3
+11,42,11,-31,Shaftesbury,South West,446,749,43,3,£350k-£650k,6
+12,330,12,-318,Wallingford,South East,110,857,156,12,£350k-£650k,7
+13,362,13,-349,Colne,North West,147,233,304,150,less than £350k,4
+14,20,14,-6,Malmesbury,South West,17,491,15,685,£350k-£650k,8
+15,29,15,-14,Sudbury,East of England,323,301,112,160,£350k-£650k,9
+16,6,16,10,Rye,South East,1,264,12,1024,£350k-£650k,10
+17,2,17,15,Tenby,Wales,81,505,5,591,£350k-£650k,11
+18,28,18,-10,Weymouth,South West,47,377,122,501,£350k-£650k,12
+19,62,19,-43,Hawkhurst,South East,446,800,48,11,£350k-£650k,13
+20,37,20,-17,Lancaster,North West,94,862,143,37,less than £350k,5
+21,14,21,7,Lewes,South East,87,829,13,337,Over £650k,3
+22,156,22,-134,Pershore,West Midlands,353,585,139,32,£350k-£650k,14
+23,69,23,-46,Barnstaple,South West,286,646,76,88,£350k-£650k,15
+24,86,24,-62,Winchester,South East,121,998,146,22,Over £650k,4
+25,80,25,-55,Deal,South East,214,145,273,472,£350k-£650k,16
+26,21,26,5,Frome,South West,215,297,126,460,£350k-£650k,17
+27,57,27,-30,Great Yarmouth,East of England,46,479,97,623,less than £350k,6
+28,3,28,25,Bradford on Avon,South West,18,511,51,772,£350k-£650k,18
+29,102,29,-73,Cromer,East of England,58,783,169,162,£350k-£650k,19
+30,213,30,-183,Much Wenlock,West Midlands,691,425,10,166,£350k-£650k,20
+31,39,31,-8,Ilkley,Yorkshire and Humberside,52,795,177,170,£350k-£650k,21
+32,22,32,10,Arundel,South East,5,384,3,1100,Over £650k,4
+33,26,33,7,Hastings,South East,135,312,141,577,£350k-£650k,22
+34,70,34,-36,Truro,South West,149,707,222,65,£350k-£650k,23
+35,104,35,-69,Henley-on-Thames,South East,90,935,37,270,Over £650k,5
+36,129,36,-93,Marple,North West,115,109,562,441,£350k-£650k,24
+37,5,37,32,Canterbury,South East,166,953,94,69,£350k-£650k,25
+38,121,38,-83,Plymouth,South West,162,662,252,75,less than £350k,7
+39,110,39,-71,Malton,Yorkshire and Humberside,151,1350,22,2,£350k-£650k,26
+40,103,40,-63,Carlisle,North West,300,236,194,450,less than £350k,8
+41,91,41,-50,Sowerby Bridge,Yorkshire and Humberside,429,444,101,215,less than £350k,9
+42,112,42,-70,Porthmadog,Wales,83,207,150,909,less than £350k,10
+43,109,43,-66,Kington,West Midlands,362,527,26,389,less than £350k,11
+44,382,44,-338,Sutton Courtenay,South East,537,294,118,354,£350k-£650k,27
+45,67,45,-22,Sevenoaks,South East,165,699,203,120,Over £650k,6
+46,84,46,-38,Barmouth,Wales,60,274,161,878,less than £350k,12
+47,45,47,2,Cardigan,Wales,208,158,63,993,less than £350k,13
+48,100,48,-52,Bovey Tracey,South West,51,797,186,302,£350k-£650k,28
+49,189,49,-140,Ashbourne,East Midlands,712,931,68,8,£350k-£650k,29
+50,218,50,-168,Hythe,South East,4,1253,282,17,£350k-£650k,30
+51,132,51,-81,Ross-on-Wye,West Midlands,200,682,120,262,£350k-£650k,31
+52,31,52,21,Dorchester (West Dorset),South West,72,1095,102,148,£350k-£650k,32
+53,18,53,35,Bridport,South West,30,913,40,591,£350k-£650k,33
+54,313,54,-259,Sunderland,North East,300,223,387,306,less than £350k,14
+55,341,55,-286,Saltash,South West,118,304,482,359,less than £350k,15
+56,58,55,-3,Ipswich,East of England,150,452,370,237,£350k-£650k,34
+57,234,57,-177,Cheltenham,South West,446,594,100,140,£350k-£650k,35
+58,54,58,4,Llandudno,Wales,73,231,217,881,less than £350k,16
+59,258,59,-199,Gunnislake,South West,33,727,331,288,£350k-£650k,36
+60,140,60,-80,Stratford-upon-Avon,West Midlands,286,783,238,41,£350k-£650k,37
+61,133,61,-72,Farnham,South East,141,1014,108,152,Over £650k,7
+62,30,61,31,Abergavenny,Wales,226,949,57,196,£350k-£650k,38
+63,108,63,-45,Sandwich,South East,278,589,4,652,£350k-£650k,39
+64,208,64,-144,Gloucester,South West,173,963,310,26,£350k-£650k,40
+65,184,65,-119,Skipton,Yorkshire and Humberside,75,1151,110,138,£350k-£650k,41
+66,40,66,26,Brecon,Wales,3,718,7,1010,less than £350k,17
+67,24,67,43,Fordingbridge,South East,16,656,256,567,£350k-£650k,42
+68,55,68,13,West Malling,South East,711,368,16,467,Over £650k,8
+69,148,69,-79,Blaenavon,Wales,721,51,99,891,less than £350k,18
+70,166,70,-96,Burnley,North West,171,226,277,711,less than £350k,19
+71,497,71,-426,Glanaman,Wales,2,200,796,555,less than £350k,20
+72,77,72,-5,Trowbridge,South West,435,501,232,135,£350k-£650k,43
+73,237,73,-164,Church,North West,199,56,581,742,less than £350k,21
+74,195,74,-121,Halton,North West,111,266,384,643,less than £350k,22
+75,94,75,-19,Lostwithiel,South West,100,1037,6,560,£350k-£650k,44
+76,16,76,60,Marlborough,South West,14,1011,70,611,£350k-£650k,45
+77,43,77,34,Bethesda,Wales,11,196,77,1279,less than £350k,23
+78,146,78,-68,Brighton and Hove,South East,175,742,67,516,Over £650k,9
+79,73,79,6,Pwllheli,Wales,101,159,142,1140,less than £350k,24
+80,51,80,29,Huddersfield,Yorkshire and Humberside,249,606,94,509,less than £350k,25
+81,250,81,-169,Denbigh,Wales,869,321,19,475,less than £350k,26
+82,92,82,-10,Ryde,South East,128,389,197,725,£350k-£650k,46
+83,93,83,-10,Chipping Norton,South East,446,615,82,307,£350k-£650k,47
+84,729,84,-645,Droylsden,North West,317,82,859,266,less than £350k,27
+85,353,85,-268,Rawtenstall,North West,348,330,405,256,less than £350k,28
+86,75,86,11,Rochester,South East,133,540,252,539,£350k-£650k,48
+87,12,87,75,Langport,South West,573,556,75,367,£350k-£650k,49
+88,137,88,-49,Tetbury,South West,446,824,14,348,£350k-£650k,50
+89,153,89,-64,Cockermouth,North West,79,642,77,823,less than £350k,29
+90,136,90,-46,Seaton (East Devon),South West,45,690,386,400,£350k-£650k,51
+91,97,91,-6,Norwich,East of England,97,950,270,201,£350k-£650k,52
+92,61,92,31,Northam,South West,56,1126,162,305,£350k-£650k,53
+93,288,92,-196,Guisborough,North East,446,198,467,369,less than £350k,30
+94,963,94,-869,Bolsover,East Midlands,1134,128,276,164,less than £350k,31
+95,235,95,-140,Lechlade-on-Thames,South West,127,602,152,693,£350k-£650k,54
+96,370,96,-274,Cowes,South East,37,1045,370,166,£350k-£650k,55
+97,444,97,-347,Builth Wells,Wales,431,443,175,434,less than £350k,32
+98,377,98,-279,Pontypridd,Wales,397,368,236,465,less than £350k,33
+99,411,99,-312,Carmarthen,Wales,838,492,42,344,less than £350k,34
+100,114,100,-14,Pembroke Dock,Wales,240,512,93,747,less than £350k,35
+101,8,101,93,Settle,Yorkshire and Humberside,21,1325,25,383,£350k-£650k,56
+102,105,102,-3,Chichester,South East,315,1114,206,27,£350k-£650k,57
+103,27,103,76,Conwy,Wales,82,309,46,1217,£350k-£650k,58
+104,188,104,-84,Congresbury,South West,145,713,410,213,£350k-£650k,59
+105,126,105,-21,Haverfordwest,Wales,231,906,124,342,less than £350k,36
+106,331,106,-225,Princes Risborough,South East,446,952,403,5,Over £650k,10
+107,154,107,-47,Richmond,Yorkshire and Humberside,134,622,45,900,less than £350k,37
+108,296,108,-188,Dover,South East,233,327,240,740,£350k-£650k,60
+109,4,109,105,Ilfracombe,South West,62,436,36,1200,less than £350k,38
+110,89,110,21,Blandford Forum,South West,88,1275,108,193,£350k-£650k,61
+111,87,111,24,Shanklin,South East,138,413,515,478,£350k-£650k,62
+112,74,112,38,Emsworth,South East,95,739,409,323,£350k-£650k,63
+113,32,113,81,Long Melford,East of England,278,171,176,1042,£350k-£650k,64
+114,56,114,58,Llanrwst,Wales,107,307,44,1231,less than £350k,39
+115,254,115,-139,Chatham,South East,224,213,541,638,£350k-£650k,65
+116,227,116,-111,Ramsgate,South East,877,129,54,894,£350k-£650k,66
+117,95,117,22,Worcester,West Midlands,345,813,197,230,£350k-£650k,67
+118,162,118,-44,Weston,South West,365,549,331,266,£350k-£650k,68
+119,47,119,72,Haworth,Yorkshire and Humberside,632,397,92,595,less than £350k,40
+120,294,120,-174,Lowestoft,East of England,103,459,463,574,less than £350k,41
+121,71,121,50,Loddon,East of England,67,664,154,840,£350k-£650k,69
+122,434,122,-312,Guildford,South East,104,1165,347,69,Over £650k,11
+123,149,123,-26,Ashford (Ashford),South East,203,881,560,34,£350k-£650k,70
+124,241,124,-117,Sandown,South East,174,308,857,223,£350k-£650k,71
+125,72,125,53,Wells,South West,446,960,39,316,£350k-£650k,72
+126,367,126,-241,Blackburn,North West,226,165,749,505,less than £350k,42
+127,200,127,-73,Ditton,South East,305,725,391,123,£350k-£650k,73
+128,327,128,-199,Dewsbury,Yorkshire and Humberside,652,549,377,68,less than £350k,43
+129,152,129,-23,Merthyr Tydfil,Wales,54,389,426,807,less than £350k,44
+130,520,130,-390,Burgh le Marsh,East Midlands,810,423,219,248,less than £350k,45
+131,439,131,-308,Ilminster,South West,921,647,81,169,£350k-£650k,74
+132,318,132,-186,Bromyard,West Midlands,962,1156,60,9,less than £350k,46
+133,832,133,-699,Accrington,North West,895,64,589,375,less than £350k,47
+134,151,134,-17,Maidstone,South East,124,1030,418,113,£350k-£650k,75
+135,287,134,-153,Marlow,South East,179,1111,336,78,Over £650k,12
+136,63,136,73,Evesham,West Midlands,262,405,311,630,£350k-£650k,76
+137,65,137,72,Ripon,Yorkshire and Humberside,113,1314,111,140,£350k-£650k,77
+138,281,138,-143,Midhurst,South East,191,579,275,586,£350k-£650k,78
+139,66,139,73,Dartmouth,South West,25,841,2,1172,£350k-£650k,79
+140,161,140,-21,Hungerford,South East,28,983,381,418,£350k-£650k,80
+141,217,140,-77,Lingfield,South East,759,179,191,700,£350k-£650k,81
+142,43,142,99,Alnwick,North East,599,490,41,719,less than £350k,48
+143,124,143,19,Halifax,Yorkshire and Humberside,648,401,160,513,less than £350k,49
+144,981,144,-837,Southwick,South East,61,113,1086,562,£350k-£650k,82
+145,168,145,-23,New Mills,East Midlands,116,541,367,640,£350k-£650k,83
+146,387,146,-241,Wheathampstead,East of England,340,197,346,809,Over £650k,13
+147,430,147,-283,Wickham Market,East of England,197,647,196,659,£350k-£650k,84
+148,169,148,-21,Welshpool,Wales,251,705,87,728,less than £350k,50
+149,186,149,-37,Watchet,South West,180,174,356,1016,less than £350k,51
+150,228,150,-78,Sheerness,South East,406,382,191,700,less than £350k,52
+151,278,151,-127,Newport,Wales,376,737,516,53,less than £350k,53
+152,85,152,67,Oxted,South East,252,866,308,240,Over £650k,14
+153,239,153,-86,Elland,Yorkshire and Humberside,543,773,201,238,less than £350k,54
+154,473,154,-319,Lane End,South East,446,68,575,773,£350k-£650k,85
+155,623,155,-468,North Walsham,East of England,827,564,395,39,£350k-£650k,86
+156,259,156,-103,Chepstow,Wales,92,884,227,605,£350k-£650k,87
+157,247,157,-90,Haltwhistle,North East,136,1086,122,498,less than £350k,55
+158,204,158,-46,Shefford,East of England,259,557,601,208,£350k-£650k,88
+159,510,159,-351,Elstead,South East,151,409,612,497,Over £650k,15
+160,230,160,-70,Keighley,Yorkshire and Humberside,283,424,272,711,less than £350k,56
+161,173,161,-12,Bridlington,Yorkshire and Humberside,116,372,333,921,less than £350k,57
+162,387,162,-225,Whitehaven,North West,375,562,299,426,less than £350k,58
+163,120,163,43,Holyhead,Wales,49,257,415,1108,less than £350k,59
+164,309,164,-145,Risca,Wales,263,78,485,1072,less than £350k,60
+165,7,165,158,St Ives (Cornwall),South West,44,1188,85,672,Over £650k,16
+166,117,166,49,Woodstock (West Oxfordshire),South East,196,1260,62,300,Over £650k,17
+167,544,166,-378,Alford,East Midlands,739,360,49,788,less than £350k,61
+168,464,168,-296,Chesterfield,East Midlands,418,432,595,187,less than £350k,62
+169,914,169,-745,Chadderton,North West,553,202,1065,46,less than £350k,63
+170,722,170,-552,Ammanford,Wales,113,344,1031,220,less than £350k,64
+171,369,171,-198,Esher,South East,295,804,413,153,Over £650k,18
+172,321,172,-149,Bedford,East of England,758,488,437,83,£350k-£650k,89
+173,485,173,-312,West Rainton,North East,1045,2,795,861,less than £350k,65
+174,215,174,-41,Swansea,Wales,99,849,368,453,less than £350k,66
+175,181,175,-6,Oxford,South East,361,1175,179,87,Over £650k,19
+176,307,176,-131,Mickletown,Yorkshire and Humberside,1012,4,510,1099,less than £350k,67
+177,248,177,-71,Aberdare,Wales,195,233,520,827,less than £350k,68
+178,25,178,153,Scarborough,Yorkshire and Humberside,192,684,102,866,less than £350k,69
+179,124,179,55,Langley Park,North East,337,5,885,1180,less than £350k,70
+180,816,180,-636,Chipping Sodbury,South West,719,139,279,793,£350k-£650k,90
+181,11,181,170,Faversham,South East,205,1070,17,730,£350k-£650k,91
+182,323,182,-141,Shipley,Yorkshire and Humberside,312,688,379,329,less than £350k,71
+183,408,183,-225,Bury St Edmunds,East of England,1103,929,185,10,£350k-£650k,92
+184,212,184,-28,Petworth,South East,446,1046,9,525,£350k-£650k,93
+185,292,185,-107,Darlington,North East,865,74,593,512,less than £350k,72
+186,64,186,122,Great Malvern,West Midlands,446,925,135,328,£350k-£650k,94
+187,646,187,-459,Hartlepool,North East,307,131,777,628,less than £350k,73
+188,295,188,-107,Rochdale,North West,394,270,436,662,less than £350k,74
+189,402,189,-213,Milford Haven,Wales,273,447,354,655,less than £350k,75
+190,899,190,-709,South Shields,North East,742,71,810,377,less than £350k,76
+191,249,191,-58,East Peckham,South East,371,571,234,587,£350k-£650k,95
+192,167,192,25,Reading,South East,98,1209,431,85,£350k-£650k,96
+193,398,193,-205,Hurstpierpoint,South East,446,498,625,131,Over £650k,20
+194,226,194,-32,Penmaenmawr,Wales,106,105,406,1252,less than £350k,77
+195,319,195,-124,Wirksworth,East Midlands,782,827,59,355,£350k-£650k,97
+196,209,196,-13,Weedon Bec,East Midlands,577,505,306,437,£350k-£650k,98
+197,52,197,145,King's Lynn,East of England,109,1108,351,282,less than £350k,78
+198,668,198,-470,Clevedon,South West,389,749,283,350,£350k-£650k,99
+199,145,199,54,Bristol,South West,329,945,461,81,£350k-£650k,100
+200,191,200,9,Bradford,Yorkshire and Humberside,724,675,179,300,less than £350k,79
+201,150,200,50,Minster (Thanet),South East,1139,62,187,824,£350k-£650k,101
+202,196,202,6,Chester,North West,570,718,200,398,£350k-£650k,102
+203,48,203,155,Luddenden Foot,Yorkshire and Humberside,382,141,97,1259,less than £350k,80
+204,557,204,-353,Bloxham,South East,1002,811,229,31,£350k-£650k,103
+205,172,205,33,Colchester,East of England,367,872,531,74,£350k-£650k,104
+206,271,206,-65,Hackney,Greater London,657,861,184,194,Over £650k,21
+207,279,207,-72,Royal Leamington Spa,West Midlands,538,769,223,360,£350k-£650k,105
+208,13,208,195,Hay-on-Wye,Wales,9,1279,24,887,£350k-£650k,106
+209,118,209,91,Swanage,South West,36,1236,294,395,£350k-£650k,107
+210,309,210,-99,Keynsham,South West,245,546,692,264,£350k-£650k,108
+211,927,211,-716,Alvechurch,West Midlands,602,397,797,73,£350k-£650k,109
+212,211,212,1,Berkhamsted,East of England,13,1242,379,346,Over £650k,22
+213,421,213,-208,Aylsham,East of England,605,900,210,212,£350k-£650k,110
+214,96,214,118,Kingsbridge,South West,35,1048,55,1029,£350k-£650k,111
+215,384,215,-169,Lincoln,East Midlands,613,686,316,246,less than £350k,81
+216,218,216,-2,Diss,East of England,674,446,154,685,£350k-£650k,112
+217,251,217,-34,Wooler,North East,105,697,397,682,less than £350k,82
+218,389,218,-171,Royston,Yorkshire and Humberside,644,164,1031,106,less than £350k,83
+219,777,219,-558,Acle,East of England,446,1005,393,59,£350k-£650k,113
+220,179,220,41,Margate,South East,756,256,181,828,£350k-£650k,114
+221,597,221,-376,Morecambe,North West,284,349,759,406,less than £350k,84
+222,176,222,46,Bridgwater,South West,221,853,319,490,less than £350k,86
+223,263,222,-41,Bodmin,South West,880,402,243,439,less than £350k,85
+224,413,224,-189,Hyde (Tameside),North West,363,334,836,265,less than £350k,87
+225,583,225,-358,Workington,North West,748,95,564,695,less than £350k,88
+226,119,226,107,Hexham,North East,343,1252,80,271,less than £350k,89
+227,231,227,-4,Fakenham,East of England,580,1091,193,133,£350k-£650k,115
+228,429,228,-201,Broadstairs,South East,840,253,630,256,£350k-£650k,116
+229,616,229,-387,Merley,South West,323,272,491,811,£350k-£650k,117
+230,199,230,31,Camden,Greater London,913,1149,11,181,Over £650k,23
+231,722,231,-491,Great Harwood,North West,531,268,671,486,less than £350k,90
+232,187,232,45,Exeter,South West,444,1089,224,175,£350k-£650k,118
+233,406,233,-173,Odiham,South East,714,768,117,444,Over £650k,24
+234,79,234,155,Tonbridge,South East,91,1131,425,325,£350k-£650k,119
+235,183,235,52,Sturry,South East,368,317,174,1081,£350k-£650k,120
+236,455,236,-219,Nelson (Pendle),North West,197,206,618,942,less than £350k,91
+237,256,237,-19,Durham,North East,628,1171,264,32,less than £350k,92
+238,442,238,-204,Bacup,North West,580,120,396,991,less than £350k,93
+239,717,239,-478,Kidlington,South East,168,798,783,132,£350k-£650k,121
+240,221,240,19,Kendal,North West,89,1100,204,676,£350k-£650k,122
+241,356,241,-115,Gainsborough,East Midlands,829,321,212,700,less than £350k,94
+242,297,242,-55,Kinver,West Midlands,599,426,454,463,£350k-£650k,123
+243,424,243,-181,Street,South West,815,555,585,63,£350k-£650k,124
+244,123,244,121,Ellesmere,West Midlands,329,1250,53,413,less than £350k,95
+245,160,245,85,Maryport,North West,31,204,375,1317,less than £350k,96
+246,175,246,71,Sittingbourne,South East,558,628,493,273,£350k-£650k,125
+247,35,247,212,Godstone,South East,86,215,340,1273,Over £650k,25
+248,244,248,4,Netherton,Yorkshire and Humberside,571,95,293,1163,less than £350k,97
+249,116,249,133,Charlbury,South East,93,1101,65,943,£350k-£650k,126
+250,395,250,-145,Helston,South West,446,1239,159,128,£350k-£650k,127
+251,425,251,-174,Consett,North East,438,236,692,576,less than £350k,98
+252,321,252,-69,Newlyn,South West,85,456,213,1218,£350k-£650k,128
+253,134,253,119,Combe Martin,South West,209,509,94,1196,£350k-£650k,129
+254,528,254,-274,Wath upon Dearne,Yorkshire and Humberside,761,184,850,258,less than £350k,99
+255,528,255,-273,Tredegar,Wales,437,34,715,1084,less than £350k,100
+256,919,256,-663,Failsworth,North West,326,166,983,541,less than £350k,101
+257,10,257,247,Aldeburgh,East of England,22,1036,118,1082,Over £650k,26
+258,433,258,-175,Caistor,East Midlands,682,1195,60,233,less than £350k,102
+259,491,259,-232,Chesham,South East,446,608,480,386,Over £650k,27
+260,280,260,-20,Loftus,North East,707,132,292,1028,less than £350k,103
+261,333,261,-72,Brighouse,Yorkshire and Humberside,636,518,527,308,less than £350k,104
+262,1032,262,-770,Saughall,North West,1159,74,823,214,£350k-£650k,130
+263,198,263,65,Fishguard,Wales,155,669,187,1019,less than £350k,105
+264,632,264,-368,Boston Spa,Yorkshire and Humberside,568,705,438,279,£350k-£650k,131
+265,541,265,-276,Amesbury,South West,568,286,767,390,£350k-£650k,132
+266,141,266,125,Clitheroe,North West,322,1115,156,470,less than £350k,106
+267,351,267,-84,Burton upon Trent,West Midlands,612,532,528,331,less than £350k,107
+268,812,268,-544,Oswaldtwistle,North West,638,48,779,848,less than £350k,108
+269,266,269,3,Minehead,South West,158,987,365,515,£350k-£650k,133
+270,504,270,-234,Clifton (Central Bedfordshire),East of England,716,240,731,356,£350k-£650k,134
+271,681,271,-410,Plymstock,South West,119,338,1164,289,£350k-£650k,135
+272,430,272,-158,Hirwaun,Wales,19,190,1040,971,less than £350k,109
+273,669,273,-396,Blackwood,Wales,401,152,1043,436,less than £350k,110
+274,346,274,-72,Thornton (Bradford),Yorkshire and Humberside,1147,281,210,547,less than £350k,111
+275,216,275,59,East Ayton,Yorkshire and Humberside,20,568,532,1036,less than £350k,112
+276,416,276,-140,Studley,West Midlands,809,283,725,240,£350k-£650k,136
+277,367,277,-90,Llanhilleth,Wales,213,24,788,1272,less than £350k,113
+278,78,278,200,Bruton,South West,901,885,8,610,£350k-£650k,137
+279,621,279,-342,Nantyglo,Wales,701,98,755,648,less than £350k,114
+280,507,280,-227,Tring,East of England,446,992,385,168,Over £650k,28
+281,201,280,79,York,Yorkshire and Humberside,543,1065,149,402,£350k-£650k,138
+282,711,282,-429,Grimsby,Yorkshire and Humberside,625,385,412,616,less than £350k,115
+283,33,283,250,Westerham,South East,446,340,64,1207,Over £650k,29
+284,82,284,202,Wolsingham,North East,59,670,182,1181,less than £350k,116
+285,664,285,-379,Cwmbran,Wales,203,331,1254,89,less than £350k,117
+286,354,285,-69,Faringdon,South East,985,989,137,124,£350k-£650k,139
+287,830,287,-543,Capel St Mary,East of England,714,297,573,466,£350k-£650k,140
+288,339,288,-51,Petersfield,South East,240,1292,324,112,Over £650k,30
+289,268,289,21,Islington,Greater London,871,1030,71,304,Over £650k,31
+290,406,290,-116,Colwyn Bay,Wales,280,978,600,143,less than £350k,118
+291,458,290,-168,Eccles,North West,603,467,738,202,less than £350k,119
+292,242,292,50,Gillingham,South East,210,474,453,869,£350k-£650k,141
+293,761,293,-468,Abercynon,Wales,277,102,757,1014,less than £350k,120
+294,893,294,-599,Winslow,South East,1209,596,258,95,£350k-£650k,142
+295,329,295,-34,Mirfield,Yorkshire and Humberside,400,647,686,215,less than £350k,122
+296,559,295,-264,Stoke-on-Trent,West Midlands,550,309,688,522,less than £350k,121
+297,636,297,-339,Brundall,East of England,101,757,855,331,£350k-£650k,143
+298,90,297,207,Tenterden,South East,446,1061,172,426,£350k-£650k,144
+299,53,299,246,Keswick (Allerdale),North West,6,1336,132,706,£350k-£650k,145
+300,716,299,-417,Houghton-le-Spring,North East,976,124,716,433,less than £350k,123
+301,58,301,243,Southwold,East of England,12,1068,33,1240,Over £650k,32
+302,382,302,-80,Chippenham (Wiltshire),South West,303,1059,350,343,£350k-£650k,146
+303,262,303,41,Delph,North West,783,660,205,514,£350k-£650k,147
+304,276,304,28,Southampton,South East,339,966,637,104,£350k-£650k,148
+305,490,305,-185,Heysham,North West,326,269,583,885,less than £350k,124
+306,550,306,-244,Porth,Wales,293,104,543,1194,less than £350k,125
+307,19,307,288,Lenham,South East,446,464,77,1125,£350k-£650k,149
+308,523,308,-215,Ashton-under-Lyne,North West,387,548,569,506,less than £350k,126
+309,665,309,-356,Gorleston-on-Sea,East of England,212,342,1002,471,less than £350k,127
+310,115,310,195,Saltburn-by-the-Sea,North East,24,488,354,1240,less than £350k,128
+311,487,311,-176,Benson,South East,160,1305,82,590,£350k-£650k,150
+312,207,312,105,Christchurch,South West,63,929,679,493,£350k-£650k,151
+313,726,312,-414,Chapel-en-le-Frith,East Midlands,662,981,620,20,£350k-£650k,152
+314,358,314,-44,Teynham,South East,829,176,290,975,£350k-£650k,153
+315,360,315,-45,Barnsley,Yorkshire and Humberside,746,279,617,493,less than £350k,129
+316,243,316,73,Rhymney,Wales,546,129,401,1126,less than £350k,130
+317,111,317,206,Addingham,Yorkshire and Humberside,78,852,102,1179,£350k-£650k,154
+318,370,318,-52,Stafford,West Midlands,129,728,832,373,less than £350k,131
+319,392,318,-74,Stow-on-the-Wold,South West,446,993,31,818,£350k-£650k,155
+320,193,320,127,Ringmer,South East,446,889,325,413,£350k-£650k,156
+321,613,321,-292,Cobham (Elmbridge),South East,402,872,818,40,Over £650k,33
+322,99,322,223,Royal Tunbridge Wells,South East,446,1139,172,379,Over £650k,34
+323,654,323,-331,Basingstoke,South East,542,689,1006,21,£350k-£650k,157
+324,751,324,-427,Ogmore Vale,Wales,622,37,626,1134,less than £350k,132
+325,177,325,148,Preston,North West,368,972,246,544,less than £350k,133
+326,865,326,-539,Fence Houses,North East,1028,15,1250,338,less than £350k,134
+327,546,327,-219,Llandudno Junction,Wales,182,389,944,544,£350k-£650k,158
+328,319,328,9,Alton (East Hampshire),South East,446,1034,254,390,£350k-£650k,159
+329,299,329,30,Knaresborough,Yorkshire and Humberside,335,1109,305,363,£350k-£650k,160
+330,619,329,-290,Kidsgrove,West Midlands,615,292,919,284,less than £350k,135
+331,778,331,-447,Yarnton,South East,873,522,652,110,£350k-£650k,161
+332,49,332,283,Carnforth,North West,10,879,570,847,less than £350k,136
+333,347,333,-14,Bournemouth,South West,423,851,598,179,£350k-£650k,162
+334,521,334,-187,Wendover,South East,243,827,675,324,Over £650k,35
+335,304,335,31,Worthing,South East,132,1172,756,92,£350k-£650k,163
+336,83,336,253,Mere,South West,446,1185,47,606,£350k-£650k,164
+337,147,337,190,Lymington,South East,139,1079,548,396,Over £650k,36
+338,482,338,-144,Bury,North West,696,144,567,853,less than £350k,137
+339,286,339,53,Newhaven,South East,39,782,822,598,£350k-£650k,165
+340,516,340,-176,Portsmouth,South East,413,1025,255,454,£350k-£650k,166
+341,822,341,-481,Stockton-on-Tees,North East,853,375,735,182,less than £350k,138
+342,374,342,-32,Queenborough,South East,404,49,751,1132,less than £350k,139
+343,708,343,-365,Frodsham,North West,1045,536,339,292,£350k-£650k,167
+344,253,344,91,Warminster,South West,359,964,309,504,£350k-£650k,168
+345,886,344,-542,Gateshead,North East,827,530,690,109,less than £350k,140
+346,112,346,234,Horncastle,East Midlands,177,1363,21,482,less than £350k,141
+347,875,347,-528,Stoke Mandeville,South East,738,654,918,15,£350k-£650k,169
+348,311,348,37,Lambeth,Greater London,818,1123,125,251,Over £650k,37
+349,691,349,-342,Hale (Trafford),North West,803,434,618,308,Over £650k,38
+350,558,350,-208,Tamworth,West Midlands,548,486,785,308,less than £350k,142
+351,794,351,-443,Frampton Cotterell/Winterbourne,South West,372,419,839,431,£350k-£650k,170
+352,139,352,213,Wotton-under-Edge,South West,446,482,49,1210,£350k-£650k,171
+353,379,353,-26,Greenwich,Greater London,431,1208,441,67,Over £650k,39
+354,538,353,-185,Aylesbury,South East,445,714,819,108,£350k-£650k,172
+355,576,355,-221,Duffield,East Midlands,356,883,388,503,£350k-£650k,173
+356,408,356,-52,Stowmarket,East of England,922,320,454,548,£350k-£650k,174
+357,880,357,-523,Worsbrough,Yorkshire and Humberside,793,17,1135,726,less than £350k,143
+358,264,358,94,Crewkerne,South West,686,805,66,785,£350k-£650k,175
+359,502,359,-143,Milnthorpe,North West,68,748,543,867,less than £350k,144
+360,656,360,-296,Gosport,South East,331,638,626,501,£350k-£650k,176
+361,443,361,-82,Wakefield,Yorkshire and Humberside,911,732,615,42,less than £350k,145
+362,427,362,-65,Bolton,North West,789,376,539,510,less than £350k,146
+363,533,363,-170,Amersham,South East,446,1229,621,14,Over £650k,40
+364,574,364,-210,Ashington (Northumberland),North East,604,36,1170,657,less than £350k,147
+365,781,365,-416,Eastwood,East Midlands,1029,166,865,259,less than £350k,148
+366,671,366,-305,Newbiggin-by-the-Sea,North East,254,26,1167,1061,less than £350k,149
+367,609,367,-242,Tonypandy,Wales,351,91,744,1096,less than £350k,150
+368,1071,368,-703,Jarrow,North East,745,290,1061,105,less than £350k,151
+369,246,369,123,Brierfield,North West,187,419,683,835,less than £350k,152
+370,785,370,-415,Fleetwood,North West,765,70,851,751,less than £350k,153
+371,127,371,244,Cleobury Mortimer,West Midlands,215,1360,113,280,less than £350k,154
+372,273,372,99,Forest Row,South East,446,1065,356,283,£350k-£650k,177
+373,568,373,-195,Woodend,Yorkshire and Humberside,869,8,1103,890,less than £350k,155
+374,790,374,-416,Baildon,Yorkshire and Humberside,365,323,941,491,£350k-£650k,178
+375,577,374,-203,Brynmawr,Wales,446,584,848,224,less than £350k,156
+376,833,376,-457,Murton (County Durham),North East,840,3,1264,796,less than £350k,157
+377,628,377,-251,Bassingbourn,East of England,1226,86,216,998,£350k-£650k,179
+378,344,378,34,St Blazey,South West,446,806,469,421,£350k-£650k,180
+379,224,379,155,Wisbech,East of England,787,1006,322,165,less than £350k,158
+380,289,380,91,New Tredegar,Wales,228,81,606,1286,less than £350k,159
+381,417,381,-36,Littleborough,North West,291,301,534,1048,less than £350k,160
+382,316,381,65,Hertford,East of England,560,1319,202,111,Over £650k,41
+383,202,383,181,Somerton (South Somerset),South West,1040,872,178,278,£350k-£650k,181
+384,514,384,-130,Middlesbrough,North East,619,306,901,381,less than £350k,161
+385,586,385,-201,Asfordby,East Midlands,792,112,271,1189,less than £350k,162
+386,272,386,114,Newington,South East,766,230,267,1051,£350k-£650k,182
+387,394,387,-7,Staines,South East,430,1043,711,55,Over £650k,42
+388,284,388,104,Leeds,Yorkshire and Humberside,596,1029,486,145,less than £350k,163
+389,391,389,-2,Cwm,Wales,169,29,803,1352,less than £350k,164
+390,366,390,24,Honiton,South West,225,1025,594,358,£350k-£650k,183
+391,326,390,64,Stockport,North West,565,668,478,540,£350k-£650k,184
+392,462,390,-72,Croesowallt,West Midlands,968,428,237,721,less than £350k,165
+393,898,390,-508,Swallownest,Yorkshire and Humberside,1150,63,1059,233,less than £350k,166
+394,1133,394,-739,Seer,South East,446,536,900,245,Over £650k,43
+395,694,395,-299,Lees,North West,850,238,585,651,less than £350k,167
+396,560,396,-164,Andover,South East,413,644,901,163,£350k-£650k,185
+397,519,397,-122,Gravesend,South East,318,611,734,478,£350k-£650k,186
+398,203,397,194,Telford,West Midlands,357,887,685,226,less than £350k,168
+399,348,399,51,Rhyl,Wales,298,97,905,1024,less than £350k,169
+400,662,400,-262,Bridgend,Wales,256,1042,934,44,less than £350k,170
+401,282,401,119,Penrith,North West,594,1340,133,99,less than £350k,172
+402,536,401,-135,Newcastle upon Tyne,North East,815,951,424,114,less than £350k,171
+403,738,403,-335,Radcliffe,North West,573,280,720,694,less than £350k,173
+404,763,404,-359,Farnborough,South East,407,746,1072,30,£350k-£650k,187
+405,1100,405,-695,Wallsend,North East,876,218,1039,190,less than £350k,174
+406,603,406,-197,Gnosall,West Midlands,399,121,587,1152,less than £350k,175
+407,361,407,46,Poole,South West,239,1103,877,63,£350k-£650k,189
+408,518,407,-111,Dunstable,East of England,446,524,928,242,£350k-£650k,188
+409,265,409,144,Yeovil,South West,624,349,595,679,£350k-£650k,190
+410,261,410,149,Reigate,South East,446,1296,261,147,Over £650k,44
+411,223,411,188,Stourport-on-Severn,West Midlands,439,684,765,266,less than £350k,176
+412,701,412,-289,Havant,South East,263,679,1197,47,£350k-£650k,191
+413,163,413,250,Ambleside,North West,161,1335,73,691,£350k-£650k,192
+414,81,414,333,Downton,South West,70,898,55,1296,£350k-£650k,193
+415,197,414,217,Newton Abbot,South West,573,742,318,653,£350k-£650k,194
+416,493,416,-77,Barry,Wales,576,582,612,487,less than £350k,177
+417,401,417,16,Alrewas,West Midlands,309,1076,224,697,£350k-£650k,195
+418,143,418,275,Mytholmroyd,Yorkshire and Humberside,348,155,243,1344,less than £350k,178
+419,958,419,-539,Sandiacre,East Midlands,640,638,766,185,less than £350k,179
+420,317,420,103,Croydon,Greater London,421,1122,562,126,Over £650k,45
+421,889,420,-469,Bentley,Yorkshire and Humberside,1073,85,984,387,less than £350k,180
+422,450,422,-28,Mold,Wales,249,1086,398,550,less than £350k,181
+423,418,423,5,Saltdean,South East,145,502,844,765,Over £650k,46
+424,764,424,-340,Baldock,East of England,1019,644,465,233,£350k-£650k,196
+425,811,425,-386,Chobham,South East,1087,352,286,678,Over £650k,47
+426,597,426,-171,Hemel Hempstead,East of England,194,878,950,228,£350k-£650k,197
+427,229,427,198,Holywell Green,Yorkshire and Humberside,1005,143,233,1133,less than £350k,182
+428,46,428,382,Bosham,South East,38,857,114,1325,£350k-£650k,198
+429,579,428,-151,Bargod,Wales,413,28,797,1285,less than £350k,183
+430,743,430,-313,Hattersley,North West,817,12,1249,773,less than £350k,184
+431,142,431,289,Eastbourne,South East,153,957,484,745,£350k-£650k,199
+432,693,432,-261,Ilkeston,East Midlands,705,265,769,613,less than £350k,185
+433,570,433,-137,East Horsley,South East,446,622,730,412,Over £650k,48
+434,734,434,-300,Guiseley,Yorkshire and Humberside,811,915,636,66,£350k-£650k,200
+435,128,435,307,Macclesfield,North West,207,1083,287,777,£350k-£650k,201
+436,910,436,-474,Marske-by-the-Sea,North East,381,560,791,499,less than £350k,186
+437,170,437,267,Tangmere,South East,670,1081,168,538,£350k-£650k,202
+438,634,438,-196,Shildon,North East,1143,14,577,1167,less than £350k,187
+439,997,439,-558,Stakeford,North East,309,45,1310,736,less than £350k,188
+440,185,440,255,Narberth,Wales,825,1287,189,98,less than £350k,189
+441,786,441,-345,Ely,East of England,1089,533,313,476,£350k-£650k,203
+442,605,442,-163,Hemingford Grey,East of England,947,701,247,552,£350k-£650k,204
+443,158,443,285,Manningtree,East of England,55,1128,457,795,£350k-£650k,205
+444,1019,444,-575,Redcar,North East,546,277,1239,191,less than £350k,190
+445,277,445,168,Herne Bay,South East,572,615,483,681,£350k-£650k,206
+446,500,446,-54,High Lane,North West,71,220,706,1267,£350k-£650k,207
+447,1047,447,-600,Shaw (Oldham),North West,949,40,874,894,less than £350k,191
+448,718,448,-270,Annfield Plain,North East,999,42,780,921,less than £350k,192
+449,101,449,348,Brightlingsea,East of England,644,629,259,833,£350k-£650k,208
+450,757,450,-307,Tynemouth,North East,688,359,761,517,less than £350k,193
+451,870,451,-419,Abergele,Wales,731,251,862,558,less than £350k,194
+452,335,451,116,Crediton,South West,774,759,82,909,£350k-£650k,209
+453,131,453,322,Upton upon Severn,West Midlands,201,856,183,1112,£350k-£650k,210
+454,437,454,17,Hitchin,East of England,442,1180,472,207,Over £650k,49
+455,589,455,-134,Ramsbottom,North West,621,472,537,733,£350k-£650k,211
+456,750,456,-294,Dudley (Dudley),West Midlands,698,551,898,156,less than £350k,195
+457,595,457,-138,Melksham,South West,556,796,706,275,£350k-£650k,212
+458,844,458,-386,Kingsnorth (Ashford),South East,916,291,878,340,£350k-£650k,213
+459,374,459,85,St Albans,East of England,607,1056,447,271,Over £650k,50
+460,494,460,-34,Woking,South East,285,826,935,227,Over £650k,51
+461,290,461,171,Whitchurch (Shropshire),West Midlands,1072,626,230,549,less than £350k,196
+462,547,462,-85,Rishton,North West,178,338,777,1009,less than £350k,197
+463,349,463,114,Bognor Regis,South East,289,393,871,723,£350k-£650k,214
+464,1027,464,-563,Gamesley,East Midlands,543,23,964,1220,less than £350k,198
+465,674,464,-210,Potton,East of England,1198,355,328,564,£350k-£650k,215
+466,386,466,80,Bramley,South East,156,1092,267,905,Over £650k,52
+467,269,467,198,Goring,South East,32,1213,247,1022,Over £650k,53
+468,355,468,113,Hounslow,Greater London,587,1277,514,48,Over £650k,54
+469,837,469,-368,Langwith,East Midlands,1213,41,450,1033,less than £350k,199
+470,50,470,420,Rowhedge,East of England,246,762,374,952,£350k-£650k,216
+471,666,471,-195,Adderbury,South East,1078,679,89,732,£350k-£650k,217
+472,563,472,-91,Penarth,Wales,535,915,475,487,£350k-£650k,218
+473,492,473,-19,Wombwell,Yorkshire and Humberside,763,140,851,750,less than £350k,200
+474,154,474,320,Needham Market,East of England,584,979,130,830,£350k-£650k,219
+475,138,474,336,Meltham,Yorkshire and Humberside,653,363,462,899,less than £350k,201
+476,552,476,-76,Melbourne (South Derbyshire,East Midlands,1278,841,34,461,£350k-£650k,220
+477,574,477,-97,Pembury,South East,446,453,699,692,£350k-£650k,221
+478,446,478,32,Mountain Ash,Wales,228,253,643,1185,less than £350k,202
+479,76,479,403,Wellington,South West,431,898,239,830,£350k-£650k,222
+480,975,480,-495,Walkden,North West,1056,198,1167,69,less than £350k,203
+481,405,481,76,Nottingham,East Midlands,966,966,496,94,less than £350k,204
+482,709,482,-227,Bolton-le-Sands,North West,79,600,815,919,£350k-£650k,223
+483,651,483,-168,Peterborough,East of England,1121,527,718,82,less than £350k,205
+484,461,484,23,Birkenhead,North West,930,466,440,622,less than £350k,206
+485,593,485,-108,Leadgate,North East,903,115,893,671,less than £350k,207
+486,498,486,-12,Felixstowe,East of England,64,749,867,746,£350k-£650k,224
+487,916,486,-430,Rotherham,Yorkshire and Humberside,713,314,958,393,less than £350k,208
+488,60,488,428,Edenbridge,South East,142,1018,475,787,£350k-£650k,225
+489,403,489,86,Holywell,Wales,917,718,378,439,less than £350k,209
+490,560,490,-70,Richmond upon,Greater London,403,1254,250,434,Over £650k,55
+491,617,491,-126,Horley,South East,560,1207,846,13,£350k-£650k,226
+492,495,492,-3,Brantham,East of England,163,524,840,803,£350k-£650k,227
+493,796,493,-303,Bootle,North West,779,657,638,334,less than £350k,210
+494,98,494,396,Bowness-on-Windermere,North West,69,1174,158,1120,£350k-£650k,228
+495,349,495,146,Coningsby Airfield,East Midlands,534,1192,512,188,less than £350k,211
+496,979,496,-483,Bilston,West Midlands,386,619,1295,16,less than £350k,212
+497,293,496,203,Liverpool,North West,1111,1047,208,182,less than £350k,213
+498,209,498,289,Yelverton,South West,26,875,342,1228,£350k-£650k,229
+499,157,499,342,Sturminster Newton,South West,221,783,199,1169,£350k-£650k,230
+500,527,500,-27,Westbury (Wiltshire,South West,859,821,321,482,£350k-£650k,231
+501,236,500,264,Cambridge,East of England,1015,1256,241,52,Over £650k,56
+502,1002,502,-500,Darlaston,West Midlands,592,543,1177,61,less than £350k,214
+503,306,503,197,Burnham-on-Sea,South West,297,381,721,934,£350k-£650k,232
+504,555,504,-51,Clayton-le-Moors,North West,129,573,579,1094,less than £350k,215
+505,192,505,313,Shaldon,South West,269,1124,32,1131,Over £650k,57
+506,724,506,-218,Biggleswade,East of England,562,557,999,262,£350k-£650k,233
+507,489,507,18,Northampton,East Midlands,1101,614,520,249,£350k-£650k,234
+508,869,508,-361,Yeadon,Yorkshire and Humberside,384,766,804,370,£350k-£650k,235
+509,1187,508,-679,Oldbury (Sandwell),West Midlands,608,496,1144,96,less than £350k,216
+510,266,510,244,Corbridge,North East,419,847,58,1161,£350k-£650k,236
+511,325,511,186,Banbury,South East,412,938,653,365,£350k-£650k,237
+512,463,512,49,Market Rasen,East Midlands,819,1198,287,177,less than £350k,217
+513,182,513,331,Chard,South West,532,1128,257,589,less than £350k,218
+514,466,514,48,Witney,South East,189,1278,368,533,£350k-£650k,238
+515,472,515,43,Callington,South West,655,800,373,617,less than £350k,219
+516,798,516,-282,Linton,East of England,1310,675,128,428,£350k-£650k,239
+517,940,517,-423,Port Talbot,Wales,530,345,963,595,less than £350k,220
+518,1220,518,-702,Brinsley,East Midlands,1203,90,971,392,less than £350k,221
+519,949,519,-430,St Ives,East of England,983,1001,508,93,£350k-£650k,240
+520,806,520,-286,Burry Port,Wales,342,111,957,1083,less than £350k,222
+521,364,521,157,Leighton Buzzard,East of England,360,593,658,748,£350k-£650k,241
+522,590,522,-68,Droitwich,West Midlands,541,1015,677,222,£350k-£650k,242
+523,260,523,263,South Petherton,South West,1017,1159,85,431,£350k-£650k,243
+524,943,524,-419,Rhodes,North West,346,58,1022,1149,less than £350k,224
+525,372,524,152,Blaenau Ffestiniog,Wales,685,69,306,1353,less than £350k,223
+526,829,526,-303,Horwich,North West,1250,357,861,60,less than £350k,225
+527,451,527,76,Watford,East of England,389,1089,741,172,Over £650k,58
+528,787,528,-259,Trimley St Mary,East of England,446,278,977,708,£350k-£650k,244
+529,238,529,291,Leek,West Midlands,427,927,215,931,less than £350k,226
+530,730,530,-200,Altrincham,North West,662,862,919,57,£350k-£650k,245
+531,891,530,-361,Thetford,East of England,899,476,498,647,less than £350k,227
+532,1005,532,-473,Totton,South East,238,216,1305,529,£350k-£650k,246
+533,622,533,-89,Knutsford,North West,947,845,389,360,£350k-£650k,247
+534,174,534,360,Ashburton,South West,446,1126,38,1011,£350k-£650k,248
+535,34,535,501,Buckfastleigh,South West,77,1323,165,928,less than £350k,228
+536,1125,536,-589,Cwmavon,Wales,358,65,1105,1043,less than £350k,229
+537,1090,537,-553,Kempston,East of England,665,249,1108,423,£350k-£650k,249
+538,791,538,-253,Stratton,South West,446,195,557,1212,£350k-£650k,250
+539,291,539,248,Northwich,North West,654,1178,500,158,less than £350k,230
+540,418,540,122,Downham Market,East of England,874,1020,407,253,£350k-£650k,251
+541,190,541,351,Whalley,North West,202,1111,209,1006,£350k-£650k,252
+542,689,542,-147,Higham Ferrers,East Midlands,1117,229,434,834,£350k-£650k,253
+543,470,543,73,Barnoldswick,North West,258,692,640,826,less than £350k,232
+544,858,543,-315,Cleethorpes,Yorkshire and Humberside,425,138,874,1076,less than £350k,231
+545,1027,545,-482,Upper Poppleton,Yorkshire and Humberside,676,542,801,424,£350k-£650k,254
+546,486,546,60,Oldham,North West,660,460,782,555,less than £350k,233
+547,165,547,382,Appleby-in-Westmorland,North West,122,1247,72,1141,less than £350k,234
+548,471,547,76,Yarm,North East,441,665,667,632,less than £350k,235
+549,618,549,-69,Brampton (Carlisle),North West,833,985,224,579,less than £350k,236
+550,438,550,112,Kensington and Chelsea,Greater London,885,1154,23,748,Over £650k,59
+551,1109,551,-558,Hebburn,North East,872,239,1256,100,less than £350k,237
+552,702,552,-150,Long Hanborough,South East,446,833,591,563,£350k-£650k,255
+553,352,553,201,Birmingham,West Midlands,631,1058,631,192,less than £350k,238
+554,385,554,169,Glemsford,East of England,1145,416,206,851,£350k-£650k,256
+555,883,555,-328,Caerphilly,Wales,854,538,960,137,less than £350k,239
+556,917,556,-361,Denton,North West,420,142,919,1041,less than £350k,240
+557,797,557,-240,Farnworth,North West,996,137,1074,451,less than £350k,241
+558,741,558,-183,Burgess Hill,South East,446,547,1188,142,£350k-£650k,257
+559,1144,559,-585,Burntwood,West Midlands,268,471,1276,239,£350k-£650k,258
+560,637,560,-77,Ferndale,Wales,319,54,736,1337,less than £350k,243
+561,740,560,-180,Audley,West Midlands,1195,107,551,876,less than £350k,242
+562,135,562,427,Littlehampton,South East,108,1063,753,611,£350k-£650k,259
+563,684,563,-121,Atherton,North West,865,110,1015,699,less than £350k,244
+564,302,564,262,Cuckfield,South East,446,853,170,1050,Over £650k,60
+565,990,565,-425,Ripley,East Midlands,859,429,828,401,less than £350k,245
+566,164,566,402,Overton (Basingstoke and Deane),South East,8,1002,407,1204,£350k-£650k,260
+567,1092,567,-525,Haslingden,North West,1070,698,577,203,less than £350k,246
+568,460,568,108,Wandsworth,Greater London,664,1268,319,232,Over £650k,61
+569,728,569,-159,Sheringham,East of England,74,740,1038,669,£350k-£650k,261
+570,553,569,16,Stonehouse,South West,143,1202,572,581,£350k-£650k,262
+571,122,571,449,Usk,Wales,217,1050,34,1268,£350k-£650k,263
+572,393,572,179,Cardiff,Wales,634,1203,326,371,£350k-£650k,264
+573,848,573,-275,Hartley Wintney,South East,1096,516,553,405,Over £650k,62
+574,540,574,34,Treherbert,Wales,184,162,647,1332,less than £350k,247
+575,647,575,-72,Burwell,East of England,972,610,494,525,£350k-£650k,265
+576,725,576,-149,St Neots,East of England,833,993,705,80,£350k-£650k,266
+577,614,577,-37,Ealing,Greater London,615,1295,605,38,Over £650k,63
+578,706,577,-129,Thornbury,South West,1032,626,488,445,£350k-£650k,267
+579,362,579,217,East Cowes,South East,27,1181,644,815,less than £350k,248
+580,839,580,-259,Caerleon,Wales,323,481,773,867,less than £350k,249
+581,602,581,-21,Withernsea,Yorkshire and Humberside,276,356,825,1001,less than £350k,250
+582,684,582,-102,Newark-on-Trent,East Midlands,1000,513,242,889,less than £350k,251
+583,340,583,243,Lydd,South East,1053,300,138,1165,£350k-£650k,268
+584,897,584,-313,Ushaw Moor,North East,1098,7,1133,1015,less than £350k,252
+585,432,585,153,Seahouses,North East,34,974,654,1004,£350k-£650k,269
+586,298,585,287,Redhill,South East,244,1269,699,219,Over £650k,64
+587,338,587,249,Church Stretton,West Midlands,446,1280,363,351,£350k-£650k,270
+588,457,587,130,Whitstable,South East,533,596,886,506,£350k-£650k,271
+589,944,589,-355,Walsall,West Midlands,398,946,758,374,less than £350k,253
+590,1004,590,-414,Middleton (Rochdale),North West,729,91,1101,764,less than £350k,254
+591,159,591,432,Dorking,South East,231,1157,344,800,Over £650k,65
+592,784,592,-192,Derby,East Midlands,970,894,503,275,less than £350k,255
+593,620,593,-27,Spennymoor,North East,1151,103,1028,476,less than £350k,256
+594,345,594,249,Henley-In-Arden,West Midlands,1201,124,147,1244,£350k-£650k,272
+595,771,595,-176,Blyth (Northumberland),North East,769,83,1194,661,less than £350k,257
+596,257,596,339,Milborne Port,South West,1059,802,27,982,£350k-£650k,273
+597,994,597,-397,Thornaby-on-Tees,North East,538,535,1166,211,less than £350k,258
+598,434,598,164,Haringey,Greater London,1044,1037,267,335,Over £650k,66
+599,1163,599,-564,Washingborough,East Midlands,805,201,827,809,less than £350k,259
+600,547,600,53,Horbury,Yorkshire and Humberside,695,953,516,419,less than £350k,260
+601,373,601,228,Nettlestone,South East,172,494,487,1253,£350k-£650k,274
+602,106,602,496,Alcester,West Midlands,334,1206,140,929,£350k-£650k,275
+603,455,603,148,Newham,Greater London,623,1261,452,184,Over £650k,67
+604,611,604,-7,Southport,North West,1014,545,444,631,less than £350k,261
+605,601,605,4,Llanfair Pwllgwyngyll,Wales,446,582,604,859,less than £350k,262
+606,587,606,19,Newick,South East,730,1184,302,403,£350k-£650k,276
+607,474,607,133,Saundersfoot,Wales,272,1121,633,511,£350k-£650k,277
+608,676,608,-68,Wellingborough,East Midlands,1166,304,542,659,less than £350k,263
+609,612,609,-3,Milton Keynes,South East,610,1222,874,19,£350k-£650k,278
+610,1082,610,-472,Pontllan-fraith,Wales,549,285,1015,753,less than £350k,264
+611,342,611,269,Olney,South East,893,1359,152,72,£350k-£650k,279
+612,567,612,45,Wigan,North West,959,411,638,634,less than £350k,265
+613,308,613,305,Launceston,South West,874,1288,30,615,less than £350k,266
+614,974,614,-360,Mansfield,East Midlands,1186,380,932,114,less than £350k,267
+615,890,615,-275,Norton Canes,West Midlands,233,25,1326,1158,less than £350k,268
+616,607,616,9,Harrogate,Yorkshire and Humberside,805,911,420,535,£350k-£650k,280
+617,713,617,-96,Lichfield,West Midlands,887,1040,549,205,£350k-£650k,281
+618,799,618,-181,Easingwold,Yorkshire and Humberside,763,1088,623,159,£350k-£650k,282
+619,440,619,179,Atherstone,West Midlands,649,574,458,911,less than £350k,269
+620,479,619,140,South Cerney,South West,915,586,265,936,£350k-£650k,283
+621,663,621,-42,Crook,North East,936,250,831,698,less than £350k,270
+622,710,622,-88,Quorn (Quorndon),East Midlands,929,944,326,537,£350k-£650k,284
+623,1091,623,-468,Melton Mowbray,East Midlands,974,332,712,645,less than £350k,271
+624,488,624,136,Egremont,North West,184,497,463,1268,less than £350k,272
+625,300,625,325,Coleshill (North Warwickshire),West Midlands,656,1033,429,519,£350k-£650k,285
+626,423,626,203,Towcester,East Midlands,942,1072,421,273,£350k-£650k,286
+627,840,627,-213,Treeton,Yorkshire and Humberside,826,66,1050,933,less than £350k,273
+628,1093,628,-465,Gowerton,Wales,393,449,1096,550,less than £350k,274
+629,1267,629,-638,Istead Rise,South East,803,16,1337,805,£350k-£650k,287
+630,993,630,-363,Didcot,South East,675,1060,834,86,£350k-£650k,288
+631,846,631,-215,Heywood,North West,727,178,1021,767,less than £350k,275
+632,1044,631,-413,Thorpe Hesley,Yorkshire and Humberside,1009,55,747,1109,less than £350k,276
+633,399,633,234,Milford on Sea,South East,96,1194,672,677,Over £650k,68
+634,532,634,102,Wilmslow,North West,577,1241,697,91,£350k-£650k,289
+635,991,635,-356,Marks Tey,East of England,996,658,689,303,£350k-£650k,290
+636,678,636,-42,Northfleet,South East,615,438,664,903,£350k-£650k,291
+637,657,637,-20,Ewell,South East,410,1064,956,129,Over £650k,70
+638,502,637,135,Lewisham,Greater London,737,1197,364,352,Over £650k,69
+639,483,639,156,Watlington (South Oxfordshire),South East,446,733,145,1221,Over £650k,71
+640,965,640,-325,Sandy,East of England,706,543,892,461,£350k-£650k,292
+641,448,641,193,Ruabon,Wales,784,493,127,1238,less than £350k,277
+642,225,642,417,Wickham,South East,446,833,328,997,£350k-£650k,293
+643,633,643,10,Aldershot,South East,396,923,979,269,£350k-£650k,294
+644,484,643,159,Walton-on,South East,425,988,869,294,Over £650k,72
+645,774,645,-129,Twyford (Wokingham),South East,321,695,783,758,Over £650k,73
+646,588,646,58,Shoreham-by-Sea,South East,48,1023,954,713,£350k-£650k,295
+647,539,647,108,Ulverston,North West,836,848,245,808,less than £350k,279
+648,1017,647,-370,Doncaster,Yorkshire and Humberside,1043,412,935,277,less than £350k,278
+649,594,649,55,Maesteg,Wales,289,326,645,1227,less than £350k,280
+650,808,650,-158,Cannock,West Midlands,446,410,1305,188,less than £350k,281
+651,631,651,20,St Martin's,West Midlands,857,328,361,1121,less than £350k,282
+652,312,652,340,Broadway,West Midlands,446,1007,419,755,£350k-£650k,296
+653,793,653,-140,Rickmansworth,East of England,183,1161,1071,173,Over £650k,74
+654,232,654,422,Upper Beeding,South East,41,1318,399,915,£350k-£650k,297
+655,864,655,-209,Treharris,Wales,298,745,722,797,less than £350k,283
+656,853,656,-197,Smethwick,West Midlands,862,415,647,766,less than £350k,284
+657,365,657,292,High Wycombe,South East,259,1320,731,153,£350k-£650k,298
+658,336,658,322,Gillingham (North Dorset),South West,176,1177,448,862,£350k-£650k,299
+659,772,659,-113,Ebbw Vale,Wales,688,360,847,756,less than £350k,285
+660,510,660,150,Ware,East of England,588,1327,262,407,Over £650k,75
+661,517,661,144,Mortimer,South East,909,364,739,707,£350k-£650k,300
+662,918,662,-256,Huntingdon,East of England,1048,1328,582,4,£350k-£650k,301
+663,1222,663,-559,Stubbington,South East,346,504,1265,318,£350k-£650k,302
+664,524,664,140,Aspatria,North West,891,835,382,645,less than £350k,286
+665,315,665,350,Bingley,Yorkshire and Humberside,233,1008,547,906,less than £350k,287
+666,1025,666,-359,Nailsea,South West,1026,561,916,208,£350k-£650k,303
+667,684,667,-17,Blackpool,North West,877,287,950,626,less than £350k,288
+668,530,668,138,Romsey,South East,344,1330,415,388,£350k-£650k,304
+669,343,669,326,Flamborough,Yorkshire and Humberside,446,435,632,1077,less than £350k,289
+670,827,670,-157,Castleside,North East,446,61,1269,941,less than £350k,290
+671,1054,671,-383,Sprotbrough,Yorkshire and Humberside,772,301,981,653,£350k-£650k,305
+672,1066,672,-394,Conisbrough,Yorkshire and Humberside,796,51,909,1170,less than £350k,291
+673,960,673,-287,Hatfield,East of England,939,1190,938,7,£350k-£650k,306
+674,481,674,193,Weybridge,South East,331,1240,703,321,Over £650k,76
+675,1191,674,-517,Hedon,Yorkshire and Humberside,1230,272,526,780,less than £350k,292
+676,957,676,-281,Loughborough,East Midlands,904,722,813,286,less than £350k,293
+677,510,677,167,Leatherhead,South East,190,1347,674,231,Over £650k,77
+678,537,677,140,Abingdon,South East,280,1332,435,457,£350k-£650k,307
+679,206,679,473,Rockwell Green,South West,725,709,475,801,£350k-£650k,308
+680,670,680,10,Chorley,North West,813,724,750,422,less than £350k,294
+681,808,681,-127,Yate,South West,797,910,986,79,£350k-£650k,309
+682,852,682,-170,Biddulph,West Midlands,937,187,886,822,less than £350k,295
+683,937,683,-254,Sutton,Greater London,368,1183,1082,50,Over £650k,78
+684,1261,684,-577,Stretford,North West,591,740,1226,77,£350k-£650k,310
+685,703,685,-18,Kingston upon,Greater London,538,1307,660,119,Over £650k,79
+686,1061,686,-375,Hazel Grove,North West,633,474,1219,254,£350k-£650k,311
+687,1115,687,-428,Branston,East Midlands,1217,527,771,200,less than £350k,296
+688,873,688,-185,Grantham,East Midlands,952,574,430,824,less than £350k,297
+689,851,689,-162,Barrow-in-Furness,North West,741,405,621,953,less than £350k,298
+690,542,689,147,Brent,Greater London,749,1282,670,51,Over £650k,80
+691,580,691,111,Maldon,East of England,720,1189,263,620,£350k-£650k,312
+692,735,692,-43,Holt (North Norfolk),East of England,446,1266,513,411,£350k-£650k,313
+693,821,693,-128,Abertillery,Wales,914,119,804,1063,less than £350k,299
+694,645,694,49,Irthlingborough,East Midlands,1188,565,566,452,less than £350k,300
+695,817,695,-122,Sleaford,East Midlands,954,389,400,1035,less than £350k,301
+696,303,696,393,Grange-over-Sands,North West,124,1200,456,975,£350k-£650k,314
+697,38,697,659,Wadebridge,South West,23,1372,227,743,£350k-£650k,315
+698,359,698,339,Cheadle,North West,267,973,1012,438,£350k-£650k,316
+699,679,699,20,Crawley,South East,446,890,1083,225,£350k-£650k,317
+700,765,700,-65,Netley,South East,248,393,1158,794,£350k-£650k,318
+701,220,701,481,Budleigh Salterton,South West,50,1165,573,1043,£350k-£650k,319
+702,789,702,-87,Heckmondwike,Yorkshire and Humberside,1183,569,687,322,less than £350k,302
+703,820,703,-117,Pontarddulais,Wales,422,815,930,500,less than £350k,303
+704,780,704,-76,Caister-on-Sea,East of England,112,123,1229,1223,£350k-£650k,320
+705,454,705,251,Hillingdon,Greater London,351,1313,929,54,Over £650k,81
+706,1227,706,-521,West Hallam,East Midlands,1210,122,989,608,£350k-£650k,321
+707,705,707,2,Mitcheldean,South West,896,678,221,1054,less than £350k,304
+708,655,708,53,Egham,South East,993,1294,545,43,Over £650k,82
+709,282,709,427,Llanidloes,Wales,446,1310,29,1039,less than £350k,305
+710,581,710,129,Prestatyn,Wales,211,240,1176,1047,less than £350k,306
+711,862,711,-151,Upper Tean,West Midlands,391,362,691,1168,less than £350k,307
+712,381,712,331,Long Crendon,South East,1047,824,129,963,Over £650k,83
+713,400,713,313,Cleator Moor,North West,218,462,546,1301,less than £350k,308
+714,1067,714,-353,Baddesley Ensor,West Midlands,1246,44,854,989,less than £350k,309
+715,107,715,608,Halstead,East of England,314,1326,280,710,£350k-£650k,322
+716,549,716,167,Southwell,East Midlands,1316,903,116,608,£350k-£650k,323
+717,720,717,-3,Bamber Bridge,North West,708,857,1094,89,less than £350k,310
+718,844,718,-126,Easington (County Durham),North East,651,31,907,1328,less than £350k,311
+719,521,719,198,Wheatley,South East,857,1215,428,313,£350k-£650k,324
+720,1030,720,-310,West Bromwich,West Midlands,615,779,1081,247,less than £350k,312
+721,877,720,-157,Raunds,East Midlands,1326,904,641,36,£350k-£650k,325
+722,459,722,263,Hornsea,Yorkshire and Humberside,566,607,489,1107,less than £350k,313
+723,905,722,-183,Swaffham,East of England,1204,429,370,829,less than £350k,314
+724,427,724,297,Chirk,Wales,187,1289,260,994,less than £350k,315
+725,887,725,-162,Worksop,East Midlands,901,220,843,927,less than £350k,316
+726,800,726,-74,Backwell,South West,980,966,353,604,£350k-£650k,326
+727,36,727,691,Sidmouth,South West,42,1341,164,1176,£350k-£650k,327
+728,692,728,36,Bexley,Greater London,443,1145,943,179,£350k-£650k,328
+729,506,729,223,Crowborough,South East,446,1304,969,28,£350k-£650k,329
+730,603,730,127,Ince-in-Makerfield,North West,799,33,838,1307,less than £350k,317
+731,1101,731,-370,Letchworth Garden City,East of England,923,637,1126,103,£350k-£650k,330
+732,245,732,487,Cheddar,South West,446,933,323,1068,£350k-£650k,331
+733,1121,733,-388,Broadbridge Heath,South East,864,709,967,260,£350k-£650k,332
+734,1088,734,-354,Peterlee,North East,666,72,1331,728,less than £350k,318
+735,922,735,-187,Bicester,South East,1156,624,781,260,£350k-£650k,333
+736,766,736,-30,Market Harborough,East Midlands,1355,1073,313,122,£350k-£650k,334
+737,301,737,436,Amlwch,Wales,205,794,287,1303,less than £350k,319
+738,1055,738,-317,Chigwell,East of England,1252,831,1052,6,Over £650k,84
+739,513,739,226,Bromley,Greater London,731,1135,666,289,Over £650k,85
+740,1225,740,-485,Tipton,West Midlands,416,621,1316,139,less than £350k,320
+741,1039,740,-299,Bletchley,South East,703,1196,1025,24,£350k-£650k,335
+742,855,742,-113,Bloxwich,West Midlands,266,172,1287,957,less than £350k,321
+743,1073,742,-331,Kegworth,East Midlands,847,1137,443,449,£350k-£650k,336
+744,819,744,-75,Earls Barton,East Midlands,1312,934,296,344,£350k-£650k,337
+745,861,745,-116,Woodley,South East,337,1139,947,335,£350k-£650k,338
+746,715,746,31,Harpenden,East of England,302,1243,1069,102,Over £650k,86
+747,1070,747,-323,Pilsley,East Midlands,1054,387,728,683,less than £350k,322
+748,961,748,-213,Esh Winning,North East,1015,13,837,1346,less than £350k,323
+749,441,749,308,Maidenhead,South East,407,1343,616,171,Over £650k,87
+750,954,750,-204,Ferryhill,North East,1180,9,791,1319,less than £350k,324
+751,1085,751,-334,Cottingham,Yorkshire and Humberside,1279,347,882,296,less than £350k,325
+752,874,752,-122,Northallerton,Yorkshire and Humberside,942,1133,694,125,less than £350k,326
+753,639,753,114,Queniborough,East Midlands,1369,494,273,731,£350k-£650k,339
+754,1123,754,-369,Stanley,North East,1063,116,1123,675,less than £350k,327
+755,255,755,500,Cullingworth,Yorkshire and Humberside,1097,520,392,882,less than £350k,328
+756,1159,756,-403,Alderholt,South West,744,246,1020,875,£350k-£650k,340
+757,744,757,13,Bromsgrove,West Midlands,1102,631,681,443,£350k-£650k,341
+758,414,758,344,Windermere,North West,271,1228,511,775,£350k-£650k,342
+759,719,759,40,Bushey,East of England,666,1165,829,153,Over £650k,88
+760,600,760,160,Staplehurst,South East,898,1214,280,542,£350k-£650k,343
+761,687,761,74,Chinnor,South East,679,932,491,779,£350k-£650k,344
+762,1172,762,-410,Ashtead,South East,747,1110,1076,29,Over £650k,89
+763,966,763,-203,Tidworth,South West,800,647,1135,198,£350k-£650k,345
+764,913,764,-149,Rugeley,West Midlands,66,442,1147,1114,less than £350k,329
+765,647,765,118,Treorchy,Wales,236,232,703,1356,less than £350k,330
+766,1014,766,-248,Mexborough,Yorkshire and Humberside,692,214,910,1057,less than £350k,333
+767,732,766,34,Bebington,North West,855,559,610,857,less than £350k,331
+768,1162,766,-396,Carlton in Lindrick,East Midlands,1263,134,775,802,less than £350k,332
+769,630,769,139,Neston,North West,772,781,912,372,£350k-£650k,346
+770,1013,770,-243,Bishop's Stortford,East of England,760,1003,656,468,Over £650k,90
+771,629,771,142,Warrington,North West,735,877,791,457,less than £350k,334
+772,397,772,375,Cross Hills,Yorkshire and Humberside,265,1162,467,936,less than £350k,335
+773,653,773,120,Runcorn,North West,812,749,953,339,less than £350k,336
+774,831,774,-57,Askam in Furness,North West,562,770,438,1073,less than £350k,337
+775,285,775,490,Bexhill,South East,254,1144,608,817,£350k-£650k,347
+776,1089,776,-313,Borrowash,East Midlands,926,370,759,844,£350k-£650k,348
+777,850,777,-73,Darwen,North West,885,183,712,1145,less than £350k,338
+778,1207,777,-430,Hucknall,East Midlands,1247,289,1134,156,less than £350k,339
+779,1099,779,-320,Rushden,East Midlands,1299,226,774,620,less than £350k,340
+780,420,780,360,Bedale,Yorkshire and Humberside,993,1274,345,294,less than £350k,341
+781,274,781,507,Headcorn,South East,698,880,190,1138,£350k-£650k,349
+782,727,782,55,Leicester,East Midlands,1080,981,518,399,£350k-£650k,350
+783,650,783,133,Claydon,East of England,564,259,502,1341,£350k-£650k,351
+784,768,784,16,Riccall,Yorkshire and Humberside,1258,996,312,385,£350k-£650k,352
+785,573,785,212,Datchet,South East,392,892,394,1117,Over £650k,91
+786,415,786,371,St Margaret's at Cliffe,South East,157,860,301,1327,£350k-£650k,353
+787,1322,787,-535,Coseley,West Midlands,585,296,1349,408,less than £350k,342
+788,556,788,232,Billingshurst,South East,865,1333,505,106,£350k-£650k,354
+789,625,789,164,Colden Common,South East,167,1118,1036,543,£350k-£650k,355
+790,982,790,-192,Seaton Sluice,North East,410,189,1075,1129,less than £350k,344
+791,911,790,-121,Farndon (Newark and Sherwood),East Midlands,944,108,588,1284,less than £350k,343
+792,711,792,81,Wolverhampton,West Midlands,555,1138,840,360,less than £350k,345
+793,477,793,316,Kidderminster,West Midlands,688,508,702,965,less than £350k,346
+794,759,794,35,Histon,East of England,1333,715,626,197,Over £650k,92
+795,959,795,-164,Neath,Wales,395,517,853,1012,less than £350k,348
+796,530,795,265,Market Drayton,West Midlands,926,1128,555,364,less than £350k,347
+797,885,797,-88,Fazeley,West Midlands,355,456,1063,925,£350k-£650k,356
+798,660,798,138,Rugby,West Midlands,911,893,641,528,£350k-£650k,357
+799,1202,799,-403,Bishopthorpe,Yorkshire and Humberside,950,400,623,983,£350k-£650k,358
+800,931,799,-132,Liversedge,Yorkshire and Humberside,1153,422,719,636,less than £350k,349
+801,859,801,-58,Wootton Bassett,South West,845,845,907,314,£350k-£650k,359
+802,468,802,334,Dyserth,Wales,446,787,497,1096,less than £350k,350
+803,88,803,715,Tenbury Wells,West Midlands,164,1148,231,1262,£350k-£650k,360
+804,920,804,-116,Menston,Yorkshire and Humberside,752,935,889,349,£350k-£650k,361
+805,324,805,481,Leiston,East of England,680,869,529,849,less than £350k,351
+806,380,806,426,Denholme,Yorkshire and Humberside,1141,73,665,1215,less than £350k,352
+807,515,807,292,Hadston,North East,757,168,1131,892,less than £350k,353
+808,938,808,-130,Oakley (Basingstoke and Deane),South East,698,778,949,447,£350k-£650k,362
+809,1051,808,-243,Mountsorrel,East Midlands,880,957,742,376,£350k-£650k,363
+810,739,810,71,Long Sutton (South Holland),East Midlands,1133,904,338,664,less than £350k,354
+811,449,811,362,Slough,South East,536,1238,939,150,£350k-£650k,364
+812,749,812,63,Blaina,Wales,807,114,891,1198,less than £350k,355
+813,967,813,-154,Heanor,East Midlands,990,524,914,524,less than £350k,356
+814,571,814,243,Poynton,North West,320,864,1125,485,£350k-£650k,365
+815,1118,814,-304,Deeside Industrial Park,Wales,716,867,1156,116,less than £350k,357
+816,178,816,638,Beaminster,South West,446,921,74,1335,£350k-£650k,366
+817,1043,817,-226,Wallasey,North West,989,255,745,1023,less than £350k,358
+818,205,818,613,Catterall,North West,137,1078,813,908,less than £350k,359
+819,583,819,236,Whittlesey,East of England,1007,687,608,680,less than £350k,360
+820,742,820,78,Skegness,East Midlands,595,351,1054,915,less than £350k,361
+821,1067,821,-246,Meopham (North,South East,673,192,895,1160,£350k-£650k,367
+822,694,822,128,Newport (Telford and Wrekin),West Midlands,1077,779,646,489,£350k-£650k,368
+823,627,823,196,Coedpoeth,Wales,649,405,673,1122,less than £350k,362
+824,690,823,133,North Petherton,South West,774,937,335,981,£350k-£650k,369
+825,1169,825,-344,Wittering Airfield,East of England,1371,217,480,968,less than £350k,363
+826,194,826,632,South Molton,South West,580,1263,51,1148,less than £350k,364
+827,866,827,-39,Nuneaton,West Midlands,865,336,1162,546,less than £350k,365
+828,924,828,-96,Fleet,South East,307,1237,1236,48,£350k-£650k,370
+829,638,829,191,Ramsey (Huntingdonshire),East of England,1100,886,415,641,£350k-£650k,371
+830,422,830,408,Longridge,North West,657,1098,662,552,less than £350k,366
+831,988,831,-157,Willenhall,West Midlands,423,514,1298,429,less than £350k,367
+832,476,832,356,Mundesley,East of England,29,1117,820,1103,£350k-£650k,372
+833,842,833,-9,Wigton,North West,971,915,362,812,less than £350k,368
+834,606,834,228,Chertsey,South East,626,1298,727,199,Over £650k,93
+835,545,835,290,Bignall End,West Midlands,1187,126,883,945,less than £350k,369
+836,672,836,164,Waltham Chase,South East,446,1284,925,161,£350k-£650k,373
+837,682,837,155,Morley,Yorkshire and Humberside,1181,940,603,297,less than £350k,370
+838,773,838,65,Bedlington,North East,557,311,1233,781,less than £350k,371
+839,942,839,-103,Stapleford,East Midlands,769,288,967,978,less than £350k,372
+840,868,840,-28,St Helens,North West,1121,224,1150,518,less than £350k,373
+841,674,841,167,Polegate,South East,446,173,1294,901,£350k-£650k,374
+842,496,842,346,Willingham,East of England,1345,485,422,724,£350k-£650k,375
+843,1035,843,-192,Fareham,South East,409,1027,1041,419,£350k-£650k,376
+844,1173,844,-329,Brierley Hill,West Midlands,611,620,1269,281,less than £350k,374
+845,847,844,-3,Epsom,South East,844,1154,863,134,Over £650k,94
+846,939,846,-93,Aspull,North West,1271,53,763,1126,less than £350k,375
+847,466,847,381,Arlesey,East of England,275,284,820,1321,£350k-£650k,377
+848,214,848,634,Newent,South West,969,1205,121,876,£350k-£650k,378
+849,562,849,287,Cottenham,East of England,1347,832,300,557,£350k-£650k,379
+850,1006,850,-156,Merton,Greater London,704,1273,647,311,Over £650k,95
+851,1062,851,-211,Nelson (Caerphilly),Wales,1124,38,867,1251,less than £350k,376
+852,1208,852,-356,Portslade-by-Sea,South East,236,499,1228,871,£350k-£650k,380
+853,696,853,157,Sawston,East of England,1178,907,427,571,£350k-£650k,381
+854,775,854,79,Newmarket,East of England,1311,1227,317,143,£350k-£650k,382
+855,1113,855,-258,Shirebrook,East Midlands,1202,76,1210,703,less than £350k,377
+856,1057,856,-201,Kettering,East Midlands,1350,641,561,448,less than £350k,378
+857,1012,857,-155,Blackwater,South East,354,458,1283,665,£350k-£650k,383
+858,1288,858,-430,How,East of England,1023,771,1146,84,Over £650k,96
+859,1313,858,-455,Bagshot,South East,1120,1185,1130,1,Over £650k,97
+860,843,858,15,Ashby-de-la-Zouch,East Midlands,1265,1022,423,347,£350k-£650k,384
+861,878,861,-17,Hawkinge,South East,446,252,1328,739,£350k-£650k,385
+862,1081,862,-219,Bramhall,North West,382,836,1181,464,£350k-£650k,386
+863,610,863,253,Neyland,Wales,120,799,558,1320,less than £350k,379
+864,624,864,240,Minster (Swale),South East,774,136,1140,1024,£350k-£650k,387
+865,592,865,273,Haywards Heath,South East,668,1233,904,148,£350k-£650k,388
+866,1154,866,-288,Hethersett,East of England,991,161,994,1013,£350k-£650k,389
+867,1016,867,-149,Barrow upon Humber,Yorkshire and Humberside,1212,1070,136,782,less than £350k,380
+868,1334,868,-466,Billingham,North East,836,510,1244,331,less than £350k,381
+869,754,869,115,Armitage,West Midlands,123,595,1027,1177,less than £350k,382
+870,872,870,-2,Trimdon,North East,1049,1,1217,1345,less than £350k,383
+871,543,871,328,Iwade,South East,964,10,1114,1339,£350k-£650k,390
+872,984,872,-112,Brownhills,West Midlands,154,839,1330,457,less than £350k,384
+873,233,873,640,Bollington,North West,84,1353,341,1045,£350k-£650k,391
+874,179,874,695,Ivybridge,South West,53,1050,742,1205,£350k-£650k,392
+875,987,874,-113,Loughor,Wales,311,366,913,1248,less than £350k,385
+876,781,876,95,Chorleywood,East of England,193,1357,676,456,Over £650k,98
+877,704,877,173,Fordham (East Cambridgeshire),East of England,1343,955,265,554,£350k-£650k,393
+878,1056,878,-178,Burton Joyce,East Midlands,982,1000,458,709,£350k-£650k,394
+879,907,879,-28,Llangefni,Wales,951,343,849,962,less than £350k,386
+880,896,880,-16,Hedge End,South East,635,907,1213,206,£350k-£650k,395
+881,1248,881,-367,Rawmarsh,Yorkshire and Humberside,917,212,1137,832,less than £350k,387
+882,1047,882,-165,Askern,Yorkshire and Humberside,1287,21,1220,946,less than £350k,388
+883,1018,883,-135,Royton,North West,983,94,1175,979,less than £350k,389
+884,736,884,148,Eccleshall,West Midlands,1142,766,131,1124,£350k-£650k,396
+885,411,885,474,Filey,Yorkshire and Humberside,637,816,303,1224,less than £350k,390
+886,1160,886,-274,Yaxley,East of England,1155,204,1052,753,£350k-£650k,397
+887,1171,887,-284,Whitley Bay,North East,822,378,1077,757,£350k-£650k,398
+888,1128,888,-240,Barton-under-Needwood,West Midlands,1091,258,539,1213,£350k-£650k,399
+889,644,889,245,Kingsclere,South East,446,823,337,1266,£350k-£650k,400
+890,1134,890,-244,Aveley,East of England,1089,35,1139,1119,£350k-£650k,401
+891,376,891,515,Swanscombe,South East,440,1199,677,670,£350k-£650k,402
+892,578,892,314,Seaford,South East,131,914,872,1115,£350k-£650k,403
+893,814,893,79,Kinmel Bay,Wales,427,181,1258,1064,less than £350k,391
+894,508,894,386,Horsham,South East,270,1210,799,722,£350k-£650k,404
+895,1246,894,-352,Birstall,East Midlands,1059,193,1287,496,£350k-£650k,405
+896,948,896,-52,Llangennech,Wales,220,661,1009,1096,less than £350k,392
+897,895,897,2,Warlingham,South East,671,955,1129,251,Over £650k,99
+898,1193,898,-295,Sutton in Ashfield,East Midlands,1161,191,1185,603,less than £350k,393
+899,1036,899,-137,Elsenham,East of England,1308,337,504,969,£350k-£650k,406
+900,607,900,293,Wem,West Midlands,1231,653,298,974,less than £350k,394
+901,926,901,-25,Chopwell,North East,1011,11,1048,1369,less than £350k,395
+902,641,901,260,Snaith,Yorkshire and Humberside,1328,552,297,947,less than £350k,396
+903,305,903,598,Uckfield,South East,219,1315,634,784,£350k-£650k,407
+904,888,904,16,Thatcham,South East,350,726,1024,906,£350k-£650k,409
+905,998,904,-94,Helsby,North West,1272,971,660,215,£350k-£650k,408
+906,1034,906,-128,Pill,South West,417,1182,812,619,£350k-£650k,410
+907,1003,907,-96,Chilton (County Durham),North East,1207,18,1208,1110,less than £350k,397
+908,1184,908,-276,Aldridge,West Midlands,434,633,1312,409,£350k-£650k,411
+909,908,909,1,Milnrow,North West,599,333,681,1282,less than £350k,398
+910,505,910,405,Llantwit Major,Wales,446,830,658,1073,£350k-£650k,412
+911,1280,911,-369,Little Lever,North West,749,188,1282,792,less than £350k,399
+912,914,912,-2,Stourbridge,West Midlands,1042,1015,910,204,£350k-£650k,413
+913,222,913,691,Hadlow,South East,767,1009,105,1265,£350k-£650k,414
+914,1094,914,-180,Seaton Delaval,North East,1179,160,1226,598,less than £350k,400
+915,968,915,-53,Nanpean,South West,939,357,824,1029,less than £350k,401
+916,634,916,282,Royston,East of England,1225,983,402,583,£350k-£650k,415
+917,453,917,464,Toddington,East of England,813,843,315,1150,£350k-£650k,416
+918,983,918,-65,Newport Pagnell,South East,613,1246,534,720,£350k-£650k,417
+919,566,919,353,Barnet,Greater London,917,1286,786,126,Over £650k,100
+920,1145,920,-225,Newcastle-under-Lyme,West Midlands,1169,700,1034,229,less than £350k,402
+921,1052,921,-131,Long Eaton,East Midlands,696,941,832,658,less than £350k,403
+922,904,922,18,Clapham (Bedford),East of England,626,437,791,1174,£350k-£650k,418
+923,1170,923,-247,Burghfield Common,South East,839,396,1138,704,£350k-£650k,419
+924,923,924,1,Howden,Yorkshire and Humberside,1293,1251,133,533,less than £350k,404
+925,792,925,133,Chelmsford,East of England,945,1168,890,176,£350k-£650k,420
+926,357,926,569,Fremington,South West,292,1115,709,970,£350k-£650k,421
+927,332,927,595,Wantage,South East,446,1176,590,865,£350k-£650k,422
+928,815,928,113,Iver,South East,739,776,872,738,Over £650k,101
+929,468,929,461,Calne,South West,687,1081,410,988,£350k-£650k,423
+930,1111,930,-181,Beeston (Broxtowe),East Midlands,979,730,980,473,£350k-£650k,424
+931,275,931,656,Great Torrington,South West,559,1283,220,1087,less than £350k,405
+932,535,931,396,Wilsden,Yorkshire and Humberside,1082,202,466,1310,less than £350k,406
+933,1203,933,-270,Murton (Swansea),Wales,446,756,1192,587,£350k-£650k,425
+934,390,934,544,Parbold,North West,593,1172,505,917,£350k-£650k,427
+935,756,934,178,Poringland,East of England,852,734,788,777,£350k-£650k,426
+936,753,936,183,Luton,East of England,446,822,1148,581,£350k-£650k,428
+937,270,937,667,Steyning,South East,446,1307,195,1101,£350k-£650k,429
+938,1249,938,-311,Maghull,North West,682,477,1290,482,less than £350k,407
+939,801,939,138,Llanbradach,Wales,377,538,507,1357,less than £350k,408
+940,1137,940,-197,Hinckley,East Midlands,1107,837,1195,56,£350k-£650k,430
+941,1155,941,-214,Horsforth,Yorkshire and Humberside,642,746,1046,674,£350k-£650k,431
+942,1050,942,-108,Newhey,North West,378,185,903,1364,less than £350k,409
+943,1281,943,-338,Catshill,West Midlands,1268,354,1241,174,£350k-£650k,432
+944,1243,944,-299,Litherland,North West,721,150,1184,1111,less than £350k,410
+945,1063,945,-118,Haverhill,East of England,1251,101,1055,956,£350k-£650k,433
+946,1332,946,-386,Wednesbury,West Midlands,909,318,1238,655,less than £350k,411
+947,1156,947,-209,Earby,North West,954,1270,723,233,less than £350k,412
+948,989,948,-41,Kirton (Boston),East Midlands,1270,618,579,714,less than £350k,413
+949,1294,949,-345,Cleveleys,North West,682,207,1358,718,less than £350k,414
+950,906,950,44,Sale,North West,647,633,1169,624,£350k-£650k,434
+951,551,951,400,Thame,South East,605,1355,356,607,Over £650k,102
+952,769,952,183,Fulwood,North West,609,469,1165,841,less than £350k,415
+953,776,953,177,Porthcawl,Wales,126,625,1037,1244,£350k-£650k,435
+954,755,954,199,Whitwell (Bolsover),East Midlands,1222,153,448,1304,less than £350k,416
+955,1119,955,-164,Shavington,North West,1253,444,1108,327,less than £350k,417
+956,1157,956,-201,Filton,South West,1039,1062,1142,44,£350k-£650k,436
+957,803,957,154,Pevensey Bay,South East,181,247,1163,1314,£350k-£650k,437
+958,807,958,151,Winsford (Cheshire West and Chester),North West,986,261,1117,883,less than £350k,419
+959,688,958,270,Crowle (North Lincolnshire),Yorkshire and Humberside,1303,393,414,1070,less than £350k,418
+960,1235,960,-275,Immingham,Yorkshire and Humberside,797,1094,1159,121,less than £350k,420
+961,524,961,437,Denby Dale,Yorkshire and Humberside,952,849,500,994,less than £350k,421
+962,1114,962,-152,Partington,North West,849,22,1254,1293,less than £350k,422
+963,640,963,323,Pudsey,Yorkshire and Humberside,1055,966,607,665,less than £350k,423
+964,1165,964,-201,Rothwell,Yorkshire and Humberside,1000,233,1100,938,less than £350k,424
+965,936,965,29,Willand,South West,888,1222,520,637,£350k-£650k,438
+966,1074,966,-108,Alveston,South West,1065,636,651,926,£350k-£650k,439
+967,1236,967,-269,Taverham,East of England,630,418,1140,949,£350k-£650k,440
+968,1183,968,-215,Halesowen,West Midlands,1035,762,1080,352,less than £350k,425
+969,377,969,592,Cricklade,South West,333,1230,144,1312,£350k-£650k,441
+970,615,969,354,Eccleston,North West,1057,672,866,663,less than £350k,426
+971,475,971,496,Rhondda,Wales,242,609,684,1338,less than £350k,427
+972,1132,971,-161,Willaston,North West,1182,470,550,1055,£350k-£650k,442
+973,857,973,116,Cheadle,West Midlands,1025,1248,356,648,less than £350k,428
+974,731,974,243,Gorseinon,Wales,313,1187,1099,521,less than £350k,429
+975,779,975,196,Stone (Stafford),West Midlands,306,1301,761,705,less than £350k,430
+976,396,976,580,Snodland,South East,293,786,559,1311,£350k-£650k,443
+977,1158,977,-181,Bishop's Cleeve,South West,446,999,880,859,£350k-£650k,444
+978,582,977,395,Rhosllanerchrugog,Wales,672,397,788,1230,less than £350k,431
+979,1352,979,-373,Arnold,East Midlands,1284,225,1311,255,less than £350k,432
+980,1266,980,-286,Rowley Regis,West Midlands,577,503,1340,565,less than £350k,433
+981,642,981,339,Torpoint,South West,76,927,787,1300,less than £350k,434
+982,1021,982,-39,Chalfont St,South East,446,881,552,1226,Over £650k,103
+983,901,982,81,Long Stratton,East of England,1085,631,532,1049,£350k-£650k,445
+984,1245,984,-261,Horndean,South East,446,777,1320,393,£350k-£650k,446
+985,1135,985,-150,Dersingham,East of England,446,808,899,1003,£350k-£650k,447
+986,1324,986,-338,North Ferriby,Yorkshire and Humberside,933,975,927,480,less than £350k,435
+987,313,987,674,Boroughbridge,Yorkshire and Humberside,303,1358,366,870,£350k-£650k,448
+988,747,988,241,Platt Bridge,North West,925,282,1029,1064,less than £350k,436
+989,985,989,4,Coxheath,South East,966,299,970,1068,£350k-£650k,449
+990,500,990,490,Romiley,North West,295,791,1112,944,£350k-£650k,451
+991,1142,990,-152,Kingswinford,West Midlands,808,605,1262,442,£350k-£650k,450
+992,752,992,240,South Ockendon,East of England,847,515,1243,561,£350k-£650k,453
+993,953,992,39,Redditch,West Midlands,1032,429,1230,529,£350k-£650k,452
+994,928,994,66,Castleford,Yorkshire and Humberside,1037,478,1247,417,less than £350k,437
+995,909,995,86,New Milton,South East,446,1076,1277,250,£350k-£650k,454
+996,698,996,298,Crawley Down,South East,716,1321,942,146,£350k-£650k,455
+997,564,997,433,March,East of England,754,995,745,799,less than £350k,438
+998,804,998,194,Sedgefield,North East,1131,681,498,1021,less than £350k,439
+999,499,999,500,Kirkbymoorside,Yorkshire and Humberside,708,1368,105,769,£350k-£650k,456
+1000,599,1000,401,Swineshead,East Midlands,1274,379,347,1208,less than £350k,440
+1001,1097,1001,-96,Cil-y-coed,Wales,835,735,860,858,£350k-£650k,457
+1002,1077,1001,-76,Longton,North West,1171,939,1084,118,£350k-£650k,458
+1003,1007,1003,-4,Earl Shilton,East Midlands,1321,219,1079,689,less than £350k,441
+1004,572,1004,432,Stoke,South East,978,838,663,872,Over £650k,104
+1005,554,1005,451,Caterham,South East,446,1099,988,690,£350k-£650k,459
+1006,1042,1006,-36,Pontycymer,Wales,1110,118,564,1368,less than £350k,442
+1007,445,1006,561,Tarporley,North West,1277,1257,251,531,£350k-£650k,460
+1008,956,1008,52,Widnes,North West,1121,775,1246,97,less than £350k,443
+1009,334,1009,675,Williton,South West,742,975,352,1198,£350k-£650k,461
+1010,1270,1010,-260,Sharlston,Yorkshire and Humberside,1248,248,1153,639,less than £350k,444
+1011,1129,1011,-118,Shotton Colliery,North East,892,32,1293,1234,less than £350k,445
+1012,707,1012,305,Harrow,Greater London,702,1309,973,185,Over £650k,105
+1013,677,1013,336,Willington (South Derbyshire),East Midlands,551,742,879,1093,£350k-£650k,462
+1014,534,1014,480,Gamlingay,East of England,1232,809,151,1177,£350k-£650k,463
+1015,853,1015,162,Cheddleton,West Midlands,328,1334,553,892,less than £350k,446
+1016,783,1016,233,Bramley,South East,926,552,752,1090,£350k-£650k,464
+1017,1198,1017,-181,West Bridgford,East Midlands,802,1096,1191,178,£350k-£650k,465
+1018,1297,1018,-279,Thurcroft,Yorkshire and Humberside,1211,79,1315,761,less than £350k,447
+1019,992,1019,27,Bourne,East Midlands,1128,1235,728,244,£350k-£650k,466
+1020,788,1020,232,South Hayling,South East,40,792,1257,1143,£350k-£650k,467
+1021,826,1020,194,Millom,North West,379,486,680,1355,less than £350k,448
+1022,1040,1022,-18,Awsworth,East Midlands,1020,617,763,972,less than £350k,449
+1023,1140,1022,-118,Rainford,North West,1317,163,992,940,less than £350k,450
+1024,894,1024,130,Kingsteignton,South West,678,701,870,1024,£350k-£650k,468
+1025,1049,1025,-24,Tuxford,East Midlands,1329,467,284,1192,less than £350k,451
+1026,240,1026,786,Shifnal,West Midlands,1008,989,489,959,£350k-£650k,469
+1027,658,1027,369,St Columb Major,South West,981,1221,91,1165,£350k-£650k,470
+1028,1023,1028,5,Brackley,East Midlands,1191,1023,610,571,£350k-£650k,471
+1029,1022,1029,7,Laceby,Yorkshire and Humberside,677,534,772,1214,less than £350k,452
+1030,667,1030,363,Swanley,South East,446,895,1232,594,£350k-£650k,472
+1031,746,1031,285,Saxilby,East Midlands,657,1027,800,846,less than £350k,453
+1032,1136,1032,-104,Seaham,North East,372,324,1307,1039,less than £350k,454
+1033,912,1033,121,Great Houghton (Barnsley),Yorkshire and Humberside,1190,27,960,1351,less than £350k,455
+1034,998,1034,36,Burnopfield,North East,1062,170,830,1263,less than £350k,456
+1035,1176,1035,-141,Worsley,North West,904,402,962,1066,£350k-£650k,473
+1036,1214,1036,-178,Southend-on-Sea,East of England,900,1049,1090,316,£350k-£650k,474
+1037,733,1037,304,Castle Cary,South West,1022,1139,171,1134,£350k-£650k,475
+1038,410,1038,628,Bawtry,Yorkshire and Humberside,1068,346,474,1304,less than £350k,457
+1039,1206,1038,-168,Mansfield Woodhouse,East Midlands,1218,106,1065,1102,less than £350k,458
+1040,426,1040,614,Borough Green,South East,446,1162,469,1156,£350k-£650k,476
+1041,933,1041,108,Aylesham,South East,692,30,1263,1350,£350k-£650k,477
+1042,1307,1042,-265,Urmston,North West,937,562,1205,614,£350k-£650k,478
+1043,867,1043,176,Alfreton,East Midlands,1095,574,696,1008,less than £350k,459
+1044,465,1044,579,Camelford,South West,781,1370,356,396,£350k-£650k,479
+1045,1194,1044,-150,South,South East,856,263,1274,886,£350k-£650k,480
+1046,1298,1046,-252,Newton Aycliffe,North East,1197,146,1324,626,less than £350k,460
+1047,855,1047,192,Portishead,South West,734,1169,982,469,£350k-£650k,481
+1048,1310,1048,-262,South Milford,Yorkshire and Humberside,1281,441,1062,559,£350k-£650k,482
+1049,1046,1049,3,Indian Queens,South West,1057,1244,601,495,£350k-£650k,483
+1050,673,1050,377,Hoo St Werburgh,South East,977,374,1119,888,£350k-£650k,484
+1051,565,1051,486,St Just,South West,446,1013,234,1367,£350k-£650k,485
+1052,976,1052,76,Long Lawford,West Midlands,1063,99,1183,1137,£350k-£650k,486
+1053,835,1053,218,Shortstown,East of England,1158,59,1322,935,£350k-£650k,487
+1054,1065,1054,-11,Stevenage,East of England,959,1150,1018,298,£350k-£650k,488
+1055,696,1055,359,Holmes Chapel,North West,620,1216,946,568,£350k-£650k,489
+1056,1338,1056,-282,Calverton,East Midlands,1290,169,1131,813,less than £350k,461
+1057,1120,1057,-63,Hendreforgan,Wales,1138,174,986,1159,less than £350k,462
+1058,810,1058,248,Fenstanton,East of England,1324,1322,278,380,£350k-£650k,490
+1059,1079,1059,-20,Goole,Yorkshire and Humberside,822,1093,629,912,less than £350k,463
+1060,1342,1060,-282,Whitnash,West Midlands,1144,84,1154,1144,£350k-£650k,491
+1061,1231,1061,-170,Maltby,Yorkshire and Humberside,1233,210,1286,585,less than £350k,464
+1062,1337,1062,-275,Featherstone (South Staffordshire),West Midlands,920,135,1352,918,£350k-£650k,492
+1063,1174,1063,-111,Market Warsop,East Midlands,1241,180,972,1075,less than £350k,465
+1064,903,1064,161,Crewe,North West,1235,809,932,430,less than £350k,466
+1065,642,1065,423,Burton Latimer,East Midlands,1082,737,556,1062,less than £350k,467
+1066,647,1066,419,Grays,East of England,590,1311,1058,318,£350k-£650k,493
+1067,1096,1067,-29,Netherton,Yorkshire and Humberside,1162,148,855,1257,less than £350k,468
+1068,1015,1068,53,Wednesfield,West Midlands,253,479,1347,999,less than £350k,470
+1069,596,1068,472,Dalton-in-Furness,North West,1050,897,115,1324,less than £350k,469
+1070,1247,1070,-177,Woodingdean,South East,446,93,1372,1219,£350k-£650k,494
+1071,964,1071,107,Eye (City of Peterborough),East of England,1334,181,993,977,less than £350k,471
+1072,1143,1072,-71,Shevington Vale,North West,680,806,1161,673,less than £350k,472
+1073,932,1073,141,Whitworth,North West,956,647,525,1247,less than £350k,473
+1074,652,1074,422,Selsey,South East,288,451,958,1343,£350k-£650k,495
+1075,336,1075,739,Longtown,North West,256,959,478,1372,less than £350k,474
+1076,447,1076,629,Soham,East of England,774,1264,536,844,£350k-£650k,496
+1077,970,1077,107,Somersham (Huntingdonshire),East of England,1358,386,342,1233,£350k-£650k,497
+1078,1328,1078,-250,Ravenshead,East Midlands,1249,324,1216,575,£350k-£650k,498
+1079,252,1079,827,Great Ayton,Yorkshire and Humberside,660,1191,148,1308,less than £350k,475
+1080,920,1080,160,Kibworth Harcourt,East Midlands,1364,1280,446,286,£350k-£650k,499
+1081,1258,1081,-177,Bedworth,West Midlands,1034,186,1332,790,less than £350k,476
+1082,952,1082,130,Cudworth,Yorkshire and Humberside,1168,60,1217,1142,less than £350k,477
+1083,902,1083,181,Cheshunt,East of England,788,875,1029,759,Over £650k,106
+1084,1350,1084,-266,Longbenton,North East,1208,365,1343,298,less than £350k,478
+1085,1254,1085,-169,Clifton (City of Nottingham),East Midlands,1126,590,1106,618,less than £350k,479
+1086,968,1086,118,Peasedown St John,South West,791,787,1056,798,£350k-£650k,500
+1087,955,1086,131,Weaverham,North West,1059,460,769,1136,less than £350k,480
+1088,834,1088,254,Clay Cross,East Midlands,956,1019,976,570,less than £350k,481
+1089,1306,1089,-217,Spixworth,East of England,771,482,1289,727,£350k-£650k,501
+1090,770,1090,320,Hunmanby,Yorkshire and Humberside,846,901,441,1225,less than £350k,482
+1091,1084,1091,7,Prescot,North West,1341,721,1041,311,less than £350k,483
+1092,1176,1092,-84,Solihull,West Midlands,890,1233,1089,210,£350k-£650k,502
+1093,1199,1093,-106,Kimberley,East Midlands,1243,814,914,506,less than £350k,484
+1094,1110,1094,-16,Welwyn Garden City,East of England,896,1065,1268,136,Over £650k,107
+1095,509,1095,586,Cowbridge,Wales,930,1343,165,1002,£350k-£650k,503
+1096,1029,1096,67,Scunthorpe,Yorkshire and Humberside,1206,408,1185,642,less than £350k,485
+1097,1058,1097,39,Ellesmere Port,North West,987,599,1272,527,less than £350k,486
+1098,762,1098,336,Bulford Camp,South West,404,985,699,1236,£350k-£650k,504
+1099,760,1099,339,Sutton Bridge,East Midlands,586,754,667,1288,less than £350k,487
+1100,1024,1100,76,Holsworthy,South West,1093,1052,432,1007,less than £350k,488
+1101,823,1101,278,Finedon,East Midlands,1335,652,218,1243,£350k-£650k,505
+1102,1211,1102,-109,Skellingthorpe,East Midlands,1259,612,1091,492,£350k-£650k,506
+1103,1319,1102,-217,Barlestone,East Midlands,1304,570,1023,573,less than £350k,489
+1104,940,1104,164,Jaywick,East of England,385,42,1364,1362,less than £350k,490
+1105,1076,1105,29,Tyldesley,North West,1273,329,978,921,less than £350k,491
+1106,1178,1106,-72,Golborne,North West,1301,348,1179,595,less than £350k,492
+1107,1020,1107,87,Ossett,Yorkshire and Humberside,1192,521,1085,687,less than £350k,493
+1108,1030,1108,78,Waltham,Greater London,1006,1158,845,569,Over £650k,108
+1109,1167,1109,-58,Banstead,South East,851,1134,1239,218,Over £650k,109
+1110,1010,1110,100,Blackhall Colliery,North East,446,57,1314,1354,less than £350k,494
+1111,1188,1111,-77,Hindley,North West,1288,334,1011,864,less than £350k,495
+1112,950,1112,162,Banks,North West,1012,980,1174,357,less than £350k,496
+1113,1329,1113,-216,Sedgley,West Midlands,1164,260,1277,751,less than £350k,497
+1114,1196,1114,-82,Houghton Regis,East of England,761,473,1172,1018,£350k-£650k,507
+1115,1060,1115,55,Madeley,West Midlands,1237,673,383,1188,less than £350k,498
+1116,1219,1116,-103,Rayleigh,East of England,1017,1073,1101,365,£350k-£650k,508
+1117,478,1117,639,Chatteris,East of England,1195,918,389,1091,less than £350k,499
+1118,1141,1118,-23,Sutton Coldfield,West Midlands,710,1225,1065,481,£350k-£650k,509
+1119,1364,1119,-245,Bracebridge Heath,East Midlands,1242,210,1119,994,less than £350k,500
+1120,1252,1120,-132,Great Wyrley,West Midlands,820,383,1345,760,less than £350k,501
+1121,1041,1121,80,Belton (Great Yarmouth),East of England,261,587,1048,1321,£350k-£650k,510
+1122,1153,1121,-32,Marlow Bottom,South East,446,761,1115,1052,Over £650k,110
+1123,1305,1123,-182,Edwinstowe,East Midlands,1275,117,1093,1117,less than £350k,502
+1124,1358,1123,-235,Ratby,East Midlands,1340,87,1170,1058,£350k-£650k,511
+1125,1075,1125,50,Denmead,South East,446,1040,1091,873,£350k-£650k,512
+1126,1357,1126,-231,Great Notley,East of England,1215,440,1303,404,£350k-£650k,513
+1127,480,1127,647,Bugbrooke,East Midlands,1127,997,598,924,£350k-£650k,514
+1128,1180,1128,-52,Waltham,East of England,965,790,776,1053,£350k-£650k,515
+1129,1371,1129,-242,East Goscote,East Midlands,1368,421,1309,221,£350k-£650k,516
+1130,1273,1130,-143,Swillington,Yorkshire and Humberside,1234,88,1201,1138,less than £350k,503
+1131,1304,1131,-173,Haydock,North West,1323,577,1122,445,less than £350k,504
+1132,884,1132,248,Cliffe Woods,South East,908,153,1259,1190,£350k-£650k,517
+1133,721,1133,412,Pegswood,North East,1020,341,1017,1162,less than £350k,505
+1134,699,1134,435,Strensall,Yorkshire and Humberside,341,864,1187,1020,£350k-£650k,518
+1135,1083,1135,52,Kenilworth,West Midlands,1238,948,509,953,£350k-£650k,519
+1136,1255,1136,-119,Ashton-in-Makerfield,North West,1307,244,1060,990,less than £350k,506
+1137,998,1137,139,Pocklington,Yorkshire and Humberside,1137,1284,842,293,£350k-£650k,520
+1138,1368,1138,-230,Blackheath,West Midlands,1239,315,1319,520,less than £350k,507
+1139,935,1139,204,Paddock Wood,South East,733,1103,955,789,£350k-£650k,521
+1140,1186,1140,-46,Caddington,East of England,446,177,1328,1259,£350k-£650k,522
+1141,881,1141,260,Mattishall,East of England,1177,942,290,1203,£350k-£650k,523
+1142,1303,1142,-161,Camberley,South East,793,1303,1266,62,£350k-£650k,524
+1143,962,1142,180,Havering,Greater London,889,1052,1157,473,Over £650k,111
+1144,1232,1144,-88,Irlam,North West,736,455,1221,1060,less than £350k,508
+1145,1272,1145,-127,New Addington,Greater London,933,133,1364,1056,£350k-£650k,525
+1146,1059,1146,87,Gwaun-Cae-Gurwen,Wales,727,240,991,1361,less than £350k,509
+1147,929,1147,218,Addlestone,South East,767,1219,1202,325,Over £650k,112
+1148,1126,1148,22,Radlett,East of England,1052,1210,1064,285,Over £650k,113
+1149,1124,1149,25,Albrighton,West Midlands,1146,1020,754,762,£350k-£650k,526
+1150,737,1150,413,East Wittering,South East,169,1317,1334,416,Over £650k,114
+1151,1222,1151,-71,Brough,Yorkshire and Humberside,1114,1329,1046,76,less than £350k,510
+1152,813,1152,339,Barton-le-Clay,East of England,446,1105,731,1194,£350k-£650k,527
+1153,1072,1152,80,Standish,North West,1261,565,925,852,less than £350k,511
+1154,1107,1154,47,Westhoughton,North West,1276,439,1087,768,less than £350k,512
+1155,1210,1155,-55,Rainworth,East Midlands,1036,220,1360,843,less than £350k,513
+1156,1026,1156,130,Warboys,East of England,1359,427,404,1270,£350k-£650k,528
+1157,680,1157,477,Dunchurch,West Midlands,1236,844,494,1084,£350k-£650k,529
+1158,1080,1158,78,Crosby,North West,1152,1068,567,932,less than £350k,514
+1159,1108,1159,51,Carterton,South East,779,793,1172,813,£350k-£650k,530
+1160,661,1160,499,Hoddesdon,East of England,642,1301,710,855,£350k-£650k,531
+1161,1284,1161,-123,Blidworth,East Midlands,1269,295,1242,734,less than £350k,515
+1162,452,1162,710,Catterick,Yorkshire and Humberside,554,964,450,1371,less than £350k,516
+1163,744,1163,419,Waltham,East of England,646,1323,1068,424,£350k-£650k,532
+1164,1201,1164,-37,Thurnscoe,Yorkshire and Humberside,1200,77,1251,1174,less than £350k,517
+1165,1318,1165,-153,Shepshed,East Midlands,1325,1290,808,130,less than £350k,518
+1166,946,1166,220,Wombourne,West Midlands,597,1009,1143,838,£350k-£650k,533
+1167,526,1167,641,Heathfield,South East,446,1230,964,896,£350k-£650k,534
+1168,1274,1168,-106,Bowburn,North East,1119,243,1324,839,less than £350k,519
+1169,1361,1169,-192,Holton le Clay,East Midlands,877,463,1252,961,less than £350k,520
+1170,1150,1170,20,Hextable,South East,785,275,1207,1232,£350k-£650k,535
+1171,1362,1170,-192,Cherry Willingham,East Midlands,1173,604,1110,741,less than £350k,521
+1172,758,1172,414,Coven,West Midlands,941,840,997,930,£350k-£650k,536
+1173,1277,1172,-105,Billinge,North West,1313,39,1127,1275,less than £350k,522
+1174,1105,1174,69,Formby,North West,1131,812,1124,580,£350k-£650k,537
+1175,1180,1175,-5,Connah's Quay,Wales,641,638,1235,999,less than £350k,523
+1176,1106,1176,70,Shotton,Wales,749,869,1197,769,less than £350k,524
+1177,1234,1177,-57,Ashford,South East,694,919,1313,536,Over £650k,115
+1178,849,1178,329,Chalgrove,South East,861,655,520,1359,£350k-£650k,538
+1179,1339,1179,-160,North Hykeham,East Midlands,1128,579,1353,378,less than £350k,525
+1180,1348,1180,-168,Carlton (Gedling),East Midlands,1162,729,1121,629,less than £350k,526
+1181,805,1181,376,Great Dunmow,East of England,1282,1249,333,804,Over £650k,116
+1182,972,1182,210,Blackrod,North West,1260,89,1005,1309,less than £350k,527
+1183,838,1183,345,Enfield,Greater London,962,1270,880,584,Over £650k,117
+1184,1238,1183,-55,Swinton,North West,1224,530,1150,715,less than £350k,528
+1185,1138,1185,47,Wilstead,East of England,1079,942,997,734,£350k-£650k,539
+1186,1146,1186,40,Jacksdale,East Midlands,1175,600,975,963,less than £350k,529
+1187,659,1187,528,Etwall,East Midlands,1193,708,469,1240,£350k-£650k,540
+1188,1191,1188,-3,Kirkby-in-Ashfield,East Midlands,1205,371,1225,806,less than £350k,530
+1189,1355,1189,-166,Moorends,Yorkshire and Humberside,1336,19,1356,1172,less than £350k,531
+1190,1260,1190,-70,Upton (Wakefield),Yorkshire and Humberside,1254,50,1355,1087,less than £350k,532
+1191,1112,1191,79,Goostrey,North West,1157,1169,669,776,£350k-£650k,541
+1192,1239,1192,-47,Sherburn (County Durham),North East,1080,20,1299,1363,less than £350k,533
+1193,1130,1193,63,Borehamwood,East of England,1104,723,1348,315,Over £650k,118
+1194,328,1194,866,Stokesley,Yorkshire and Humberside,821,1220,349,1234,£350k-£650k,542
+1195,1230,1195,-35,Selston,East Midlands,1185,244,1192,1087,£350k-£650k,543
+1196,1166,1196,30,Penyffordd,Wales,1003,1143,1234,291,less than £350k,534
+1197,1151,1197,46,Coalville,East Midlands,1297,552,1006,819,less than £350k,535
+1198,976,1198,222,Harefield,Greater London,335,1106,1033,1128,Over £650k,119
+1199,891,1199,308,Little Paxton,East of England,629,1057,1103,897,£350k-£650k,544
+1200,1215,1200,-15,Kiveton Park,Yorkshire and Humberside,972,150,1111,1336,less than £350k,536
+1201,1308,1201,-107,West Bromwich (East),West Midlands,380,926,1317,821,less than £350k,537
+1202,900,1202,302,Witton Gilbert,North East,1125,157,1012,1329,less than £350k,538
+1203,945,1203,258,Redbridge,Greater London,946,1193,1056,578,Over £650k,120
+1204,995,1204,209,Swavesey,East of England,1330,731,595,1033,£350k-£650k,545
+1205,1185,1205,20,Yateley,South East,863,712,1150,966,£350k-£650k,546
+1206,1190,1206,16,Walton,Yorkshire and Humberside,1221,313,724,1295,£350k-£650k,547
+1207,1335,1207,-128,Coxhoe,North East,1114,100,1300,1186,less than £350k,539
+1208,1341,1208,-133,Stilton,East of England,1367,912,647,836,£350k-£650k,548
+1209,824,1209,385,Coalway,South West,726,1035,923,1058,£350k-£650k,549
+1210,1189,1210,21,Skelmersdale,North West,1292,518,1222,600,less than £350k,540
+1211,1291,1211,-80,New Rossington,Yorkshire and Humberside,1285,147,1335,880,less than £350k,541
+1212,1102,1212,110,Southam,West Midlands,1088,1085,694,979,£350k-£650k,550
+1213,1224,1213,-11,Newton (Bolsover),East Midlands,1130,683,896,1066,less than £350k,542
+1214,1321,1214,-107,Stanford-le-Hope,East of England,1066,909,1003,854,£350k-£650k,551
+1215,860,1215,355,Middleton Cheney,East Midlands,1031,1200,213,1279,£350k-£650k,552
+1216,980,1215,235,Epping,East of England,1294,1044,802,650,Over £650k,121
+1217,1038,1217,179,Brampton (Huntingdonshire),East of England,1314,1080,614,791,£350k-£650k,553
+1218,1117,1218,101,Red Lodge,East of England,1322,209,1281,863,£350k-£650k,554
+1219,1320,1219,-101,Corby,East Midlands,1370,316,1342,522,less than £350k,543
+1220,1347,1220,-127,Berinsfield,South East,753,271,1366,1113,£350k-£650k,555
+1221,766,1221,455,Cholsey,South East,446,1364,726,771,£350k-£650k,556
+1222,998,1222,224,Fairfield Park,East of England,958,991,950,985,£350k-£650k,557
+1223,585,1223,638,Flexbury,South West,363,919,893,1323,£350k-£650k,558
+1224,591,1224,633,Shenley,East of England,1111,367,810,1318,Over £650k,122
+1225,404,1225,821,Stamford Bridge,Yorkshire and Humberside,280,1342,655,1193,£350k-£650k,559
+1226,1226,1226,0,North Walney,North West,316,716,1296,1155,less than £350k,544
+1227,930,1227,297,Lakenheath,East of England,774,447,989,1330,£350k-£650k,560
+1228,1233,1228,-5,Higher Folds,North West,1286,6,1369,1348,less than £350k,545
+1229,1314,1229,-85,Cramlington,North East,1148,755,1318,413,less than £350k,546
+1230,1077,1230,153,Uppingham,East Midlands,1372,1361,88,842,£350k-£650k,561
+1231,1253,1231,-22,Whitefield,North West,1009,578,1117,1086,less than £350k,547
+1232,1323,1232,-91,Anstey,East Midlands,1349,127,964,1297,£350k-£650k,562
+1233,1285,1233,-52,Frimley,South East,374,1337,1290,384,£350k-£650k,563
+1234,1087,1234,147,Kirkby,North West,1109,450,1300,816,less than £350k,548
+1235,1148,1235,87,Tilbury,East of England,552,1226,1280,602,£350k-£650k,564
+1236,1149,1236,87,Bracknell,South East,1067,1254,1279,100,£350k-£650k,565
+1237,1195,1237,42,South Hetton,North East,907,46,1339,1365,less than £350k,549
+1238,626,1238,612,Over,East of England,1339,803,376,1228,£350k-£650k,566
+1239,1228,1239,11,Normanton,Yorkshire and Humberside,1118,704,1145,850,less than £350k,550
+1240,1131,1240,109,Southwater,South East,843,923,1189,879,£350k-£650k,567
+1241,1053,1241,188,Newbold Verdon,East Midlands,1315,658,571,1211,£350k-£650k,568
+1242,1315,1242,-73,Cambourne,East of England,1289,633,1340,341,£350k-£650k,569
+1243,1271,1243,-28,Gatley,North West,1041,612,1335,696,£350k-£650k,570
+1244,1333,1244,-89,Radcliffe on Trent,East Midlands,1023,1316,1106,330,£350k-£650k,571
+1245,1069,1245,176,Kearsley,North West,597,867,937,1281,less than £350k,551
+1246,947,1246,299,Morton (South Kesteven),East Midlands,1354,855,472,1151,less than £350k,552
+1247,1217,1247,30,Hatfield Peverel,East of England,1245,966,804,914,£350k-£650k,572
+1248,1344,1248,-96,Markfield,East Midlands,1332,482,1050,986,£350k-£650k,573
+1249,802,1249,447,Wootton (Bedford),East of England,1136,693,584,1302,£350k-£650k,574
+1250,1330,1250,-80,Canvey Island,East of England,580,694,1368,939,£350k-£650k,575
+1251,1299,1251,-48,Bingham,East Midlands,1338,690,916,913,£350k-£650k,576
+1252,1122,1252,130,Narborough/Enderby,East Midlands,1154,1272,1000,455,£350k-£650k,577
+1253,1363,1253,-110,New Waltham,Yorkshire and Humberside,893,817,1371,566,less than £350k,553
+1254,713,1254,541,Yatton,South West,924,1300,458,1130,£350k-£650k,578
+1255,1300,1255,-45,Waltham,Yorkshire and Humberside,789,736,1237,1005,less than £350k,554
+1256,818,1256,438,Waterbeach,East of England,1352,1107,906,531,£350k-£650k,579
+1257,1286,1257,-29,Crofton,Yorkshire and Humberside,1240,156,1178,1250,less than £350k,555
+1258,1032,1258,226,Sutton (East Cambridgeshire),East of England,1348,921,657,987,£350k-£650k,580
+1259,1147,1259,112,Stotfold,East of England,1004,869,1097,950,£350k-£650k,581
+1260,1282,1260,-22,North Weald Bassett,East of England,1305,603,1006,967,Over £650k,123
+1261,569,1261,692,Hamble-le-Rice,South East,139,1259,858,1326,£350k-£650k,582
+1262,1127,1262,135,Marston Moretaine,East of England,1075,758,834,1197,£350k-£650k,583
+1263,1103,1263,160,Wollaston,East Midlands,1298,1264,284,1037,£350k-£650k,584
+1264,1167,1264,97,Syston,East Midlands,1365,522,717,1181,£350k-£650k,585
+1265,1161,1265,104,Tadcaster,Yorkshire and Humberside,785,1352,592,973,£350k-£650k,586
+1266,825,1266,441,Peacehaven,South East,159,1052,1358,1038,£350k-£650k,587
+1267,682,1267,585,Longstanton,East of England,1337,643,807,1079,£350k-£650k,588
+1268,1064,1268,204,Whetstone,East Midlands,1356,1125,1014,410,£350k-£650k,589
+1269,951,1269,318,Featherstone (Wakefield),Yorkshire and Humberside,1262,759,1196,635,less than £350k,556
+1270,1296,1270,-26,Northwood,East of England,883,1217,1128,683,Over £650k,124
+1271,1221,1271,50,Ryhill,Yorkshire and Humberside,1216,80,1271,1292,less than £350k,557
+1272,1340,1272,-68,Goldthorpe,Yorkshire and Humberside,1188,47,1362,1278,less than £350k,558
+1273,978,1273,295,Walter's Ash,South East,446,1349,737,1105,Over £650k,125
+1274,1204,1274,70,Dinas Powis,Wales,1106,947,1231,668,£350k-£650k,590
+1275,925,1275,350,Hinton,East Midlands,1092,1052,537,1261,£350k-£650k,591
+1276,1098,1276,178,Ormesby St Margaret,East of England,723,1306,1000,856,£350k-£650k,592
+1277,1309,1277,-32,Keyworth,East Midlands,1331,774,996,873,£350k-£650k,593
+1278,748,1278,530,Thrapston,East Midlands,930,1367,432,904,£350k-£650k,594
+1279,1262,1279,17,Loughton,East of England,1105,667,1223,958,Over £650k,126
+1280,1045,1279,234,Harlow,East of England,1114,1097,897,984,£350k-£650k,595
+1281,1312,1281,-31,New Marske,North East,882,262,1190,1366,less than £350k,559
+1282,1346,1282,-64,Sileby,East Midlands,1363,416,809,1258,less than £350k,560
+1283,1317,1283,-34,Knebworth,East of England,1069,1356,1019,320,Over £650k,127
+1284,841,1284,443,Sacriston,North East,1140,148,1283,1277,less than £350k,561
+1285,795,1285,490,Rothwell,East Midlands,1361,588,444,1342,less than £350k,562
+1286,934,1286,352,Frinton-on-Sea,East of England,387,1337,1267,643,£350k-£650k,596
+1287,1011,1287,276,Mayland,East of England,800,1012,1224,955,£350k-£650k,597
+1288,881,1288,407,Ludgershall (Wiltshire),South West,446,1203,714,1332,£350k-£650k,598
+1289,1008,1289,281,Tibshelf,East Midlands,1107,887,1009,1078,less than £350k,563
+1290,1302,1290,-12,Ruskington,East Midlands,1267,1119,940,744,less than £350k,564
+1291,1365,1291,-74,Copmanthorpe,Yorkshire and Humberside,1223,895,1098,837,£350k-£650k,599
+1292,871,1292,421,Kirkham,North West,1135,1160,888,947,less than £350k,565
+1293,986,1293,307,Littleport,East of England,1026,1004,1113,959,£350k-£650k,600
+1294,700,1294,594,Godmanchester,East of England,829,1365,328,1145,£350k-£650k,601
+1295,1095,1295,200,Brentwood,East of England,1227,1152,1095,600,Over £650k,128
+1296,436,1296,860,Stalbridge,South West,1030,1232,247,1360,£350k-£650k,602
+1297,1009,1297,288,Barking and Dagenham,Greater London,795,1257,1204,737,£350k-£650k,603
+1298,1349,1298,-51,Beddau,Wales,1176,505,1260,1032,less than £350k,566
+1299,1242,1299,57,Widdrington Station,North East,824,319,1350,1255,less than £350k,567
+1300,863,1300,437,Burtonwood,North West,1318,226,1070,1304,less than £350k,568
+1301,1263,1301,38,Haxby,Yorkshire and Humberside,668,372,1333,1289,£350k-£650k,604
+1302,,1302,1302,Watlington (King's Lynn and West Norfolk),East of England,1084,1210,747,1091,£350k-£650k,605
+1303,1278,1303,25,Pencoed,Wales,273,1217,1203,1184,less than £350k,569
+1304,1104,1304,200,Highley,West Midlands,1037,675,945,1297,less than £350k,570
+1305,835,1305,470,Throckley,North East,1174,404,1182,1222,less than £350k,571
+1306,1139,1306,167,Kippax,Yorkshire and Humberside,1244,772,922,1152,less than £350k,572
+1307,1257,1307,50,Garforth,Yorkshire and Humberside,1228,1083,1200,624,£350k-£650k,606
+1308,1175,1308,133,Messingham,Yorkshire and Humberside,1214,666,1044,1164,less than £350k,573
+1309,1327,1309,-18,Chadwell St Mary,East of England,998,630,1212,1202,£350k-£650k,607
+1310,878,1310,432,Melbourn,East of England,1257,764,575,1331,£350k-£650k,608
+1311,1116,1311,195,Long Buckby,East Midlands,1266,1131,530,1216,£350k-£650k,609
+1312,1037,1312,275,Leyland,North West,1165,1120,1206,687,less than £350k,574
+1313,828,1313,485,Ampthill,East of England,842,1354,519,1201,£350k-£650k,610
+1314,1216,1314,98,Balsall Common,West Midlands,1280,1111,994,819,£350k-£650k,611
+1315,1276,1315,39,Welham Green,East of England,1170,388,1035,1340,Over £650k,129
+1316,1264,1316,52,Hambleton (Wyre),North West,435,1015,1292,1171,less than £350k,575
+1317,1237,1317,80,Bromham (Bedford),East of England,992,901,1025,1246,£350k-£650k,612
+1318,1240,1318,78,Water Orton,West Midlands,754,1261,1208,884,£350k-£650k,613
+1319,1265,1319,54,South Normanton,East Midlands,1149,1292,1116,593,less than £350k,576
+1320,1290,1320,30,Scotter,East Midlands,1220,818,706,1313,less than £350k,577
+1321,1209,1321,112,Llay,Wales,974,671,1308,1123,less than £350k,578
+1322,1164,1322,158,Marchwood,South East,147,1346,1149,1239,£350k-£650k,614
+1323,1212,1323,111,Cheadle Hulme,North West,589,975,1321,1152,£350k-£650k,615
+1324,1359,1324,-35,Thornton (Wyre),North West,995,711,1326,1095,less than £350k,579
+1325,1287,1325,38,Lower Stondon,East of England,832,1139,1197,1106,£350k-£650k,616
+1326,995,1326,331,Colburn,Yorkshire and Humberside,906,891,1323,1046,less than £350k,580
+1327,1179,1327,148,Ottershaw,South East,1094,1348,1073,667,Over £650k,130
+1328,971,1328,357,Hilton (South Derbyshire),East Midlands,639,1276,1297,919,less than £350k,581
+1329,973,1329,356,Rochford,East of England,1073,1267,767,1190,£350k-£650k,617
+1330,1085,1330,245,Measham,East Midlands,1256,1146,739,1181,less than £350k,582
+1331,1217,1331,114,Desborough,East Midlands,1362,1162,817,1031,less than £350k,583
+1332,1200,1332,132,Castle Donington,East Midlands,1291,1339,520,1071,£350k-£650k,618
+1333,1212,1333,121,Rhoose,Wales,529,1146,1213,1274,£350k-£650k,619
+1334,1269,1334,65,Culcheth,North West,1283,716,1160,1116,£350k-£650k,620
+1335,1372,1335,-37,Lightwater,South East,1099,753,1351,992,Over £650k,131
+1336,1256,1336,80,Brayton,Yorkshire and Humberside,1159,819,1346,901,£350k-£650k,621
+1337,1275,1337,62,Bulkington,West Midlands,1086,499,1273,1271,£350k-£650k,622
+1338,1311,1338,27,North Baddesley,South East,961,787,1363,1080,£350k-£650k,623
+1339,1152,1339,187,Haslington,North West,1219,1073,863,1237,less than £350k,584
+1340,1268,1340,72,Irchester,East Midlands,1306,765,697,1358,£350k-£650k,624
+1341,1316,1341,25,Seghill,North East,1194,194,1361,1315,less than £350k,585
+1342,1370,1342,-28,Northampton (South Northamptonshire),East Midlands,1302,1291,1337,242,£350k-£650k,625
+1343,1197,1343,146,Basildon,East of England,1167,1037,1366,715,£350k-£650k,626
+1344,1351,1344,-7,Elton,North West,1351,266,1179,1349,less than £350k,586
+1345,1369,1345,-24,Groby,East Midlands,1344,454,1154,1283,£350k-£650k,627
+1346,1229,1346,117,Pyle,Wales,884,1244,985,1256,less than £350k,587
+1347,1295,1347,52,Broughton (Flintshire),Wales,1071,1102,1087,1208,less than £350k,588
+1348,876,1348,472,Loggerheads,West Midlands,1255,1032,826,1275,less than £350k,589
+1349,1279,1349,70,Sawtry,East of England,1360,674,974,1291,£350k-£650k,628
+1350,1326,1350,24,Kennington,South East,566,1312,1247,1147,£350k-£650k,629
+1351,1335,1351,16,Great Glen,East Midlands,1366,1351,634,1016,£350k-£650k,630
+1352,1343,1352,9,Wideopen,North East,1050,572,1304,1315,less than £350k,590
+1353,1205,1353,148,Breaston,East Midlands,1111,1179,815,1334,£350k-£650k,631
+1354,1259,1354,95,Potters Bar,East of England,1199,1298,1244,786,Over £650k,132
+1355,1325,1355,30,Llanharry,Wales,1076,1331,1215,897,less than £350k,591
+1356,1283,1356,73,Witchford,East of England,1346,1362,931,717,£350k-£650k,632
+1357,1356,1357,1,Church Village,Wales,1184,696,1344,1206,less than £350k,592
+1358,1289,1358,69,Bayston Hill,West Midlands,935,961,1302,1264,£350k-£650k,633
+1359,1353,1359,6,Papworth Everard,East of England,1295,961,1211,1157,£350k-£650k,634
+1360,1301,1360,59,Broughton Astley,East Midlands,1342,1224,1261,762,£350k-£650k,635
+1361,1354,1361,7,Armthorpe,Yorkshire and Humberside,1296,432,1369,1248,less than £350k,593
+1362,1251,1362,111,Thorpe Willoughby,Yorkshire and Humberside,1300,579,1253,1294,£350k-£650k,636
+1363,1360,1363,3,Binley Woods,West Midlands,1264,567,1285,1299,£350k-£650k,637
+1364,1241,1364,123,Freckleton,North West,1172,1297,1275,951,less than £350k,594
+1365,1250,1365,115,Ruddington,East Midlands,1309,820,1077,1346,£350k-£650k,638
+1366,1345,1366,21,Fleckney,East Midlands,1357,1135,948,1290,£350k-£650k,639
+1367,1331,1367,36,Undy,Wales,987,1371,883,1187,£350k-£650k,640
+1368,1293,1368,75,Girton,East of England,1327,1369,1045,783,Over £650k,133
+1369,1244,1369,125,Cosby,East Midlands,1353,1152,923,1370,£350k-£650k,641
+1370,1367,1370,3,Bar Hill,East of England,1319,703,1357,1287,£350k-£650k,642
+1371,1291,1371,80,East Leake,East Midlands,1320,1366,1003,1104,£350k-£650k,643
+1372,1366,1372,6,Cuffley,East of England,1229,1345,1354,1254,Over £650k,134

@@ -14,7 +14,7 @@ class DataBox extends React.Component{
                 PBC = "106";
             }else if(val[0].PB === "£350k-£650k"){
                 PBC = "605"
-            } else if(val[0].PB === "Up to £350k"){
+            } else if(val[0].PB === "less than £350k"){
                 PBC = "661"
             } else{
                 PBC = null;
@@ -26,10 +26,14 @@ class DataBox extends React.Component{
                         <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
                     <p>Overall rank: <span className="result">{val[0].OR} /<span className="mini"> 1372</span></span> </p>
+                    <p>Change since last year: <span className="result">{val[0].CHANGE * -1}</span> </p>
+                    <hr/>
                     <p>Natural beauty rank: <span className="result">{val[0].PE} /<span className="mini"> 1372</span></span></p>
                     <p>Quality of life rank: <span className="result">{val[0].QL} /<span className="mini"> 1372</span></span></p>
                     <p>Architectural beauty rank: <span className="result">{val[0].AC} /<span className="mini"> 1372</span></span></p>
+                    <p>Going green rank: <span className="result">{val[0].GGR} /<span className="mini"> 1372</span></span></p>
                     {/*<p>Overall Ranking: </p>*/}
+                    <hr/>
                     <p>Average family home cost: <span className="result">{val[0].PB}</span></p>
                     <p>Rank in price band: <span className="result">{val[0].PBR} / <span className="mini"> {PBC}</span></span></p>
                 </div>
