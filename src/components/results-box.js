@@ -7,14 +7,14 @@ import React from 'react'
 
         if(this.props.query.length === 0){
             return(
-                <div>
+                <div className='results-text'>
                     <p>Where are you looking for?</p>
                     <p>To get started, type the first three letters</p>
                 </div>
             )
         } else if (this.props.data.length === 0 && this.props.query.length > 2) {
             return (
-                <div>
+                <div className='results-text'>
                     <p>Hmm, we can’t seem to find that one. Try somewhere nearby.</p>
                 </div>
             )

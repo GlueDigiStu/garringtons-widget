@@ -121,12 +121,12 @@ class App extends React.Component {
                     <button
                         className={currentTab === 'search' ? 'active' : null}
                         onClick={() => this.changeActiveTab('search')}>
-                        Search For a Place
+                        Search for a place
                     </button>
                     <button
                         className={currentTab === 'browse' ? 'active' : null}
                         onClick={() => this.changeActiveTab('browse')}>
-                        Browse By Region
+                        Browse by region
                     </button>
                 </div>
 
