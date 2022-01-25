@@ -9021,7 +9021,7 @@ const data = [
         "LYOR": 484,
         "OR": 643,
         "CHANGE": 159,
-        "SN": "Walton-on",
+        "SN": "Walton-on-Thames",
         "REG": "South East",
         "PE": 425,
         "QL": 988,
