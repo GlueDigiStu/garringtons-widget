@@ -31,7 +31,7 @@ class DataBox extends React.Component{
                     <p>Natural beauty rank: <span className="result">{val[0].PE} /<span className="mini"> 1372</span></span></p>
                     <p>Quality of life rank: <span className="result">{val[0].QL} /<span className="mini"> 1372</span></span></p>
                     <p>Architectural beauty rank: <span className="result">{val[0].AC} /<span className="mini"> 1372</span></span></p>
-                    <p>Going green rank: <span className="result">{val[0].GGR} /<span className="mini"> 1372</span></span></p>
+                    <p>Green rank: <span className="result">{val[0].GGR} /<span className="mini"> 1372</span></span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <hr/>
                     <p>Average family home cost: <span className="result">{val[0].PB}</span></p>
