@@ -25,13 +25,12 @@ class DataBox extends React.Component{
                     <button className="pin-me" onClick={this.handleClick}>Pin Me</button> :
                         <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
-                    <p className='large'>Overall rank: <span className="result large">{val[0].OR} /<span className="mini"> 1429</span></span> </p>
+                    <p className='large'>Overall rank: <span className="result large">{val[0].OR} /<span className="mini"> 161</span></span> </p>
                     {/*<p>Change since last year: <span className="result">{val[0].CHANGE * -1}</span> </p>*/}
                     <hr/>
                     <p>Natural Environment: <span className="result">{val[0].NE}</span></p>
                     <p>Wellbeing: <span className="result">{val[0].WB}</span></p>
-                    <p>Heritage / Culture: <span className="result">{val[0].HC}</span></p>
-                    <p>Schools, employment and connectivity: <span className="result">{val[0].SCH}</span></p>
+                    <p>Employment and connectivity: <span className="result">{val[0].EC}</span></p>
                     <p>House Price Quality and Value: <span className="result">{val[0].HP}</span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <hr/>

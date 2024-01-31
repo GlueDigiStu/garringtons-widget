@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBox from "./components/search-box";
-import data from "./data/data-2024-en";
+import data from "./data/data-2024-scot";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
 import SelectRegion from "./components/select-region";
@@ -117,18 +117,18 @@ class App extends React.Component {
         return (
             <div className="App">
 
-                <div className="tab-buttons">
-                    <button
-                        className={currentTab === 'search' ? 'active' : null}
-                        onClick={() => this.changeActiveTab('search')}>
-                        Search for a place
-                    </button>
-                    <button
-                        className={currentTab === 'browse' ? 'active' : null}
-                        onClick={() => this.changeActiveTab('browse')}>
-                        Browse by region
-                    </button>
-                </div>
+                {/*<div className="tab-buttons">*/}
+                {/*    <button*/}
+                {/*        className={currentTab === 'search' ? 'active' : null}*/}
+                {/*        onClick={() => this.changeActiveTab('search')}>*/}
+                {/*        Search for a place*/}
+                {/*    </button>*/}
+                {/*    <button*/}
+                {/*        className={currentTab === 'browse' ? 'active' : null}*/}
+                {/*        onClick={() => this.changeActiveTab('browse')}>*/}
+                {/*        Browse by region*/}
+                {/*    </button>*/}
+                {/*</div>*/}
 
                 {activeTab()}
 
