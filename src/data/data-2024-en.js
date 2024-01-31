@@ -14,6 +14,7 @@
 
 const data = [
     {
+        "UID": 1,
         "SN": "Twyford (Wokingham)",
         "REG": "South East",
         "OR": 1,
@@ -23,11 +24,10 @@ const data = [
         "SCH": 30,
         "HP": 26,
         "AP": "£767,521",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 2,
         "SN": "St Albans",
         "REG": "East of England",
         "OR": 2,
@@ -37,11 +37,10 @@ const data = [
         "SCH": 142,
         "HP": 33,
         "AP": "£972,494",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 3,
         "SN": "Epsom",
         "REG": "South East",
         "OR": 3,
@@ -51,11 +50,10 @@ const data = [
         "SCH": 99,
         "HP": 93,
         "AP": "£810,809",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 4,
         "SN": "New Mills",
         "REG": "East Midlands",
         "OR": 4,
@@ -65,11 +63,10 @@ const data = [
         "SCH": 277,
         "HP": 215,
         "AP": "£409,662",
-        "SPC": "-1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.4%"
     },
     {
+        "UID": 5,
         "SN": "Bowdon",
         "REG": "North West",
         "OR": 5,
@@ -79,11 +76,10 @@ const data = [
         "SCH": 253,
         "HP": 2,
         "AP": "£709,036",
-        "SPC": "-5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.9%"
     },
     {
+        "UID": 6,
         "SN": "Godalming",
         "REG": "South East",
         "OR": 6,
@@ -93,11 +89,10 @@ const data = [
         "SCH": 529,
         "HP": 203,
         "AP": "£824,636",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 7,
         "SN": "Tring",
         "REG": "East of England",
         "OR": 7,
@@ -107,11 +102,10 @@ const data = [
         "SCH": 331,
         "HP": 114,
         "AP": "£790,325",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 8,
         "SN": "Cheltenham",
         "REG": "South West",
         "OR": 8,
@@ -121,11 +115,10 @@ const data = [
         "SCH": 271,
         "HP": 248,
         "AP": "£570,503",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 9,
         "SN": "Farncombe",
         "REG": "South East",
         "OR": 9,
@@ -135,11 +128,10 @@ const data = [
         "SCH": 710,
         "HP": 36,
         "AP": "£764,678",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 10,
         "SN": "Henley-on-Thames",
         "REG": "South East",
         "OR": 10,
@@ -149,11 +141,10 @@ const data = [
         "SCH": 22,
         "HP": 198,
         "AP": "£950,580",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 11,
         "SN": "Guildford",
         "REG": "South East",
         "OR": 11,
@@ -163,11 +154,10 @@ const data = [
         "SCH": 205,
         "HP": 251,
         "AP": "£814,899",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 12,
         "SN": "Woking",
         "REG": "South East",
         "OR": 12,
@@ -177,11 +167,10 @@ const data = [
         "SCH": 345,
         "HP": 78,
         "AP": "£748,455",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 13,
         "SN": "Watford (Watford)",
         "REG": "East of England",
         "OR": 13,
@@ -191,11 +180,10 @@ const data = [
         "SCH": 122,
         "HP": 65,
         "AP": "£745,971",
-        "SPC": "-1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.4%"
     },
     {
+        "UID": 14,
         "SN": "Bath",
         "REG": "South West",
         "OR": 14,
@@ -205,11 +193,10 @@ const data = [
         "SCH": 825,
         "HP": 30,
         "AP": "£744,845",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 15,
         "SN": "Marple",
         "REG": "North West",
         "OR": 15,
@@ -219,11 +206,10 @@ const data = [
         "SCH": 57,
         "HP": 170,
         "AP": "£513,087",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 16,
         "SN": "Harpenden",
         "REG": "East of England",
         "OR": 15,
@@ -233,11 +219,10 @@ const data = [
         "SCH": 252,
         "HP": 3,
         "AP": "£990,969",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 17,
         "SN": "Ewell",
         "REG": "South East",
         "OR": 17,
@@ -247,11 +232,10 @@ const data = [
         "SCH": 81,
         "HP": 38,
         "AP": "£853,254",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 18,
         "SN": "Weybourne (Waverley)",
         "REG": "South East",
         "OR": 18,
@@ -261,11 +245,10 @@ const data = [
         "SCH": 287,
         "HP": 37,
         "AP": "£686,592",
-        "SPC": "-5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.4%"
     },
     {
+        "UID": 19,
         "SN": "Wallingford",
         "REG": "South East",
         "OR": 19,
@@ -275,11 +258,10 @@ const data = [
         "SCH": 292,
         "HP": 484,
         "AP": "£812,881",
-        "SPC": "28.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "28.1%"
     },
     {
+        "UID": 20,
         "SN": "Chinnor",
         "REG": "South East",
         "OR": 20,
@@ -289,11 +271,10 @@ const data = [
         "SCH": 183,
         "HP": 86,
         "AP": "£691,306",
-        "SPC": "-2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.7%"
     },
     {
+        "UID": 21,
         "SN": "Berkhamsted",
         "REG": "East of England",
         "OR": 21,
@@ -303,11 +284,10 @@ const data = [
         "SCH": 447,
         "HP": 277,
         "AP": "£937,050",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 22,
         "SN": "Reddish",
         "REG": "North West",
         "OR": 22,
@@ -317,11 +297,10 @@ const data = [
         "SCH": 105,
         "HP": 289,
         "AP": "£398,539",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 23,
         "SN": "Clitheroe",
         "REG": "North West",
         "OR": 22,
@@ -331,11 +310,10 @@ const data = [
         "SCH": 214,
         "HP": 89,
         "AP": "£342,652",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 24,
         "SN": "Hemel Hempstead",
         "REG": "East of England",
         "OR": 24,
@@ -345,11 +323,10 @@ const data = [
         "SCH": 228,
         "HP": 126,
         "AP": "£672,666",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 25,
         "SN": "Prestwich",
         "REG": "North West",
         "OR": 25,
@@ -359,11 +336,10 @@ const data = [
         "SCH": 15,
         "HP": 347,
         "AP": "£433,887",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 26,
         "SN": "Winchester",
         "REG": "South East",
         "OR": 26,
@@ -373,11 +349,10 @@ const data = [
         "SCH": 489,
         "HP": 115,
         "AP": "£770,987",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 27,
         "SN": "Rickmansworth",
         "REG": "East of England",
         "OR": 27,
@@ -387,11 +362,10 @@ const data = [
         "SCH": 52,
         "HP": 32,
         "AP": "£871,218",
-        "SPC": "-1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.8%"
     },
     {
+        "UID": 28,
         "SN": "Chesham",
         "REG": "South East",
         "OR": 28,
@@ -401,11 +375,10 @@ const data = [
         "SCH": 511,
         "HP": 311,
         "AP": "£739,966",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 29,
         "SN": "Great Malvern",
         "REG": "West Midlands",
         "OR": 29,
@@ -415,11 +388,10 @@ const data = [
         "SCH": 1065,
         "HP": 131,
         "AP": "£464,925",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 30,
         "SN": "Dronfield",
         "REG": "East Midlands",
         "OR": 29,
@@ -429,11 +401,10 @@ const data = [
         "SCH": 772,
         "HP": 345,
         "AP": "£478,106",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 31,
         "SN": "Caversham",
         "REG": "South East",
         "OR": 31,
@@ -443,11 +414,10 @@ const data = [
         "SCH": 136,
         "HP": 354,
         "AP": "£701,805",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 32,
         "SN": "Tadworth and Epsom Downs",
         "REG": "South East",
         "OR": 32,
@@ -457,11 +427,10 @@ const data = [
         "SCH": 268,
         "HP": 27,
         "AP": "£808,819",
-        "SPC": "-3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.4%"
     },
     {
+        "UID": 33,
         "SN": "Hitchin",
         "REG": "East of England",
         "OR": 33,
@@ -471,11 +440,10 @@ const data = [
         "SCH": 679,
         "HP": 81,
         "AP": "£753,230",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 34,
         "SN": "Alnwick",
         "REG": "North East",
         "OR": 34,
@@ -485,11 +453,10 @@ const data = [
         "SCH": 402,
         "HP": 53,
         "AP": "£330,655",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 35,
         "SN": "Abbots Langley and Kings Langley",
         "REG": "East of England",
         "OR": 35,
@@ -499,11 +466,10 @@ const data = [
         "SCH": 448,
         "HP": 16,
         "AP": "£731,844",
-        "SPC": "-8.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.2%"
     },
     {
+        "UID": 36,
         "SN": "Kenilworth",
         "REG": "West Midlands",
         "OR": 36,
@@ -513,11 +479,10 @@ const data = [
         "SCH": 225,
         "HP": 175,
         "AP": "£605,800",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 37,
         "SN": "Saltash",
         "REG": "South West",
         "OR": 37,
@@ -527,11 +492,10 @@ const data = [
         "SCH": 322,
         "HP": 888,
         "AP": "£396,560",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 38,
         "SN": "Marlow",
         "REG": "South East",
         "OR": 38,
@@ -541,11 +505,10 @@ const data = [
         "SCH": 550,
         "HP": 50,
         "AP": "£904,221",
-        "SPC": "-2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.8%"
     },
     {
+        "UID": 39,
         "SN": "Bromley",
         "REG": "Greater London",
         "OR": 39,
@@ -555,11 +518,10 @@ const data = [
         "SCH": 98,
         "HP": 540,
         "AP": "£817,006",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 40,
         "SN": "Frampton Cotterell and Winterbourne",
         "REG": "South West",
         "OR": 40,
@@ -569,11 +531,10 @@ const data = [
         "SCH": 126,
         "HP": 206,
         "AP": "£582,596",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 41,
         "SN": "Redbourn",
         "REG": "East of England",
         "OR": 41,
@@ -583,11 +544,10 @@ const data = [
         "SCH": 736,
         "HP": 84,
         "AP": "£836,116",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 42,
         "SN": "Macclesfield",
         "REG": "North West",
         "OR": 42,
@@ -597,11 +557,10 @@ const data = [
         "SCH": 164,
         "HP": 188,
         "AP": "£422,199",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 43,
         "SN": "Royal Tunbridge Wells",
         "REG": "South East",
         "OR": 43,
@@ -611,11 +570,10 @@ const data = [
         "SCH": 701,
         "HP": 361,
         "AP": "£710,806",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 44,
         "SN": "Burley in Wharfedale",
         "REG": "Yorkshire and The Humber",
         "OR": 44,
@@ -625,11 +583,10 @@ const data = [
         "SCH": 683,
         "HP": 621,
         "AP": "£567,066",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 45,
         "SN": "Abingdon-on-Thames",
         "REG": "South East",
         "OR": 45,
@@ -639,11 +596,10 @@ const data = [
         "SCH": 243,
         "HP": 432,
         "AP": "£605,119",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 46,
         "SN": "Wilmslow",
         "REG": "North West",
         "OR": 46,
@@ -653,11 +609,10 @@ const data = [
         "SCH": 333,
         "HP": 188,
         "AP": "£620,634",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 47,
         "SN": "Dorchester (Dorset)",
         "REG": "South West",
         "OR": 47,
@@ -667,11 +622,10 @@ const data = [
         "SCH": 798,
         "HP": 301,
         "AP": "£501,625",
-        "SPC": "-4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.8%"
     },
     {
+        "UID": 48,
         "SN": "Altrincham",
         "REG": "North West",
         "OR": 48,
@@ -681,11 +635,10 @@ const data = [
         "SCH": 153,
         "HP": 79,
         "AP": "£622,850",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 49,
         "SN": "Rawdon",
         "REG": "Yorkshire and The Humber",
         "OR": 49,
@@ -695,11 +648,10 @@ const data = [
         "SCH": 601,
         "HP": 112,
         "AP": "£497,967",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 50,
         "SN": "Poynton",
         "REG": "North West",
         "OR": 50,
@@ -709,11 +661,10 @@ const data = [
         "SCH": 123,
         "HP": 384,
         "AP": "£666,870",
-        "SPC": "9.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.7%"
     },
     {
+        "UID": 51,
         "SN": "Long Ashton",
         "REG": "South West",
         "OR": 51,
@@ -723,11 +674,10 @@ const data = [
         "SCH": 387,
         "HP": 44,
         "AP": "£663,730",
-        "SPC": "-4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.7%"
     },
     {
+        "UID": 52,
         "SN": "Sonning Common",
         "REG": "South East",
         "OR": 52,
@@ -737,11 +687,10 @@ const data = [
         "SCH": 477,
         "HP": 54,
         "AP": "£749,329",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 53,
         "SN": "Morley (Leeds)",
         "REG": "Yorkshire and The Humber",
         "OR": 53,
@@ -751,11 +700,10 @@ const data = [
         "SCH": 247,
         "HP": 231,
         "AP": "£370,587",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 54,
         "SN": "Killingworth",
         "REG": "North East",
         "OR": 54,
@@ -765,11 +713,10 @@ const data = [
         "SCH": 658,
         "HP": 87,
         "AP": "£281,574",
-        "SPC": "-5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.5%"
     },
     {
+        "UID": 55,
         "SN": "Islington",
         "REG": "Greater London",
         "OR": 55,
@@ -779,11 +726,10 @@ const data = [
         "SCH": 40,
         "HP": 46,
         "AP": "£1,349,504",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 56,
         "SN": "Steyning",
         "REG": "South East",
         "OR": 56,
@@ -793,11 +739,10 @@ const data = [
         "SCH": 1311,
         "HP": 337,
         "AP": "£688,471",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 57,
         "SN": "Stockport",
         "REG": "North West",
         "OR": 57,
@@ -807,11 +752,10 @@ const data = [
         "SCH": 38,
         "HP": 274,
         "AP": "£460,425",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 58,
         "SN": "Thame",
         "REG": "South East",
         "OR": 58,
@@ -821,11 +765,10 @@ const data = [
         "SCH": 317,
         "HP": 498,
         "AP": "£776,055",
-        "SPC": "10.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.3%"
     },
     {
+        "UID": 59,
         "SN": "Otley (Leeds)",
         "REG": "Yorkshire and The Humber",
         "OR": 59,
@@ -835,11 +778,10 @@ const data = [
         "SCH": 496,
         "HP": 213,
         "AP": "£467,919",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 60,
         "SN": "Salisbury",
         "REG": "South West",
         "OR": 60,
@@ -849,11 +791,10 @@ const data = [
         "SCH": 17,
         "HP": 454,
         "AP": "£521,962",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 61,
         "SN": "Keynsham",
         "REG": "South West",
         "OR": 61,
@@ -863,11 +804,10 @@ const data = [
         "SCH": 65,
         "HP": 167,
         "AP": "£557,172",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 62,
         "SN": "Old Trafford",
         "REG": "North West",
         "OR": 62,
@@ -877,11 +817,10 @@ const data = [
         "SCH": 105,
         "HP": 15,
         "AP": "£454,802",
-        "SPC": "-2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.3%"
     },
     {
+        "UID": 63,
         "SN": "Saltburn-by-the-Sea",
         "REG": "North East",
         "OR": 63,
@@ -891,11 +830,10 @@ const data = [
         "SCH": 872,
         "HP": 520,
         "AP": "£344,782",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 64,
         "SN": "Longridge (Ribble Valley)",
         "REG": "North West",
         "OR": 64,
@@ -905,11 +843,10 @@ const data = [
         "SCH": 596,
         "HP": 99,
         "AP": "£325,803",
-        "SPC": "-5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.1%"
     },
     {
+        "UID": 65,
         "SN": "Ruddington",
         "REG": "East Midlands",
         "OR": 65,
@@ -919,11 +856,10 @@ const data = [
         "SCH": 390,
         "HP": 27,
         "AP": "£475,849",
-        "SPC": "-2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.0%"
     },
     {
+        "UID": 66,
         "SN": "Chorleywood",
         "REG": "East of England",
         "OR": 66,
@@ -933,11 +869,10 @@ const data = [
         "SCH": 93,
         "HP": 56,
         "AP": "£959,978",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 67,
         "SN": "Malmesbury",
         "REG": "South West",
         "OR": 67,
@@ -947,11 +882,10 @@ const data = [
         "SCH": 592,
         "HP": 177,
         "AP": "£530,893",
-        "SPC": "-15.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-15.9%"
     },
     {
+        "UID": 68,
         "SN": "Brixham",
         "REG": "South West",
         "OR": 68,
@@ -961,11 +895,10 @@ const data = [
         "SCH": 329,
         "HP": 728,
         "AP": "£513,252",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 69,
         "SN": "Brighton and Hove",
         "REG": "South East",
         "OR": 69,
@@ -975,11 +908,10 @@ const data = [
         "SCH": 162,
         "HP": 651,
         "AP": "£808,948",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 70,
         "SN": "Shaftesbury",
         "REG": "South West",
         "OR": 70,
@@ -989,11 +921,10 @@ const data = [
         "SCH": 757,
         "HP": 487,
         "AP": "£480,211",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 71,
         "SN": "Yeadon",
         "REG": "Yorkshire and The Humber",
         "OR": 71,
@@ -1003,11 +934,10 @@ const data = [
         "SCH": 274,
         "HP": 241,
         "AP": "£428,882",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 72,
         "SN": "Warlingham",
         "REG": "South East",
         "OR": 72,
@@ -1017,11 +947,10 @@ const data = [
         "SCH": 263,
         "HP": 225,
         "AP": "£731,410",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 73,
         "SN": "Romiley",
         "REG": "North West",
         "OR": 73,
@@ -1031,11 +960,10 @@ const data = [
         "SCH": 41,
         "HP": 350,
         "AP": "£485,680",
-        "SPC": "7.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.9%"
     },
     {
+        "UID": 74,
         "SN": "Woodley",
         "REG": "South East",
         "OR": 74,
@@ -1045,11 +973,10 @@ const data = [
         "SCH": 165,
         "HP": 135,
         "AP": "£671,703",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 75,
         "SN": "Wokingham",
         "REG": "South East",
         "OR": 75,
@@ -1059,11 +986,10 @@ const data = [
         "SCH": 495,
         "HP": 327,
         "AP": "£726,746",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 76,
         "SN": "Knowle and Dorridge",
         "REG": "West Midlands",
         "OR": 76,
@@ -1073,11 +999,10 @@ const data = [
         "SCH": 549,
         "HP": 5,
         "AP": "£687,716",
-        "SPC": "-3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.3%"
     },
     {
+        "UID": 77,
         "SN": "West Molesey",
         "REG": "South East",
         "OR": 77,
@@ -1087,11 +1012,10 @@ const data = [
         "SCH": 529,
         "HP": 24,
         "AP": "£972,293",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 78,
         "SN": "Whitley Bay",
         "REG": "North East",
         "OR": 78,
@@ -1101,11 +1025,10 @@ const data = [
         "SCH": 551,
         "HP": 220,
         "AP": "£430,256",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 79,
         "SN": "Barry (Vale of Glamorgan)",
         "REG": "Wales",
         "OR": 79,
@@ -1115,11 +1038,10 @@ const data = [
         "SCH": 76,
         "HP": 244,
         "AP": "£377,641",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 80,
         "SN": "Bramhall",
         "REG": "North West",
         "OR": 80,
@@ -1129,11 +1051,10 @@ const data = [
         "SCH": 203,
         "HP": 128,
         "AP": "£602,513",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 81,
         "SN": "Whitburn (South Tyneside)",
         "REG": "North East",
         "OR": 80,
@@ -1143,11 +1064,10 @@ const data = [
         "SCH": 1077,
         "HP": 568,
         "AP": "£333,897",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 82,
         "SN": "Chapel-en-le-Frith",
         "REG": "East Midlands",
         "OR": 82,
@@ -1157,11 +1077,10 @@ const data = [
         "SCH": 973,
         "HP": 345,
         "AP": "£433,540",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 83,
         "SN": "Lymm",
         "REG": "North West",
         "OR": 83,
@@ -1171,11 +1090,10 @@ const data = [
         "SCH": 177,
         "HP": 350,
         "AP": "£548,260",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 84,
         "SN": "Stretford",
         "REG": "North West",
         "OR": 84,
@@ -1185,11 +1103,10 @@ const data = [
         "SCH": 21,
         "HP": 80,
         "AP": "£433,413",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 85,
         "SN": "Paulton",
         "REG": "South West",
         "OR": 85,
@@ -1199,11 +1116,10 @@ const data = [
         "SCH": 648,
         "HP": 124,
         "AP": "£480,041",
-        "SPC": "-10.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-10.1%"
     },
     {
+        "UID": 86,
         "SN": "Camden",
         "REG": "Greater London",
         "OR": 86,
@@ -1213,11 +1129,10 @@ const data = [
         "SCH": 18,
         "HP": 67,
         "AP": "£1,712,511",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 87,
         "SN": "Kingswood and Fishponds",
         "REG": "South West",
         "OR": 87,
@@ -1227,11 +1142,10 @@ const data = [
         "SCH": 215,
         "HP": 452,
         "AP": "£539,147",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 88,
         "SN": "Bovingdon",
         "REG": "East of England",
         "OR": 88,
@@ -1241,11 +1155,10 @@ const data = [
         "SCH": 349,
         "HP": 434,
         "AP": "£824,156",
-        "SPC": "12.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "12.9%"
     },
     {
+        "UID": 89,
         "SN": "Whitby",
         "REG": "Yorkshire and The Humber",
         "OR": 89,
@@ -1255,11 +1168,10 @@ const data = [
         "SCH": 1299,
         "HP": 442,
         "AP": "£438,004",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 90,
         "SN": "St Ives (Cornwall)",
         "REG": "South West",
         "OR": 90,
@@ -1269,11 +1181,10 @@ const data = [
         "SCH": 1014,
         "HP": 299,
         "AP": "£833,754",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 91,
         "SN": "Urmston",
         "REG": "North West",
         "OR": 91,
@@ -1283,11 +1194,10 @@ const data = [
         "SCH": 111,
         "HP": 21,
         "AP": "£507,083",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 92,
         "SN": "Netley",
         "REG": "South East",
         "OR": 92,
@@ -1297,11 +1207,10 @@ const data = [
         "SCH": 881,
         "HP": 495,
         "AP": "£553,061",
-        "SPC": "-4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.8%"
     },
     {
+        "UID": 93,
         "SN": "Ilkley",
         "REG": "Yorkshire and The Humber",
         "OR": 93,
@@ -1311,11 +1220,10 @@ const data = [
         "SCH": 283,
         "HP": 366,
         "AP": "£557,439",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 94,
         "SN": "Southborough",
         "REG": "South East",
         "OR": 94,
@@ -1325,11 +1233,10 @@ const data = [
         "SCH": 1094,
         "HP": 404,
         "AP": "£686,642",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 95,
         "SN": "Farnham",
         "REG": "South East",
         "OR": 95,
@@ -1339,11 +1246,10 @@ const data = [
         "SCH": 585,
         "HP": 307,
         "AP": "£862,996",
-        "SPC": "7.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.7%"
     },
     {
+        "UID": 96,
         "SN": "Rainford",
         "REG": "North West",
         "OR": 96,
@@ -1353,11 +1259,10 @@ const data = [
         "SCH": 151,
         "HP": 272,
         "AP": "£389,375",
-        "SPC": "-3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.6%"
     },
     {
+        "UID": 97,
         "SN": "Harrogate",
         "REG": "Yorkshire and The Humber",
         "OR": 96,
@@ -1367,11 +1272,10 @@ const data = [
         "SCH": 897,
         "HP": 224,
         "AP": "£499,708",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 98,
         "SN": "Bebington",
         "REG": "North West",
         "OR": 98,
@@ -1381,11 +1285,10 @@ const data = [
         "SCH": 413,
         "HP": 507,
         "AP": "£350,994",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 99,
         "SN": "Prestwood and Great Missenden",
         "REG": "South East",
         "OR": 99,
@@ -1395,11 +1298,10 @@ const data = [
         "SCH": 1156,
         "HP": 436,
         "AP": "£827,406",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 100,
         "SN": "Lytham St Anne's",
         "REG": "North West",
         "OR": 100,
@@ -1409,11 +1311,10 @@ const data = [
         "SCH": 260,
         "HP": 483,
         "AP": "£380,105",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 101,
         "SN": "Haslemere",
         "REG": "South East",
         "OR": 101,
@@ -1423,11 +1324,10 @@ const data = [
         "SCH": 998,
         "HP": 12,
         "AP": "£725,805",
-        "SPC": "-6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.7%"
     },
     {
+        "UID": 102,
         "SN": "Falmouth",
         "REG": "South West",
         "OR": 102,
@@ -1437,11 +1337,10 @@ const data = [
         "SCH": 220,
         "HP": 382,
         "AP": "£585,441",
-        "SPC": "-2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.3%"
     },
     {
+        "UID": 103,
         "SN": "Bristol",
         "REG": "South West",
         "OR": 103,
@@ -1451,11 +1350,10 @@ const data = [
         "SCH": 74,
         "HP": 285,
         "AP": "£626,319",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 104,
         "SN": "Whitnash",
         "REG": "West Midlands",
         "OR": 103,
@@ -1465,11 +1363,10 @@ const data = [
         "SCH": 80,
         "HP": 140,
         "AP": "£546,435",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 105,
         "SN": "Crosby (Sefton)",
         "REG": "North West",
         "OR": 105,
@@ -1479,11 +1376,10 @@ const data = [
         "SCH": 118,
         "HP": 710,
         "AP": "£340,375",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 106,
         "SN": "Hadfield",
         "REG": "East Midlands",
         "OR": 106,
@@ -1493,11 +1389,10 @@ const data = [
         "SCH": 309,
         "HP": 922,
         "AP": "£394,747",
-        "SPC": "9.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.7%"
     },
     {
+        "UID": 107,
         "SN": "Penzance",
         "REG": "South West",
         "OR": 107,
@@ -1507,11 +1402,10 @@ const data = [
         "SCH": 748,
         "HP": 649,
         "AP": "£483,298",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 108,
         "SN": "New Alresford",
         "REG": "South East",
         "OR": 108,
@@ -1521,11 +1415,10 @@ const data = [
         "SCH": 913,
         "HP": 148,
         "AP": "£724,952",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 109,
         "SN": "Chigwell",
         "REG": "East of England",
         "OR": 109,
@@ -1535,11 +1428,10 @@ const data = [
         "SCH": 293,
         "HP": 1,
         "AP": "£859,195",
-        "SPC": "-6.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.1%"
     },
     {
+        "UID": 110,
         "SN": "Bradford-on-Avon",
         "REG": "South West",
         "OR": 110,
@@ -1549,11 +1441,10 @@ const data = [
         "SCH": 1237,
         "HP": 646,
         "AP": "£648,816",
-        "SPC": "7.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.2%"
     },
     {
+        "UID": 111,
         "SN": "Haddenham (Buckinghamshire)",
         "REG": "South East",
         "OR": 111,
@@ -1563,11 +1454,10 @@ const data = [
         "SCH": 881,
         "HP": 392,
         "AP": "£679,252",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 112,
         "SN": "Borrowash",
         "REG": "East Midlands",
         "OR": 112,
@@ -1577,11 +1467,10 @@ const data = [
         "SCH": 278,
         "HP": 633,
         "AP": "£448,240",
-        "SPC": "6.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.1%"
     },
     {
+        "UID": 113,
         "SN": "Pembury",
         "REG": "South East",
         "OR": 113,
@@ -1591,11 +1480,10 @@ const data = [
         "SCH": 853,
         "HP": 472,
         "AP": "£655,414",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 114,
         "SN": "Hazel Grove",
         "REG": "North West",
         "OR": 114,
@@ -1605,11 +1493,10 @@ const data = [
         "SCH": 35,
         "HP": 14,
         "AP": "£469,607",
-        "SPC": "-2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.4%"
     },
     {
+        "UID": 115,
         "SN": "Gatley",
         "REG": "North West",
         "OR": 115,
@@ -1619,11 +1506,10 @@ const data = [
         "SCH": 97,
         "HP": 156,
         "AP": "£513,730",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 116,
         "SN": "Broseley",
         "REG": "West Midlands",
         "OR": 116,
@@ -1633,11 +1519,10 @@ const data = [
         "SCH": 678,
         "HP": 865,
         "AP": "£416,044",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 117,
         "SN": "East Horsley",
         "REG": "South East",
         "OR": 117,
@@ -1647,11 +1532,10 @@ const data = [
         "SCH": 370,
         "HP": 25,
         "AP": "£1,025,567",
-        "SPC": "-2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.8%"
     },
     {
+        "UID": 118,
         "SN": "Truro",
         "REG": "South West",
         "OR": 118,
@@ -1661,11 +1545,10 @@ const data = [
         "SCH": 733,
         "HP": 629,
         "AP": "£485,743",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 119,
         "SN": "Arlesey",
         "REG": "East of England",
         "OR": 119,
@@ -1675,11 +1558,10 @@ const data = [
         "SCH": 558,
         "HP": 135,
         "AP": "£563,639",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 120,
         "SN": "Sale",
         "REG": "North West",
         "OR": 119,
@@ -1689,11 +1571,10 @@ const data = [
         "SCH": 39,
         "HP": 94,
         "AP": "£569,039",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 121,
         "SN": "Eynsham",
         "REG": "South East",
         "OR": 121,
@@ -1703,11 +1584,10 @@ const data = [
         "SCH": 151,
         "HP": 545,
         "AP": "£616,843",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 122,
         "SN": "Glossop",
         "REG": "East Midlands",
         "OR": 121,
@@ -1717,11 +1597,10 @@ const data = [
         "SCH": 394,
         "HP": 764,
         "AP": "£429,971",
-        "SPC": "8.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.0%"
     },
     {
+        "UID": 123,
         "SN": "Pudsey",
         "REG": "Yorkshire and The Humber",
         "OR": 123,
@@ -1731,11 +1610,10 @@ const data = [
         "SCH": 547,
         "HP": 511,
         "AP": "£405,998",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 124,
         "SN": "Cheadle Hulme",
         "REG": "North West",
         "OR": 124,
@@ -1745,11 +1623,10 @@ const data = [
         "SCH": 270,
         "HP": 31,
         "AP": "£596,643",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 125,
         "SN": "Knaresborough",
         "REG": "Yorkshire and The Humber",
         "OR": 125,
@@ -1759,11 +1636,10 @@ const data = [
         "SCH": 716,
         "HP": 368,
         "AP": "£506,853",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 126,
         "SN": "Bolton-le-Sands",
         "REG": "North West",
         "OR": 126,
@@ -1773,11 +1649,10 @@ const data = [
         "SCH": 415,
         "HP": 528,
         "AP": "£407,002",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 127,
         "SN": "Llandudno",
         "REG": "Wales",
         "OR": 127,
@@ -1787,11 +1662,10 @@ const data = [
         "SCH": 671,
         "HP": 1100,
         "AP": "£331,840",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 128,
         "SN": "Newcastle upon Tyne",
         "REG": "North East",
         "OR": 128,
@@ -1801,11 +1675,10 @@ const data = [
         "SCH": 775,
         "HP": 117,
         "AP": "£314,382",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 129,
         "SN": "Stroud",
         "REG": "South West",
         "OR": 129,
@@ -1815,11 +1688,10 @@ const data = [
         "SCH": 469,
         "HP": 782,
         "AP": "£506,725",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 130,
         "SN": "Hayle",
         "REG": "South West",
         "OR": 130,
@@ -1829,11 +1701,10 @@ const data = [
         "SCH": 515,
         "HP": 713,
         "AP": "£503,983",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 131,
         "SN": "Southwark",
         "REG": "Greater London",
         "OR": 131,
@@ -1843,11 +1714,10 @@ const data = [
         "SCH": 63,
         "HP": 122,
         "AP": "£1,116,948",
-        "SPC": "-3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.4%"
     },
     {
+        "UID": 132,
         "SN": "Stotfold",
         "REG": "East of England",
         "OR": 132,
@@ -1857,11 +1727,10 @@ const data = [
         "SCH": 1153,
         "HP": 174,
         "AP": "£585,800",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 133,
         "SN": "Worcester Park and Stoneleigh",
         "REG": "South East",
         "OR": 133,
@@ -1871,11 +1740,10 @@ const data = [
         "SCH": 231,
         "HP": 40,
         "AP": "£864,098",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 134,
         "SN": "Totnes",
         "REG": "South West",
         "OR": 134,
@@ -1885,11 +1753,10 @@ const data = [
         "SCH": 258,
         "HP": 270,
         "AP": "£601,853",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 135,
         "SN": "Manchester",
         "REG": "North West",
         "OR": 135,
@@ -1899,11 +1766,10 @@ const data = [
         "SCH": 46,
         "HP": 168,
         "AP": "£425,589",
-        "SPC": "-5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.1%"
     },
     {
+        "UID": 136,
         "SN": "Caterham",
         "REG": "South East",
         "OR": 136,
@@ -1913,11 +1779,10 @@ const data = [
         "SCH": 1003,
         "HP": 131,
         "AP": "£685,210",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 137,
         "SN": "Southwick (Adur)",
         "REG": "South East",
         "OR": 137,
@@ -1927,11 +1792,10 @@ const data = [
         "SCH": 20,
         "HP": 1032,
         "AP": "£651,163",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 138,
         "SN": "Hungerford",
         "REG": "South East",
         "OR": 138,
@@ -1941,11 +1805,10 @@ const data = [
         "SCH": 863,
         "HP": 282,
         "AP": "£595,574",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 139,
         "SN": "Lydiate",
         "REG": "North West",
         "OR": 139,
@@ -1955,11 +1818,10 @@ const data = [
         "SCH": 27,
         "HP": 260,
         "AP": "£369,414",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 140,
         "SN": "Amesbury",
         "REG": "South West",
         "OR": 140,
@@ -1969,11 +1831,10 @@ const data = [
         "SCH": 312,
         "HP": 447,
         "AP": "£490,162",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 141,
         "SN": "Kidlington",
         "REG": "South East",
         "OR": 141,
@@ -1983,11 +1844,10 @@ const data = [
         "SCH": 29,
         "HP": 578,
         "AP": "£659,228",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 142,
         "SN": "Bollington",
         "REG": "North West",
         "OR": 142,
@@ -1997,11 +1857,10 @@ const data = [
         "SCH": 316,
         "HP": 8,
         "AP": "£471,390",
-        "SPC": "-6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.9%"
     },
     {
+        "UID": 143,
         "SN": "Guiseley",
         "REG": "Yorkshire and The Humber",
         "OR": 143,
@@ -2011,11 +1870,10 @@ const data = [
         "SCH": 1038,
         "HP": 173,
         "AP": "£466,530",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 144,
         "SN": "Chipping Norton",
         "REG": "South East",
         "OR": 144,
@@ -2025,11 +1883,10 @@ const data = [
         "SCH": 147,
         "HP": 651,
         "AP": "£557,310",
-        "SPC": "-4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.4%"
     },
     {
+        "UID": 145,
         "SN": "Swinton (Salford)",
         "REG": "North West",
         "OR": 145,
@@ -2039,11 +1896,10 @@ const data = [
         "SCH": 23,
         "HP": 335,
         "AP": "£385,996",
-        "SPC": "-3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.9%"
     },
     {
+        "UID": 146,
         "SN": "Royal Leamington Spa",
         "REG": "West Midlands",
         "OR": 145,
@@ -2053,11 +1909,10 @@ const data = [
         "SCH": 170,
         "HP": 176,
         "AP": "£557,250",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 147,
         "SN": "Wandsworth",
         "REG": "Greater London",
         "OR": 147,
@@ -2067,11 +1922,10 @@ const data = [
         "SCH": 45,
         "HP": 18,
         "AP": "£1,192,824",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 148,
         "SN": "Bredbury and Woodley",
         "REG": "North West",
         "OR": 148,
@@ -2081,11 +1935,10 @@ const data = [
         "SCH": 58,
         "HP": 292,
         "AP": "£440,927",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 149,
         "SN": "Barnet",
         "REG": "Greater London",
         "OR": 149,
@@ -2095,11 +1948,10 @@ const data = [
         "SCH": 233,
         "HP": 601,
         "AP": "£954,170",
-        "SPC": "-2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.1%"
     },
     {
+        "UID": 150,
         "SN": "Benson",
         "REG": "South East",
         "OR": 150,
@@ -2109,11 +1961,10 @@ const data = [
         "SCH": 685,
         "HP": 519,
         "AP": "£678,916",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 151,
         "SN": "Swadlincote",
         "REG": "East Midlands",
         "OR": 151,
@@ -2123,11 +1974,10 @@ const data = [
         "SCH": 255,
         "HP": 563,
         "AP": "£338,407",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 152,
         "SN": "Spencers Wood and Three Mile Cross",
         "REG": "South East",
         "OR": 152,
@@ -2137,11 +1987,10 @@ const data = [
         "SCH": 757,
         "HP": 233,
         "AP": "£644,818",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 153,
         "SN": "Biddulph",
         "REG": "West Midlands",
         "OR": 153,
@@ -2151,11 +2000,10 @@ const data = [
         "SCH": 258,
         "HP": 948,
         "AP": "£340,476",
-        "SPC": "7.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.0%"
     },
     {
+        "UID": 154,
         "SN": "Reigate",
         "REG": "South East",
         "OR": 154,
@@ -2165,11 +2013,10 @@ const data = [
         "SCH": 965,
         "HP": 22,
         "AP": "£805,337",
-        "SPC": "-4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.2%"
     },
     {
+        "UID": 155,
         "SN": "Stratford-upon-Avon",
         "REG": "West Midlands",
         "OR": 155,
@@ -2179,11 +2026,10 @@ const data = [
         "SCH": 217,
         "HP": 61,
         "AP": "£565,447",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 156,
         "SN": "Peasedown St John",
         "REG": "South West",
         "OR": 156,
@@ -2193,11 +2039,10 @@ const data = [
         "SCH": 1106,
         "HP": 229,
         "AP": "£501,046",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 157,
         "SN": "Westhoughton",
         "REG": "North West",
         "OR": 157,
@@ -2207,11 +2052,10 @@ const data = [
         "SCH": 26,
         "HP": 666,
         "AP": "£350,183",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 158,
         "SN": "Warwick",
         "REG": "West Midlands",
         "OR": 158,
@@ -2221,11 +2065,10 @@ const data = [
         "SCH": 114,
         "HP": 75,
         "AP": "£535,562",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 159,
         "SN": "Frimley",
         "REG": "South East",
         "OR": 159,
@@ -2235,11 +2078,10 @@ const data = [
         "SCH": 442,
         "HP": 109,
         "AP": "£666,708",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 160,
         "SN": "Newport (Telford and Wrekin)",
         "REG": "West Midlands",
         "OR": 160,
@@ -2249,11 +2091,10 @@ const data = [
         "SCH": 64,
         "HP": 736,
         "AP": "£403,365",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 161,
         "SN": "Tower Hamlets",
         "REG": "Greater London",
         "OR": 161,
@@ -2263,11 +2104,10 @@ const data = [
         "SCH": 37,
         "HP": 100,
         "AP": "£1,089,828",
-        "SPC": "-9.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.6%"
     },
     {
+        "UID": 162,
         "SN": "Banstead",
         "REG": "South East",
         "OR": 162,
@@ -2277,11 +2117,10 @@ const data = [
         "SCH": 279,
         "HP": 341,
         "AP": "£842,510",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 163,
         "SN": "Borehamwood",
         "REG": "East of England",
         "OR": 163,
@@ -2291,11 +2130,10 @@ const data = [
         "SCH": 55,
         "HP": 474,
         "AP": "£809,410",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 164,
         "SN": "Tetbury",
         "REG": "South West",
         "OR": 163,
@@ -2305,11 +2143,10 @@ const data = [
         "SCH": 1149,
         "HP": 551,
         "AP": "£647,491",
-        "SPC": "9.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.0%"
     },
     {
+        "UID": 165,
         "SN": "Sevenoaks",
         "REG": "South East",
         "OR": 165,
@@ -2319,11 +2156,10 @@ const data = [
         "SCH": 888,
         "HP": 60,
         "AP": "£873,327",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 166,
         "SN": "Dorking",
         "REG": "South East",
         "OR": 165,
@@ -2333,11 +2169,10 @@ const data = [
         "SCH": 911,
         "HP": 756,
         "AP": "£787,269",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 167,
         "SN": "Wroughton",
         "REG": "South West",
         "OR": 167,
@@ -2347,11 +2182,10 @@ const data = [
         "SCH": 714,
         "HP": 756,
         "AP": "£487,330",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 168,
         "SN": "West Bridgford",
         "REG": "East Midlands",
         "OR": 168,
@@ -2361,11 +2195,10 @@ const data = [
         "SCH": 53,
         "HP": 254,
         "AP": "£551,682",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 169,
         "SN": "Aston Clinton",
         "REG": "South East",
         "OR": 169,
@@ -2375,11 +2208,10 @@ const data = [
         "SCH": 1228,
         "HP": 547,
         "AP": "£712,954",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 170,
         "SN": "Stonehouse (Stroud)",
         "REG": "South West",
         "OR": 170,
@@ -2389,11 +2221,10 @@ const data = [
         "SCH": 689,
         "HP": 421,
         "AP": "£477,613",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 171,
         "SN": "London Colney",
         "REG": "East of England",
         "OR": 170,
@@ -2403,11 +2234,10 @@ const data = [
         "SCH": 305,
         "HP": 48,
         "AP": "£719,864",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 172,
         "SN": "Letchworth",
         "REG": "East of England",
         "OR": 172,
@@ -2417,11 +2247,10 @@ const data = [
         "SCH": 847,
         "HP": 45,
         "AP": "£636,630",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 173,
         "SN": "City of Westminster",
         "REG": "Greater London",
         "OR": 173,
@@ -2431,11 +2260,10 @@ const data = [
         "SCH": 79,
         "HP": 10,
         "AP": "£2,175,157",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 174,
         "SN": "Menston",
         "REG": "Yorkshire and The Humber",
         "OR": 174,
@@ -2445,11 +2273,10 @@ const data = [
         "SCH": 1201,
         "HP": 560,
         "AP": "£477,844",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 175,
         "SN": "Paignton",
         "REG": "South West",
         "OR": 175,
@@ -2459,11 +2286,10 @@ const data = [
         "SCH": 144,
         "HP": 1025,
         "AP": "£447,598",
-        "SPC": "-2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.0%"
     },
     {
+        "UID": 176,
         "SN": "Bracknell",
         "REG": "South East",
         "OR": 176,
@@ -2473,11 +2299,10 @@ const data = [
         "SCH": 300,
         "HP": 509,
         "AP": "£646,600",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 177,
         "SN": "Richmond upon Thames",
         "REG": "Greater London",
         "OR": 177,
@@ -2487,11 +2312,10 @@ const data = [
         "SCH": 347,
         "HP": 178,
         "AP": "£1,229,585",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 178,
         "SN": "Wallsend",
         "REG": "North East",
         "OR": 178,
@@ -2501,11 +2325,10 @@ const data = [
         "SCH": 674,
         "HP": 294,
         "AP": "£250,316",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 179,
         "SN": "Ledbury",
         "REG": "West Midlands",
         "OR": 179,
@@ -2515,11 +2338,10 @@ const data = [
         "SCH": 817,
         "HP": 906,
         "AP": "£464,314",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 180,
         "SN": "Llantwit Major",
         "REG": "Wales",
         "OR": 179,
@@ -2529,11 +2351,10 @@ const data = [
         "SCH": 810,
         "HP": 83,
         "AP": "£459,551",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 181,
         "SN": "Bournemouth",
         "REG": "South West",
         "OR": 181,
@@ -2543,11 +2364,10 @@ const data = [
         "SCH": 575,
         "HP": 772,
         "AP": "£570,476",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 182,
         "SN": "Egglescliffe",
         "REG": "North East",
         "OR": 182,
@@ -2557,11 +2377,10 @@ const data = [
         "SCH": 645,
         "HP": 347,
         "AP": "£327,558",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 183,
         "SN": "Belper",
         "REG": "East Midlands",
         "OR": 183,
@@ -2571,11 +2390,10 @@ const data = [
         "SCH": 693,
         "HP": 660,
         "AP": "£429,133",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 184,
         "SN": "Denton (Tameside)",
         "REG": "North West",
         "OR": 184,
@@ -2585,11 +2403,10 @@ const data = [
         "SCH": 31,
         "HP": 954,
         "AP": "£369,252",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 185,
         "SN": "Oxford",
         "REG": "South East",
         "OR": 185,
@@ -2599,11 +2416,10 @@ const data = [
         "SCH": 242,
         "HP": 557,
         "AP": "£815,514",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 186,
         "SN": "Leeds",
         "REG": "Yorkshire and The Humber",
         "OR": 186,
@@ -2613,11 +2429,10 @@ const data = [
         "SCH": 340,
         "HP": 191,
         "AP": "£373,306",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 187,
         "SN": "Bacup",
         "REG": "North West",
         "OR": 187,
@@ -2627,11 +2442,10 @@ const data = [
         "SCH": 228,
         "HP": 1406,
         "AP": "£248,658",
-        "SPC": "5.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.8%"
     },
     {
+        "UID": 188,
         "SN": "Balsall Common",
         "REG": "West Midlands",
         "OR": 188,
@@ -2641,11 +2455,10 @@ const data = [
         "SCH": 1061,
         "HP": 8,
         "AP": "£548,297",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 189,
         "SN": "Garforth",
         "REG": "Yorkshire and The Humber",
         "OR": 188,
@@ -2655,11 +2468,10 @@ const data = [
         "SCH": 395,
         "HP": 325,
         "AP": "£431,091",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 190,
         "SN": "Reading",
         "REG": "South East",
         "OR": 190,
@@ -2669,11 +2481,10 @@ const data = [
         "SCH": 150,
         "HP": 841,
         "AP": "£631,603",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 191,
         "SN": "Ventnor",
         "REG": "South East",
         "OR": 191,
@@ -2683,11 +2494,10 @@ const data = [
         "SCH": 677,
         "HP": 1310,
         "AP": "£440,586",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 192,
         "SN": "Lymington",
         "REG": "South East",
         "OR": 192,
@@ -2697,11 +2507,10 @@ const data = [
         "SCH": 1176,
         "HP": 183,
         "AP": "£749,425",
-        "SPC": "-6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.7%"
     },
     {
+        "UID": 193,
         "SN": "Nailsea",
         "REG": "South West",
         "OR": 193,
@@ -2711,11 +2520,10 @@ const data = [
         "SCH": 115,
         "HP": 357,
         "AP": "£608,412",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 194,
         "SN": "Conwy",
         "REG": "Wales",
         "OR": 194,
@@ -2725,11 +2533,10 @@ const data = [
         "SCH": 533,
         "HP": 604,
         "AP": "£417,066",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 195,
         "SN": "Yateley",
         "REG": "South East",
         "OR": 195,
@@ -2739,11 +2546,10 @@ const data = [
         "SCH": 533,
         "HP": 97,
         "AP": "£687,017",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 196,
         "SN": "Silsden",
         "REG": "Yorkshire and The Humber",
         "OR": 195,
@@ -2753,11 +2559,10 @@ const data = [
         "SCH": 967,
         "HP": 308,
         "AP": "£382,318",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 197,
         "SN": "Liskeard",
         "REG": "South West",
         "OR": 197,
@@ -2767,11 +2572,10 @@ const data = [
         "SCH": 484,
         "HP": 943,
         "AP": "£378,436",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 198,
         "SN": "Washingborough and Heighington",
         "REG": "East Midlands",
         "OR": 198,
@@ -2781,11 +2585,10 @@ const data = [
         "SCH": 375,
         "HP": 428,
         "AP": "£393,696",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 199,
         "SN": "Hackney",
         "REG": "Greater London",
         "OR": 199,
@@ -2795,11 +2598,10 @@ const data = [
         "SCH": 34,
         "HP": 397,
         "AP": "£1,212,597",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 200,
         "SN": "Ormskirk",
         "REG": "North West",
         "OR": 200,
@@ -2809,11 +2611,10 @@ const data = [
         "SCH": 236,
         "HP": 627,
         "AP": "£377,291",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 201,
         "SN": "Wivenhoe",
         "REG": "East of England",
         "OR": 201,
@@ -2823,11 +2624,10 @@ const data = [
         "SCH": 505,
         "HP": 544,
         "AP": "£597,600",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 202,
         "SN": "Whickham",
         "REG": "North East",
         "OR": 202,
@@ -2837,11 +2637,10 @@ const data = [
         "SCH": 389,
         "HP": 668,
         "AP": "£337,279",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 203,
         "SN": "Shoreham-by-Sea",
         "REG": "South East",
         "OR": 203,
@@ -2851,11 +2650,10 @@ const data = [
         "SCH": 383,
         "HP": 725,
         "AP": "£713,462",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 204,
         "SN": "Guisborough",
         "REG": "North East",
         "OR": 203,
@@ -2865,11 +2663,10 @@ const data = [
         "SCH": 412,
         "HP": 941,
         "AP": "£302,490",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 205,
         "SN": "Chester",
         "REG": "North West",
         "OR": 203,
@@ -2879,11 +2676,10 @@ const data = [
         "SCH": 435,
         "HP": 399,
         "AP": "£430,668",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 206,
         "SN": "Baldock",
         "REG": "East of England",
         "OR": 206,
@@ -2893,11 +2689,10 @@ const data = [
         "SCH": 951,
         "HP": 389,
         "AP": "£665,258",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 207,
         "SN": "Great Shelford and Stapleford",
         "REG": "East of England",
         "OR": 207,
@@ -2907,11 +2702,10 @@ const data = [
         "SCH": 1022,
         "HP": 35,
         "AP": "£777,406",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 208,
         "SN": "Stanwell",
         "REG": "South East",
         "OR": 208,
@@ -2921,11 +2715,10 @@ const data = [
         "SCH": 377,
         "HP": 217,
         "AP": "£658,590",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 209,
         "SN": "Dunstable",
         "REG": "East of England",
         "OR": 209,
@@ -2935,11 +2728,10 @@ const data = [
         "SCH": 218,
         "HP": 713,
         "AP": "£541,342",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 210,
         "SN": "Cardiff",
         "REG": "Wales",
         "OR": 209,
@@ -2949,11 +2741,10 @@ const data = [
         "SCH": 133,
         "HP": 123,
         "AP": "£439,480",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 211,
         "SN": "Hammersmith and Fulham",
         "REG": "Greater London",
         "OR": 211,
@@ -2963,11 +2754,10 @@ const data = [
         "SCH": 43,
         "HP": 68,
         "AP": "£1,419,508",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 212,
         "SN": "Filey",
         "REG": "Yorkshire and The Humber",
         "OR": 212,
@@ -2977,11 +2767,10 @@ const data = [
         "SCH": 1259,
         "HP": 172,
         "AP": "£385,942",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 213,
         "SN": "Cranfield",
         "REG": "East of England",
         "OR": 213,
@@ -2991,11 +2780,10 @@ const data = [
         "SCH": 742,
         "HP": 339,
         "AP": "£518,520",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 214,
         "SN": "Cotgrave",
         "REG": "East Midlands",
         "OR": 214,
@@ -3005,11 +2793,10 @@ const data = [
         "SCH": 189,
         "HP": 95,
         "AP": "£395,763",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 215,
         "SN": "Bushey",
         "REG": "East of England",
         "OR": 214,
@@ -3019,11 +2806,10 @@ const data = [
         "SCH": 181,
         "HP": 398,
         "AP": "£819,003",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 216,
         "SN": "Didcot",
         "REG": "South East",
         "OR": 216,
@@ -3033,11 +2819,10 @@ const data = [
         "SCH": 185,
         "HP": 430,
         "AP": "£583,680",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 217,
         "SN": "Oswaldtwistle",
         "REG": "North West",
         "OR": 217,
@@ -3047,11 +2832,10 @@ const data = [
         "SCH": 261,
         "HP": 934,
         "AP": "£222,697",
-        "SPC": "-6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.9%"
     },
     {
+        "UID": 218,
         "SN": "Barwell",
         "REG": "East Midlands",
         "OR": 218,
@@ -3061,11 +2845,10 @@ const data = [
         "SCH": 118,
         "HP": 558,
         "AP": "£368,151",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 219,
         "SN": "Penarth",
         "REG": "Wales",
         "OR": 218,
@@ -3075,11 +2858,10 @@ const data = [
         "SCH": 107,
         "HP": 493,
         "AP": "£529,417",
-        "SPC": "7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.6%"
     },
     {
+        "UID": 220,
         "SN": "Honley",
         "REG": "Yorkshire and The Humber",
         "OR": 220,
@@ -3089,11 +2871,10 @@ const data = [
         "SCH": 1078,
         "HP": 308,
         "AP": "£403,924",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 221,
         "SN": "Southwell (Newark and Sherwood)",
         "REG": "East Midlands",
         "OR": 221,
@@ -3103,11 +2884,10 @@ const data = [
         "SCH": 650,
         "HP": 51,
         "AP": "£496,387",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 222,
         "SN": "Merton",
         "REG": "Greater London",
         "OR": 222,
@@ -3117,11 +2897,10 @@ const data = [
         "SCH": 109,
         "HP": 870,
         "AP": "£1,033,377",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 223,
         "SN": "Gomersal and Birkenshaw",
         "REG": "Yorkshire and The Humber",
         "OR": 223,
@@ -3131,11 +2910,10 @@ const data = [
         "SCH": 776,
         "HP": 588,
         "AP": "£359,523",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 224,
         "SN": "Hebburn",
         "REG": "North East",
         "OR": 224,
@@ -3145,11 +2923,10 @@ const data = [
         "SCH": 707,
         "HP": 462,
         "AP": "£241,440",
-        "SPC": "-8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.5%"
     },
     {
+        "UID": 225,
         "SN": "Enderby and Narborough",
         "REG": "East Midlands",
         "OR": 225,
@@ -3159,11 +2936,10 @@ const data = [
         "SCH": 319,
         "HP": 731,
         "AP": "£451,417",
-        "SPC": "9.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.0%"
     },
     {
+        "UID": 226,
         "SN": "Hazlemere",
         "REG": "South East",
         "OR": 226,
@@ -3173,11 +2949,10 @@ const data = [
         "SCH": 1270,
         "HP": 77,
         "AP": "£735,494",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 227,
         "SN": "Gateshead",
         "REG": "North East",
         "OR": 227,
@@ -3187,11 +2962,10 @@ const data = [
         "SCH": 446,
         "HP": 766,
         "AP": "£259,567",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 228,
         "SN": "Ecclesfield and Grenoside",
         "REG": "Yorkshire and The Humber",
         "OR": 228,
@@ -3201,11 +2975,10 @@ const data = [
         "SCH": 1058,
         "HP": 153,
         "AP": "£363,226",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 229,
         "SN": "Ascot",
         "REG": "South East",
         "OR": 229,
@@ -3215,11 +2988,10 @@ const data = [
         "SCH": 507,
         "HP": 235,
         "AP": "£825,914",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 230,
         "SN": "Shepshed",
         "REG": "East Midlands",
         "OR": 230,
@@ -3229,11 +3001,10 @@ const data = [
         "SCH": 418,
         "HP": 313,
         "AP": "£397,831",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 231,
         "SN": "Crowthorne",
         "REG": "South East",
         "OR": 230,
@@ -3243,11 +3014,10 @@ const data = [
         "SCH": 571,
         "HP": 364,
         "AP": "£689,161",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 232,
         "SN": "Ashtead",
         "REG": "South East",
         "OR": 230,
@@ -3257,11 +3027,10 @@ const data = [
         "SCH": 327,
         "HP": 620,
         "AP": "£856,514",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 233,
         "SN": "Workington",
         "REG": "North West",
         "OR": 233,
@@ -3271,11 +3040,10 @@ const data = [
         "SCH": 792,
         "HP": 552,
         "AP": "£183,328",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 234,
         "SN": "Stoke Gifford",
         "REG": "South West",
         "OR": 234,
@@ -3285,11 +3053,10 @@ const data = [
         "SCH": 517,
         "HP": 508,
         "AP": "£604,758",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 235,
         "SN": "Lambeth",
         "REG": "Greater London",
         "OR": 235,
@@ -3299,11 +3066,10 @@ const data = [
         "SCH": 61,
         "HP": 164,
         "AP": "£1,088,314",
-        "SPC": "-3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.3%"
     },
     {
+        "UID": 236,
         "SN": "Drighlington",
         "REG": "Yorkshire and The Humber",
         "OR": 235,
@@ -3313,11 +3079,10 @@ const data = [
         "SCH": 334,
         "HP": 505,
         "AP": "£384,090",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 237,
         "SN": "Rusthall and Langton Green",
         "REG": "South East",
         "OR": 237,
@@ -3327,11 +3092,10 @@ const data = [
         "SCH": 1205,
         "HP": 279,
         "AP": "£711,867",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 238,
         "SN": "Lancaster",
         "REG": "North West",
         "OR": 238,
@@ -3341,11 +3105,10 @@ const data = [
         "SCH": 235,
         "HP": 1215,
         "AP": "£326,310",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 239,
         "SN": "Brockworth",
         "REG": "South West",
         "OR": 239,
@@ -3355,11 +3118,10 @@ const data = [
         "SCH": 610,
         "HP": 686,
         "AP": "£449,121",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 240,
         "SN": "Matlock",
         "REG": "East Midlands",
         "OR": 239,
@@ -3369,11 +3131,10 @@ const data = [
         "SCH": 1301,
         "HP": 137,
         "AP": "£426,519",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 241,
         "SN": "Burntwood",
         "REG": "West Midlands",
         "OR": 241,
@@ -3383,11 +3144,10 @@ const data = [
         "SCH": 802,
         "HP": 400,
         "AP": "£410,868",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 242,
         "SN": "Kensington and Chelsea",
         "REG": "Greater London",
         "OR": 241,
@@ -3397,11 +3157,10 @@ const data = [
         "SCH": 14,
         "HP": 72,
         "AP": "£2,352,956",
-        "SPC": "-8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.7%"
     },
     {
+        "UID": 243,
         "SN": "Shaw (Oldham)",
         "REG": "North West",
         "OR": 243,
@@ -3411,11 +3170,10 @@ const data = [
         "SCH": 2,
         "HP": 1021,
         "AP": "£337,463",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 244,
         "SN": "Chadwell St Mary",
         "REG": "East of England",
         "OR": 244,
@@ -3425,11 +3183,10 @@ const data = [
         "SCH": 223,
         "HP": 470,
         "AP": "£569,077",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 245,
         "SN": "Barnard Castle",
         "REG": "North East",
         "OR": 244,
@@ -3439,11 +3196,10 @@ const data = [
         "SCH": 509,
         "HP": 680,
         "AP": "£328,742",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 246,
         "SN": "Droylsden",
         "REG": "North West",
         "OR": 246,
@@ -3453,11 +3209,10 @@ const data = [
         "SCH": 44,
         "HP": 1008,
         "AP": "£356,718",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 247,
         "SN": "Billericay",
         "REG": "East of England",
         "OR": 247,
@@ -3467,11 +3222,10 @@ const data = [
         "SCH": 364,
         "HP": 108,
         "AP": "£736,233",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 248,
         "SN": "Witney",
         "REG": "South East",
         "OR": 248,
@@ -3481,11 +3235,10 @@ const data = [
         "SCH": 118,
         "HP": 951,
         "AP": "£570,003",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 249,
         "SN": "Knutsford",
         "REG": "North West",
         "OR": 249,
@@ -3495,11 +3248,10 @@ const data = [
         "SCH": 1102,
         "HP": 116,
         "AP": "£605,753",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 250,
         "SN": "Penryn",
         "REG": "South West",
         "OR": 250,
@@ -3509,11 +3261,10 @@ const data = [
         "SCH": 375,
         "HP": 1027,
         "AP": "£526,186",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 251,
         "SN": "Bradley Stoke",
         "REG": "South West",
         "OR": 251,
@@ -3523,11 +3274,10 @@ const data = [
         "SCH": 148,
         "HP": 151,
         "AP": "£639,910",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 252,
         "SN": "Chalford",
         "REG": "South West",
         "OR": 251,
@@ -3537,11 +3287,10 @@ const data = [
         "SCH": 1151,
         "HP": 622,
         "AP": "£634,436",
-        "SPC": "6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.5%"
     },
     {
+        "UID": 253,
         "SN": "Merley",
         "REG": "South West",
         "OR": 253,
@@ -3551,11 +3300,10 @@ const data = [
         "SCH": 445,
         "HP": 815,
         "AP": "£664,872",
-        "SPC": "6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.6%"
     },
     {
+        "UID": 254,
         "SN": "Kings Hill",
         "REG": "South East",
         "OR": 254,
@@ -3565,11 +3313,10 @@ const data = [
         "SCH": 385,
         "HP": 352,
         "AP": "£624,721",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 255,
         "SN": "Croydon",
         "REG": "Greater London",
         "OR": 255,
@@ -3579,11 +3326,10 @@ const data = [
         "SCH": 103,
         "HP": 1006,
         "AP": "£713,575",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 256,
         "SN": "York",
         "REG": "Yorkshire and The Humber",
         "OR": 256,
@@ -3593,11 +3339,10 @@ const data = [
         "SCH": 423,
         "HP": 387,
         "AP": "£532,746",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 257,
         "SN": "Ashby-de-la-Zouch",
         "REG": "East Midlands",
         "OR": 257,
@@ -3607,11 +3352,10 @@ const data = [
         "SCH": 525,
         "HP": 134,
         "AP": "£435,960",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 258,
         "SN": "Torpoint",
         "REG": "South West",
         "OR": 258,
@@ -3621,11 +3365,10 @@ const data = [
         "SCH": 149,
         "HP": 1353,
         "AP": "£390,534",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 259,
         "SN": "Leatherhead",
         "REG": "South East",
         "OR": 259,
@@ -3635,11 +3378,10 @@ const data = [
         "SCH": 1162,
         "HP": 496,
         "AP": "£753,126",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 260,
         "SN": "Litherland",
         "REG": "North West",
         "OR": 260,
@@ -3649,11 +3391,10 @@ const data = [
         "SCH": 117,
         "HP": 1222,
         "AP": "£254,349",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 261,
         "SN": "Ludlow",
         "REG": "West Midlands",
         "OR": 260,
@@ -3663,11 +3404,10 @@ const data = [
         "SCH": 994,
         "HP": 379,
         "AP": "£421,360",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 262,
         "SN": "Broadstairs",
         "REG": "South East",
         "OR": 262,
@@ -3677,11 +3417,10 @@ const data = [
         "SCH": 166,
         "HP": 1258,
         "AP": "£599,292",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 263,
         "SN": "Lewes",
         "REG": "South East",
         "OR": 263,
@@ -3691,11 +3430,10 @@ const data = [
         "SCH": 1020,
         "HP": 517,
         "AP": "£823,239",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 264,
         "SN": "Milford and Witley",
         "REG": "South East",
         "OR": 264,
@@ -3705,11 +3443,10 @@ const data = [
         "SCH": 1196,
         "HP": 146,
         "AP": "£770,968",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 265,
         "SN": "Swanage",
         "REG": "South West",
         "OR": 265,
@@ -3719,11 +3456,10 @@ const data = [
         "SCH": 1397,
         "HP": 654,
         "AP": "£708,460",
-        "SPC": "8.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.0%"
     },
     {
+        "UID": 266,
         "SN": "Haringey",
         "REG": "Greater London",
         "OR": 266,
@@ -3733,11 +3469,10 @@ const data = [
         "SCH": 68,
         "HP": 458,
         "AP": "£1,094,310",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 267,
         "SN": "Colchester",
         "REG": "East of England",
         "OR": 267,
@@ -3747,11 +3482,10 @@ const data = [
         "SCH": 143,
         "HP": 878,
         "AP": "£521,951",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 268,
         "SN": "Exmouth",
         "REG": "South West",
         "OR": 268,
@@ -3761,11 +3495,10 @@ const data = [
         "SCH": 619,
         "HP": 917,
         "AP": "£536,297",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 269,
         "SN": "Stamford",
         "REG": "East Midlands",
         "OR": 269,
@@ -3775,11 +3508,10 @@ const data = [
         "SCH": 769,
         "HP": 287,
         "AP": "£528,497",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 270,
         "SN": "Haxby",
         "REG": "Yorkshire and The Humber",
         "OR": 270,
@@ -3789,11 +3521,10 @@ const data = [
         "SCH": 470,
         "HP": 91,
         "AP": "£536,043",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 271,
         "SN": "Hyde (Tameside)",
         "REG": "North West",
         "OR": 271,
@@ -3803,11 +3534,10 @@ const data = [
         "SCH": 85,
         "HP": 969,
         "AP": "£351,929",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 272,
         "SN": "Cheadle (Stockport)",
         "REG": "North West",
         "OR": 271,
@@ -3817,11 +3547,10 @@ const data = [
         "SCH": 325,
         "HP": 331,
         "AP": "£542,971",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 273,
         "SN": "Royal Wootton Bassett",
         "REG": "South West",
         "OR": 273,
@@ -3831,11 +3560,10 @@ const data = [
         "SCH": 906,
         "HP": 848,
         "AP": "£484,744",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 274,
         "SN": "Cowes",
         "REG": "South East",
         "OR": 274,
@@ -3845,11 +3573,10 @@ const data = [
         "SCH": 436,
         "HP": 1328,
         "AP": "£500,486",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 275,
         "SN": "Failsworth",
         "REG": "North West",
         "OR": 275,
@@ -3859,11 +3586,10 @@ const data = [
         "SCH": 1,
         "HP": 1278,
         "AP": "£345,309",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 276,
         "SN": "Kibworth Beauchamp and Kibworth Harcourt",
         "REG": "East Midlands",
         "OR": 275,
@@ -3873,11 +3599,10 @@ const data = [
         "SCH": 873,
         "HP": 87,
         "AP": "£462,579",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 277,
         "SN": "Princes Risborough",
         "REG": "South East",
         "OR": 275,
@@ -3887,11 +3612,10 @@ const data = [
         "SCH": 557,
         "HP": 521,
         "AP": "£768,688",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 278,
         "SN": "Abergavenny",
         "REG": "Wales",
         "OR": 275,
@@ -3901,11 +3625,10 @@ const data = [
         "SCH": 529,
         "HP": 48,
         "AP": "£427,700",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 279,
         "SN": "Birkenhead",
         "REG": "North West",
         "OR": 279,
@@ -3915,11 +3638,10 @@ const data = [
         "SCH": 553,
         "HP": 659,
         "AP": "£257,040",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 280,
         "SN": "Hersham",
         "REG": "South East",
         "OR": 280,
@@ -3929,11 +3651,10 @@ const data = [
         "SCH": 419,
         "HP": 296,
         "AP": "£959,450",
-        "SPC": "10.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.2%"
     },
     {
+        "UID": 281,
         "SN": "Newport (Isle of Wight)",
         "REG": "South East",
         "OR": 281,
@@ -3943,11 +3664,10 @@ const data = [
         "SCH": 792,
         "HP": 1231,
         "AP": "£378,420",
-        "SPC": "-2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.3%"
     },
     {
+        "UID": 282,
         "SN": "Wendover",
         "REG": "South East",
         "OR": 282,
@@ -3957,11 +3677,10 @@ const data = [
         "SCH": 1006,
         "HP": 438,
         "AP": "£775,441",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 283,
         "SN": "Beeston (Broxtowe)",
         "REG": "East Midlands",
         "OR": 283,
@@ -3971,11 +3690,10 @@ const data = [
         "SCH": 193,
         "HP": 262,
         "AP": "£462,970",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 284,
         "SN": "Sawston",
         "REG": "East of England",
         "OR": 284,
@@ -3985,11 +3703,10 @@ const data = [
         "SCH": 1168,
         "HP": 281,
         "AP": "£623,020",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 285,
         "SN": "Buxton (High Peak)",
         "REG": "East Midlands",
         "OR": 284,
@@ -3999,11 +3716,10 @@ const data = [
         "SCH": 638,
         "HP": 935,
         "AP": "£380,776",
-        "SPC": "7.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.4%"
     },
     {
+        "UID": 286,
         "SN": "Leek",
         "REG": "West Midlands",
         "OR": 286,
@@ -4013,11 +3729,10 @@ const data = [
         "SCH": 657,
         "HP": 903,
         "AP": "£330,701",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 287,
         "SN": "Tynemouth",
         "REG": "North East",
         "OR": 286,
@@ -4027,11 +3742,10 @@ const data = [
         "SCH": 609,
         "HP": 448,
         "AP": "£348,767",
-        "SPC": "6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.5%"
     },
     {
+        "UID": 288,
         "SN": "Deal",
         "REG": "South East",
         "OR": 288,
@@ -4041,11 +3755,10 @@ const data = [
         "SCH": 206,
         "HP": 1143,
         "AP": "£577,247",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 289,
         "SN": "Brecon",
         "REG": "Wales",
         "OR": 288,
@@ -4055,11 +3768,10 @@ const data = [
         "SCH": 1207,
         "HP": 467,
         "AP": "£379,395",
-        "SPC": "-6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.4%"
     },
     {
+        "UID": 290,
         "SN": "Lichfield",
         "REG": "West Midlands",
         "OR": 288,
@@ -4069,11 +3781,10 @@ const data = [
         "SCH": 829,
         "HP": 377,
         "AP": "£499,336",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 291,
         "SN": "City and County of the City of London",
         "REG": "Greater London",
         "OR": 291,
@@ -4083,11 +3794,10 @@ const data = [
         "SCH": 31,
         "HP": 65,
         "AP": "£1,850,873",
-        "SPC": "-16.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-16.5%"
     },
     {
+        "UID": 292,
         "SN": "Little Chalfont",
         "REG": "South East",
         "OR": 291,
@@ -4097,11 +3807,10 @@ const data = [
         "SCH": 1000,
         "HP": 147,
         "AP": "£942,777",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 293,
         "SN": "Hale (Trafford)",
         "REG": "North West",
         "OR": 293,
@@ -4111,11 +3820,10 @@ const data = [
         "SCH": 155,
         "HP": 378,
         "AP": "£739,757",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 294,
         "SN": "Wem",
         "REG": "West Midlands",
         "OR": 294,
@@ -4125,11 +3833,10 @@ const data = [
         "SCH": 873,
         "HP": 299,
         "AP": "£376,638",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 295,
         "SN": "Snodland",
         "REG": "South East",
         "OR": 295,
@@ -4139,11 +3846,10 @@ const data = [
         "SCH": 563,
         "HP": 1138,
         "AP": "£570,875",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 296,
         "SN": "Maidenhead",
         "REG": "South East",
         "OR": 296,
@@ -4153,11 +3859,10 @@ const data = [
         "SCH": 474,
         "HP": 76,
         "AP": "£739,531",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 297,
         "SN": "Hereford",
         "REG": "West Midlands",
         "OR": 296,
@@ -4167,11 +3872,10 @@ const data = [
         "SCH": 431,
         "HP": 919,
         "AP": "£418,683",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 298,
         "SN": "Northam",
         "REG": "South West",
         "OR": 298,
@@ -4181,11 +3885,10 @@ const data = [
         "SCH": 589,
         "HP": 1237,
         "AP": "£511,599",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 299,
         "SN": "High Wycombe",
         "REG": "South East",
         "OR": 299,
@@ -4195,11 +3898,10 @@ const data = [
         "SCH": 797,
         "HP": 401,
         "AP": "£624,330",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 300,
         "SN": "Marske-by-the-Sea",
         "REG": "North East",
         "OR": 300,
@@ -4209,11 +3911,10 @@ const data = [
         "SCH": 487,
         "HP": 941,
         "AP": "£307,650",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 301,
         "SN": "Brotton",
         "REG": "North East",
         "OR": 301,
@@ -4223,11 +3924,10 @@ const data = [
         "SCH": 433,
         "HP": 734,
         "AP": "£221,621",
-        "SPC": "-2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.4%"
     },
     {
+        "UID": 302,
         "SN": "Aldershot",
         "REG": "South East",
         "OR": 302,
@@ -4237,11 +3937,10 @@ const data = [
         "SCH": 335,
         "HP": 1013,
         "AP": "£564,222",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 303,
         "SN": "Burghfield Common",
         "REG": "South East",
         "OR": 303,
@@ -4251,11 +3950,10 @@ const data = [
         "SCH": 854,
         "HP": 329,
         "AP": "£652,541",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 304,
         "SN": "Cookham",
         "REG": "South East",
         "OR": 304,
@@ -4265,11 +3963,10 @@ const data = [
         "SCH": 1250,
         "HP": 354,
         "AP": "£1,056,397",
-        "SPC": "7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.6%"
     },
     {
+        "UID": 305,
         "SN": "Ashton-under-Lyne",
         "REG": "North West",
         "OR": 305,
@@ -4279,11 +3976,10 @@ const data = [
         "SCH": 56,
         "HP": 1094,
         "AP": "£311,020",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 306,
         "SN": "East Grinstead",
         "REG": "South East",
         "OR": 306,
@@ -4293,11 +3989,10 @@ const data = [
         "SCH": 1088,
         "HP": 182,
         "AP": "£645,080",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 307,
         "SN": "Crawcrook and Greenside",
         "REG": "North East",
         "OR": 307,
@@ -4307,11 +4002,10 @@ const data = [
         "SCH": 813,
         "HP": 774,
         "AP": "£276,679",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 308,
         "SN": "Neston (Cheshire West and Chester)",
         "REG": "North West",
         "OR": 308,
@@ -4321,11 +4015,10 @@ const data = [
         "SCH": 857,
         "HP": 63,
         "AP": "£442,839",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 309,
         "SN": "West Kirby",
         "REG": "North West",
         "OR": 308,
@@ -4335,11 +4028,10 @@ const data = [
         "SCH": 931,
         "HP": 493,
         "AP": "£477,483",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 310,
         "SN": "Ripley (Amber Valley)",
         "REG": "East Midlands",
         "OR": 310,
@@ -4349,11 +4041,10 @@ const data = [
         "SCH": 649,
         "HP": 578,
         "AP": "£320,164",
-        "SPC": "-2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.8%"
     },
     {
+        "UID": 311,
         "SN": "Sandown",
         "REG": "South East",
         "OR": 311,
@@ -4363,11 +4054,10 @@ const data = [
         "SCH": 514,
         "HP": 1429,
         "AP": "£449,534",
-        "SPC": "9.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.2%"
     },
     {
+        "UID": 312,
         "SN": "Tavistock",
         "REG": "South West",
         "OR": 312,
@@ -4377,11 +4067,10 @@ const data = [
         "SCH": 474,
         "HP": 1006,
         "AP": "£473,463",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 313,
         "SN": "Hassocks and Hurstpierpoint",
         "REG": "South East",
         "OR": 312,
@@ -4391,11 +4080,10 @@ const data = [
         "SCH": 1221,
         "HP": 140,
         "AP": "£760,876",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 314,
         "SN": "Camberley",
         "REG": "South East",
         "OR": 314,
@@ -4405,11 +4093,10 @@ const data = [
         "SCH": 673,
         "HP": 164,
         "AP": "£631,920",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 315,
         "SN": "Cambridge (Cambridge)",
         "REG": "East of England",
         "OR": 315,
@@ -4419,11 +4106,10 @@ const data = [
         "SCH": 971,
         "HP": 74,
         "AP": "£823,582",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 316,
         "SN": "Rayleigh",
         "REG": "East of England",
         "OR": 316,
@@ -4433,11 +4119,10 @@ const data = [
         "SCH": 719,
         "HP": 187,
         "AP": "£667,843",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 317,
         "SN": "Longfield, New Ash Green and Hartley",
         "REG": "South East",
         "OR": 317,
@@ -4447,11 +4132,10 @@ const data = [
         "SCH": 366,
         "HP": 195,
         "AP": "£664,490",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 318,
         "SN": "Horsham",
         "REG": "South East",
         "OR": 318,
@@ -4461,11 +4145,10 @@ const data = [
         "SCH": 1045,
         "HP": 364,
         "AP": "£694,310",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 319,
         "SN": "Sutton (Sutton)",
         "REG": "Greater London",
         "OR": 319,
@@ -4475,11 +4158,10 @@ const data = [
         "SCH": 130,
         "HP": 1124,
         "AP": "£791,821",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 320,
         "SN": "Dursley",
         "REG": "South West",
         "OR": 319,
@@ -4489,11 +4171,10 @@ const data = [
         "SCH": 776,
         "HP": 584,
         "AP": "£455,399",
-        "SPC": "0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.0%"
     },
     {
+        "UID": 321,
         "SN": "Uppermill",
         "REG": "North West",
         "OR": 321,
@@ -4503,11 +4184,10 @@ const data = [
         "SCH": 96,
         "HP": 1008,
         "AP": "£473,119",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 322,
         "SN": "East Ardsley",
         "REG": "Yorkshire and The Humber",
         "OR": 322,
@@ -4517,11 +4197,10 @@ const data = [
         "SCH": 410,
         "HP": 198,
         "AP": "£367,568",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 323,
         "SN": "Easingwold",
         "REG": "Yorkshire and The Humber",
         "OR": 323,
@@ -4531,11 +4210,10 @@ const data = [
         "SCH": 1010,
         "HP": 498,
         "AP": "£469,155",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 324,
         "SN": "Anstey",
         "REG": "East Midlands",
         "OR": 324,
@@ -4545,11 +4223,10 @@ const data = [
         "SCH": 444,
         "HP": 540,
         "AP": "£424,038",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 325,
         "SN": "Faringdon",
         "REG": "South East",
         "OR": 324,
@@ -4559,11 +4236,10 @@ const data = [
         "SCH": 569,
         "HP": 569,
         "AP": "£506,599",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 326,
         "SN": "Corsham",
         "REG": "South West",
         "OR": 326,
@@ -4573,11 +4249,10 @@ const data = [
         "SCH": 824,
         "HP": 761,
         "AP": "£536,706",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 327,
         "SN": "Cottenham",
         "REG": "East of England",
         "OR": 327,
@@ -4587,11 +4262,10 @@ const data = [
         "SCH": 1255,
         "HP": 230,
         "AP": "£606,054",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 328,
         "SN": "Bingham",
         "REG": "East Midlands",
         "OR": 328,
@@ -4601,11 +4275,10 @@ const data = [
         "SCH": 291,
         "HP": 111,
         "AP": "£446,649",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 329,
         "SN": "Wareham",
         "REG": "South West",
         "OR": 328,
@@ -4615,11 +4288,10 @@ const data = [
         "SCH": 1316,
         "HP": 503,
         "AP": "£609,527",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 330,
         "SN": "Cottam (Preston)",
         "REG": "North West",
         "OR": 330,
@@ -4629,11 +4301,10 @@ const data = [
         "SCH": 704,
         "HP": 567,
         "AP": "£347,706",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 331,
         "SN": "Accrington",
         "REG": "North West",
         "OR": 331,
@@ -4643,11 +4314,10 @@ const data = [
         "SCH": 92,
         "HP": 978,
         "AP": "£185,647",
-        "SPC": "-6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.3%"
     },
     {
+        "UID": 332,
         "SN": "Folkestone",
         "REG": "South East",
         "OR": 332,
@@ -4657,11 +4327,10 @@ const data = [
         "SCH": 544,
         "HP": 1234,
         "AP": "£462,986",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 333,
         "SN": "Exeter",
         "REG": "South West",
         "OR": 333,
@@ -4671,11 +4340,10 @@ const data = [
         "SCH": 354,
         "HP": 963,
         "AP": "£523,276",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 334,
         "SN": "Ulverston",
         "REG": "North West",
         "OR": 334,
@@ -4685,11 +4353,10 @@ const data = [
         "SCH": 886,
         "HP": 296,
         "AP": "£372,318",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 335,
         "SN": "Kendal",
         "REG": "North West",
         "OR": 335,
@@ -4699,11 +4366,10 @@ const data = [
         "SCH": 717,
         "HP": 572,
         "AP": "£444,804",
-        "SPC": "5.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.7%"
     },
     {
+        "UID": 336,
         "SN": "Royston (North Hertfordshire)",
         "REG": "East of England",
         "OR": 336,
@@ -4713,11 +4379,10 @@ const data = [
         "SCH": 841,
         "HP": 130,
         "AP": "£617,993",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 337,
         "SN": "Carlisle",
         "REG": "North West",
         "OR": 336,
@@ -4727,11 +4392,10 @@ const data = [
         "SCH": 597,
         "HP": 618,
         "AP": "£237,731",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 338,
         "SN": "Shipston-on-Stour",
         "REG": "West Midlands",
         "OR": 338,
@@ -4741,11 +4405,10 @@ const data = [
         "SCH": 301,
         "HP": 305,
         "AP": "£538,185",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 339,
         "SN": "Ealing",
         "REG": "Greater London",
         "OR": 339,
@@ -4755,11 +4418,10 @@ const data = [
         "SCH": 154,
         "HP": 1002,
         "AP": "£1,014,449",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 340,
         "SN": "Willington (County Durham)",
         "REG": "North East",
         "OR": 340,
@@ -4769,11 +4431,10 @@ const data = [
         "SCH": 241,
         "HP": 806,
         "AP": "£172,405",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 341,
         "SN": "Dukinfield",
         "REG": "North West",
         "OR": 341,
@@ -4783,11 +4444,10 @@ const data = [
         "SCH": 131,
         "HP": 1115,
         "AP": "£344,516",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 342,
         "SN": "Warrington",
         "REG": "North West",
         "OR": 342,
@@ -4797,11 +4457,10 @@ const data = [
         "SCH": 315,
         "HP": 325,
         "AP": "£382,979",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 343,
         "SN": "Rochester",
         "REG": "South East",
         "OR": 343,
@@ -4811,11 +4470,10 @@ const data = [
         "SCH": 373,
         "HP": 1185,
         "AP": "£535,065",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 344,
         "SN": "Blaydon",
         "REG": "North East",
         "OR": 343,
@@ -4825,11 +4483,10 @@ const data = [
         "SCH": 735,
         "HP": 694,
         "AP": "£258,606",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 345,
         "SN": "Skelton (Redcar and Cleveland)",
         "REG": "North East",
         "OR": 345,
@@ -4839,11 +4496,10 @@ const data = [
         "SCH": 809,
         "HP": 514,
         "AP": "£239,411",
-        "SPC": "-5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.6%"
     },
     {
+        "UID": 346,
         "SN": "Warminster",
         "REG": "South West",
         "OR": 345,
@@ -4853,11 +4509,10 @@ const data = [
         "SCH": 1167,
         "HP": 630,
         "AP": "£456,780",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 347,
         "SN": "Liverpool",
         "REG": "North West",
         "OR": 347,
@@ -4867,11 +4522,10 @@ const data = [
         "SCH": 212,
         "HP": 896,
         "AP": "£288,991",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 348,
         "SN": "Patchway",
         "REG": "South West",
         "OR": 347,
@@ -4881,11 +4535,10 @@ const data = [
         "SCH": 282,
         "HP": 192,
         "AP": "£516,921",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 349,
         "SN": "Windsor",
         "REG": "South East",
         "OR": 349,
@@ -4895,11 +4548,10 @@ const data = [
         "SCH": 726,
         "HP": 52,
         "AP": "£810,807",
-        "SPC": "-1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.4%"
     },
     {
+        "UID": 350,
         "SN": "Salford",
         "REG": "North West",
         "OR": 350,
@@ -4909,11 +4561,10 @@ const data = [
         "SCH": 70,
         "HP": 223,
         "AP": "£405,029",
-        "SPC": "-16.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-16.3%"
     },
     {
+        "UID": 351,
         "SN": "Weston (Dorset)",
         "REG": "South West",
         "OR": 351,
@@ -4923,11 +4574,10 @@ const data = [
         "SCH": 1252,
         "HP": 727,
         "AP": "£378,607",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 352,
         "SN": "Alton (East Hampshire)",
         "REG": "South East",
         "OR": 352,
@@ -4937,11 +4587,10 @@ const data = [
         "SCH": 1243,
         "HP": 453,
         "AP": "£594,305",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 353,
         "SN": "Hindhead",
         "REG": "South East",
         "OR": 352,
@@ -4951,11 +4600,10 @@ const data = [
         "SCH": 744,
         "HP": 425,
         "AP": "£725,216",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 354,
         "SN": "Sawbridgeworth",
         "REG": "East of England",
         "OR": 352,
@@ -4965,11 +4613,10 @@ const data = [
         "SCH": 774,
         "HP": 162,
         "AP": "£714,191",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 355,
         "SN": "Sunderland",
         "REG": "North East",
         "OR": 355,
@@ -4979,11 +4626,10 @@ const data = [
         "SCH": 523,
         "HP": 801,
         "AP": "£218,196",
-        "SPC": "-5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.1%"
     },
     {
+        "UID": 356,
         "SN": "East Cowes",
         "REG": "South East",
         "OR": 355,
@@ -4993,11 +4639,10 @@ const data = [
         "SCH": 798,
         "HP": 1428,
         "AP": "£445,950",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 357,
         "SN": "Plymouth",
         "REG": "South West",
         "OR": 357,
@@ -5007,11 +4652,10 @@ const data = [
         "SCH": 121,
         "HP": 1391,
         "AP": "£376,822",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 358,
         "SN": "Wideopen",
         "REG": "North East",
         "OR": 358,
@@ -5021,11 +4665,10 @@ const data = [
         "SCH": 1371,
         "HP": 73,
         "AP": "£345,325",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 359,
         "SN": "Telford",
         "REG": "West Midlands",
         "OR": 359,
@@ -5035,11 +4678,10 @@ const data = [
         "SCH": 328,
         "HP": 1003,
         "AP": "£336,341",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 360,
         "SN": "Earl Shilton",
         "REG": "East Midlands",
         "OR": 360,
@@ -5049,11 +4691,10 @@ const data = [
         "SCH": 573,
         "HP": 419,
         "AP": "£373,857",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 361,
         "SN": "Newquay",
         "REG": "South West",
         "OR": 361,
@@ -5063,11 +4704,10 @@ const data = [
         "SCH": 538,
         "HP": 485,
         "AP": "£555,126",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 362,
         "SN": "Pembroke",
         "REG": "Wales",
         "OR": 362,
@@ -5077,11 +4717,10 @@ const data = [
         "SCH": 1352,
         "HP": 480,
         "AP": "£305,294",
-        "SPC": "-4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.0%"
     },
     {
+        "UID": 363,
         "SN": "Bury (Bury)",
         "REG": "North West",
         "OR": 363,
@@ -5091,11 +4730,10 @@ const data = [
         "SCH": 59,
         "HP": 615,
         "AP": "£351,434",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 364,
         "SN": "Rawtenstall",
         "REG": "North West",
         "OR": 364,
@@ -5105,11 +4743,10 @@ const data = [
         "SCH": 285,
         "HP": 958,
         "AP": "£303,601",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 365,
         "SN": "Streetly",
         "REG": "West Midlands",
         "OR": 364,
@@ -5119,11 +4756,10 @@ const data = [
         "SCH": 302,
         "HP": 826,
         "AP": "£549,791",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 366,
         "SN": "Otford and Kemsing",
         "REG": "South East",
         "OR": 366,
@@ -5133,11 +4769,10 @@ const data = [
         "SCH": 1139,
         "HP": 217,
         "AP": "£842,645",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 367,
         "SN": "Jarrow",
         "REG": "North East",
         "OR": 367,
@@ -5147,11 +4782,10 @@ const data = [
         "SCH": 486,
         "HP": 771,
         "AP": "£219,686",
-        "SPC": "-1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.4%"
     },
     {
+        "UID": 368,
         "SN": "Yate",
         "REG": "South West",
         "OR": 367,
@@ -5161,11 +4795,10 @@ const data = [
         "SCH": 273,
         "HP": 255,
         "AP": "£514,277",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 369,
         "SN": "Bagshot",
         "REG": "South East",
         "OR": 369,
@@ -5175,11 +4808,10 @@ const data = [
         "SCH": 504,
         "HP": 69,
         "AP": "£671,952",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 370,
         "SN": "Hedon",
         "REG": "Yorkshire and The Humber",
         "OR": 370,
@@ -5189,11 +4821,10 @@ const data = [
         "SCH": 199,
         "HP": 371,
         "AP": "£305,643",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 371,
         "SN": "Sheffield",
         "REG": "Yorkshire and The Humber",
         "OR": 371,
@@ -5203,11 +4834,10 @@ const data = [
         "SCH": 784,
         "HP": 437,
         "AP": "£376,243",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 372,
         "SN": "Winslow",
         "REG": "South East",
         "OR": 371,
@@ -5217,11 +4847,10 @@ const data = [
         "SCH": 1241,
         "HP": 328,
         "AP": "£614,082",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 373,
         "SN": "Smethwick",
         "REG": "West Midlands",
         "OR": 373,
@@ -5231,11 +4860,10 @@ const data = [
         "SCH": 91,
         "HP": 1373,
         "AP": "£320,557",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 374,
         "SN": "Blandford Forum",
         "REG": "South West",
         "OR": 374,
@@ -5245,11 +4873,10 @@ const data = [
         "SCH": 1079,
         "HP": 359,
         "AP": "£490,195",
-        "SPC": "-4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.2%"
     },
     {
+        "UID": 375,
         "SN": "Loughton",
         "REG": "East of England",
         "OR": 375,
@@ -5259,11 +4886,10 @@ const data = [
         "SCH": 99,
         "HP": 62,
         "AP": "£862,659",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 376,
         "SN": "Greenwich",
         "REG": "Greater London",
         "OR": 376,
@@ -5273,11 +4899,10 @@ const data = [
         "SCH": 137,
         "HP": 792,
         "AP": "£839,928",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 377,
         "SN": "Chadderton",
         "REG": "North West",
         "OR": 377,
@@ -5287,11 +4912,10 @@ const data = [
         "SCH": 7,
         "HP": 1292,
         "AP": "£333,171",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 378,
         "SN": "Birmingham",
         "REG": "West Midlands",
         "OR": 377,
@@ -5301,11 +4925,10 @@ const data = [
         "SCH": 247,
         "HP": 716,
         "AP": "£382,655",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 379,
         "SN": "Stapleford",
         "REG": "East Midlands",
         "OR": 379,
@@ -5315,11 +4938,10 @@ const data = [
         "SCH": 175,
         "HP": 741,
         "AP": "£368,828",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 380,
         "SN": "Walton-on-Thames",
         "REG": "South East",
         "OR": 380,
@@ -5329,11 +4951,10 @@ const data = [
         "SCH": 687,
         "HP": 11,
         "AP": "£815,693",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 381,
         "SN": "Carterton",
         "REG": "South East",
         "OR": 381,
@@ -5343,11 +4964,10 @@ const data = [
         "SCH": 47,
         "HP": 1082,
         "AP": "£528,297",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 382,
         "SN": "Oldham",
         "REG": "North West",
         "OR": 382,
@@ -5357,11 +4977,10 @@ const data = [
         "SCH": 10,
         "HP": 1407,
         "AP": "£260,567",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 383,
         "SN": "Christchurch (Bournemouth, Christchurch and Poole)",
         "REG": "South West",
         "OR": 383,
@@ -5371,11 +4990,10 @@ const data = [
         "SCH": 1038,
         "HP": 160,
         "AP": "£659,850",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 384,
         "SN": "Beverley",
         "REG": "Yorkshire and The Humber",
         "OR": 384,
@@ -5385,11 +5003,10 @@ const data = [
         "SCH": 245,
         "HP": 235,
         "AP": "£391,694",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 385,
         "SN": "Houghton-le-Spring",
         "REG": "North East",
         "OR": 385,
@@ -5399,11 +5016,10 @@ const data = [
         "SCH": 196,
         "HP": 794,
         "AP": "£214,103",
-        "SPC": "-8.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.1%"
     },
     {
+        "UID": 386,
         "SN": "Llandrindod Wells",
         "REG": "Wales",
         "OR": 385,
@@ -5413,11 +5029,10 @@ const data = [
         "SCH": 211,
         "HP": 971,
         "AP": "£265,219",
-        "SPC": "-10.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-10.7%"
     },
     {
+        "UID": 387,
         "SN": "Sandy",
         "REG": "East of England",
         "OR": 385,
@@ -5427,11 +5042,10 @@ const data = [
         "SCH": 226,
         "HP": 657,
         "AP": "£521,534",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 388,
         "SN": "Radcliffe on Trent",
         "REG": "East Midlands",
         "OR": 385,
@@ -5441,11 +5055,10 @@ const data = [
         "SCH": 489,
         "HP": 337,
         "AP": "£440,546",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 389,
         "SN": "Ramsbottom",
         "REG": "North West",
         "OR": 389,
@@ -5455,11 +5068,10 @@ const data = [
         "SCH": 132,
         "HP": 273,
         "AP": "£422,946",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 390,
         "SN": "Waddington (North Kesteven)",
         "REG": "East Midlands",
         "OR": 390,
@@ -5469,11 +5081,10 @@ const data = [
         "SCH": 174,
         "HP": 874,
         "AP": "£379,627",
-        "SPC": "5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.1%"
     },
     {
+        "UID": 391,
         "SN": "Newcastle-under-Lyme",
         "REG": "West Midlands",
         "OR": 391,
@@ -5483,11 +5094,10 @@ const data = [
         "SCH": 367,
         "HP": 1048,
         "AP": "£299,026",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 392,
         "SN": "Swansea",
         "REG": "Wales",
         "OR": 392,
@@ -5497,11 +5107,10 @@ const data = [
         "SCH": 580,
         "HP": 669,
         "AP": "£299,478",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 393,
         "SN": "Liphook",
         "REG": "South East",
         "OR": 392,
@@ -5511,11 +5120,10 @@ const data = [
         "SCH": 834,
         "HP": 492,
         "AP": "£643,933",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 394,
         "SN": "Bootle (Sefton)",
         "REG": "North West",
         "OR": 394,
@@ -5525,11 +5133,10 @@ const data = [
         "SCH": 127,
         "HP": 1244,
         "AP": "£207,642",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 395,
         "SN": "Pershore",
         "REG": "West Midlands",
         "OR": 395,
@@ -5539,11 +5146,10 @@ const data = [
         "SCH": 804,
         "HP": 109,
         "AP": "£450,332",
-        "SPC": "-5.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.8%"
     },
     {
+        "UID": 396,
         "SN": "Norwich",
         "REG": "East of England",
         "OR": 396,
@@ -5553,11 +5159,10 @@ const data = [
         "SCH": 337,
         "HP": 1309,
         "AP": "£465,199",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 397,
         "SN": "Stoke-on-Trent",
         "REG": "West Midlands",
         "OR": 396,
@@ -5567,11 +5172,10 @@ const data = [
         "SCH": 275,
         "HP": 1185,
         "AP": "£252,166",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 398,
         "SN": "Rhoose",
         "REG": "Wales",
         "OR": 398,
@@ -5581,11 +5185,10 @@ const data = [
         "SCH": 473,
         "HP": 101,
         "AP": "£430,946",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 399,
         "SN": "Market Harborough",
         "REG": "East Midlands",
         "OR": 399,
@@ -5595,11 +5198,10 @@ const data = [
         "SCH": 763,
         "HP": 271,
         "AP": "£494,346",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 400,
         "SN": "Boldon Colliery",
         "REG": "North East",
         "OR": 400,
@@ -5609,11 +5211,10 @@ const data = [
         "SCH": 948,
         "HP": 545,
         "AP": "£253,722",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 401,
         "SN": "Ibstock",
         "REG": "East Midlands",
         "OR": 401,
@@ -5623,11 +5224,10 @@ const data = [
         "SCH": 685,
         "HP": 213,
         "AP": "£352,041",
-        "SPC": "-3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.9%"
     },
     {
+        "UID": 402,
         "SN": "Oadby",
         "REG": "East Midlands",
         "OR": 401,
@@ -5637,11 +5237,10 @@ const data = [
         "SCH": 459,
         "HP": 425,
         "AP": "£478,349",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 403,
         "SN": "Solihull",
         "REG": "West Midlands",
         "OR": 403,
@@ -5651,11 +5250,10 @@ const data = [
         "SCH": 289,
         "HP": 142,
         "AP": "£538,972",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 404,
         "SN": "Walkden",
         "REG": "North West",
         "OR": 404,
@@ -5665,11 +5263,10 @@ const data = [
         "SCH": 11,
         "HP": 384,
         "AP": "£389,893",
-        "SPC": "-2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.0%"
     },
     {
+        "UID": 405,
         "SN": "Southport",
         "REG": "North West",
         "OR": 404,
@@ -5679,11 +5276,10 @@ const data = [
         "SCH": 380,
         "HP": 657,
         "AP": "£314,250",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 406,
         "SN": "Redhill (Reigate and Banstead)",
         "REG": "South East",
         "OR": 406,
@@ -5693,11 +5289,10 @@ const data = [
         "SCH": 885,
         "HP": 103,
         "AP": "£692,550",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 407,
         "SN": "Rowlands Gill",
         "REG": "North East",
         "OR": 407,
@@ -5707,11 +5302,10 @@ const data = [
         "SCH": 1220,
         "HP": 357,
         "AP": "£295,977",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 408,
         "SN": "Nuthall and Watnall",
         "REG": "East Midlands",
         "OR": 408,
@@ -5721,11 +5315,10 @@ const data = [
         "SCH": 491,
         "HP": 186,
         "AP": "£417,730",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 409,
         "SN": "Great Torrington",
         "REG": "South West",
         "OR": 408,
@@ -5735,11 +5328,10 @@ const data = [
         "SCH": 642,
         "HP": 1415,
         "AP": "£441,763",
-        "SPC": "11.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.0%"
     },
     {
+        "UID": 410,
         "SN": "Worthing",
         "REG": "South East",
         "OR": 410,
@@ -5749,11 +5341,10 @@ const data = [
         "SCH": 356,
         "HP": 1194,
         "AP": "£625,036",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 411,
         "SN": "Harrow",
         "REG": "Greater London",
         "OR": 411,
@@ -5763,11 +5354,10 @@ const data = [
         "SCH": 230,
         "HP": 1054,
         "AP": "£846,959",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 412,
         "SN": "South Shields",
         "REG": "North East",
         "OR": 412,
@@ -5777,11 +5367,10 @@ const data = [
         "SCH": 467,
         "HP": 935,
         "AP": "£237,136",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 413,
         "SN": "Wellesbourne",
         "REG": "West Midlands",
         "OR": 412,
@@ -5791,11 +5380,10 @@ const data = [
         "SCH": 865,
         "HP": 194,
         "AP": "£515,057",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 414,
         "SN": "Cirencester",
         "REG": "South West",
         "OR": 414,
@@ -5805,11 +5393,10 @@ const data = [
         "SCH": 744,
         "HP": 748,
         "AP": "£555,324",
-        "SPC": "9.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.3%"
     },
     {
+        "UID": 415,
         "SN": "Penistone",
         "REG": "Yorkshire and The Humber",
         "OR": 415,
@@ -5819,11 +5406,10 @@ const data = [
         "SCH": 688,
         "HP": 751,
         "AP": "£366,660",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 416,
         "SN": "Heswall",
         "REG": "North West",
         "OR": 415,
@@ -5833,11 +5419,10 @@ const data = [
         "SCH": 1277,
         "HP": 374,
         "AP": "£469,751",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 417,
         "SN": "Royal Sutton Coldfield",
         "REG": "West Midlands",
         "OR": 417,
@@ -5847,11 +5432,10 @@ const data = [
         "SCH": 408,
         "HP": 479,
         "AP": "£518,033",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 418,
         "SN": "Bracebridge Heath",
         "REG": "East Midlands",
         "OR": 418,
@@ -5861,11 +5445,10 @@ const data = [
         "SCH": 224,
         "HP": 755,
         "AP": "£387,596",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 419,
         "SN": "Battle",
         "REG": "South East",
         "OR": 418,
@@ -5875,11 +5458,10 @@ const data = [
         "SCH": 1245,
         "HP": 1248,
         "AP": "£579,480",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 420,
         "SN": "Royton",
         "REG": "North West",
         "OR": 420,
@@ -5889,11 +5471,10 @@ const data = [
         "SCH": 69,
         "HP": 930,
         "AP": "£341,949",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 421,
         "SN": "Leiston",
         "REG": "East of England",
         "OR": 420,
@@ -5903,11 +5484,10 @@ const data = [
         "SCH": 1382,
         "HP": 988,
         "AP": "£407,940",
-        "SPC": "-4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.1%"
     },
     {
+        "UID": 422,
         "SN": "Cheshunt",
         "REG": "East of England",
         "OR": 422,
@@ -5917,11 +5497,10 @@ const data = [
         "SCH": 198,
         "HP": 195,
         "AP": "£714,436",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 423,
         "SN": "Durham",
         "REG": "North East",
         "OR": 423,
@@ -5931,11 +5510,10 @@ const data = [
         "SCH": 651,
         "HP": 549,
         "AP": "£342,496",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 424,
         "SN": "Ilkeston",
         "REG": "East Midlands",
         "OR": 424,
@@ -5945,11 +5523,10 @@ const data = [
         "SCH": 90,
         "HP": 667,
         "AP": "£305,482",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 425,
         "SN": "Ryton",
         "REG": "North East",
         "OR": 424,
@@ -5959,11 +5536,10 @@ const data = [
         "SCH": 838,
         "HP": 190,
         "AP": "£285,598",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 426,
         "SN": "Tenterden",
         "REG": "South East",
         "OR": 424,
@@ -5973,11 +5549,10 @@ const data = [
         "SCH": 1070,
         "HP": 832,
         "AP": "£652,001",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 427,
         "SN": "Prescot",
         "REG": "North West",
         "OR": 427,
@@ -5987,11 +5562,10 @@ const data = [
         "SCH": 42,
         "HP": 937,
         "AP": "£295,327",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 428,
         "SN": "Gloucester",
         "REG": "South West",
         "OR": 428,
@@ -6001,11 +5575,10 @@ const data = [
         "SCH": 298,
         "HP": 1356,
         "AP": "£424,962",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 429,
         "SN": "Littleborough",
         "REG": "North West",
         "OR": 429,
@@ -6015,11 +5588,10 @@ const data = [
         "SCH": 28,
         "HP": 1064,
         "AP": "£350,800",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 430,
         "SN": "Devizes",
         "REG": "South West",
         "OR": 430,
@@ -6029,11 +5601,10 @@ const data = [
         "SCH": 1313,
         "HP": 532,
         "AP": "£454,946",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 431,
         "SN": "Cromer",
         "REG": "East of England",
         "OR": 431,
@@ -6043,11 +5614,10 @@ const data = [
         "SCH": 1296,
         "HP": 1376,
         "AP": "£472,364",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 432,
         "SN": "Overseal and Castle Gresley",
         "REG": "East Midlands",
         "OR": 432,
@@ -6057,11 +5627,10 @@ const data = [
         "SCH": 721,
         "HP": 560,
         "AP": "£366,698",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 433,
         "SN": "Hinckley",
         "REG": "East Midlands",
         "OR": 433,
@@ -6071,11 +5640,10 @@ const data = [
         "SCH": 323,
         "HP": 321,
         "AP": "£414,736",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 434,
         "SN": "Nailsworth",
         "REG": "South West",
         "OR": 433,
@@ -6085,11 +5653,10 @@ const data = [
         "SCH": 680,
         "HP": 679,
         "AP": "£580,828",
-        "SPC": "5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.1%"
     },
     {
+        "UID": 435,
         "SN": "Wimborne Minster",
         "REG": "South West",
         "OR": 435,
@@ -6099,11 +5666,10 @@ const data = [
         "SCH": 1127,
         "HP": 154,
         "AP": "£619,190",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 436,
         "SN": "Whitefield",
         "REG": "North West",
         "OR": 436,
@@ -6113,11 +5679,10 @@ const data = [
         "SCH": 86,
         "HP": 789,
         "AP": "£402,421",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 437,
         "SN": "Haywards Heath",
         "REG": "South East",
         "OR": 437,
@@ -6127,11 +5692,10 @@ const data = [
         "SCH": 1217,
         "HP": 581,
         "AP": "£704,525",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 438,
         "SN": "Quorndon",
         "REG": "East Midlands",
         "OR": 437,
@@ -6141,11 +5705,10 @@ const data = [
         "SCH": 712,
         "HP": 41,
         "AP": "£512,642",
-        "SPC": "-4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.5%"
     },
     {
+        "UID": 439,
         "SN": "Kingston upon Thames",
         "REG": "Greater London",
         "OR": 439,
@@ -6155,11 +5718,10 @@ const data = [
         "SCH": 502,
         "HP": 414,
         "AP": "£965,842",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 440,
         "SN": "Hessle",
         "REG": "Yorkshire and The Humber",
         "OR": 440,
@@ -6169,11 +5731,10 @@ const data = [
         "SCH": 195,
         "HP": 237,
         "AP": "£320,359",
-        "SPC": "-4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.0%"
     },
     {
+        "UID": 441,
         "SN": "Haworth",
         "REG": "Yorkshire and The Humber",
         "OR": 441,
@@ -6183,11 +5744,10 @@ const data = [
         "SCH": 480,
         "HP": 1259,
         "AP": "£322,982",
-        "SPC": "10.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.8%"
     },
     {
+        "UID": 442,
         "SN": "Thornbury",
         "REG": "South West",
         "OR": 442,
@@ -6197,11 +5757,10 @@ const data = [
         "SCH": 62,
         "HP": 138,
         "AP": "£541,421",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 443,
         "SN": "Gravesend",
         "REG": "South East",
         "OR": 442,
@@ -6211,11 +5770,10 @@ const data = [
         "SCH": 113,
         "HP": 879,
         "AP": "£556,925",
-        "SPC": "-2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.3%"
     },
     {
+        "UID": 444,
         "SN": "Irlam",
         "REG": "North West",
         "OR": 444,
@@ -6225,11 +5783,10 @@ const data = [
         "SCH": 78,
         "HP": 689,
         "AP": "£370,715",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 445,
         "SN": "Radlett",
         "REG": "East of England",
         "OR": 445,
@@ -6239,11 +5796,10 @@ const data = [
         "SCH": 479,
         "HP": 276,
         "AP": "£1,005,151",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 446,
         "SN": "Torquay",
         "REG": "South West",
         "OR": 446,
@@ -6253,11 +5809,10 @@ const data = [
         "SCH": 264,
         "HP": 1404,
         "AP": "£413,830",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 447,
         "SN": "Strensall",
         "REG": "Yorkshire and The Humber",
         "OR": 446,
@@ -6267,11 +5822,10 @@ const data = [
         "SCH": 1067,
         "HP": 361,
         "AP": "£525,729",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 448,
         "SN": "Burgess Hill",
         "REG": "South East",
         "OR": 448,
@@ -6281,11 +5835,10 @@ const data = [
         "SCH": 986,
         "HP": 516,
         "AP": "£668,499",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 449,
         "SN": "Beaconsfield",
         "REG": "South East",
         "OR": 448,
@@ -6295,11 +5848,10 @@ const data = [
         "SCH": 1194,
         "HP": 370,
         "AP": "£1,030,709",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 450,
         "SN": "Blaby and Whetstone",
         "REG": "East Midlands",
         "OR": 450,
@@ -6309,11 +5861,10 @@ const data = [
         "SCH": 372,
         "HP": 376,
         "AP": "£456,320",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 451,
         "SN": "Filton",
         "REG": "South West",
         "OR": 451,
@@ -6323,11 +5874,10 @@ const data = [
         "SCH": 116,
         "HP": 222,
         "AP": "£524,460",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 452,
         "SN": "Sandhurst (Bracknell Forest)",
         "REG": "South East",
         "OR": 452,
@@ -6337,11 +5887,10 @@ const data = [
         "SCH": 543,
         "HP": 247,
         "AP": "£681,807",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 453,
         "SN": "Saffron Walden",
         "REG": "East of England",
         "OR": 453,
@@ -6351,11 +5900,10 @@ const data = [
         "SCH": 785,
         "HP": 105,
         "AP": "£638,414",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 454,
         "SN": "Amersham",
         "REG": "South East",
         "OR": 454,
@@ -6365,11 +5913,10 @@ const data = [
         "SCH": 994,
         "HP": 219,
         "AP": "£962,217",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 455,
         "SN": "Hartlepool",
         "REG": "North East",
         "OR": 455,
@@ -6379,11 +5926,10 @@ const data = [
         "SCH": 332,
         "HP": 641,
         "AP": "£194,619",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 456,
         "SN": "Newton-le-Willows",
         "REG": "North West",
         "OR": 455,
@@ -6393,11 +5939,10 @@ const data = [
         "SCH": 348,
         "HP": 779,
         "AP": "£323,635",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 457,
         "SN": "Lewisham",
         "REG": "Greater London",
         "OR": 457,
@@ -6407,11 +5952,10 @@ const data = [
         "SCH": 163,
         "HP": 954,
         "AP": "£891,661",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 458,
         "SN": "Eastwood",
         "REG": "East Midlands",
         "OR": 458,
@@ -6421,11 +5965,10 @@ const data = [
         "SCH": 206,
         "HP": 696,
         "AP": "£361,186",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 459,
         "SN": "Brackley",
         "REG": "East Midlands",
         "OR": 458,
@@ -6435,11 +5978,10 @@ const data = [
         "SCH": 146,
         "HP": 446,
         "AP": "£539,398",
-        "SPC": "6.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.1%"
     },
     {
+        "UID": 460,
         "SN": "Bolton (Bolton)",
         "REG": "North West",
         "OR": 460,
@@ -6449,11 +5991,10 @@ const data = [
         "SCH": 9,
         "HP": 1071,
         "AP": "£301,367",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 461,
         "SN": "Shelf and Northowram",
         "REG": "Yorkshire and The Humber",
         "OR": 460,
@@ -6463,11 +6004,10 @@ const data = [
         "SCH": 1207,
         "HP": 531,
         "AP": "£356,621",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 462,
         "SN": "Thatcham",
         "REG": "South East",
         "OR": 462,
@@ -6477,11 +6017,10 @@ const data = [
         "SCH": 1090,
         "HP": 644,
         "AP": "£612,317",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 463,
         "SN": "South Merstham",
         "REG": "South East",
         "OR": 463,
@@ -6491,11 +6030,10 @@ const data = [
         "SCH": 500,
         "HP": 404,
         "AP": "£673,576",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 464,
         "SN": "Chertsey",
         "REG": "South East",
         "OR": 464,
@@ -6505,11 +6043,10 @@ const data = [
         "SCH": 945,
         "HP": 59,
         "AP": "£731,017",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 465,
         "SN": "Gildersome",
         "REG": "Yorkshire and The Humber",
         "OR": 464,
@@ -6519,11 +6056,10 @@ const data = [
         "SCH": 321,
         "HP": 502,
         "AP": "£386,706",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 466,
         "SN": "Freshwater and Totland",
         "REG": "South East",
         "OR": 466,
@@ -6533,11 +6069,10 @@ const data = [
         "SCH": 892,
         "HP": 1389,
         "AP": "£514,295",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 467,
         "SN": "Abertridwr and Senghenydd",
         "REG": "Wales",
         "OR": 467,
@@ -6547,11 +6082,10 @@ const data = [
         "SCH": 202,
         "HP": 845,
         "AP": "£221,283",
-        "SPC": "-5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.4%"
     },
     {
+        "UID": 468,
         "SN": "West End and Chobham",
         "REG": "South East",
         "OR": 467,
@@ -6561,11 +6095,10 @@ const data = [
         "SCH": 1193,
         "HP": 312,
         "AP": "£874,421",
-        "SPC": "7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.6%"
     },
     {
+        "UID": 469,
         "SN": "Botley",
         "REG": "South East",
         "OR": 469,
@@ -6575,11 +6108,10 @@ const data = [
         "SCH": 850,
         "HP": 1150,
         "AP": "£589,323",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 470,
         "SN": "Shildon",
         "REG": "North East",
         "OR": 470,
@@ -6589,11 +6121,10 @@ const data = [
         "SCH": 295,
         "HP": 1061,
         "AP": "£125,626",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 471,
         "SN": "Preston (Preston)",
         "REG": "North West",
         "OR": 471,
@@ -6603,11 +6134,10 @@ const data = [
         "SCH": 399,
         "HP": 692,
         "AP": "£227,898",
-        "SPC": "-4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.9%"
     },
     {
+        "UID": 472,
         "SN": "Gerrards Cross",
         "REG": "South East",
         "OR": 472,
@@ -6617,11 +6147,10 @@ const data = [
         "SCH": 618,
         "HP": 500,
         "AP": "£1,033,651",
-        "SPC": "14.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "14.1%"
     },
     {
+        "UID": 473,
         "SN": "Alcester",
         "REG": "West Midlands",
         "OR": 473,
@@ -6631,11 +6160,10 @@ const data = [
         "SCH": 861,
         "HP": 71,
         "AP": "£493,032",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 474,
         "SN": "Ipswich",
         "REG": "East of England",
         "OR": 474,
@@ -6645,11 +6173,10 @@ const data = [
         "SCH": 434,
         "HP": 1317,
         "AP": "£414,486",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 475,
         "SN": "Haslingden",
         "REG": "North West",
         "OR": 475,
@@ -6659,11 +6186,10 @@ const data = [
         "SCH": 360,
         "HP": 1106,
         "AP": "£311,328",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 476,
         "SN": "Verwood",
         "REG": "South West",
         "OR": 476,
@@ -6673,11 +6199,10 @@ const data = [
         "SCH": 1066,
         "HP": 354,
         "AP": "£618,082",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 477,
         "SN": "Ampthill",
         "REG": "East of England",
         "OR": 477,
@@ -6687,11 +6212,10 @@ const data = [
         "SCH": 736,
         "HP": 429,
         "AP": "£668,676",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 478,
         "SN": "Wrecclesham",
         "REG": "South East",
         "OR": 477,
@@ -6701,11 +6225,10 @@ const data = [
         "SCH": 1121,
         "HP": 129,
         "AP": "£847,395",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 479,
         "SN": "Hastings",
         "REG": "South East",
         "OR": 479,
@@ -6715,11 +6238,10 @@ const data = [
         "SCH": 1024,
         "HP": 1220,
         "AP": "£490,795",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 480,
         "SN": "Bexhill-on-Sea",
         "REG": "South East",
         "OR": 479,
@@ -6729,11 +6251,10 @@ const data = [
         "SCH": 931,
         "HP": 1357,
         "AP": "£519,020",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 481,
         "SN": "Greasby",
         "REG": "North West",
         "OR": 481,
@@ -6743,11 +6264,10 @@ const data = [
         "SCH": 1293,
         "HP": 501,
         "AP": "£442,534",
-        "SPC": "6.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.1%"
     },
     {
+        "UID": 482,
         "SN": "Blaenavon",
         "REG": "Wales",
         "OR": 482,
@@ -6757,11 +6277,10 @@ const data = [
         "SCH": 556,
         "HP": 1407,
         "AP": "£251,280",
-        "SPC": "8.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.8%"
     },
     {
+        "UID": 483,
         "SN": "Swanscombe",
         "REG": "South East",
         "OR": 483,
@@ -6771,11 +6290,10 @@ const data = [
         "SCH": 101,
         "HP": 591,
         "AP": "£579,624",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 484,
         "SN": "Rochdale",
         "REG": "North West",
         "OR": 483,
@@ -6785,11 +6303,10 @@ const data = [
         "SCH": 89,
         "HP": 1197,
         "AP": "£300,155",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 485,
         "SN": "Hethersett",
         "REG": "East of England",
         "OR": 483,
@@ -6799,11 +6316,10 @@ const data = [
         "SCH": 936,
         "HP": 1329,
         "AP": "£511,993",
-        "SPC": "8.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.2%"
     },
     {
+        "UID": 486,
         "SN": "Chalfont St Peter",
         "REG": "South East",
         "OR": 486,
@@ -6813,11 +6329,10 @@ const data = [
         "SCH": 846,
         "HP": 422,
         "AP": "£972,270",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 487,
         "SN": "Crawley Down",
         "REG": "South East",
         "OR": 487,
@@ -6827,11 +6342,10 @@ const data = [
         "SCH": 1375,
         "HP": 617,
         "AP": "£684,004",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 488,
         "SN": "Calverton",
         "REG": "East Midlands",
         "OR": 488,
@@ -6841,11 +6355,10 @@ const data = [
         "SCH": 254,
         "HP": 700,
         "AP": "£404,366",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 489,
         "SN": "Wallasey",
         "REG": "North West",
         "OR": 489,
@@ -6855,11 +6368,10 @@ const data = [
         "SCH": 374,
         "HP": 812,
         "AP": "£262,448",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 490,
         "SN": "Gillingham (Medway)",
         "REG": "South East",
         "OR": 490,
@@ -6869,11 +6381,10 @@ const data = [
         "SCH": 306,
         "HP": 1134,
         "AP": "£518,069",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 491,
         "SN": "Shirebrook",
         "REG": "East Midlands",
         "OR": 490,
@@ -6883,11 +6394,10 @@ const data = [
         "SCH": 219,
         "HP": 1137,
         "AP": "£232,912",
-        "SPC": "-7.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.7%"
     },
     {
+        "UID": 492,
         "SN": "Southwater",
         "REG": "South East",
         "OR": 492,
@@ -6897,11 +6407,10 @@ const data = [
         "SCH": 1135,
         "HP": 756,
         "AP": "£696,016",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 493,
         "SN": "Denbigh",
         "REG": "Wales",
         "OR": 492,
@@ -6911,11 +6420,10 @@ const data = [
         "SCH": 563,
         "HP": 794,
         "AP": "£300,774",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 494,
         "SN": "Ware",
         "REG": "East of England",
         "OR": 492,
@@ -6925,11 +6433,10 @@ const data = [
         "SCH": 888,
         "HP": 104,
         "AP": "£746,012",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 495,
         "SN": "Middleton (Rochdale)",
         "REG": "North West",
         "OR": 495,
@@ -6939,11 +6446,10 @@ const data = [
         "SCH": 19,
         "HP": 1050,
         "AP": "£347,898",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 496,
         "SN": "Kippax",
         "REG": "Yorkshire and The Humber",
         "OR": 496,
@@ -6953,11 +6459,10 @@ const data = [
         "SCH": 700,
         "HP": 363,
         "AP": "£373,136",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 497,
         "SN": "Porthcawl",
         "REG": "Wales",
         "OR": 497,
@@ -6967,11 +6472,10 @@ const data = [
         "SCH": 821,
         "HP": 265,
         "AP": "£449,732",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 498,
         "SN": "Ramsgate",
         "REG": "South East",
         "OR": 498,
@@ -6981,11 +6485,10 @@ const data = [
         "SCH": 197,
         "HP": 1125,
         "AP": "£457,420",
-        "SPC": "-3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.8%"
     },
     {
+        "UID": 499,
         "SN": "Waltham Abbey",
         "REG": "East of England",
         "OR": 499,
@@ -6995,11 +6498,10 @@ const data = [
         "SCH": 141,
         "HP": 55,
         "AP": "£663,760",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 500,
         "SN": "Flitwick",
         "REG": "East of England",
         "OR": 499,
@@ -7009,11 +6511,10 @@ const data = [
         "SCH": 465,
         "HP": 245,
         "AP": "£590,838",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 501,
         "SN": "Heywood",
         "REG": "North West",
         "OR": 501,
@@ -7023,11 +6524,10 @@ const data = [
         "SCH": 33,
         "HP": 1060,
         "AP": "£292,307",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 502,
         "SN": "Evesham",
         "REG": "West Midlands",
         "OR": 502,
@@ -7037,11 +6537,10 @@ const data = [
         "SCH": 575,
         "HP": 559,
         "AP": "£447,691",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 503,
         "SN": "Chichester",
         "REG": "South East",
         "OR": 503,
@@ -7051,11 +6550,10 @@ const data = [
         "SCH": 1177,
         "HP": 779,
         "AP": "£623,670",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 504,
         "SN": "Meltham",
         "REG": "Yorkshire and The Humber",
         "OR": 504,
@@ -7065,11 +6563,10 @@ const data = [
         "SCH": 880,
         "HP": 892,
         "AP": "£365,821",
-        "SPC": "7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.6%"
     },
     {
+        "UID": 505,
         "SN": "South Ockendon",
         "REG": "East of England",
         "OR": 505,
@@ -7079,11 +6576,10 @@ const data = [
         "SCH": 145,
         "HP": 611,
         "AP": "£615,718",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 506,
         "SN": "Buckhurst Hill",
         "REG": "East of England",
         "OR": 505,
@@ -7093,11 +6589,10 @@ const data = [
         "SCH": 311,
         "HP": 6,
         "AP": "£870,586",
-        "SPC": "-3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.3%"
     },
     {
+        "UID": 507,
         "SN": "Esher",
         "REG": "South East",
         "OR": 505,
@@ -7107,11 +6602,10 @@ const data = [
         "SCH": 1099,
         "HP": 220,
         "AP": "£1,097,751",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 508,
         "SN": "Tadley",
         "REG": "South East",
         "OR": 508,
@@ -7121,11 +6615,10 @@ const data = [
         "SCH": 1393,
         "HP": 262,
         "AP": "£583,227",
-        "SPC": "-3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.8%"
     },
     {
+        "UID": 509,
         "SN": "Romsey",
         "REG": "South East",
         "OR": 509,
@@ -7135,11 +6628,10 @@ const data = [
         "SCH": 732,
         "HP": 806,
         "AP": "£633,740",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 510,
         "SN": "Kidsgrove",
         "REG": "West Midlands",
         "OR": 509,
@@ -7149,11 +6641,10 @@ const data = [
         "SCH": 892,
         "HP": 1120,
         "AP": "£303,611",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 511,
         "SN": "Scarborough",
         "REG": "Yorkshire and The Humber",
         "OR": 511,
@@ -7163,11 +6654,10 @@ const data = [
         "SCH": 1117,
         "HP": 1034,
         "AP": "£304,869",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 512,
         "SN": "Norton Canes",
         "REG": "West Midlands",
         "OR": 512,
@@ -7177,11 +6667,10 @@ const data = [
         "SCH": 868,
         "HP": 616,
         "AP": "£393,920",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 513,
         "SN": "Huyton with Roby",
         "REG": "North West",
         "OR": 513,
@@ -7191,11 +6680,10 @@ const data = [
         "SCH": 125,
         "HP": 824,
         "AP": "£287,402",
-        "SPC": "-3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.7%"
     },
     {
+        "UID": 514,
         "SN": "Farnborough",
         "REG": "South East",
         "OR": 514,
@@ -7205,11 +6693,10 @@ const data = [
         "SCH": 296,
         "HP": 700,
         "AP": "£615,899",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 515,
         "SN": "Bolsover",
         "REG": "East Midlands",
         "OR": 515,
@@ -7219,11 +6706,10 @@ const data = [
         "SCH": 1362,
         "HP": 1087,
         "AP": "£271,335",
-        "SPC": "-9.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.5%"
     },
     {
+        "UID": 516,
         "SN": "Poulton-le-Fylde",
         "REG": "North West",
         "OR": 516,
@@ -7233,11 +6719,10 @@ const data = [
         "SCH": 290,
         "HP": 527,
         "AP": "£342,458",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 517,
         "SN": "Weybridge",
         "REG": "South East",
         "OR": 517,
@@ -7247,11 +6732,10 @@ const data = [
         "SCH": 1082,
         "HP": 34,
         "AP": "£883,940",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 518,
         "SN": "Oxted",
         "REG": "South East",
         "OR": 517,
@@ -7261,11 +6745,10 @@ const data = [
         "SCH": 1198,
         "HP": 23,
         "AP": "£776,777",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 519,
         "SN": "Stockton-on-Tees",
         "REG": "North East",
         "OR": 519,
@@ -7275,11 +6758,10 @@ const data = [
         "SCH": 462,
         "HP": 443,
         "AP": "£229,865",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 520,
         "SN": "Ryde",
         "REG": "South East",
         "OR": 520,
@@ -7289,11 +6771,10 @@ const data = [
         "SCH": 691,
         "HP": 1381,
         "AP": "£430,394",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 521,
         "SN": "Skipton",
         "REG": "Yorkshire and The Humber",
         "OR": 521,
@@ -7303,11 +6784,10 @@ const data = [
         "SCH": 854,
         "HP": 258,
         "AP": "£406,493",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 522,
         "SN": "Churchdown",
         "REG": "South West",
         "OR": 521,
@@ -7317,11 +6797,10 @@ const data = [
         "SCH": 746,
         "HP": 944,
         "AP": "£498,988",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 523,
         "SN": "Chiswell Green",
         "REG": "East of England",
         "OR": 521,
@@ -7331,11 +6810,10 @@ const data = [
         "SCH": 474,
         "HP": 282,
         "AP": "£954,677",
-        "SPC": "10.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.0%"
     },
     {
+        "UID": 524,
         "SN": "Chorley",
         "REG": "North West",
         "OR": 524,
@@ -7345,11 +6823,10 @@ const data = [
         "SCH": 382,
         "HP": 1232,
         "AP": "£298,229",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 525,
         "SN": "Groby",
         "REG": "East Midlands",
         "OR": 525,
@@ -7359,11 +6836,10 @@ const data = [
         "SCH": 201,
         "HP": 393,
         "AP": "£503,612",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 526,
         "SN": "Royston (Barnsley)",
         "REG": "Yorkshire and The Humber",
         "OR": 526,
@@ -7373,11 +6849,10 @@ const data = [
         "SCH": 1119,
         "HP": 718,
         "AP": "£270,079",
-        "SPC": "-7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.3%"
     },
     {
+        "UID": 527,
         "SN": "Epping",
         "REG": "East of England",
         "OR": 526,
@@ -7387,11 +6862,10 @@ const data = [
         "SCH": 399,
         "HP": 85,
         "AP": "£863,707",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 528,
         "SN": "Bradford",
         "REG": "Yorkshire and The Humber",
         "OR": 528,
@@ -7401,11 +6875,10 @@ const data = [
         "SCH": 584,
         "HP": 1107,
         "AP": "£246,550",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 529,
         "SN": "Alsager",
         "REG": "North West",
         "OR": 528,
@@ -7415,11 +6888,10 @@ const data = [
         "SCH": 933,
         "HP": 150,
         "AP": "£384,559",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 530,
         "SN": "Heathfield (Wealden)",
         "REG": "South East",
         "OR": 530,
@@ -7429,11 +6901,10 @@ const data = [
         "SCH": 755,
         "HP": 829,
         "AP": "£538,240",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 531,
         "SN": "Brinsworth",
         "REG": "Yorkshire and The Humber",
         "OR": 531,
@@ -7443,11 +6914,10 @@ const data = [
         "SCH": 527,
         "HP": 573,
         "AP": "£292,284",
-        "SPC": "-3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.6%"
     },
     {
+        "UID": 532,
         "SN": "Great Bookham and Fetcham",
         "REG": "South East",
         "OR": 531,
@@ -7457,11 +6927,10 @@ const data = [
         "SCH": 1228,
         "HP": 952,
         "AP": "£926,102",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 533,
         "SN": "Crediton",
         "REG": "South West",
         "OR": 533,
@@ -7471,11 +6940,10 @@ const data = [
         "SCH": 781,
         "HP": 1256,
         "AP": "£430,347",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 534,
         "SN": "Hetton-le-Hole",
         "REG": "North East",
         "OR": 533,
@@ -7485,11 +6953,10 @@ const data = [
         "SCH": 1044,
         "HP": 930,
         "AP": "£179,402",
-        "SPC": "-13.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-13.9%"
     },
     {
+        "UID": 535,
         "SN": "Bridport",
         "REG": "South West",
         "OR": 535,
@@ -7499,11 +6966,10 @@ const data = [
         "SCH": 928,
         "HP": 523,
         "AP": "£592,449",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 536,
         "SN": "Driffield",
         "REG": "Yorkshire and The Humber",
         "OR": 536,
@@ -7513,11 +6979,10 @@ const data = [
         "SCH": 607,
         "HP": 632,
         "AP": "£329,734",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 537,
         "SN": "Great Harwood",
         "REG": "North West",
         "OR": 537,
@@ -7527,11 +6992,10 @@ const data = [
         "SCH": 318,
         "HP": 1172,
         "AP": "£218,528",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 538,
         "SN": "Dodworth",
         "REG": "Yorkshire and The Humber",
         "OR": 538,
@@ -7541,11 +7005,10 @@ const data = [
         "SCH": 1297,
         "HP": 636,
         "AP": "£285,614",
-        "SPC": "-11.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-11.8%"
     },
     {
+        "UID": 539,
         "SN": "Berwick-upon-Tweed",
         "REG": "North East",
         "OR": 539,
@@ -7555,11 +7018,10 @@ const data = [
         "SCH": 781,
         "HP": 550,
         "AP": "£298,731",
-        "SPC": "9.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.1%"
     },
     {
+        "UID": 540,
         "SN": "Farnham Common and Farnham Royal",
         "REG": "South East",
         "OR": 540,
@@ -7569,11 +7031,10 @@ const data = [
         "SCH": 1191,
         "HP": 47,
         "AP": "£777,013",
-        "SPC": "-9.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.2%"
     },
     {
+        "UID": 541,
         "SN": "Kesgrave",
         "REG": "East of England",
         "OR": 541,
@@ -7583,11 +7044,10 @@ const data = [
         "SCH": 1233,
         "HP": 883,
         "AP": "£508,994",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 542,
         "SN": "Dalton-in-Furness",
         "REG": "North West",
         "OR": 542,
@@ -7597,11 +7057,10 @@ const data = [
         "SCH": 1200,
         "HP": 528,
         "AP": "£253,816",
-        "SPC": "-7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.8%"
     },
     {
+        "UID": 543,
         "SN": "Launceston",
         "REG": "South West",
         "OR": 542,
@@ -7611,11 +7070,10 @@ const data = [
         "SCH": 695,
         "HP": 1264,
         "AP": "£375,389",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 544,
         "SN": "Clifton (Salford)",
         "REG": "North West",
         "OR": 544,
@@ -7625,11 +7083,10 @@ const data = [
         "SCH": 24,
         "HP": 556,
         "AP": "£357,635",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 545,
         "SN": "Durrington",
         "REG": "South West",
         "OR": 544,
@@ -7639,11 +7096,10 @@ const data = [
         "SCH": 257,
         "HP": 862,
         "AP": "£495,992",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 546,
         "SN": "Huddersfield",
         "REG": "Yorkshire and The Humber",
         "OR": 546,
@@ -7653,11 +7109,10 @@ const data = [
         "SCH": 760,
         "HP": 856,
         "AP": "£290,835",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 547,
         "SN": "Swanley",
         "REG": "South East",
         "OR": 547,
@@ -7667,11 +7122,10 @@ const data = [
         "SCH": 286,
         "HP": 302,
         "AP": "£654,069",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 548,
         "SN": "Sidmouth",
         "REG": "South West",
         "OR": 548,
@@ -7681,11 +7135,10 @@ const data = [
         "SCH": 1429,
         "HP": 775,
         "AP": "£646,016",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 549,
         "SN": "Oundle",
         "REG": "East Midlands",
         "OR": 549,
@@ -7695,11 +7148,10 @@ const data = [
         "SCH": 961,
         "HP": 205,
         "AP": "£487,898",
-        "SPC": "-2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.7%"
     },
     {
+        "UID": 550,
         "SN": "Longbenton",
         "REG": "North East",
         "OR": 550,
@@ -7709,11 +7161,10 @@ const data = [
         "SCH": 561,
         "HP": 144,
         "AP": "£312,462",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 551,
         "SN": "Rothwell (Leeds)",
         "REG": "Yorkshire and The Humber",
         "OR": 551,
@@ -7723,11 +7174,10 @@ const data = [
         "SCH": 631,
         "HP": 298,
         "AP": "£409,820",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 552,
         "SN": "Bedford",
         "REG": "East of England",
         "OR": 552,
@@ -7737,11 +7187,10 @@ const data = [
         "SCH": 168,
         "HP": 1016,
         "AP": "£491,564",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 553,
         "SN": "Bexley",
         "REG": "Greater London",
         "OR": 552,
@@ -7751,11 +7200,10 @@ const data = [
         "SCH": 187,
         "HP": 823,
         "AP": "£714,739",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 554,
         "SN": "Burscough",
         "REG": "North West",
         "OR": 554,
@@ -7765,11 +7213,10 @@ const data = [
         "SCH": 344,
         "HP": 504,
         "AP": "£362,457",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 555,
         "SN": "Ash and Ash Vale",
         "REG": "South East",
         "OR": 555,
@@ -7779,11 +7226,10 @@ const data = [
         "SCH": 967,
         "HP": 265,
         "AP": "£672,082",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 556,
         "SN": "Wadebridge",
         "REG": "South West",
         "OR": 556,
@@ -7793,11 +7239,10 @@ const data = [
         "SCH": 156,
         "HP": 1096,
         "AP": "£554,199",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 557,
         "SN": "Hockley and Hawkwell",
         "REG": "East of England",
         "OR": 556,
@@ -7807,11 +7252,10 @@ const data = [
         "SCH": 977,
         "HP": 268,
         "AP": "£669,659",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 558,
         "SN": "Milton Keynes",
         "REG": "South East",
         "OR": 556,
@@ -7821,11 +7265,10 @@ const data = [
         "SCH": 749,
         "HP": 966,
         "AP": "£520,809",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 559,
         "SN": "Odiham",
         "REG": "South East",
         "OR": 556,
@@ -7835,11 +7278,10 @@ const data = [
         "SCH": 1414,
         "HP": 215,
         "AP": "£723,837",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 560,
         "SN": "Chipping Sodbury",
         "REG": "South West",
         "OR": 560,
@@ -7849,11 +7291,10 @@ const data = [
         "SCH": 367,
         "HP": 406,
         "AP": "£580,266",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 561,
         "SN": "Audenshaw",
         "REG": "North West",
         "OR": 561,
@@ -7863,11 +7304,10 @@ const data = [
         "SCH": 88,
         "HP": 963,
         "AP": "£393,218",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 562,
         "SN": "Weymouth",
         "REG": "South West",
         "OR": 561,
@@ -7877,11 +7317,10 @@ const data = [
         "SCH": 895,
         "HP": 804,
         "AP": "£501,404",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 563,
         "SN": "Fleet",
         "REG": "South East",
         "OR": 563,
@@ -7891,11 +7330,10 @@ const data = [
         "SCH": 1186,
         "HP": 201,
         "AP": "£674,174",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 564,
         "SN": "Moor Park",
         "REG": "East of England",
         "OR": 564,
@@ -7905,11 +7343,10 @@ const data = [
         "SCH": 771,
         "HP": 262,
         "AP": "£1,073,500",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 565,
         "SN": "Hornsea",
         "REG": "Yorkshire and The Humber",
         "OR": 565,
@@ -7919,11 +7356,10 @@ const data = [
         "SCH": 522,
         "HP": 879,
         "AP": "£310,148",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 566,
         "SN": "Penrith",
         "REG": "North West",
         "OR": 566,
@@ -7933,11 +7369,10 @@ const data = [
         "SCH": 975,
         "HP": 634,
         "AP": "£349,270",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 567,
         "SN": "Poole",
         "REG": "South West",
         "OR": 567,
@@ -7947,11 +7382,10 @@ const data = [
         "SCH": 911,
         "HP": 449,
         "AP": "£627,636",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 568,
         "SN": "Moreton-in-Marsh",
         "REG": "South West",
         "OR": 568,
@@ -7961,11 +7395,10 @@ const data = [
         "SCH": 1142,
         "HP": 525,
         "AP": "£597,991",
-        "SPC": "5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.4%"
     },
     {
+        "UID": 569,
         "SN": "Flackwell Heath and Wooburn Green",
         "REG": "South East",
         "OR": 569,
@@ -7975,11 +7408,10 @@ const data = [
         "SCH": 902,
         "HP": 211,
         "AP": "£762,072",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 570,
         "SN": "Dartmouth",
         "REG": "South West",
         "OR": 569,
@@ -7989,11 +7421,10 @@ const data = [
         "SCH": 1170,
         "HP": 744,
         "AP": "£668,228",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 571,
         "SN": "Olney",
         "REG": "South East",
         "OR": 571,
@@ -8003,11 +7434,10 @@ const data = [
         "SCH": 979,
         "HP": 592,
         "AP": "£613,063",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 572,
         "SN": "Chepstow",
         "REG": "Wales",
         "OR": 571,
@@ -8017,11 +7447,10 @@ const data = [
         "SCH": 992,
         "HP": 261,
         "AP": "£503,258",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 573,
         "SN": "Shiney Row and Penshaw",
         "REG": "North East",
         "OR": 573,
@@ -8031,11 +7460,10 @@ const data = [
         "SCH": 822,
         "HP": 1166,
         "AP": "£240,142",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 574,
         "SN": "Bromsgrove",
         "REG": "West Midlands",
         "OR": 574,
@@ -8045,11 +7473,10 @@ const data = [
         "SCH": 478,
         "HP": 228,
         "AP": "£463,682",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 575,
         "SN": "Conisbrough",
         "REG": "Yorkshire and The Humber",
         "OR": 575,
@@ -8059,11 +7486,10 @@ const data = [
         "SCH": 87,
         "HP": 1191,
         "AP": "£226,534",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 576,
         "SN": "Bishop's Cleeve",
         "REG": "South West",
         "OR": 575,
@@ -8073,11 +7499,10 @@ const data = [
         "SCH": 637,
         "HP": 917,
         "AP": "£551,954",
-        "SPC": "8.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.4%"
     },
     {
+        "UID": 577,
         "SN": "Sheringham",
         "REG": "East of England",
         "OR": 577,
@@ -8087,11 +7512,10 @@ const data = [
         "SCH": 1404,
         "HP": 922,
         "AP": "£507,866",
-        "SPC": "-4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.2%"
     },
     {
+        "UID": 578,
         "SN": "Congleton",
         "REG": "North West",
         "OR": 578,
@@ -8101,11 +7525,10 @@ const data = [
         "SCH": 420,
         "HP": 231,
         "AP": "£396,028",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 579,
         "SN": "Brent",
         "REG": "Greater London",
         "OR": 579,
@@ -8115,11 +7538,10 @@ const data = [
         "SCH": 222,
         "HP": 1014,
         "AP": "£954,469",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 580,
         "SN": "Shanklin",
         "REG": "South East",
         "OR": 580,
@@ -8129,11 +7551,10 @@ const data = [
         "SCH": 641,
         "HP": 1395,
         "AP": "£454,958",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 581,
         "SN": "Egham",
         "REG": "South East",
         "OR": 581,
@@ -8143,11 +7564,10 @@ const data = [
         "SCH": 740,
         "HP": 64,
         "AP": "£755,892",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 582,
         "SN": "Whitehaven",
         "REG": "North West",
         "OR": 581,
@@ -8157,11 +7577,10 @@ const data = [
         "SCH": 871,
         "HP": 660,
         "AP": "£231,361",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 583,
         "SN": "Warmsworth",
         "REG": "Yorkshire and The Humber",
         "OR": 583,
@@ -8171,11 +7590,10 @@ const data = [
         "SCH": 6,
         "HP": 695,
         "AP": "£191,196",
-        "SPC": "-6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.8%"
     },
     {
+        "UID": 584,
         "SN": "Shinfield",
         "REG": "South East",
         "OR": 583,
@@ -8185,11 +7603,10 @@ const data = [
         "SCH": 920,
         "HP": 107,
         "AP": "£645,951",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 585,
         "SN": "Nantwich",
         "REG": "North West",
         "OR": 583,
@@ -8199,11 +7616,10 @@ const data = [
         "SCH": 1222,
         "HP": 226,
         "AP": "£398,451",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 586,
         "SN": "Hook (Hart)",
         "REG": "South East",
         "OR": 586,
@@ -8213,11 +7629,10 @@ const data = [
         "SCH": 1179,
         "HP": 316,
         "AP": "£663,786",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 587,
         "SN": "Fakenham",
         "REG": "East of England",
         "OR": 587,
@@ -8227,11 +7642,10 @@ const data = [
         "SCH": 610,
         "HP": 1385,
         "AP": "£445,038",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 588,
         "SN": "Partington",
         "REG": "North West",
         "OR": 588,
@@ -8241,11 +7655,10 @@ const data = [
         "SCH": 246,
         "HP": 394,
         "AP": "£367,622",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 589,
         "SN": "Werrington",
         "REG": "West Midlands",
         "OR": 588,
@@ -8255,11 +7668,10 @@ const data = [
         "SCH": 969,
         "HP": 488,
         "AP": "£360,736",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 590,
         "SN": "Horwich",
         "REG": "North West",
         "OR": 590,
@@ -8269,11 +7681,10 @@ const data = [
         "SCH": 160,
         "HP": 691,
         "AP": "£320,819",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 591,
         "SN": "Lees",
         "REG": "North West",
         "OR": 591,
@@ -8283,11 +7694,10 @@ const data = [
         "SCH": 158,
         "HP": 1243,
         "AP": "£353,625",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 592,
         "SN": "Tidworth",
         "REG": "South West",
         "OR": 591,
@@ -8297,11 +7707,10 @@ const data = [
         "SCH": 528,
         "HP": 477,
         "AP": "£399,157",
-        "SPC": "-9.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.3%"
     },
     {
+        "UID": 593,
         "SN": "Henfield",
         "REG": "South East",
         "OR": 593,
@@ -8311,11 +7720,10 @@ const data = [
         "SCH": 1305,
         "HP": 879,
         "AP": "£750,670",
-        "SPC": "9.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.3%"
     },
     {
+        "UID": 594,
         "SN": "Easington (County Durham)",
         "REG": "North East",
         "OR": 594,
@@ -8325,11 +7733,10 @@ const data = [
         "SCH": 358,
         "HP": 742,
         "AP": "£130,784",
-        "SPC": "-9.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.5%"
     },
     {
+        "UID": 595,
         "SN": "Wantage",
         "REG": "South East",
         "OR": 595,
@@ -8339,11 +7746,10 @@ const data = [
         "SCH": 272,
         "HP": 704,
         "AP": "£518,561",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 596,
         "SN": "Chapeltown and High Green",
         "REG": "Yorkshire and The Humber",
         "OR": 596,
@@ -8353,11 +7759,10 @@ const data = [
         "SCH": 1070,
         "HP": 797,
         "AP": "£369,632",
-        "SPC": "9.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.2%"
     },
     {
+        "UID": 597,
         "SN": "Helsby",
         "REG": "North West",
         "OR": 596,
@@ -8367,11 +7772,10 @@ const data = [
         "SCH": 837,
         "HP": 161,
         "AP": "£424,772",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 598,
         "SN": "Heanor",
         "REG": "East Midlands",
         "OR": 598,
@@ -8381,11 +7785,10 @@ const data = [
         "SCH": 179,
         "HP": 837,
         "AP": "£297,285",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 599,
         "SN": "Ely",
         "REG": "East of England",
         "OR": 599,
@@ -8395,11 +7798,10 @@ const data = [
         "SCH": 541,
         "HP": 899,
         "AP": "£554,463",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 600,
         "SN": "Kirkham",
         "REG": "North West",
         "OR": 600,
@@ -8409,11 +7811,10 @@ const data = [
         "SCH": 608,
         "HP": 650,
         "AP": "£304,115",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 601,
         "SN": "Yeovil",
         "REG": "South West",
         "OR": 601,
@@ -8423,11 +7824,10 @@ const data = [
         "SCH": 467,
         "HP": 1177,
         "AP": "£397,130",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 602,
         "SN": "Broadbridge Heath",
         "REG": "South East",
         "OR": 601,
@@ -8437,11 +7837,10 @@ const data = [
         "SCH": 1097,
         "HP": 718,
         "AP": "£654,980",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 603,
         "SN": "Cam",
         "REG": "South West",
         "OR": 603,
@@ -8451,11 +7850,10 @@ const data = [
         "SCH": 492,
         "HP": 333,
         "AP": "£478,431",
-        "SPC": "-4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.0%"
     },
     {
+        "UID": 604,
         "SN": "Hatfield",
         "REG": "East of England",
         "OR": 604,
@@ -8465,11 +7863,10 @@ const data = [
         "SCH": 707,
         "HP": 340,
         "AP": "£651,389",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 605,
         "SN": "Keyworth",
         "REG": "East Midlands",
         "OR": 605,
@@ -8479,11 +7876,10 @@ const data = [
         "SCH": 363,
         "HP": 366,
         "AP": "£505,459",
-        "SPC": "8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.7%"
     },
     {
+        "UID": 606,
         "SN": "Yarm",
         "REG": "North East",
         "OR": 606,
@@ -8493,11 +7889,10 @@ const data = [
         "SCH": 617,
         "HP": 460,
         "AP": "£367,256",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 607,
         "SN": "Faversham",
         "REG": "South East",
         "OR": 607,
@@ -8507,11 +7902,10 @@ const data = [
         "SCH": 724,
         "HP": 991,
         "AP": "£565,514",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 608,
         "SN": "Blackburn (Blackburn with Darwen)",
         "REG": "North West",
         "OR": 608,
@@ -8521,11 +7915,10 @@ const data = [
         "SCH": 281,
         "HP": 1088,
         "AP": "£233,149",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 609,
         "SN": "Marchwood",
         "REG": "South East",
         "OR": 608,
@@ -8535,11 +7928,10 @@ const data = [
         "SCH": 695,
         "HP": 731,
         "AP": "£583,349",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 610,
         "SN": "Darlington",
         "REG": "North East",
         "OR": 610,
@@ -8549,11 +7941,10 @@ const data = [
         "SCH": 13,
         "HP": 792,
         "AP": "£237,080",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 611,
         "SN": "Sandiacre",
         "REG": "East Midlands",
         "OR": 611,
@@ -8563,11 +7954,10 @@ const data = [
         "SCH": 102,
         "HP": 403,
         "AP": "£370,136",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 612,
         "SN": "Braunton",
         "REG": "South West",
         "OR": 611,
@@ -8577,11 +7967,10 @@ const data = [
         "SCH": 1427,
         "HP": 929,
         "AP": "£619,567",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 613,
         "SN": "Helston",
         "REG": "South West",
         "OR": 613,
@@ -8591,11 +7980,10 @@ const data = [
         "SCH": 267,
         "HP": 1038,
         "AP": "£484,459",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 614,
         "SN": "Newbury",
         "REG": "South East",
         "OR": 613,
@@ -8605,11 +7993,10 @@ const data = [
         "SCH": 1175,
         "HP": 455,
         "AP": "£576,388",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 615,
         "SN": "Cobham (Elmbridge)",
         "REG": "South East",
         "OR": 613,
@@ -8619,11 +8006,10 @@ const data = [
         "SCH": 1058,
         "HP": 13,
         "AP": "£961,305",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 616,
         "SN": "Ashley Heath",
         "REG": "South West",
         "OR": 616,
@@ -8633,11 +8019,10 @@ const data = [
         "SCH": 1283,
         "HP": 102,
         "AP": "£673,932",
-        "SPC": "-3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.7%"
     },
     {
+        "UID": 617,
         "SN": "Dawlish",
         "REG": "South West",
         "OR": 617,
@@ -8647,11 +8032,10 @@ const data = [
         "SCH": 1214,
         "HP": 1204,
         "AP": "£451,193",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 618,
         "SN": "Cottingham",
         "REG": "Yorkshire and The Humber",
         "OR": 618,
@@ -8661,11 +8045,10 @@ const data = [
         "SCH": 124,
         "HP": 253,
         "AP": "£342,646",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 619,
         "SN": "Teignmouth",
         "REG": "South West",
         "OR": 619,
@@ -8675,11 +8058,10 @@ const data = [
         "SCH": 452,
         "HP": 1347,
         "AP": "£498,198",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 620,
         "SN": "Queensbury",
         "REG": "Yorkshire and The Humber",
         "OR": 620,
@@ -8689,11 +8071,10 @@ const data = [
         "SCH": 1014,
         "HP": 1252,
         "AP": "£284,401",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 621,
         "SN": "Mansfield Woodhouse",
         "REG": "East Midlands",
         "OR": 620,
@@ -8703,11 +8084,10 @@ const data = [
         "SCH": 251,
         "HP": 1379,
         "AP": "£300,347",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 622,
         "SN": "Shepperton",
         "REG": "South East",
         "OR": 622,
@@ -8717,11 +8097,10 @@ const data = [
         "SCH": 969,
         "HP": 57,
         "AP": "£781,316",
-        "SPC": "-2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.8%"
     },
     {
+        "UID": 623,
         "SN": "Worsbrough",
         "REG": "Yorkshire and The Humber",
         "OR": 623,
@@ -8731,11 +8110,10 @@ const data = [
         "SCH": 451,
         "HP": 1253,
         "AP": "£268,088",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 624,
         "SN": "Southampton",
         "REG": "South East",
         "OR": 624,
@@ -8745,11 +8123,10 @@ const data = [
         "SCH": 304,
         "HP": 1311,
         "AP": "£462,084",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 625,
         "SN": "St Helens (St. Helens)",
         "REG": "North West",
         "OR": 625,
@@ -8759,11 +8136,10 @@ const data = [
         "SCH": 71,
         "HP": 1115,
         "AP": "£261,513",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 626,
         "SN": "Great Wakering",
         "REG": "East of England",
         "OR": 625,
@@ -8773,11 +8149,10 @@ const data = [
         "SCH": 703,
         "HP": 522,
         "AP": "£605,169",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 627,
         "SN": "Bishop's Waltham",
         "REG": "South East",
         "OR": 625,
@@ -8787,11 +8162,10 @@ const data = [
         "SCH": 1154,
         "HP": 457,
         "AP": "£631,989",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 628,
         "SN": "Budleigh Salterton",
         "REG": "South West",
         "OR": 625,
@@ -8801,11 +8175,10 @@ const data = [
         "SCH": 1183,
         "HP": 1138,
         "AP": "£634,508",
-        "SPC": "11.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.9%"
     },
     {
+        "UID": 629,
         "SN": "Lee-on-the-Solent",
         "REG": "South East",
         "OR": 629,
@@ -8815,11 +8188,10 @@ const data = [
         "SCH": 1249,
         "HP": 665,
         "AP": "£601,944",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 630,
         "SN": "Boston Spa",
         "REG": "Yorkshire and The Humber",
         "OR": 629,
@@ -8829,11 +8201,10 @@ const data = [
         "SCH": 990,
         "HP": 119,
         "AP": "£554,941",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 631,
         "SN": "Burnley",
         "REG": "North West",
         "OR": 631,
@@ -8843,11 +8214,10 @@ const data = [
         "SCH": 915,
         "HP": 975,
         "AP": "£186,146",
-        "SPC": "-7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.8%"
     },
     {
+        "UID": 632,
         "SN": "Pool and Illogan",
         "REG": "South West",
         "OR": 632,
@@ -8857,11 +8227,10 @@ const data = [
         "SCH": 945,
         "HP": 1233,
         "AP": "£462,313",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 633,
         "SN": "Bideford",
         "REG": "South West",
         "OR": 633,
@@ -8871,11 +8240,10 @@ const data = [
         "SCH": 377,
         "HP": 1290,
         "AP": "£416,559",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 634,
         "SN": "Albrighton",
         "REG": "West Midlands",
         "OR": 633,
@@ -8885,11 +8253,10 @@ const data = [
         "SCH": 1257,
         "HP": 413,
         "AP": "£457,521",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 635,
         "SN": "Tewkesbury",
         "REG": "South West",
         "OR": 635,
@@ -8899,11 +8266,10 @@ const data = [
         "SCH": 813,
         "HP": 692,
         "AP": "£435,176",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 636,
         "SN": "Mossley",
         "REG": "North West",
         "OR": 636,
@@ -8913,11 +8279,10 @@ const data = [
         "SCH": 269,
         "HP": 1117,
         "AP": "£356,044",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 637,
         "SN": "West Hallam",
         "REG": "East Midlands",
         "OR": 637,
@@ -8927,11 +8292,10 @@ const data = [
         "SCH": 910,
         "HP": 611,
         "AP": "£426,318",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 638,
         "SN": "Arnold",
         "REG": "East Midlands",
         "OR": 638,
@@ -8941,11 +8305,10 @@ const data = [
         "SCH": 157,
         "HP": 388,
         "AP": "£392,110",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 639,
         "SN": "Horden",
         "REG": "North East",
         "OR": 639,
@@ -8955,11 +8318,10 @@ const data = [
         "SCH": 307,
         "HP": 1321,
         "AP": "£102,135",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 640,
         "SN": "Looe",
         "REG": "South West",
         "OR": 640,
@@ -8969,11 +8331,10 @@ const data = [
         "SCH": 915,
         "HP": 570,
         "AP": "£488,958",
-        "SPC": "-3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.7%"
     },
     {
+        "UID": 641,
         "SN": "Waterbeach",
         "REG": "East of England",
         "OR": 641,
@@ -8983,11 +8344,10 @@ const data = [
         "SCH": 1120,
         "HP": 96,
         "AP": "£610,562",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 642,
         "SN": "Taverham and Drayton",
         "REG": "East of England",
         "OR": 642,
@@ -8997,11 +8357,10 @@ const data = [
         "SCH": 667,
         "HP": 999,
         "AP": "£492,437",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 643,
         "SN": "Withernsea",
         "REG": "Yorkshire and The Humber",
         "OR": 643,
@@ -9011,11 +8370,10 @@ const data = [
         "SCH": 338,
         "HP": 743,
         "AP": "£216,162",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 644,
         "SN": "Stafford",
         "REG": "West Midlands",
         "OR": 644,
@@ -9025,11 +8383,10 @@ const data = [
         "SCH": 560,
         "HP": 642,
         "AP": "£365,564",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 645,
         "SN": "Long Stratton",
         "REG": "East of England",
         "OR": 644,
@@ -9039,11 +8396,10 @@ const data = [
         "SCH": 1216,
         "HP": 854,
         "AP": "£430,568",
-        "SPC": "-5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.1%"
     },
     {
+        "UID": 646,
         "SN": "Clay Cross",
         "REG": "East Midlands",
         "OR": 644,
@@ -9053,11 +8409,10 @@ const data = [
         "SCH": 1292,
         "HP": 600,
         "AP": "£303,840",
-        "SPC": "-2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.4%"
     },
     {
+        "UID": 647,
         "SN": "Aldridge",
         "REG": "West Midlands",
         "OR": 647,
@@ -9067,11 +8422,10 @@ const data = [
         "SCH": 756,
         "HP": 625,
         "AP": "£426,091",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 648,
         "SN": "Radcliffe",
         "REG": "North West",
         "OR": 648,
@@ -9081,11 +8435,10 @@ const data = [
         "SCH": 60,
         "HP": 811,
         "AP": "£307,897",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 649,
         "SN": "Whitworth",
         "REG": "North West",
         "OR": 649,
@@ -9095,11 +8448,10 @@ const data = [
         "SCH": 135,
         "HP": 1113,
         "AP": "£288,401",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 650,
         "SN": "Worsley",
         "REG": "North West",
         "OR": 650,
@@ -9109,11 +8461,10 @@ const data = [
         "SCH": 36,
         "HP": 481,
         "AP": "£478,479",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 651,
         "SN": "Totton",
         "REG": "South East",
         "OR": 651,
@@ -9123,11 +8474,10 @@ const data = [
         "SCH": 471,
         "HP": 698,
         "AP": "£561,080",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 652,
         "SN": "Bridgnorth",
         "REG": "West Midlands",
         "OR": 651,
@@ -9137,11 +8487,10 @@ const data = [
         "SCH": 762,
         "HP": 626,
         "AP": "£453,872",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 653,
         "SN": "Birtley",
         "REG": "North East",
         "OR": 651,
@@ -9151,11 +8500,10 @@ const data = [
         "SCH": 712,
         "HP": 751,
         "AP": "£239,900",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 654,
         "SN": "Carnforth",
         "REG": "North West",
         "OR": 654,
@@ -9165,11 +8513,10 @@ const data = [
         "SCH": 633,
         "HP": 1262,
         "AP": "£314,054",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 655,
         "SN": "Cockermouth",
         "REG": "North West",
         "OR": 655,
@@ -9179,11 +8526,10 @@ const data = [
         "SCH": 930,
         "HP": 212,
         "AP": "£361,981",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 656,
         "SN": "Sutton in Ashfield",
         "REG": "East Midlands",
         "OR": 656,
@@ -9193,11 +8539,10 @@ const data = [
         "SCH": 212,
         "HP": 1070,
         "AP": "£268,070",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 657,
         "SN": "Oakley (Basingstoke and Deane)",
         "REG": "South East",
         "OR": 656,
@@ -9207,11 +8552,10 @@ const data = [
         "SCH": 1297,
         "HP": 672,
         "AP": "£657,073",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 658,
         "SN": "Brixworth",
         "REG": "East Midlands",
         "OR": 656,
@@ -9221,11 +8565,10 @@ const data = [
         "SCH": 1282,
         "HP": 425,
         "AP": "£466,521",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 659,
         "SN": "Margate",
         "REG": "South East",
         "OR": 659,
@@ -9235,11 +8578,10 @@ const data = [
         "SCH": 392,
         "HP": 1392,
         "AP": "£508,103",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 660,
         "SN": "Tyldesley",
         "REG": "North West",
         "OR": 660,
@@ -9249,11 +8591,10 @@ const data = [
         "SCH": 107,
         "HP": 1041,
         "AP": "£379,312",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 661,
         "SN": "New Haw, West Byfleet and Sheerwater",
         "REG": "South East",
         "OR": 661,
@@ -9263,11 +8604,10 @@ const data = [
         "SCH": 633,
         "HP": 92,
         "AP": "£778,836",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 662,
         "SN": "Ellesmere Port",
         "REG": "North West",
         "OR": 662,
@@ -9277,11 +8617,10 @@ const data = [
         "SCH": 404,
         "HP": 512,
         "AP": "£319,925",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 663,
         "SN": "Frodsham",
         "REG": "North West",
         "OR": 662,
@@ -9291,11 +8630,10 @@ const data = [
         "SCH": 411,
         "HP": 535,
         "AP": "£422,559",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 664,
         "SN": "Luton",
         "REG": "East of England",
         "OR": 664,
@@ -9305,11 +8643,10 @@ const data = [
         "SCH": 190,
         "HP": 913,
         "AP": "£530,896",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 665,
         "SN": "Baildon",
         "REG": "Yorkshire and The Humber",
         "OR": 665,
@@ -9319,11 +8656,10 @@ const data = [
         "SCH": 350,
         "HP": 611,
         "AP": "£400,194",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 666,
         "SN": "Ingleby Barwick",
         "REG": "North East",
         "OR": 666,
@@ -9333,11 +8669,10 @@ const data = [
         "SCH": 357,
         "HP": 317,
         "AP": "£319,709",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 667,
         "SN": "Corfe Mullen",
         "REG": "South West",
         "OR": 667,
@@ -9347,11 +8682,10 @@ const data = [
         "SCH": 1171,
         "HP": 143,
         "AP": "£621,294",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 668,
         "SN": "Swindon (Swindon)",
         "REG": "South West",
         "OR": 668,
@@ -9361,11 +8695,10 @@ const data = [
         "SCH": 540,
         "HP": 957,
         "AP": "£443,277",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 669,
         "SN": "Southam (Stratford-on-Avon)",
         "REG": "West Midlands",
         "OR": 669,
@@ -9375,11 +8708,10 @@ const data = [
         "SCH": 843,
         "HP": 303,
         "AP": "£488,083",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 670,
         "SN": "Willerby and Anlaby",
         "REG": "Yorkshire and The Humber",
         "OR": 670,
@@ -9389,11 +8721,10 @@ const data = [
         "SCH": 436,
         "HP": 241,
         "AP": "£357,637",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 671,
         "SN": "Chesterfield",
         "REG": "East Midlands",
         "OR": 670,
@@ -9403,11 +8734,10 @@ const data = [
         "SCH": 1169,
         "HP": 1039,
         "AP": "£344,134",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 672,
         "SN": "Chippenham (Wiltshire)",
         "REG": "South West",
         "OR": 672,
@@ -9417,11 +8747,10 @@ const data = [
         "SCH": 1260,
         "HP": 676,
         "AP": "£500,890",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 673,
         "SN": "Sherborne",
         "REG": "South West",
         "OR": 673,
@@ -9431,11 +8760,10 @@ const data = [
         "SCH": 1288,
         "HP": 909,
         "AP": "£534,607",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 674,
         "SN": "Ravenshead",
         "REG": "East Midlands",
         "OR": 673,
@@ -9445,11 +8773,10 @@ const data = [
         "SCH": 48,
         "HP": 586,
         "AP": "£482,498",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 675,
         "SN": "Newham",
         "REG": "Greater London",
         "OR": 675,
@@ -9459,11 +8786,10 @@ const data = [
         "SCH": 51,
         "HP": 1181,
         "AP": "£790,580",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 676,
         "SN": "Derby",
         "REG": "East Midlands",
         "OR": 676,
@@ -9473,11 +8799,10 @@ const data = [
         "SCH": 406,
         "HP": 887,
         "AP": "£357,729",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 677,
         "SN": "Bourne End",
         "REG": "South East",
         "OR": 677,
@@ -9487,11 +8812,10 @@ const data = [
         "SCH": 982,
         "HP": 497,
         "AP": "£897,775",
-        "SPC": "8.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.9%"
     },
     {
+        "UID": 678,
         "SN": "Farnworth",
         "REG": "North West",
         "OR": 678,
@@ -9501,11 +8825,10 @@ const data = [
         "SCH": 3,
         "HP": 1303,
         "AP": "£265,154",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 679,
         "SN": "Southend-on-Sea",
         "REG": "East of England",
         "OR": 679,
@@ -9515,11 +8838,10 @@ const data = [
         "SCH": 320,
         "HP": 256,
         "AP": "£580,053",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 680,
         "SN": "Mansfield",
         "REG": "East Midlands",
         "OR": 680,
@@ -9529,11 +8851,10 @@ const data = [
         "SCH": 192,
         "HP": 1076,
         "AP": "£278,795",
-        "SPC": "-4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.7%"
     },
     {
+        "UID": 681,
         "SN": "Wool",
         "REG": "South West",
         "OR": 681,
@@ -9543,11 +8864,10 @@ const data = [
         "SCH": 1349,
         "HP": 210,
         "AP": "£532,083",
-        "SPC": "-6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.7%"
     },
     {
+        "UID": 682,
         "SN": "Clevedon",
         "REG": "South West",
         "OR": 682,
@@ -9557,11 +8877,10 @@ const data = [
         "SCH": 795,
         "HP": 553,
         "AP": "£608,942",
-        "SPC": "6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.6%"
     },
     {
+        "UID": 683,
         "SN": "Cranleigh",
         "REG": "South East",
         "OR": 683,
@@ -9571,11 +8890,10 @@ const data = [
         "SCH": 1128,
         "HP": 155,
         "AP": "£729,759",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 684,
         "SN": "Enfield",
         "REG": "Greater London",
         "OR": 684,
@@ -9585,11 +8903,10 @@ const data = [
         "SCH": 111,
         "HP": 1092,
         "AP": "£789,916",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 685,
         "SN": "Oswestry",
         "REG": "West Midlands",
         "OR": 685,
@@ -9599,11 +8916,10 @@ const data = [
         "SCH": 1115,
         "HP": 763,
         "AP": "£346,515",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 686,
         "SN": "Caldicot",
         "REG": "Wales",
         "OR": 686,
@@ -9613,11 +8929,10 @@ const data = [
         "SCH": 1180,
         "HP": 70,
         "AP": "£443,774",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 687,
         "SN": "Dewsbury",
         "REG": "Yorkshire and The Humber",
         "OR": 687,
@@ -9627,11 +8942,10 @@ const data = [
         "SCH": 832,
         "HP": 636,
         "AP": "£275,912",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 688,
         "SN": "Richmond",
         "REG": "Yorkshire and The Humber",
         "OR": 687,
@@ -9641,11 +8955,10 @@ const data = [
         "SCH": 1192,
         "HP": 540,
         "AP": "£384,199",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 689,
         "SN": "Aberdare",
         "REG": "Wales",
         "OR": 687,
@@ -9655,11 +8968,10 @@ const data = [
         "SCH": 421,
         "HP": 1164,
         "AP": "£238,134",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 690,
         "SN": "Alfreton",
         "REG": "East Midlands",
         "OR": 687,
@@ -9669,11 +8981,10 @@ const data = [
         "SCH": 741,
         "HP": 882,
         "AP": "£280,432",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 691,
         "SN": "Hawkinge",
         "REG": "South East",
         "OR": 687,
@@ -9683,11 +8994,10 @@ const data = [
         "SCH": 731,
         "HP": 1365,
         "AP": "£570,207",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 692,
         "SN": "Shiremoor",
         "REG": "North East",
         "OR": 692,
@@ -9697,11 +9007,10 @@ const data = [
         "SCH": 805,
         "HP": 82,
         "AP": "£281,332",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 693,
         "SN": "Maghull",
         "REG": "North West",
         "OR": 693,
@@ -9711,11 +9020,10 @@ const data = [
         "SCH": 172,
         "HP": 623,
         "AP": "£354,321",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 694,
         "SN": "East Boldon and West Boldon",
         "REG": "North East",
         "OR": 693,
@@ -9725,11 +9033,10 @@ const data = [
         "SCH": 1199,
         "HP": 750,
         "AP": "£329,451",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 695,
         "SN": "Caister-on-Sea",
         "REG": "East of England",
         "OR": 695,
@@ -9739,11 +9046,10 @@ const data = [
         "SCH": 339,
         "HP": 1150,
         "AP": "£450,818",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 696,
         "SN": "Hoddesdon",
         "REG": "East of England",
         "OR": 695,
@@ -9753,11 +9059,10 @@ const data = [
         "SCH": 204,
         "HP": 513,
         "AP": "£693,630",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 697,
         "SN": "Huntington (York)",
         "REG": "Yorkshire and The Humber",
         "OR": 697,
@@ -9767,11 +9072,10 @@ const data = [
         "SCH": 1276,
         "HP": 555,
         "AP": "£525,301",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 698,
         "SN": "Batley",
         "REG": "Yorkshire and The Humber",
         "OR": 698,
@@ -9781,11 +9085,10 @@ const data = [
         "SCH": 847,
         "HP": 623,
         "AP": "£278,801",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 699,
         "SN": "Blyth (Northumberland)",
         "REG": "North East",
         "OR": 698,
@@ -9795,11 +9098,10 @@ const data = [
         "SCH": 346,
         "HP": 257,
         "AP": "£230,367",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 700,
         "SN": "Throckley",
         "REG": "North East",
         "OR": 700,
@@ -9809,11 +9111,10 @@ const data = [
         "SCH": 878,
         "HP": 151,
         "AP": "£259,629",
-        "SPC": "-12.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-12.0%"
     },
     {
+        "UID": 701,
         "SN": "Wrexham",
         "REG": "Wales",
         "OR": 701,
@@ -9823,11 +9124,10 @@ const data = [
         "SCH": 886,
         "HP": 927,
         "AP": "£308,998",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 702,
         "SN": "Hadleigh",
         "REG": "East of England",
         "OR": 702,
@@ -9837,11 +9137,10 @@ const data = [
         "SCH": 1290,
         "HP": 1195,
         "AP": "£515,730",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 703,
         "SN": "Ashington (Northumberland)",
         "REG": "North East",
         "OR": 703,
@@ -9851,11 +9150,10 @@ const data = [
         "SCH": 976,
         "HP": 843,
         "AP": "£197,729",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 704,
         "SN": "Redbridge",
         "REG": "Greater London",
         "OR": 704,
@@ -9865,11 +9163,10 @@ const data = [
         "SCH": 103,
         "HP": 1097,
         "AP": "£781,673",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 705,
         "SN": "Heckmondwike",
         "REG": "Yorkshire and The Humber",
         "OR": 705,
@@ -9879,11 +9176,10 @@ const data = [
         "SCH": 905,
         "HP": 1128,
         "AP": "£283,666",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 706,
         "SN": "Waltham Forest",
         "REG": "Greater London",
         "OR": 706,
@@ -9893,11 +9189,10 @@ const data = [
         "SCH": 74,
         "HP": 1109,
         "AP": "£959,383",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 707,
         "SN": "Oakdale",
         "REG": "Wales",
         "OR": 706,
@@ -9907,11 +9202,10 @@ const data = [
         "SCH": 613,
         "HP": 461,
         "AP": "£316,632",
-        "SPC": "-6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.4%"
     },
     {
+        "UID": 708,
         "SN": "West Mersea",
         "REG": "East of England",
         "OR": 708,
@@ -9921,11 +9215,10 @@ const data = [
         "SCH": 840,
         "HP": 208,
         "AP": "£611,141",
-        "SPC": "-9.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-9.1%"
     },
     {
+        "UID": 709,
         "SN": "Tiptree",
         "REG": "East of England",
         "OR": 709,
@@ -9935,11 +9228,10 @@ const data = [
         "SCH": 945,
         "HP": 369,
         "AP": "£559,101",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 710,
         "SN": "Ferndown",
         "REG": "South West",
         "OR": 710,
@@ -9949,11 +9241,10 @@ const data = [
         "SCH": 1361,
         "HP": 315,
         "AP": "£593,826",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 711,
         "SN": "Cramlington",
         "REG": "North East",
         "OR": 711,
@@ -9963,11 +9254,10 @@ const data = [
         "SCH": 1081,
         "HP": 118,
         "AP": "£306,409",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 712,
         "SN": "Bamber Bridge",
         "REG": "North West",
         "OR": 712,
@@ -9977,11 +9267,10 @@ const data = [
         "SCH": 391,
         "HP": 822,
         "AP": "£325,840",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 713,
         "SN": "Ripon",
         "REG": "Yorkshire and The Humber",
         "OR": 712,
@@ -9991,11 +9280,10 @@ const data = [
         "SCH": 1409,
         "HP": 207,
         "AP": "£411,854",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 714,
         "SN": "Hoylake",
         "REG": "North West",
         "OR": 714,
@@ -10005,11 +9293,10 @@ const data = [
         "SCH": 1369,
         "HP": 120,
         "AP": "£376,359",
-        "SPC": "-3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.5%"
     },
     {
+        "UID": 715,
         "SN": "Fareham",
         "REG": "South East",
         "OR": 715,
@@ -10019,11 +9306,10 @@ const data = [
         "SCH": 655,
         "HP": 1036,
         "AP": "£516,134",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 716,
         "SN": "Potton",
         "REG": "East of England",
         "OR": 716,
@@ -10033,11 +9319,10 @@ const data = [
         "SCH": 630,
         "HP": 396,
         "AP": "£540,318",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 717,
         "SN": "Sunbury-on-Thames",
         "REG": "South East",
         "OR": 716,
@@ -10047,11 +9332,10 @@ const data = [
         "SCH": 628,
         "HP": 208,
         "AP": "£774,848",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 718,
         "SN": "Midsomer Norton",
         "REG": "South West",
         "OR": 718,
@@ -10061,11 +9345,10 @@ const data = [
         "SCH": 1234,
         "HP": 381,
         "AP": "£498,335",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 719,
         "SN": "Banbury",
         "REG": "South East",
         "OR": 719,
@@ -10075,11 +9358,10 @@ const data = [
         "SCH": 180,
         "HP": 1056,
         "AP": "£483,397",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 720,
         "SN": "Waltham",
         "REG": "Yorkshire and The Humber",
         "OR": 720,
@@ -10089,11 +9371,10 @@ const data = [
         "SCH": 1347,
         "HP": 721,
         "AP": "£323,498",
-        "SPC": "-3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.3%"
     },
     {
+        "UID": 721,
         "SN": "Formby",
         "REG": "North West",
         "OR": 721,
@@ -10103,11 +9384,10 @@ const data = [
         "SCH": 402,
         "HP": 540,
         "AP": "£446,972",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 722,
         "SN": "Studley",
         "REG": "West Midlands",
         "OR": 722,
@@ -10117,11 +9397,10 @@ const data = [
         "SCH": 425,
         "HP": 342,
         "AP": "£438,810",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 723,
         "SN": "Ivybridge",
         "REG": "South West",
         "OR": 723,
@@ -10131,11 +9410,10 @@ const data = [
         "SCH": 232,
         "HP": 628,
         "AP": "£485,543",
-        "SPC": "0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.0%"
     },
     {
+        "UID": 724,
         "SN": "Barnton",
         "REG": "North West",
         "OR": 724,
@@ -10145,11 +9423,10 @@ const data = [
         "SCH": 866,
         "HP": 678,
         "AP": "£353,732",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 725,
         "SN": "Pelsall",
         "REG": "West Midlands",
         "OR": 725,
@@ -10159,11 +9436,10 @@ const data = [
         "SCH": 599,
         "HP": 1241,
         "AP": "£376,479",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 726,
         "SN": "Sittingbourne",
         "REG": "South East",
         "OR": 726,
@@ -10173,11 +9449,10 @@ const data = [
         "SCH": 310,
         "HP": 907,
         "AP": "£517,701",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 727,
         "SN": "Hythe",
         "REG": "South East",
         "OR": 727,
@@ -10187,11 +9462,10 @@ const data = [
         "SCH": 1018,
         "HP": 1164,
         "AP": "£613,646",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 728,
         "SN": "Linthwaite and Slaithwaite",
         "REG": "Yorkshire and The Humber",
         "OR": 728,
@@ -10201,11 +9475,10 @@ const data = [
         "SCH": 1036,
         "HP": 933,
         "AP": "£339,009",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 729,
         "SN": "Bishop's Stortford",
         "REG": "East of England",
         "OR": 729,
@@ -10215,11 +9488,10 @@ const data = [
         "SCH": 722,
         "HP": 20,
         "AP": "£711,028",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 730,
         "SN": "Axminster",
         "REG": "South West",
         "OR": 730,
@@ -10229,11 +9501,10 @@ const data = [
         "SCH": 1428,
         "HP": 945,
         "AP": "£435,341",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 731,
         "SN": "Mountsorrel",
         "REG": "East Midlands",
         "OR": 731,
@@ -10243,11 +9514,10 @@ const data = [
         "SCH": 787,
         "HP": 113,
         "AP": "£455,174",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 732,
         "SN": "Chatham",
         "REG": "South East",
         "OR": 732,
@@ -10257,11 +9527,10 @@ const data = [
         "SCH": 133,
         "HP": 1023,
         "AP": "£511,987",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 733,
         "SN": "Calne",
         "REG": "South West",
         "OR": 733,
@@ -10271,11 +9540,10 @@ const data = [
         "SCH": 1230,
         "HP": 844,
         "AP": "£463,363",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 734,
         "SN": "Histon and Impington",
         "REG": "East of England",
         "OR": 733,
@@ -10285,11 +9553,10 @@ const data = [
         "SCH": 859,
         "HP": 250,
         "AP": "£739,364",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 735,
         "SN": "Herne Bay",
         "REG": "South East",
         "OR": 735,
@@ -10299,11 +9566,10 @@ const data = [
         "SCH": 626,
         "HP": 854,
         "AP": "£549,859",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 736,
         "SN": "Maldon",
         "REG": "East of England",
         "OR": 736,
@@ -10313,11 +9579,10 @@ const data = [
         "SCH": 1381,
         "HP": 320,
         "AP": "£603,341",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 737,
         "SN": "Northampton",
         "REG": "East Midlands",
         "OR": 737,
@@ -10327,11 +9592,10 @@ const data = [
         "SCH": 822,
         "HP": 200,
         "AP": "£424,685",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 738,
         "SN": "Newbridge",
         "REG": "Wales",
         "OR": 738,
@@ -10341,11 +9605,10 @@ const data = [
         "SCH": 770,
         "HP": 814,
         "AP": "£252,281",
-        "SPC": "-3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.6%"
     },
     {
+        "UID": 739,
         "SN": "Barnoldswick",
         "REG": "North West",
         "OR": 738,
@@ -10355,11 +9618,10 @@ const data = [
         "SCH": 699,
         "HP": 1354,
         "AP": "£260,262",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 740,
         "SN": "Harwich",
         "REG": "East of England",
         "OR": 740,
@@ -10369,11 +9631,10 @@ const data = [
         "SCH": 640,
         "HP": 1308,
         "AP": "£405,008",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 741,
         "SN": "Bidford-on-Avon",
         "REG": "West Midlands",
         "OR": 741,
@@ -10383,11 +9644,10 @@ const data = [
         "SCH": 652,
         "HP": 39,
         "AP": "£456,302",
-        "SPC": "-6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.4%"
     },
     {
+        "UID": 742,
         "SN": "Welwyn Garden City",
         "REG": "East of England",
         "OR": 742,
@@ -10397,11 +9657,10 @@ const data = [
         "SCH": 790,
         "HP": 239,
         "AP": "£733,416",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 743,
         "SN": "Eccles (Salford)",
         "REG": "North West",
         "OR": 743,
@@ -10411,11 +9670,10 @@ const data = [
         "SCH": 16,
         "HP": 926,
         "AP": "£376,589",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 744,
         "SN": "St Blazey",
         "REG": "South West",
         "OR": 743,
@@ -10425,11 +9683,10 @@ const data = [
         "SCH": 351,
         "HP": 920,
         "AP": "£388,548",
-        "SPC": "-2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.3%"
     },
     {
+        "UID": 745,
         "SN": "Hedge End",
         "REG": "South East",
         "OR": 745,
@@ -10439,11 +9696,10 @@ const data = [
         "SCH": 966,
         "HP": 753,
         "AP": "£559,724",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 746,
         "SN": "Biggleswade",
         "REG": "East of England",
         "OR": 745,
@@ -10453,11 +9709,10 @@ const data = [
         "SCH": 992,
         "HP": 401,
         "AP": "£567,849",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 747,
         "SN": "Wingerworth",
         "REG": "East Midlands",
         "OR": 747,
@@ -10467,11 +9722,10 @@ const data = [
         "SCH": 1425,
         "HP": 467,
         "AP": "£398,262",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 748,
         "SN": "Mirfield",
         "REG": "Yorkshire and The Humber",
         "OR": 748,
@@ -10481,11 +9735,10 @@ const data = [
         "SCH": 1134,
         "HP": 806,
         "AP": "£354,127",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 749,
         "SN": "Egremont",
         "REG": "North West",
         "OR": 748,
@@ -10495,11 +9748,10 @@ const data = [
         "SCH": 1074,
         "HP": 441,
         "AP": "£188,304",
-        "SPC": "-12.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-12.5%"
     },
     {
+        "UID": 750,
         "SN": "Market Weighton",
         "REG": "Yorkshire and The Humber",
         "OR": 750,
@@ -10509,11 +9761,10 @@ const data = [
         "SCH": 563,
         "HP": 193,
         "AP": "£342,336",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 751,
         "SN": "Potters Bar",
         "REG": "East of England",
         "OR": 750,
@@ -10523,11 +9774,10 @@ const data = [
         "SCH": 238,
         "HP": 747,
         "AP": "£849,928",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 752,
         "SN": "Northfleet",
         "REG": "South East",
         "OR": 752,
@@ -10537,11 +9787,10 @@ const data = [
         "SCH": 138,
         "HP": 1090,
         "AP": "£559,305",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 753,
         "SN": "Brightlingsea",
         "REG": "East of England",
         "OR": 753,
@@ -10551,11 +9800,10 @@ const data = [
         "SCH": 728,
         "HP": 1173,
         "AP": "£471,032",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 754,
         "SN": "Higham Ferrers",
         "REG": "East Midlands",
         "OR": 754,
@@ -10565,11 +9813,10 @@ const data = [
         "SCH": 588,
         "HP": 596,
         "AP": "£428,844",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 755,
         "SN": "Ashbourne",
         "REG": "East Midlands",
         "OR": 755,
@@ -10579,11 +9826,10 @@ const data = [
         "SCH": 1095,
         "HP": 184,
         "AP": "£438,027",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 756,
         "SN": "Mountain Ash",
         "REG": "Wales",
         "OR": 756,
@@ -10593,11 +9839,10 @@ const data = [
         "SCH": 548,
         "HP": 1221,
         "AP": "£194,226",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 757,
         "SN": "Nelson (Pendle)",
         "REG": "North West",
         "OR": 757,
@@ -10607,11 +9852,10 @@ const data = [
         "SCH": 779,
         "HP": 1167,
         "AP": "£148,173",
-        "SPC": "-6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.3%"
     },
     {
+        "UID": 758,
         "SN": "Brighouse",
         "REG": "Yorkshire and The Humber",
         "OR": 758,
@@ -10621,11 +9865,10 @@ const data = [
         "SCH": 1031,
         "HP": 761,
         "AP": "£330,567",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 759,
         "SN": "Polesworth and Dordon",
         "REG": "West Midlands",
         "OR": 759,
@@ -10635,11 +9878,10 @@ const data = [
         "SCH": 485,
         "HP": 197,
         "AP": "£386,247",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 760,
         "SN": "Thurmaston",
         "REG": "East Midlands",
         "OR": 760,
@@ -10649,11 +9891,10 @@ const data = [
         "SCH": 109,
         "HP": 576,
         "AP": "£485,595",
-        "SPC": "10.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.0%"
     },
     {
+        "UID": 761,
         "SN": "Seaford",
         "REG": "South East",
         "OR": 761,
@@ -10663,11 +9904,10 @@ const data = [
         "SCH": 1262,
         "HP": 675,
         "AP": "£606,459",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 762,
         "SN": "Ossett",
         "REG": "Yorkshire and The Humber",
         "OR": 762,
@@ -10677,11 +9917,10 @@ const data = [
         "SCH": 726,
         "HP": 705,
         "AP": "£348,089",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 763,
         "SN": "Hucknall",
         "REG": "East Midlands",
         "OR": 763,
@@ -10691,11 +9930,10 @@ const data = [
         "SCH": 210,
         "HP": 1173,
         "AP": "£358,061",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 764,
         "SN": "Kiveton Park",
         "REG": "Yorkshire and The Humber",
         "OR": 764,
@@ -10705,11 +9943,10 @@ const data = [
         "SCH": 895,
         "HP": 573,
         "AP": "£300,352",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 765,
         "SN": "Padiham",
         "REG": "North West",
         "OR": 764,
@@ -10719,11 +9956,10 @@ const data = [
         "SCH": 1320,
         "HP": 1347,
         "AP": "£190,761",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 766,
         "SN": "Bungay",
         "REG": "East of England",
         "OR": 766,
@@ -10733,11 +9969,10 @@ const data = [
         "SCH": 1076,
         "HP": 939,
         "AP": "£414,829",
-        "SPC": "-6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.5%"
     },
     {
+        "UID": 767,
         "SN": "Coventry",
         "REG": "West Midlands",
         "OR": 767,
@@ -10747,11 +9982,10 @@ const data = [
         "SCH": 429,
         "HP": 576,
         "AP": "£384,665",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 768,
         "SN": "Aintree",
         "REG": "North West",
         "OR": 768,
@@ -10761,11 +9995,10 @@ const data = [
         "SCH": 25,
         "HP": 729,
         "AP": "£322,925",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 769,
         "SN": "Bury St Edmunds",
         "REG": "East of England",
         "OR": 769,
@@ -10775,11 +10008,10 @@ const data = [
         "SCH": 498,
         "HP": 927,
         "AP": "£507,107",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 770,
         "SN": "Seaton (East Devon)",
         "REG": "South West",
         "OR": 769,
@@ -10789,11 +10021,10 @@ const data = [
         "SCH": 1092,
         "HP": 677,
         "AP": "£494,108",
-        "SPC": "-4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.1%"
     },
     {
+        "UID": 771,
         "SN": "Virginia Water",
         "REG": "South East",
         "OR": 771,
@@ -10803,11 +10034,10 @@ const data = [
         "SCH": 983,
         "HP": 7,
         "AP": "£997,388",
-        "SPC": "-2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.4%"
     },
     {
+        "UID": 772,
         "SN": "Crewe",
         "REG": "North West",
         "OR": 772,
@@ -10817,11 +10047,10 @@ const data = [
         "SCH": 926,
         "HP": 313,
         "AP": "£280,243",
-        "SPC": "-3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.5%"
     },
     {
+        "UID": 773,
         "SN": "Bayston Hill",
         "REG": "West Midlands",
         "OR": 772,
@@ -10831,11 +10060,10 @@ const data = [
         "SCH": 816,
         "HP": 554,
         "AP": "£446,070",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 774,
         "SN": "Tonbridge",
         "REG": "South East",
         "OR": 774,
@@ -10845,11 +10073,10 @@ const data = [
         "SCH": 817,
         "HP": 562,
         "AP": "£689,546",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 775,
         "SN": "Basildon",
         "REG": "East of England",
         "OR": 775,
@@ -10859,11 +10086,10 @@ const data = [
         "SCH": 325,
         "HP": 588,
         "AP": "£563,298",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 776,
         "SN": "Featherstone (South Staffordshire)",
         "REG": "West Midlands",
         "OR": 776,
@@ -10873,11 +10099,10 @@ const data = [
         "SCH": 972,
         "HP": 321,
         "AP": "£381,815",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 777,
         "SN": "Aberystwyth",
         "REG": "Wales",
         "OR": 777,
@@ -10887,11 +10112,10 @@ const data = [
         "SCH": 765,
         "HP": 434,
         "AP": "£328,421",
-        "SPC": "-5.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.8%"
     },
     {
+        "UID": 778,
         "SN": "Church",
         "REG": "North West",
         "OR": 778,
@@ -10901,11 +10125,10 @@ const data = [
         "SCH": 209,
         "HP": 1076,
         "AP": "£191,544",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 779,
         "SN": "Morpeth",
         "REG": "North East",
         "OR": 778,
@@ -10915,11 +10138,10 @@ const data = [
         "SCH": 959,
         "HP": 18,
         "AP": "£343,075",
-        "SPC": "-4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.5%"
     },
     {
+        "UID": 780,
         "SN": "Wolverhampton",
         "REG": "West Midlands",
         "OR": 780,
@@ -10929,11 +10151,10 @@ const data = [
         "SCH": 675,
         "HP": 996,
         "AP": "£331,562",
-        "SPC": "-2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.6%"
     },
     {
+        "UID": 781,
         "SN": "Bourne",
         "REG": "East Midlands",
         "OR": 780,
@@ -10943,11 +10164,10 @@ const data = [
         "SCH": 644,
         "HP": 805,
         "AP": "£387,904",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 782,
         "SN": "Spennymoor",
         "REG": "North East",
         "OR": 782,
@@ -10957,11 +10177,10 @@ const data = [
         "SCH": 915,
         "HP": 672,
         "AP": "£201,452",
-        "SPC": "-3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.8%"
     },
     {
+        "UID": 783,
         "SN": "Lowestoft",
         "REG": "East of England",
         "OR": 783,
@@ -10971,11 +10190,10 @@ const data = [
         "SCH": 988,
         "HP": 1211,
         "AP": "£381,085",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 784,
         "SN": "Bargod",
         "REG": "Wales",
         "OR": 784,
@@ -10985,11 +10203,10 @@ const data = [
         "SCH": 307,
         "HP": 1400,
         "AP": "£236,206",
-        "SPC": "17.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "17.3%"
     },
     {
+        "UID": 785,
         "SN": "Halstead (Braintree)",
         "REG": "East of England",
         "OR": 785,
@@ -10999,11 +10216,10 @@ const data = [
         "SCH": 1424,
         "HP": 946,
         "AP": "£517,092",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 786,
         "SN": "Worcester",
         "REG": "West Midlands",
         "OR": 786,
@@ -11013,11 +10229,10 @@ const data = [
         "SCH": 669,
         "HP": 838,
         "AP": "£434,420",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 787,
         "SN": "Seaton Delaval",
         "REG": "North East",
         "OR": 787,
@@ -11027,11 +10242,10 @@ const data = [
         "SCH": 852,
         "HP": 601,
         "AP": "£282,949",
-        "SPC": "8.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.2%"
     },
     {
+        "UID": 788,
         "SN": "Kingsbridge",
         "REG": "South West",
         "OR": 788,
@@ -11041,11 +10255,10 @@ const data = [
         "SCH": 1280,
         "HP": 491,
         "AP": "£548,955",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 789,
         "SN": "Wixams",
         "REG": "East of England",
         "OR": 789,
@@ -11055,11 +10268,10 @@ const data = [
         "SCH": 862,
         "HP": 278,
         "AP": "£508,353",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 790,
         "SN": "Dartford",
         "REG": "South East",
         "OR": 790,
@@ -11069,11 +10281,10 @@ const data = [
         "SCH": 169,
         "HP": 614,
         "AP": "£642,135",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 791,
         "SN": "Old Windsor and Wraysbury",
         "REG": "South East",
         "OR": 791,
@@ -11083,11 +10294,10 @@ const data = [
         "SCH": 805,
         "HP": 42,
         "AP": "£772,142",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 792,
         "SN": "Buntingford",
         "REG": "East of England",
         "OR": 792,
@@ -11097,11 +10307,10 @@ const data = [
         "SCH": 1246,
         "HP": 17,
         "AP": "£645,226",
-        "SPC": "-6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.0%"
     },
     {
+        "UID": 793,
         "SN": "Birstall",
         "REG": "East Midlands",
         "OR": 793,
@@ -11111,11 +10320,10 @@ const data = [
         "SCH": 566,
         "HP": 482,
         "AP": "£464,286",
-        "SPC": "5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.1%"
     },
     {
+        "UID": 794,
         "SN": "Llanharan and Brynna",
         "REG": "Wales",
         "OR": 794,
@@ -11125,11 +10333,10 @@ const data = [
         "SCH": 665,
         "HP": 382,
         "AP": "£356,034",
-        "SPC": "-1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.4%"
     },
     {
+        "UID": 795,
         "SN": "Hattersley",
         "REG": "North West",
         "OR": 795,
@@ -11139,11 +10346,10 @@ const data = [
         "SCH": 176,
         "HP": 849,
         "AP": "£307,902",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 796,
         "SN": "Wombwell",
         "REG": "Yorkshire and The Humber",
         "OR": 796,
@@ -11153,11 +10359,10 @@ const data = [
         "SCH": 535,
         "HP": 828,
         "AP": "£238,494",
-        "SPC": "-6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.9%"
     },
     {
+        "UID": 797,
         "SN": "Shrewsbury",
         "REG": "West Midlands",
         "OR": 797,
@@ -11167,11 +10372,10 @@ const data = [
         "SCH": 1042,
         "HP": 410,
         "AP": "£432,603",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 798,
         "SN": "Ferryhill",
         "REG": "North East",
         "OR": 798,
@@ -11181,11 +10385,10 @@ const data = [
         "SCH": 343,
         "HP": 1067,
         "AP": "£118,384",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 799,
         "SN": "Ashingdon",
         "REG": "East of England",
         "OR": 799,
@@ -11195,11 +10398,10 @@ const data = [
         "SCH": 1088,
         "HP": 168,
         "AP": "£632,795",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 800,
         "SN": "Ashley (New Forest)",
         "REG": "South East",
         "OR": 800,
@@ -11209,11 +10411,10 @@ const data = [
         "SCH": 1070,
         "HP": 439,
         "AP": "£634,324",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 801,
         "SN": "Rothwell (North Northamptonshire)",
         "REG": "East Midlands",
         "OR": 801,
@@ -11223,11 +10424,10 @@ const data = [
         "SCH": 1253,
         "HP": 799,
         "AP": "£401,901",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 802,
         "SN": "Risca",
         "REG": "Wales",
         "OR": 802,
@@ -11237,11 +10437,10 @@ const data = [
         "SCH": 518,
         "HP": 1290,
         "AP": "£293,007",
-        "SPC": "6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.5%"
     },
     {
+        "UID": 803,
         "SN": "Buckley",
         "REG": "Wales",
         "OR": 802,
@@ -11251,11 +10450,10 @@ const data = [
         "SCH": 387,
         "HP": 819,
         "AP": "£350,475",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 804,
         "SN": "Coxheath",
         "REG": "South East",
         "OR": 802,
@@ -11265,11 +10463,10 @@ const data = [
         "SCH": 826,
         "HP": 1285,
         "AP": "£601,799",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 805,
         "SN": "Rishton",
         "REG": "North West",
         "OR": 805,
@@ -11279,11 +10476,10 @@ const data = [
         "SCH": 408,
         "HP": 1352,
         "AP": "£209,440",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 806,
         "SN": "Shrivenham and Watchfield",
         "REG": "South East",
         "OR": 805,
@@ -11293,11 +10489,10 @@ const data = [
         "SCH": 1340,
         "HP": 1095,
         "AP": "£524,844",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 807,
         "SN": "Platt Bridge and Abram",
         "REG": "North West",
         "OR": 807,
@@ -11307,11 +10502,10 @@ const data = [
         "SCH": 436,
         "HP": 1086,
         "AP": "£234,248",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 808,
         "SN": "Ashford (Ashford)",
         "REG": "South East",
         "OR": 807,
@@ -11321,11 +10515,10 @@ const data = [
         "SCH": 297,
         "HP": 1351,
         "AP": "£514,805",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 809,
         "SN": "Ushaw Moor and Bearpark",
         "REG": "North East",
         "OR": 807,
@@ -11335,11 +10528,10 @@ const data = [
         "SCH": 605,
         "HP": 1326,
         "AP": "£210,507",
-        "SPC": "14.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "14.1%"
     },
     {
+        "UID": 810,
         "SN": "Crowborough",
         "REG": "South East",
         "OR": 807,
@@ -11349,11 +10541,10 @@ const data = [
         "SCH": 1264,
         "HP": 852,
         "AP": "£616,524",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 811,
         "SN": "Monmouth",
         "REG": "Wales",
         "OR": 811,
@@ -11363,11 +10554,10 @@ const data = [
         "SCH": 1400,
         "HP": 380,
         "AP": "£460,133",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 812,
         "SN": "Beccles",
         "REG": "East of England",
         "OR": 812,
@@ -11377,11 +10567,10 @@ const data = [
         "SCH": 940,
         "HP": 1152,
         "AP": "£456,636",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 813,
         "SN": "Poringland",
         "REG": "East of England",
         "OR": 812,
@@ -11391,11 +10580,10 @@ const data = [
         "SCH": 1350,
         "HP": 1324,
         "AP": "£479,973",
-        "SPC": "5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.1%"
     },
     {
+        "UID": 814,
         "SN": "Brandon (County Durham)",
         "REG": "North East",
         "OR": 814,
@@ -11405,11 +10593,10 @@ const data = [
         "SCH": 890,
         "HP": 490,
         "AP": "£221,512",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 815,
         "SN": "Syston",
         "REG": "East Midlands",
         "OR": 815,
@@ -11419,11 +10606,10 @@ const data = [
         "SCH": 561,
         "HP": 419,
         "AP": "£437,515",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 816,
         "SN": "Lightwater",
         "REG": "South East",
         "OR": 816,
@@ -11433,11 +10619,10 @@ const data = [
         "SCH": 776,
         "HP": 98,
         "AP": "£732,526",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 817,
         "SN": "Bingley",
         "REG": "Yorkshire and The Humber",
         "OR": 817,
@@ -11447,11 +10632,10 @@ const data = [
         "SCH": 1092,
         "HP": 801,
         "AP": "£347,510",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 818,
         "SN": "Whitehill (East Hampshire)",
         "REG": "South East",
         "OR": 818,
@@ -11461,11 +10645,10 @@ const data = [
         "SCH": 923,
         "HP": 987,
         "AP": "£671,353",
-        "SPC": "12.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "12.0%"
     },
     {
+        "UID": 819,
         "SN": "Ottery St Mary",
         "REG": "South West",
         "OR": 819,
@@ -11475,11 +10658,10 @@ const data = [
         "SCH": 1025,
         "HP": 1154,
         "AP": "£511,548",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 820,
         "SN": "Little Hulton",
         "REG": "North West",
         "OR": 820,
@@ -11489,11 +10671,10 @@ const data = [
         "SCH": 8,
         "HP": 831,
         "AP": "£306,550",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 821,
         "SN": "Blackwater (Hart)",
         "REG": "South East",
         "OR": 820,
@@ -11503,11 +10684,10 @@ const data = [
         "SCH": 536,
         "HP": 319,
         "AP": "£617,211",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 822,
         "SN": "North Walsham",
         "REG": "East of England",
         "OR": 822,
@@ -11517,11 +10697,10 @@ const data = [
         "SCH": 1108,
         "HP": 1324,
         "AP": "£459,019",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 823,
         "SN": "Bedwas",
         "REG": "Wales",
         "OR": 823,
@@ -11531,11 +10710,10 @@ const data = [
         "SCH": 193,
         "HP": 1071,
         "AP": "£349,400",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 824,
         "SN": "Redruth",
         "REG": "South West",
         "OR": 823,
@@ -11545,11 +10723,10 @@ const data = [
         "SCH": 728,
         "HP": 1260,
         "AP": "£414,896",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 825,
         "SN": "Stourbridge",
         "REG": "West Midlands",
         "OR": 825,
@@ -11559,11 +10736,10 @@ const data = [
         "SCH": 903,
         "HP": 908,
         "AP": "£418,234",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 826,
         "SN": "Stourport-on-Severn",
         "REG": "West Midlands",
         "OR": 826,
@@ -11573,11 +10749,10 @@ const data = [
         "SCH": 684,
         "HP": 1153,
         "AP": "£399,573",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 827,
         "SN": "Stalybridge",
         "REG": "North West",
         "OR": 827,
@@ -11587,11 +10762,10 @@ const data = [
         "SCH": 178,
         "HP": 1131,
         "AP": "£357,255",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 828,
         "SN": "West End (Eastleigh)",
         "REG": "South East",
         "OR": 828,
@@ -11601,11 +10775,10 @@ const data = [
         "SCH": 811,
         "HP": 1024,
         "AP": "£577,733",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 829,
         "SN": "Wigan",
         "REG": "North West",
         "OR": 829,
@@ -11615,11 +10788,10 @@ const data = [
         "SCH": 66,
         "HP": 1266,
         "AP": "£263,181",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 830,
         "SN": "Orrell",
         "REG": "North West",
         "OR": 829,
@@ -11629,11 +10801,10 @@ const data = [
         "SCH": 294,
         "HP": 1213,
         "AP": "£315,329",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 831,
         "SN": "Kidderminster",
         "REG": "West Midlands",
         "OR": 829,
@@ -11643,11 +10814,10 @@ const data = [
         "SCH": 510,
         "HP": 974,
         "AP": "£359,694",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 832,
         "SN": "Canterbury",
         "REG": "South East",
         "OR": 832,
@@ -11657,11 +10827,10 @@ const data = [
         "SCH": 1162,
         "HP": 950,
         "AP": "£541,665",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 833,
         "SN": "Marlborough",
         "REG": "South West",
         "OR": 833,
@@ -11671,11 +10840,10 @@ const data = [
         "SCH": 1214,
         "HP": 537,
         "AP": "£598,563",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 834,
         "SN": "Barton-upon-Humber",
         "REG": "Yorkshire and The Humber",
         "OR": 834,
@@ -11685,11 +10853,10 @@ const data = [
         "SCH": 1242,
         "HP": 645,
         "AP": "£286,913",
-        "SPC": "-5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.1%"
     },
     {
+        "UID": 835,
         "SN": "Lancing and Sompting",
         "REG": "South East",
         "OR": 835,
@@ -11699,11 +10866,10 @@ const data = [
         "SCH": 160,
         "HP": 996,
         "AP": "£630,362",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 836,
         "SN": "Maryport",
         "REG": "North West",
         "OR": 835,
@@ -11713,11 +10879,10 @@ const data = [
         "SCH": 757,
         "HP": 1261,
         "AP": "£204,275",
-        "SPC": "11.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.3%"
     },
     {
+        "UID": 837,
         "SN": "Blackrod",
         "REG": "North West",
         "OR": 837,
@@ -11727,11 +10892,10 @@ const data = [
         "SCH": 4,
         "HP": 1210,
         "AP": "£351,515",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 838,
         "SN": "Newark-on-Trent",
         "REG": "East Midlands",
         "OR": 838,
@@ -11741,11 +10905,10 @@ const data = [
         "SCH": 455,
         "HP": 478,
         "AP": "£319,405",
-        "SPC": "-0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.5%"
     },
     {
+        "UID": 839,
         "SN": "Colwyn Bay",
         "REG": "Wales",
         "OR": 839,
@@ -11755,11 +10918,10 @@ const data = [
         "SCH": 1103,
         "HP": 1067,
         "AP": "£326,527",
-        "SPC": "5.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.5%"
     },
     {
+        "UID": 840,
         "SN": "Millom",
         "REG": "North West",
         "OR": 840,
@@ -11769,11 +10931,10 @@ const data = [
         "SCH": 795,
         "HP": 1275,
         "AP": "£194,009",
-        "SPC": "13.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.8%"
     },
     {
+        "UID": 841,
         "SN": "Lutterworth",
         "REG": "East Midlands",
         "OR": 841,
@@ -11783,11 +10944,10 @@ const data = [
         "SCH": 1056,
         "HP": 240,
         "AP": "£459,500",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 842,
         "SN": "Newent",
         "REG": "South West",
         "OR": 842,
@@ -11797,11 +10957,10 @@ const data = [
         "SCH": 1184,
         "HP": 349,
         "AP": "£426,645",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 843,
         "SN": "Gosport",
         "REG": "South East",
         "OR": 843,
@@ -11811,11 +10970,10 @@ const data = [
         "SCH": 1010,
         "HP": 1369,
         "AP": "£440,191",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 844,
         "SN": "Sleaford",
         "REG": "East Midlands",
         "OR": 844,
@@ -11825,11 +10983,10 @@ const data = [
         "SCH": 255,
         "HP": 456,
         "AP": "£338,304",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 845,
         "SN": "Bicester",
         "REG": "South East",
         "OR": 844,
@@ -11839,11 +10996,10 @@ const data = [
         "SCH": 358,
         "HP": 1084,
         "AP": "£599,862",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 846,
         "SN": "Slough",
         "REG": "South East",
         "OR": 846,
@@ -11853,11 +11009,10 @@ const data = [
         "SCH": 371,
         "HP": 601,
         "AP": "£681,922",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 847,
         "SN": "Rochford",
         "REG": "East of England",
         "OR": 846,
@@ -11867,11 +11022,10 @@ const data = [
         "SCH": 977,
         "HP": 417,
         "AP": "£556,941",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 848,
         "SN": "Hounslow",
         "REG": "Greater London",
         "OR": 848,
@@ -11881,11 +11035,10 @@ const data = [
         "SCH": 441,
         "HP": 1179,
         "AP": "£897,411",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 849,
         "SN": "Cleethorpes",
         "REG": "Yorkshire and The Humber",
         "OR": 849,
@@ -11895,11 +11048,10 @@ const data = [
         "SCH": 616,
         "HP": 1162,
         "AP": "£222,392",
-        "SPC": "-1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.8%"
     },
     {
+        "UID": 850,
         "SN": "Cinderford",
         "REG": "South West",
         "OR": 849,
@@ -11909,11 +11061,10 @@ const data = [
         "SCH": 1307,
         "HP": 407,
         "AP": "£360,400",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 851,
         "SN": "Aylesbury",
         "REG": "South East",
         "OR": 851,
@@ -11923,11 +11074,10 @@ const data = [
         "SCH": 407,
         "HP": 674,
         "AP": "£576,518",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 852,
         "SN": "Longton",
         "REG": "North West",
         "OR": 852,
@@ -11937,11 +11087,10 @@ const data = [
         "SCH": 1019,
         "HP": 909,
         "AP": "£403,960",
-        "SPC": "10.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.0%"
     },
     {
+        "UID": 853,
         "SN": "Eckington (North East Derbyshire)",
         "REG": "East Midlands",
         "OR": 853,
@@ -11951,11 +11100,10 @@ const data = [
         "SCH": 1190,
         "HP": 1118,
         "AP": "£348,645",
-        "SPC": "7.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.4%"
     },
     {
+        "UID": 854,
         "SN": "Wythenshawe",
         "REG": "North West",
         "OR": 854,
@@ -11965,11 +11113,10 @@ const data = [
         "SCH": 54,
         "HP": 580,
         "AP": "£442,071",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 855,
         "SN": "Culcheth",
         "REG": "North West",
         "OR": 855,
@@ -11979,11 +11126,10 @@ const data = [
         "SCH": 457,
         "HP": 536,
         "AP": "£529,716",
-        "SPC": "11.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.1%"
     },
     {
+        "UID": 856,
         "SN": "Keighley",
         "REG": "Yorkshire and The Humber",
         "OR": 856,
@@ -11993,11 +11139,10 @@ const data = [
         "SCH": 352,
         "HP": 1204,
         "AP": "£240,755",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 857,
         "SN": "Denmead",
         "REG": "South East",
         "OR": 857,
@@ -12007,11 +11152,10 @@ const data = [
         "SCH": 1325,
         "HP": 204,
         "AP": "£612,325",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 858,
         "SN": "Tamworth",
         "REG": "West Midlands",
         "OR": 858,
@@ -12021,11 +11165,10 @@ const data = [
         "SCH": 397,
         "HP": 288,
         "AP": "£405,443",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 859,
         "SN": "Berechurch",
         "REG": "East of England",
         "OR": 859,
@@ -12035,11 +11178,10 @@ const data = [
         "SCH": 77,
         "HP": 768,
         "AP": "£489,310",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 860,
         "SN": "Rotherham",
         "REG": "Yorkshire and The Humber",
         "OR": 859,
@@ -12049,11 +11191,10 @@ const data = [
         "SCH": 466,
         "HP": 1272,
         "AP": "£254,459",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 861,
         "SN": "Barugh Green and Redbrook",
         "REG": "Yorkshire and The Humber",
         "OR": 859,
@@ -12063,11 +11204,10 @@ const data = [
         "SCH": 544,
         "HP": 1045,
         "AP": "£362,192",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 862,
         "SN": "Taunton",
         "REG": "South West",
         "OR": 859,
@@ -12077,11 +11217,10 @@ const data = [
         "SCH": 1157,
         "HP": 979,
         "AP": "£427,470",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 863,
         "SN": "Selston",
         "REG": "East Midlands",
         "OR": 863,
@@ -12091,11 +11230,10 @@ const data = [
         "SCH": 67,
         "HP": 901,
         "AP": "£334,135",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 864,
         "SN": "Middlesbrough",
         "REG": "North East",
         "OR": 864,
@@ -12105,11 +11243,10 @@ const data = [
         "SCH": 505,
         "HP": 846,
         "AP": "£208,043",
-        "SPC": "-6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.7%"
     },
     {
+        "UID": 865,
         "SN": "Shifnal",
         "REG": "West Midlands",
         "OR": 865,
@@ -12119,11 +11256,10 @@ const data = [
         "SCH": 752,
         "HP": 571,
         "AP": "£409,516",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 866,
         "SN": "Barrow-in-Furness",
         "REG": "North West",
         "OR": 865,
@@ -12133,11 +11269,10 @@ const data = [
         "SCH": 877,
         "HP": 655,
         "AP": "£236,887",
-        "SPC": "-3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.4%"
     },
     {
+        "UID": 867,
         "SN": "Horley (Reigate and Banstead)",
         "REG": "South East",
         "OR": 867,
@@ -12147,11 +11282,10 @@ const data = [
         "SCH": 661,
         "HP": 324,
         "AP": "£671,368",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 868,
         "SN": "Chester-le-Street",
         "REG": "North East",
         "OR": 867,
@@ -12161,11 +11295,10 @@ const data = [
         "SCH": 953,
         "HP": 284,
         "AP": "£259,611",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 869,
         "SN": "Dinas Powis",
         "REG": "Wales",
         "OR": 867,
@@ -12175,11 +11308,10 @@ const data = [
         "SCH": 881,
         "HP": 459,
         "AP": "£485,520",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 870,
         "SN": "Leicester Forest East and Kirby Muxloe",
         "REG": "East Midlands",
         "OR": 870,
@@ -12189,11 +11321,10 @@ const data = [
         "SCH": 1100,
         "HP": 416,
         "AP": "£475,219",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 871,
         "SN": "Eastbourne",
         "REG": "South East",
         "OR": 871,
@@ -12203,11 +11334,10 @@ const data = [
         "SCH": 1122,
         "HP": 1223,
         "AP": "£518,353",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 872,
         "SN": "Wymondham (South Norfolk)",
         "REG": "East of England",
         "OR": 872,
@@ -12217,11 +11347,10 @@ const data = [
         "SCH": 803,
         "HP": 1315,
         "AP": "£481,662",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 873,
         "SN": "Wells",
         "REG": "South West",
         "OR": 873,
@@ -12231,11 +11360,10 @@ const data = [
         "SCH": 1410,
         "HP": 1103,
         "AP": "£514,120",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 874,
         "SN": "Upton (Dorset)",
         "REG": "South West",
         "OR": 874,
@@ -12245,11 +11373,10 @@ const data = [
         "SCH": 1055,
         "HP": 817,
         "AP": "£602,037",
-        "SPC": "8.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.9%"
     },
     {
+        "UID": 875,
         "SN": "Four Marks",
         "REG": "South East",
         "OR": 874,
@@ -12259,11 +11386,10 @@ const data = [
         "SCH": 1408,
         "HP": 467,
         "AP": "£599,998",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 876,
         "SN": "Edenbridge",
         "REG": "South East",
         "OR": 876,
@@ -12273,11 +11399,10 @@ const data = [
         "SCH": 1281,
         "HP": 156,
         "AP": "£590,349",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 877,
         "SN": "Consett",
         "REG": "North East",
         "OR": 877,
@@ -12287,11 +11412,10 @@ const data = [
         "SCH": 980,
         "HP": 895,
         "AP": "£215,675",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 878,
         "SN": "Hullbridge",
         "REG": "East of England",
         "OR": 877,
@@ -12301,11 +11425,10 @@ const data = [
         "SCH": 766,
         "HP": 443,
         "AP": "£672,197",
-        "SPC": "8.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.9%"
     },
     {
+        "UID": 879,
         "SN": "Rhosllannerchrugog",
         "REG": "Wales",
         "OR": 879,
@@ -12315,11 +11438,10 @@ const data = [
         "SCH": 1149,
         "HP": 1284,
         "AP": "£281,205",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 880,
         "SN": "Crook",
         "REG": "North East",
         "OR": 880,
@@ -12329,11 +11451,10 @@ const data = [
         "SCH": 603,
         "HP": 715,
         "AP": "£180,725",
-        "SPC": "-5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.2%"
     },
     {
+        "UID": 881,
         "SN": "Deeping St James",
         "REG": "East Midlands",
         "OR": 880,
@@ -12343,11 +11464,10 @@ const data = [
         "SCH": 928,
         "HP": 594,
         "AP": "£414,712",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 882,
         "SN": "Codsall",
         "REG": "West Midlands",
         "OR": 880,
@@ -12357,11 +11477,10 @@ const data = [
         "SCH": 1387,
         "HP": 305,
         "AP": "£476,548",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 883,
         "SN": "Cleator Moor",
         "REG": "North West",
         "OR": 883,
@@ -12371,11 +11490,10 @@ const data = [
         "SCH": 1337,
         "HP": 1265,
         "AP": "£202,403",
-        "SPC": "13.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.0%"
     },
     {
+        "UID": 884,
         "SN": "Dover",
         "REG": "South East",
         "OR": 884,
@@ -12385,11 +11503,10 @@ const data = [
         "SCH": 336,
         "HP": 1099,
         "AP": "£390,982",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 885,
         "SN": "Blackwood",
         "REG": "Wales",
         "OR": 884,
@@ -12399,11 +11516,10 @@ const data = [
         "SCH": 518,
         "HP": 598,
         "AP": "£304,964",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 886,
         "SN": "Minehead",
         "REG": "South West",
         "OR": 886,
@@ -12413,11 +11529,10 @@ const data = [
         "SCH": 1392,
         "HP": 1020,
         "AP": "£428,817",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 887,
         "SN": "Pembroke Dock",
         "REG": "Wales",
         "OR": 887,
@@ -12427,11 +11542,10 @@ const data = [
         "SCH": 1345,
         "HP": 739,
         "AP": "£211,640",
-        "SPC": "-8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.7%"
     },
     {
+        "UID": 888,
         "SN": "Hertford",
         "REG": "East of England",
         "OR": 888,
@@ -12441,11 +11555,10 @@ const data = [
         "SCH": 924,
         "HP": 43,
         "AP": "£769,832",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 889,
         "SN": "Barnsley",
         "REG": "Yorkshire and The Humber",
         "OR": 889,
@@ -12455,11 +11568,10 @@ const data = [
         "SCH": 386,
         "HP": 1141,
         "AP": "£245,983",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 890,
         "SN": "Coalville",
         "REG": "East Midlands",
         "OR": 889,
@@ -12469,11 +11581,10 @@ const data = [
         "SCH": 520,
         "HP": 847,
         "AP": "£371,047",
-        "SPC": "7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.8%"
     },
     {
+        "UID": 891,
         "SN": "Catshill",
         "REG": "West Midlands",
         "OR": 891,
@@ -12483,11 +11594,10 @@ const data = [
         "SCH": 417,
         "HP": 164,
         "AP": "£462,926",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 892,
         "SN": "Beddau",
         "REG": "Wales",
         "OR": 891,
@@ -12497,11 +11607,10 @@ const data = [
         "SCH": 524,
         "HP": 985,
         "AP": "£372,372",
-        "SPC": "8.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.6%"
     },
     {
+        "UID": 893,
         "SN": "Mexborough",
         "REG": "Yorkshire and The Humber",
         "OR": 893,
@@ -12511,11 +11620,10 @@ const data = [
         "SCH": 369,
         "HP": 731,
         "AP": "£181,327",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 894,
         "SN": "Winnersh",
         "REG": "South East",
         "OR": 893,
@@ -12525,11 +11633,10 @@ const data = [
         "SCH": 552,
         "HP": 202,
         "AP": "£685,598",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 895,
         "SN": "Stansted Mountfitchet",
         "REG": "East of England",
         "OR": 893,
@@ -12539,11 +11646,10 @@ const data = [
         "SCH": 1332,
         "HP": 58,
         "AP": "£639,262",
-        "SPC": "-2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.8%"
     },
     {
+        "UID": 896,
         "SN": "Wakefield",
         "REG": "Yorkshire and The Humber",
         "OR": 896,
@@ -12553,11 +11659,10 @@ const data = [
         "SCH": 694,
         "HP": 840,
         "AP": "£334,198",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 897,
         "SN": "Harlow",
         "REG": "East of England",
         "OR": 896,
@@ -12567,11 +11672,10 @@ const data = [
         "SCH": 808,
         "HP": 876,
         "AP": "£581,072",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 898,
         "SN": "Liversedge",
         "REG": "Yorkshire and The Humber",
         "OR": 898,
@@ -12581,11 +11685,10 @@ const data = [
         "SCH": 595,
         "HP": 958,
         "AP": "£322,066",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 899,
         "SN": "Adlington (Chorley)",
         "REG": "North West",
         "OR": 898,
@@ -12595,11 +11698,10 @@ const data = [
         "SCH": 869,
         "HP": 609,
         "AP": "£341,018",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 900,
         "SN": "Leighton Buzzard",
         "REG": "East of England",
         "OR": 898,
@@ -12609,11 +11711,10 @@ const data = [
         "SCH": 958,
         "HP": 432,
         "AP": "£589,983",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 901,
         "SN": "Bridlington",
         "REG": "Yorkshire and The Humber",
         "OR": 898,
@@ -12623,11 +11724,10 @@ const data = [
         "SCH": 1004,
         "HP": 1012,
         "AP": "£310,450",
-        "SPC": "8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.7%"
     },
     {
+        "UID": 902,
         "SN": "Locks Heath",
         "REG": "South East",
         "OR": 902,
@@ -12637,11 +11737,10 @@ const data = [
         "SCH": 1091,
         "HP": 1114,
         "AP": "£599,329",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 903,
         "SN": "Ross-on-Wye",
         "REG": "West Midlands",
         "OR": 902,
@@ -12651,11 +11750,10 @@ const data = [
         "SCH": 1388,
         "HP": 1104,
         "AP": "£435,996",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 904,
         "SN": "Earls Barton",
         "REG": "East Midlands",
         "OR": 904,
@@ -12665,11 +11763,10 @@ const data = [
         "SCH": 1148,
         "HP": 730,
         "AP": "£460,147",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 905,
         "SN": "Lincoln",
         "REG": "East Midlands",
         "OR": 905,
@@ -12679,11 +11776,10 @@ const data = [
         "SCH": 303,
         "HP": 961,
         "AP": "£326,829",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 906,
         "SN": "Trowbridge",
         "REG": "South West",
         "OR": 905,
@@ -12693,11 +11789,10 @@ const data = [
         "SCH": 1118,
         "HP": 809,
         "AP": "£447,277",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 907,
         "SN": "Allerton Bywater",
         "REG": "Yorkshire and The Humber",
         "OR": 905,
@@ -12707,11 +11802,10 @@ const data = [
         "SCH": 262,
         "HP": 775,
         "AP": "£338,190",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 908,
         "SN": "Norton-on-Derwent",
         "REG": "Yorkshire and The Humber",
         "OR": 905,
@@ -12721,11 +11815,10 @@ const data = [
         "SCH": 1423,
         "HP": 181,
         "AP": "£355,030",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 909,
         "SN": "Somercotes and Swanwick",
         "REG": "East Midlands",
         "OR": 909,
@@ -12735,11 +11828,10 @@ const data = [
         "SCH": 1217,
         "HP": 1206,
         "AP": "£326,527",
-        "SPC": "6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.0%"
     },
     {
+        "UID": 910,
         "SN": "Weston-super-Mare",
         "REG": "South West",
         "OR": 910,
@@ -12749,11 +11841,10 @@ const data = [
         "SCH": 935,
         "HP": 773,
         "AP": "£435,771",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 911,
         "SN": "Cheadle (Staffordshire Moorlands)",
         "REG": "West Midlands",
         "OR": 910,
@@ -12763,11 +11854,10 @@ const data = [
         "SCH": 1110,
         "HP": 509,
         "AP": "£343,686",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 912,
         "SN": "Pontypool",
         "REG": "Wales",
         "OR": 912,
@@ -12777,11 +11867,10 @@ const data = [
         "SCH": 943,
         "HP": 723,
         "AP": "£291,147",
-        "SPC": "-6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.0%"
     },
     {
+        "UID": 913,
         "SN": "Askern",
         "REG": "Yorkshire and The Humber",
         "OR": 913,
@@ -12791,11 +11880,10 @@ const data = [
         "SCH": 449,
         "HP": 685,
         "AP": "£195,641",
-        "SPC": "-8.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.1%"
     },
     {
+        "UID": 914,
         "SN": "Staines-upon-Thames",
         "REG": "South East",
         "OR": 914,
@@ -12805,11 +11893,10 @@ const data = [
         "SCH": 689,
         "HP": 412,
         "AP": "£826,707",
-        "SPC": "13.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.2%"
     },
     {
+        "UID": 915,
         "SN": "Whitwick",
         "REG": "East Midlands",
         "OR": 915,
@@ -12819,11 +11906,10 @@ const data = [
         "SCH": 324,
         "HP": 517,
         "AP": "£380,775",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 916,
         "SN": "Crewkerne",
         "REG": "South West",
         "OR": 916,
@@ -12833,11 +11919,10 @@ const data = [
         "SCH": 1315,
         "HP": 965,
         "AP": "£406,419",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 917,
         "SN": "Leicester",
         "REG": "East Midlands",
         "OR": 917,
@@ -12847,11 +11932,10 @@ const data = [
         "SCH": 244,
         "HP": 1169,
         "AP": "£403,283",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 918,
         "SN": "Hexham",
         "REG": "North East",
         "OR": 918,
@@ -12861,11 +11945,10 @@ const data = [
         "SCH": 1012,
         "HP": 124,
         "AP": "£360,692",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 919,
         "SN": "Petersfield",
         "REG": "South East",
         "OR": 919,
@@ -12875,11 +11958,10 @@ const data = [
         "SCH": 1164,
         "HP": 769,
         "AP": "£714,494",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 920,
         "SN": "Gorleston-on-Sea",
         "REG": "East of England",
         "OR": 920,
@@ -12889,11 +11971,10 @@ const data = [
         "SCH": 454,
         "HP": 1397,
         "AP": "£362,506",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 921,
         "SN": "Halifax",
         "REG": "Yorkshire and The Humber",
         "OR": 921,
@@ -12903,11 +11984,10 @@ const data = [
         "SCH": 1085,
         "HP": 1288,
         "AP": "£251,371",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 922,
         "SN": "Ingatestone",
         "REG": "East of England",
         "OR": 922,
@@ -12917,11 +11997,10 @@ const data = [
         "SCH": 1420,
         "HP": 4,
         "AP": "£758,934",
-        "SPC": "-5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.4%"
     },
     {
+        "UID": 923,
         "SN": "Downham Market",
         "REG": "East of England",
         "OR": 923,
@@ -12931,11 +12010,10 @@ const data = [
         "SCH": 424,
         "HP": 1417,
         "AP": "£451,642",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 924,
         "SN": "Milnrow",
         "REG": "North West",
         "OR": 924,
@@ -12945,11 +12023,10 @@ const data = [
         "SCH": 280,
         "HP": 1183,
         "AP": "£323,246",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 925,
         "SN": "Rainworth",
         "REG": "East Midlands",
         "OR": 924,
@@ -12959,11 +12036,10 @@ const data = [
         "SCH": 200,
         "HP": 608,
         "AP": "£308,512",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 926,
         "SN": "Eston",
         "REG": "North East",
         "OR": 926,
@@ -12973,11 +12049,10 @@ const data = [
         "SCH": 620,
         "HP": 1296,
         "AP": "£207,011",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 927,
         "SN": "Soham",
         "REG": "East of England",
         "OR": 926,
@@ -12987,11 +12062,10 @@ const data = [
         "SCH": 1295,
         "HP": 533,
         "AP": "£438,149",
-        "SPC": "-3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.9%"
     },
     {
+        "UID": 928,
         "SN": "Darfield",
         "REG": "Yorkshire and The Humber",
         "OR": 928,
@@ -13001,11 +12075,10 @@ const data = [
         "SCH": 943,
         "HP": 1371,
         "AP": "£266,774",
-        "SPC": "8.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.2%"
     },
     {
+        "UID": 929,
         "SN": "Malton",
         "REG": "Yorkshire and The Humber",
         "OR": 928,
@@ -13015,11 +12088,10 @@ const data = [
         "SCH": 1421,
         "HP": 663,
         "AP": "£446,129",
-        "SPC": "9.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.8%"
     },
     {
+        "UID": 930,
         "SN": "Nottingham",
         "REG": "East Midlands",
         "OR": 930,
@@ -13029,11 +12101,10 @@ const data = [
         "SCH": 93,
         "HP": 1358,
         "AP": "£345,127",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 931,
         "SN": "Countesthorpe",
         "REG": "East Midlands",
         "OR": 930,
@@ -13043,11 +12114,10 @@ const data = [
         "SCH": 1002,
         "HP": 671,
         "AP": "£477,416",
-        "SPC": "8.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.4%"
     },
     {
+        "UID": 932,
         "SN": "Danbury",
         "REG": "East of England",
         "OR": 932,
@@ -13057,11 +12127,10 @@ const data = [
         "SCH": 1418,
         "HP": 699,
         "AP": "£710,871",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 933,
         "SN": "Harleston",
         "REG": "East of England",
         "OR": 933,
@@ -13071,11 +12140,10 @@ const data = [
         "SCH": 1370,
         "HP": 1046,
         "AP": "£431,497",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 934,
         "SN": "Standish",
         "REG": "North West",
         "OR": 934,
@@ -13085,11 +12153,10 @@ const data = [
         "SCH": 234,
         "HP": 1157,
         "AP": "£360,480",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 935,
         "SN": "Pickering",
         "REG": "Yorkshire and The Humber",
         "OR": 935,
@@ -13099,11 +12166,10 @@ const data = [
         "SCH": 1338,
         "HP": 709,
         "AP": "£429,790",
-        "SPC": "12.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "12.5%"
     },
     {
+        "UID": 936,
         "SN": "Hillingdon",
         "REG": "Greater London",
         "OR": 936,
@@ -13113,11 +12179,10 @@ const data = [
         "SCH": 714,
         "HP": 1081,
         "AP": "£840,478",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 937,
         "SN": "Shotton",
         "REG": "Wales",
         "OR": 936,
@@ -13127,11 +12192,10 @@ const data = [
         "SCH": 573,
         "HP": 1302,
         "AP": "£261,191",
-        "SPC": "13.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.6%"
     },
     {
+        "UID": 938,
         "SN": "Creswell",
         "REG": "East Midlands",
         "OR": 936,
@@ -13141,11 +12205,10 @@ const data = [
         "SCH": 1384,
         "HP": 1127,
         "AP": "£241,457",
-        "SPC": "-8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.5%"
     },
     {
+        "UID": 939,
         "SN": "Bewdley",
         "REG": "West Midlands",
         "OR": 939,
@@ -13155,11 +12218,10 @@ const data = [
         "SCH": 1064,
         "HP": 960,
         "AP": "£462,506",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 940,
         "SN": "Oakham",
         "REG": "East Midlands",
         "OR": 940,
@@ -13169,11 +12231,10 @@ const data = [
         "SCH": 1327,
         "HP": 411,
         "AP": "£454,211",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 941,
         "SN": "Carlton (Gedling)",
         "REG": "East Midlands",
         "OR": 941,
@@ -13183,11 +12244,10 @@ const data = [
         "SCH": 226,
         "HP": 782,
         "AP": "£383,466",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 942,
         "SN": "Meols",
         "REG": "North West",
         "OR": 941,
@@ -13197,11 +12257,10 @@ const data = [
         "SCH": 1256,
         "HP": 249,
         "AP": "£442,865",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 943,
         "SN": "Daventry",
         "REG": "East Midlands",
         "OR": 943,
@@ -13211,11 +12270,10 @@ const data = [
         "SCH": 1145,
         "HP": 267,
         "AP": "£413,986",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 944,
         "SN": "Bursledon",
         "REG": "South East",
         "OR": 944,
@@ -13225,11 +12283,10 @@ const data = [
         "SCH": 1131,
         "HP": 738,
         "AP": "£551,620",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 945,
         "SN": "Dereham",
         "REG": "East of England",
         "OR": 945,
@@ -13239,11 +12296,10 @@ const data = [
         "SCH": 615,
         "HP": 1188,
         "AP": "£418,789",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 946,
         "SN": "Great Wyrley and Cheslyn Hay",
         "REG": "West Midlands",
         "OR": 945,
@@ -13253,11 +12309,10 @@ const data = [
         "SCH": 1105,
         "HP": 246,
         "AP": "£396,015",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 947,
         "SN": "Wootton (Bedford)",
         "REG": "East of England",
         "OR": 945,
@@ -13267,11 +12322,10 @@ const data = [
         "SCH": 508,
         "HP": 1317,
         "AP": "£578,163",
-        "SPC": "15.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "15.0%"
     },
     {
+        "UID": 948,
         "SN": "Maidstone",
         "REG": "South East",
         "OR": 948,
@@ -13281,11 +12335,10 @@ const data = [
         "SCH": 361,
         "HP": 1253,
         "AP": "£550,434",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 949,
         "SN": "Haslington",
         "REG": "North West",
         "OR": 948,
@@ -13295,11 +12348,10 @@ const data = [
         "SCH": 1309,
         "HP": 180,
         "AP": "£372,113",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 950,
         "SN": "East Wittering",
         "REG": "South East",
         "OR": 950,
@@ -13309,11 +12361,10 @@ const data = [
         "SCH": 1407,
         "HP": 331,
         "AP": "£697,484",
-        "SPC": "-12.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-12.9%"
     },
     {
+        "UID": 951,
         "SN": "Aveley",
         "REG": "East of England",
         "OR": 951,
@@ -13323,11 +12374,10 @@ const data = [
         "SCH": 72,
         "HP": 564,
         "AP": "£634,901",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 952,
         "SN": "King's Lynn",
         "REG": "East of England",
         "OR": 952,
@@ -13337,11 +12387,10 @@ const data = [
         "SCH": 216,
         "HP": 1427,
         "AP": "£377,290",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 953,
         "SN": "Weaverham",
         "REG": "North West",
         "OR": 953,
@@ -13351,11 +12400,10 @@ const data = [
         "SCH": 1132,
         "HP": 656,
         "AP": "£356,244",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 954,
         "SN": "Merthyr Tydfil",
         "REG": "Wales",
         "OR": 954,
@@ -13365,11 +12413,10 @@ const data = [
         "SCH": 250,
         "HP": 1401,
         "AP": "£241,648",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 955,
         "SN": "Widnes",
         "REG": "North West",
         "OR": 955,
@@ -13379,11 +12426,10 @@ const data = [
         "SCH": 856,
         "HP": 851,
         "AP": "£300,487",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 956,
         "SN": "Little Lever",
         "REG": "North West",
         "OR": 956,
@@ -13393,11 +12439,10 @@ const data = [
         "SCH": 50,
         "HP": 1051,
         "AP": "£324,050",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 957,
         "SN": "Hollywood",
         "REG": "West Midlands",
         "OR": 957,
@@ -13407,11 +12452,10 @@ const data = [
         "SCH": 860,
         "HP": 29,
         "AP": "£525,743",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 958,
         "SN": "Brough (East Riding of Yorkshire)",
         "REG": "Yorkshire and The Humber",
         "OR": 958,
@@ -13421,11 +12465,10 @@ const data = [
         "SCH": 583,
         "HP": 144,
         "AP": "£352,113",
-        "SPC": "-4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.5%"
     },
     {
+        "UID": 959,
         "SN": "Halesowen",
         "REG": "West Midlands",
         "OR": 959,
@@ -13435,11 +12478,10 @@ const data = [
         "SCH": 654,
         "HP": 1162,
         "AP": "£395,401",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 960,
         "SN": "Swaffham",
         "REG": "East of England",
         "OR": 960,
@@ -13449,11 +12491,10 @@ const data = [
         "SCH": 416,
         "HP": 1414,
         "AP": "£417,428",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 961,
         "SN": "Carmarthen",
         "REG": "Wales",
         "OR": 961,
@@ -13463,11 +12504,10 @@ const data = [
         "SCH": 900,
         "HP": 842,
         "AP": "£294,983",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 962,
         "SN": "Perton",
         "REG": "West Midlands",
         "OR": 962,
@@ -13477,11 +12517,10 @@ const data = [
         "SCH": 960,
         "HP": 269,
         "AP": "£460,314",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 963,
         "SN": "Fremington",
         "REG": "South West",
         "OR": 963,
@@ -13491,11 +12530,10 @@ const data = [
         "SCH": 1412,
         "HP": 1160,
         "AP": "£551,175",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 964,
         "SN": "Paddock Wood",
         "REG": "South East",
         "OR": 964,
@@ -13505,11 +12543,10 @@ const data = [
         "SCH": 1289,
         "HP": 725,
         "AP": "£681,545",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 965,
         "SN": "Whitstable",
         "REG": "South East",
         "OR": 965,
@@ -13519,11 +12556,10 @@ const data = [
         "SCH": 1159,
         "HP": 998,
         "AP": "£725,146",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 966,
         "SN": "Honiton",
         "REG": "South West",
         "OR": 966,
@@ -13533,11 +12569,10 @@ const data = [
         "SCH": 890,
         "HP": 1182,
         "AP": "£500,639",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 967,
         "SN": "Shefford",
         "REG": "East of England",
         "OR": 967,
@@ -13547,11 +12582,10 @@ const data = [
         "SCH": 1128,
         "HP": 149,
         "AP": "£564,695",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 968,
         "SN": "Gillingham (Dorset)",
         "REG": "South West",
         "OR": 968,
@@ -13561,11 +12595,10 @@ const data = [
         "SCH": 638,
         "HP": 924,
         "AP": "£472,399",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 969,
         "SN": "Chandler's Ford",
         "REG": "South East",
         "OR": 969,
@@ -13575,11 +12608,10 @@ const data = [
         "SCH": 828,
         "HP": 424,
         "AP": "£634,692",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 970,
         "SN": "Newport Pagnell",
         "REG": "South East",
         "OR": 970,
@@ -13589,11 +12621,10 @@ const data = [
         "SCH": 974,
         "HP": 977,
         "AP": "£570,161",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 971,
         "SN": "Littlehampton",
         "REG": "South East",
         "OR": 970,
@@ -13603,11 +12634,10 @@ const data = [
         "SCH": 1332,
         "HP": 1123,
         "AP": "£512,357",
-        "SPC": "-2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.1%"
     },
     {
+        "UID": 972,
         "SN": "Sandbach",
         "REG": "North West",
         "OR": 972,
@@ -13617,11 +12647,10 @@ const data = [
         "SCH": 1304,
         "HP": 336,
         "AP": "£408,670",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 973,
         "SN": "Basingstoke",
         "REG": "South East",
         "OR": 973,
@@ -13631,11 +12660,10 @@ const data = [
         "SCH": 1147,
         "HP": 640,
         "AP": "£558,607",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 974,
         "SN": "Ilfracombe",
         "REG": "South West",
         "OR": 974,
@@ -13645,11 +12673,10 @@ const data = [
         "SCH": 1268,
         "HP": 1134,
         "AP": "£382,071",
-        "SPC": "-3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.5%"
     },
     {
+        "UID": 975,
         "SN": "Frome",
         "REG": "South West",
         "OR": 975,
@@ -13659,11 +12686,10 @@ const data = [
         "SCH": 984,
         "HP": 1133,
         "AP": "£552,085",
-        "SPC": "5.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.7%"
     },
     {
+        "UID": 976,
         "SN": "Caerphilly",
         "REG": "Wales",
         "OR": 976,
@@ -13673,11 +12699,10 @@ const data = [
         "SCH": 182,
         "HP": 514,
         "AP": "£380,806",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 977,
         "SN": "Portsmouth",
         "REG": "South East",
         "OR": 976,
@@ -13687,11 +12712,10 @@ const data = [
         "SCH": 697,
         "HP": 1341,
         "AP": "£463,994",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 978,
         "SN": "Staplehurst",
         "REG": "South East",
         "OR": 978,
@@ -13701,11 +12725,10 @@ const data = [
         "SCH": 1111,
         "HP": 1000,
         "AP": "£590,767",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 979,
         "SN": "Colne",
         "REG": "North West",
         "OR": 978,
@@ -13715,11 +12738,10 @@ const data = [
         "SCH": 1107,
         "HP": 1188,
         "AP": "£225,740",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 980,
         "SN": "Storrington",
         "REG": "South East",
         "OR": 980,
@@ -13729,11 +12751,10 @@ const data = [
         "SCH": 1201,
         "HP": 431,
         "AP": "£663,997",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 981,
         "SN": "Irthlingborough",
         "REG": "East Midlands",
         "OR": 981,
@@ -13743,11 +12764,10 @@ const data = [
         "SCH": 1197,
         "HP": 634,
         "AP": "£390,460",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 982,
         "SN": "Horncastle",
         "REG": "East Midlands",
         "OR": 982,
@@ -13757,11 +12777,10 @@ const data = [
         "SCH": 999,
         "HP": 1362,
         "AP": "£350,239",
-        "SPC": "8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.7%"
     },
     {
+        "UID": 983,
         "SN": "Northwich",
         "REG": "North West",
         "OR": 983,
@@ -13771,11 +12790,10 @@ const data = [
         "SCH": 957,
         "HP": 334,
         "AP": "£314,271",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 984,
         "SN": "Hemsworth",
         "REG": "Yorkshire and The Humber",
         "OR": 983,
@@ -13785,11 +12803,10 @@ const data = [
         "SCH": 753,
         "HP": 971,
         "AP": "£243,213",
-        "SPC": "-4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.5%"
     },
     {
+        "UID": 985,
         "SN": "Euxton",
         "REG": "North West",
         "OR": 985,
@@ -13799,11 +12816,10 @@ const data = [
         "SCH": 361,
         "HP": 449,
         "AP": "£341,104",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 986,
         "SN": "Whitchurch (Basingstoke and Deane)",
         "REG": "South East",
         "OR": 986,
@@ -13813,11 +12829,10 @@ const data = [
         "SCH": 1182,
         "HP": 688,
         "AP": "£620,943",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 987,
         "SN": "Brimington",
         "REG": "East Midlands",
         "OR": 986,
@@ -13827,11 +12842,10 @@ const data = [
         "SCH": 1211,
         "HP": 1313,
         "AP": "£327,811",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 988,
         "SN": "Skelmersdale",
         "REG": "North West",
         "OR": 988,
@@ -13841,11 +12855,10 @@ const data = [
         "SCH": 512,
         "HP": 664,
         "AP": "£220,895",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 989,
         "SN": "Doncaster",
         "REG": "Yorkshire and The Humber",
         "OR": 989,
@@ -13855,11 +12868,10 @@ const data = [
         "SCH": 73,
         "HP": 697,
         "AP": "£246,793",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 990,
         "SN": "Peacehaven",
         "REG": "South East",
         "OR": 990,
@@ -13869,11 +12881,10 @@ const data = [
         "SCH": 925,
         "HP": 967,
         "AP": "£601,341",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 991,
         "SN": "Woodville",
         "REG": "East Midlands",
         "OR": 991,
@@ -13883,11 +12894,10 @@ const data = [
         "SCH": 817,
         "HP": 817,
         "AP": "£343,777",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 992,
         "SN": "Dudley (Dudley)",
         "REG": "West Midlands",
         "OR": 992,
@@ -13897,11 +12907,10 @@ const data = [
         "SCH": 734,
         "HP": 1277,
         "AP": "£324,431",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 993,
         "SN": "Leominster",
         "REG": "West Midlands",
         "OR": 992,
@@ -13911,11 +12920,10 @@ const data = [
         "SCH": 1227,
         "HP": 660,
         "AP": "£368,951",
-        "SPC": "-3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.5%"
     },
     {
+        "UID": 994,
         "SN": "Caernarfon",
         "REG": "Wales",
         "OR": 994,
@@ -13925,11 +12933,10 @@ const data = [
         "SCH": 907,
         "HP": 1191,
         "AP": "£293,959",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 995,
         "SN": "Tadcaster",
         "REG": "Yorkshire and The Humber",
         "OR": 995,
@@ -13939,11 +12946,10 @@ const data = [
         "SCH": 981,
         "HP": 252,
         "AP": "£423,005",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 996,
         "SN": "Tarleton and Hesketh Bank",
         "REG": "North West",
         "OR": 996,
@@ -13953,11 +12959,10 @@ const data = [
         "SCH": 897,
         "HP": 683,
         "AP": "£380,813",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 997,
         "SN": "Addlestone",
         "REG": "South East",
         "OR": 997,
@@ -13967,11 +12972,10 @@ const data = [
         "SCH": 961,
         "HP": 291,
         "AP": "£698,990",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 998,
         "SN": "Runwell",
         "REG": "East of England",
         "OR": 998,
@@ -13981,11 +12985,10 @@ const data = [
         "SCH": 401,
         "HP": 820,
         "AP": "£643,062",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 999,
         "SN": "Wombourne",
         "REG": "West Midlands",
         "OR": 998,
@@ -13995,11 +12998,10 @@ const data = [
         "SCH": 1406,
         "HP": 395,
         "AP": "£490,669",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 1000,
         "SN": "Woodbridge",
         "REG": "East of England",
         "OR": 1000,
@@ -14009,11 +13011,10 @@ const data = [
         "SCH": 1266,
         "HP": 1067,
         "AP": "£660,416",
-        "SPC": "6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.0%"
     },
     {
+        "UID": 1001,
         "SN": "Selby",
         "REG": "Yorkshire and The Humber",
         "OR": 1001,
@@ -14023,11 +13024,10 @@ const data = [
         "SCH": 610,
         "HP": 463,
         "AP": "£324,553",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 1002,
         "SN": "Waltham Cross",
         "REG": "East of England",
         "OR": 1001,
@@ -14037,11 +13037,10 @@ const data = [
         "SCH": 439,
         "HP": 565,
         "AP": "£684,979",
-        "SPC": "6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.0%"
     },
     {
+        "UID": 1003,
         "SN": "Seaham",
         "REG": "North East",
         "OR": 1003,
@@ -14051,11 +13050,10 @@ const data = [
         "SCH": 938,
         "HP": 1071,
         "AP": "£223,213",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 1004,
         "SN": "Fulwood",
         "REG": "North West",
         "OR": 1004,
@@ -14065,11 +13063,10 @@ const data = [
         "SCH": 442,
         "HP": 505,
         "AP": "£306,488",
-        "SPC": "-2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.1%"
     },
     {
+        "UID": 1005,
         "SN": "Wellingborough",
         "REG": "East Midlands",
         "OR": 1004,
@@ -14079,11 +13076,10 @@ const data = [
         "SCH": 1060,
         "HP": 630,
         "AP": "£395,881",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 1006,
         "SN": "Billingham",
         "REG": "North East",
         "OR": 1006,
@@ -14093,11 +13089,10 @@ const data = [
         "SCH": 208,
         "HP": 939,
         "AP": "£242,462",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 1007,
         "SN": "Washington",
         "REG": "North East",
         "OR": 1007,
@@ -14107,11 +13102,10 @@ const data = [
         "SCH": 1006,
         "HP": 1157,
         "AP": "£231,983",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1008,
         "SN": "Holywell (Flintshire)",
         "REG": "Wales",
         "OR": 1008,
@@ -14121,11 +13115,10 @@ const data = [
         "SCH": 892,
         "HP": 736,
         "AP": "£290,371",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1009,
         "SN": "North Baddesley",
         "REG": "South East",
         "OR": 1009,
@@ -14135,11 +13128,10 @@ const data = [
         "SCH": 1027,
         "HP": 344,
         "AP": "£572,973",
-        "SPC": "-6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.8%"
     },
     {
+        "UID": 1010,
         "SN": "Droitwich Spa",
         "REG": "West Midlands",
         "OR": 1010,
@@ -14149,11 +13141,10 @@ const data = [
         "SCH": 1174,
         "HP": 489,
         "AP": "£432,693",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 1011,
         "SN": "Church Village",
         "REG": "Wales",
         "OR": 1011,
@@ -14163,11 +13154,10 @@ const data = [
         "SCH": 521,
         "HP": 859,
         "AP": "£404,646",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 1012,
         "SN": "Louth",
         "REG": "East Midlands",
         "OR": 1012,
@@ -14177,11 +13167,10 @@ const data = [
         "SCH": 668,
         "HP": 1380,
         "AP": "£333,084",
-        "SPC": "7.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.9%"
     },
     {
+        "UID": 1013,
         "SN": "Wellington (Somerset West and Taunton)",
         "REG": "South West",
         "OR": 1013,
@@ -14191,11 +13180,10 @@ const data = [
         "SCH": 1390,
         "HP": 1278,
         "AP": "£450,412",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 1014,
         "SN": "Ashton-in-Makerfield",
         "REG": "North West",
         "OR": 1014,
@@ -14205,11 +13193,10 @@ const data = [
         "SCH": 265,
         "HP": 1282,
         "AP": "£296,301",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 1015,
         "SN": "Rushall and Shelfield",
         "REG": "West Midlands",
         "OR": 1015,
@@ -14219,11 +13206,10 @@ const data = [
         "SCH": 739,
         "HP": 899,
         "AP": "£346,074",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 1016,
         "SN": "Treherbert",
         "REG": "Wales",
         "OR": 1016,
@@ -14233,11 +13219,10 @@ const data = [
         "SCH": 500,
         "HP": 801,
         "AP": "£161,524",
-        "SPC": "-6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.8%"
     },
     {
+        "UID": 1017,
         "SN": "Blackfield and Langley",
         "REG": "South East",
         "OR": 1016,
@@ -14247,11 +13232,10 @@ const data = [
         "SCH": 1206,
         "HP": 646,
         "AP": "£570,493",
-        "SPC": "-2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.0%"
     },
     {
+        "UID": 1018,
         "SN": "Rugby",
         "REG": "West Midlands",
         "OR": 1018,
@@ -14261,11 +13245,10 @@ const data = [
         "SCH": 629,
         "HP": 131,
         "AP": "£418,940",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 1019,
         "SN": "Stevenage",
         "REG": "East of England",
         "OR": 1018,
@@ -14275,11 +13258,10 @@ const data = [
         "SCH": 1005,
         "HP": 1034,
         "AP": "£584,344",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 1020,
         "SN": "Ludgershall (Wiltshire)",
         "REG": "South West",
         "OR": 1020,
@@ -14289,11 +13271,10 @@ const data = [
         "SCH": 1278,
         "HP": 1054,
         "AP": "£473,227",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 1021,
         "SN": "Brynteg (Wrexham)",
         "REG": "Wales",
         "OR": 1021,
@@ -14303,11 +13284,10 @@ const data = [
         "SCH": 1083,
         "HP": 938,
         "AP": "£295,839",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1022,
         "SN": "Portishead",
         "REG": "South West",
         "OR": 1021,
@@ -14317,11 +13297,10 @@ const data = [
         "SCH": 398,
         "HP": 464,
         "AP": "£622,514",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 1023,
         "SN": "Broughton Astley",
         "REG": "East Midlands",
         "OR": 1021,
@@ -14331,11 +13310,10 @@ const data = [
         "SCH": 920,
         "HP": 158,
         "AP": "£455,861",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1024,
         "SN": "Shipley (Bradford)",
         "REG": "Yorkshire and The Humber",
         "OR": 1024,
@@ -14345,11 +13323,10 @@ const data = [
         "SCH": 559,
         "HP": 1213,
         "AP": "£319,694",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 1025,
         "SN": "Bodmin",
         "REG": "South West",
         "OR": 1025,
@@ -14359,11 +13336,10 @@ const data = [
         "SCH": 725,
         "HP": 1176,
         "AP": "£381,656",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 1026,
         "SN": "Bedlington",
         "REG": "North East",
         "OR": 1026,
@@ -14373,11 +13349,10 @@ const data = [
         "SCH": 954,
         "HP": 653,
         "AP": "£250,961",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1027,
         "SN": "Wigston",
         "REG": "East Midlands",
         "OR": 1027,
@@ -14387,11 +13362,10 @@ const data = [
         "SCH": 578,
         "HP": 1098,
         "AP": "£447,404",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 1028,
         "SN": "Tiverton",
         "REG": "South West",
         "OR": 1028,
@@ -14401,11 +13375,10 @@ const data = [
         "SCH": 805,
         "HP": 1043,
         "AP": "£437,437",
-        "SPC": "-1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.8%"
     },
     {
+        "UID": 1029,
         "SN": "Cleckheaton",
         "REG": "Yorkshire and The Humber",
         "OR": 1029,
@@ -14415,11 +13388,10 @@ const data = [
         "SCH": 658,
         "HP": 873,
         "AP": "£300,096",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 1030,
         "SN": "Market Warsop",
         "REG": "East Midlands",
         "OR": 1029,
@@ -14429,11 +13401,10 @@ const data = [
         "SCH": 705,
         "HP": 1105,
         "AP": "£266,526",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 1031,
         "SN": "Okehampton",
         "REG": "South West",
         "OR": 1031,
@@ -14443,11 +13414,10 @@ const data = [
         "SCH": 1051,
         "HP": 1402,
         "AP": "£440,688",
-        "SPC": "6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.6%"
     },
     {
+        "UID": 1032,
         "SN": "Rustington",
         "REG": "South East",
         "OR": 1032,
@@ -14457,11 +13427,10 @@ const data = [
         "SCH": 1405,
         "HP": 1179,
         "AP": "£660,120",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 1033,
         "SN": "Bearsted",
         "REG": "South East",
         "OR": 1033,
@@ -14471,11 +13440,10 @@ const data = [
         "SCH": 789,
         "HP": 1076,
         "AP": "£682,415",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1034,
         "SN": "Kingston upon Hull",
         "REG": "Yorkshire and The Humber",
         "OR": 1034,
@@ -14485,11 +13453,10 @@ const data = [
         "SCH": 159,
         "HP": 1111,
         "AP": "£227,545",
-        "SPC": "-3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.2%"
     },
     {
+        "UID": 1035,
         "SN": "Darlaston",
         "REG": "West Midlands",
         "OR": 1034,
@@ -14499,11 +13466,10 @@ const data = [
         "SCH": 364,
         "HP": 1420,
         "AP": "£307,842",
-        "SPC": "9.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.5%"
     },
     {
+        "UID": 1036,
         "SN": "Whitchurch (Shropshire)",
         "REG": "West Midlands",
         "OR": 1036,
@@ -14513,11 +13479,10 @@ const data = [
         "SCH": 1232,
         "HP": 884,
         "AP": "£347,140",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1037,
         "SN": "Rugeley",
         "REG": "West Midlands",
         "OR": 1036,
@@ -14527,11 +13492,10 @@ const data = [
         "SCH": 746,
         "HP": 1248,
         "AP": "£360,935",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1038,
         "SN": "Whitfield (Dover)",
         "REG": "South East",
         "OR": 1036,
@@ -14541,11 +13505,10 @@ const data = [
         "SCH": 913,
         "HP": 898,
         "AP": "£529,223",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 1039,
         "SN": "Camborne",
         "REG": "South West",
         "OR": 1039,
@@ -14555,11 +13518,10 @@ const data = [
         "SCH": 839,
         "HP": 1366,
         "AP": "£384,727",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1040,
         "SN": "Houghton Regis",
         "REG": "East of England",
         "OR": 1040,
@@ -14569,11 +13531,10 @@ const data = [
         "SCH": 701,
         "HP": 583,
         "AP": "£551,773",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1041,
         "SN": "Darton",
         "REG": "Yorkshire and The Humber",
         "OR": 1041,
@@ -14583,11 +13544,10 @@ const data = [
         "SCH": 753,
         "HP": 1227,
         "AP": "£329,106",
-        "SPC": "7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.8%"
     },
     {
+        "UID": 1042,
         "SN": "Hagley",
         "REG": "West Midlands",
         "OR": 1041,
@@ -14597,11 +13557,10 @@ const data = [
         "SCH": 1398,
         "HP": 330,
         "AP": "£550,536",
-        "SPC": "7.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.7%"
     },
     {
+        "UID": 1043,
         "SN": "South Normanton and Pinxton",
         "REG": "East Midlands",
         "OR": 1043,
@@ -14611,11 +13570,10 @@ const data = [
         "SCH": 598,
         "HP": 1289,
         "AP": "£305,507",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 1044,
         "SN": "Brentwood",
         "REG": "East of England",
         "OR": 1044,
@@ -14625,11 +13583,10 @@ const data = [
         "SCH": 1348,
         "HP": 90,
         "AP": "£772,613",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1045,
         "SN": "Clayton-le-Moors",
         "REG": "North West",
         "OR": 1045,
@@ -14639,11 +13596,10 @@ const data = [
         "SCH": 919,
         "HP": 1404,
         "AP": "£221,693",
-        "SPC": "6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.0%"
     },
     {
+        "UID": 1046,
         "SN": "Tredegar",
         "REG": "Wales",
         "OR": 1046,
@@ -14653,11 +13609,10 @@ const data = [
         "SCH": 555,
         "HP": 1108,
         "AP": "£219,701",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 1047,
         "SN": "Thornaby-on-Tees",
         "REG": "North East",
         "OR": 1047,
@@ -14667,11 +13622,10 @@ const data = [
         "SCH": 239,
         "HP": 1177,
         "AP": "£204,861",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 1048,
         "SN": "Uckfield",
         "REG": "South East",
         "OR": 1048,
@@ -14681,11 +13635,10 @@ const data = [
         "SCH": 1287,
         "HP": 1001,
         "AP": "£588,660",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 1049,
         "SN": "Catterick Garrison",
         "REG": "Yorkshire and The Humber",
         "OR": 1049,
@@ -14695,11 +13648,10 @@ const data = [
         "SCH": 1415,
         "HP": 744,
         "AP": "£293,714",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 1050,
         "SN": "Leyland",
         "REG": "North West",
         "OR": 1050,
@@ -14709,11 +13661,10 @@ const data = [
         "SCH": 450,
         "HP": 573,
         "AP": "£316,596",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 1051,
         "SN": "Herne",
         "REG": "South East",
         "OR": 1050,
@@ -14723,11 +13674,10 @@ const data = [
         "SCH": 841,
         "HP": 1217,
         "AP": "£611,799",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 1052,
         "SN": "Bude",
         "REG": "South West",
         "OR": 1052,
@@ -14737,11 +13687,10 @@ const data = [
         "SCH": 1049,
         "HP": 1140,
         "AP": "£572,529",
-        "SPC": "10.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.9%"
     },
     {
+        "UID": 1053,
         "SN": "Bulkington",
         "REG": "West Midlands",
         "OR": 1053,
@@ -14751,11 +13700,10 @@ const data = [
         "SCH": 1026,
         "HP": 619,
         "AP": "£405,096",
-        "SPC": "-4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.8%"
     },
     {
+        "UID": 1054,
         "SN": "Deepcar",
         "REG": "Yorkshire and The Humber",
         "OR": 1053,
@@ -14765,11 +13713,10 @@ const data = [
         "SCH": 899,
         "HP": 179,
         "AP": "£337,190",
-        "SPC": "-6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.4%"
     },
     {
+        "UID": 1055,
         "SN": "Chard",
         "REG": "South West",
         "OR": 1055,
@@ -14779,11 +13726,10 @@ const data = [
         "SCH": 1354,
         "HP": 1345,
         "AP": "£434,789",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1056,
         "SN": "Annfield Plain",
         "REG": "North East",
         "OR": 1056,
@@ -14793,11 +13739,10 @@ const data = [
         "SCH": 1103,
         "HP": 735,
         "AP": "£154,598",
-        "SPC": "-7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.8%"
     },
     {
+        "UID": 1057,
         "SN": "Walsall",
         "REG": "West Midlands",
         "OR": 1057,
@@ -14807,11 +13752,10 @@ const data = [
         "SCH": 996,
         "HP": 1084,
         "AP": "£315,892",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 1058,
         "SN": "Great Yarmouth",
         "REG": "East of England",
         "OR": 1058,
@@ -14821,11 +13765,10 @@ const data = [
         "SCH": 594,
         "HP": 1418,
         "AP": "£262,054",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 1059,
         "SN": "Long Eaton",
         "REG": "East Midlands",
         "OR": 1059,
@@ -14835,11 +13778,10 @@ const data = [
         "SCH": 249,
         "HP": 868,
         "AP": "£383,719",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 1060,
         "SN": "Pontllanfraith",
         "REG": "Wales",
         "OR": 1060,
@@ -14849,11 +13791,10 @@ const data = [
         "SCH": 691,
         "HP": 759,
         "AP": "£318,754",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1061,
         "SN": "Burwell",
         "REG": "East of England",
         "OR": 1060,
@@ -14863,11 +13804,10 @@ const data = [
         "SCH": 1321,
         "HP": 740,
         "AP": "£529,731",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1062,
         "SN": "Amble",
         "REG": "North East",
         "OR": 1062,
@@ -14877,11 +13817,10 @@ const data = [
         "SCH": 1113,
         "HP": 471,
         "AP": "£345,705",
-        "SPC": "15.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "15.9%"
     },
     {
+        "UID": 1063,
         "SN": "Hartford",
         "REG": "North West",
         "OR": 1063,
@@ -14891,11 +13830,10 @@ const data = [
         "SCH": 1302,
         "HP": 290,
         "AP": "£454,244",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 1064,
         "SN": "Loughborough",
         "REG": "East Midlands",
         "OR": 1064,
@@ -14905,11 +13843,10 @@ const data = [
         "SCH": 464,
         "HP": 409,
         "AP": "£400,976",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1065,
         "SN": "Pheasey",
         "REG": "West Midlands",
         "OR": 1065,
@@ -14919,11 +13856,10 @@ const data = [
         "SCH": 166,
         "HP": 1224,
         "AP": "£421,623",
-        "SPC": "5.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.8%"
     },
     {
+        "UID": 1066,
         "SN": "Wednesbury",
         "REG": "West Midlands",
         "OR": 1065,
@@ -14933,11 +13869,10 @@ const data = [
         "SCH": 586,
         "HP": 1327,
         "AP": "£329,365",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 1067,
         "SN": "Ilminster",
         "REG": "South West",
         "OR": 1067,
@@ -14947,11 +13882,10 @@ const data = [
         "SCH": 986,
         "HP": 1337,
         "AP": "£443,121",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 1068,
         "SN": "Wickford",
         "REG": "East of England",
         "OR": 1068,
@@ -14961,11 +13895,10 @@ const data = [
         "SCH": 429,
         "HP": 233,
         "AP": "£647,588",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 1069,
         "SN": "Maesteg",
         "REG": "Wales",
         "OR": 1069,
@@ -14975,11 +13908,10 @@ const data = [
         "SCH": 647,
         "HP": 1370,
         "AP": "£209,430",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1070,
         "SN": "Stone Cross",
         "REG": "South East",
         "OR": 1069,
@@ -14989,11 +13921,10 @@ const data = [
         "SCH": 1383,
         "HP": 1280,
         "AP": "£593,616",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 1071,
         "SN": "Stakeford",
         "REG": "North East",
         "OR": 1071,
@@ -15003,11 +13934,10 @@ const data = [
         "SCH": 655,
         "HP": 1004,
         "AP": "£224,767",
-        "SPC": "11.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.2%"
     },
     {
+        "UID": 1072,
         "SN": "Garstang",
         "REG": "North West",
         "OR": 1072,
@@ -15017,11 +13947,10 @@ const data = [
         "SCH": 705,
         "HP": 864,
         "AP": "£394,292",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 1073,
         "SN": "Bletchley",
         "REG": "South East",
         "OR": 1073,
@@ -15031,11 +13960,10 @@ const data = [
         "SCH": 718,
         "HP": 1015,
         "AP": "£498,581",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 1074,
         "SN": "Tonypandy",
         "REG": "Wales",
         "OR": 1074,
@@ -15045,11 +13973,10 @@ const data = [
         "SCH": 525,
         "HP": 1010,
         "AP": "£186,767",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 1075,
         "SN": "Larkfield",
         "REG": "South East",
         "OR": 1074,
@@ -15059,11 +13986,10 @@ const data = [
         "SCH": 482,
         "HP": 930,
         "AP": "£631,578",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 1076,
         "SN": "Swallownest and Aston",
         "REG": "Yorkshire and The Humber",
         "OR": 1074,
@@ -15073,11 +13999,10 @@ const data = [
         "SCH": 460,
         "HP": 789,
         "AP": "£344,347",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 1077,
         "SN": "Kirkby-in-Ashfield",
         "REG": "East Midlands",
         "OR": 1077,
@@ -15087,11 +14012,10 @@ const data = [
         "SCH": 567,
         "HP": 1419,
         "AP": "£302,269",
-        "SPC": "11.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.7%"
     },
     {
+        "UID": 1078,
         "SN": "Ponteland",
         "REG": "North East",
         "OR": 1078,
@@ -15101,11 +14025,10 @@ const data = [
         "SCH": 1231,
         "HP": 106,
         "AP": "£477,749",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 1079,
         "SN": "Emsworth",
         "REG": "South East",
         "OR": 1079,
@@ -15115,11 +14038,10 @@ const data = [
         "SCH": 1318,
         "HP": 702,
         "AP": "£642,955",
-        "SPC": "-4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.0%"
     },
     {
+        "UID": 1080,
         "SN": "Grays",
         "REG": "East of England",
         "OR": 1080,
@@ -15129,11 +14051,10 @@ const data = [
         "SCH": 83,
         "HP": 753,
         "AP": "£641,122",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1081,
         "SN": "Westbury (Wiltshire)",
         "REG": "South West",
         "OR": 1081,
@@ -15143,11 +14064,10 @@ const data = [
         "SCH": 1021,
         "HP": 1066,
         "AP": "£472,719",
-        "SPC": "6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.6%"
     },
     {
+        "UID": 1082,
         "SN": "Milford Haven",
         "REG": "Wales",
         "OR": 1082,
@@ -15157,11 +14077,10 @@ const data = [
         "SCH": 1401,
         "HP": 869,
         "AP": "£244,392",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 1083,
         "SN": "Neath",
         "REG": "Wales",
         "OR": 1083,
@@ -15171,11 +14090,10 @@ const data = [
         "SCH": 772,
         "HP": 1216,
         "AP": "£267,351",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1084,
         "SN": "Radstock",
         "REG": "South West",
         "OR": 1083,
@@ -15185,11 +14103,10 @@ const data = [
         "SCH": 1273,
         "HP": 343,
         "AP": "£469,499",
-        "SPC": "-0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.1%"
     },
     {
+        "UID": 1085,
         "SN": "Redcar",
         "REG": "North East",
         "OR": 1085,
@@ -15199,11 +14116,10 @@ const data = [
         "SCH": 276,
         "HP": 1059,
         "AP": "£244,737",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 1086,
         "SN": "Castle Donington",
         "REG": "East Midlands",
         "OR": 1085,
@@ -15213,11 +14129,10 @@ const data = [
         "SCH": 1212,
         "HP": 139,
         "AP": "£409,504",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 1087,
         "SN": "Abersychan",
         "REG": "Wales",
         "OR": 1087,
@@ -15227,11 +14142,10 @@ const data = [
         "SCH": 878,
         "HP": 1155,
         "AP": "£245,834",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 1088,
         "SN": "Atherton",
         "REG": "North West",
         "OR": 1088,
@@ -15241,11 +14155,10 @@ const data = [
         "SCH": 12,
         "HP": 1280,
         "AP": "£305,871",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1089,
         "SN": "Hawarden",
         "REG": "Wales",
         "OR": 1089,
@@ -15255,11 +14168,10 @@ const data = [
         "SCH": 1139,
         "HP": 323,
         "AP": "£356,109",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 1090,
         "SN": "Abertillery",
         "REG": "Wales",
         "OR": 1090,
@@ -15269,11 +14181,10 @@ const data = [
         "SCH": 590,
         "HP": 1426,
         "AP": "£195,910",
-        "SPC": "7.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.9%"
     },
     {
+        "UID": 1091,
         "SN": "Stocksbridge",
         "REG": "Yorkshire and The Humber",
         "OR": 1091,
@@ -15283,11 +14194,10 @@ const data = [
         "SCH": 949,
         "HP": 440,
         "AP": "£313,573",
-        "SPC": "-0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.3%"
     },
     {
+        "UID": 1092,
         "SN": "Galleywood",
         "REG": "East of England",
         "OR": 1091,
@@ -15297,11 +14207,10 @@ const data = [
         "SCH": 1376,
         "HP": 293,
         "AP": "£630,443",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 1093,
         "SN": "Diss",
         "REG": "East of England",
         "OR": 1093,
@@ -15311,11 +14220,10 @@ const data = [
         "SCH": 1124,
         "HP": 1170,
         "AP": "£457,709",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1094,
         "SN": "Sudbury",
         "REG": "East of England",
         "OR": 1094,
@@ -15325,11 +14233,10 @@ const data = [
         "SCH": 988,
         "HP": 1334,
         "AP": "£490,828",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 1095,
         "SN": "Kettering",
         "REG": "East Midlands",
         "OR": 1095,
@@ -15339,11 +14246,10 @@ const data = [
         "SCH": 1034,
         "HP": 684,
         "AP": "£391,143",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1096,
         "SN": "Rushden",
         "REG": "East Midlands",
         "OR": 1096,
@@ -15353,11 +14259,10 @@ const data = [
         "SCH": 652,
         "HP": 786,
         "AP": "£402,972",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1097,
         "SN": "Hebden Bridge",
         "REG": "Yorkshire and The Humber",
         "OR": 1096,
@@ -15367,11 +14272,10 @@ const data = [
         "SCH": 1313,
         "HP": 777,
         "AP": "£367,494",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 1098,
         "SN": "Clifton (Nottingham)",
         "REG": "East Midlands",
         "OR": 1098,
@@ -15381,11 +14285,10 @@ const data = [
         "SCH": 95,
         "HP": 1382,
         "AP": "£329,868",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 1099,
         "SN": "Barrow upon Soar",
         "REG": "East Midlands",
         "OR": 1098,
@@ -15395,11 +14298,10 @@ const data = [
         "SCH": 1027,
         "HP": 415,
         "AP": "£450,617",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 1100,
         "SN": "Sileby",
         "REG": "East Midlands",
         "OR": 1100,
@@ -15409,11 +14311,10 @@ const data = [
         "SCH": 1115,
         "HP": 318,
         "AP": "£414,208",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1101,
         "SN": "Havering",
         "REG": "Greater London",
         "OR": 1101,
@@ -15423,11 +14324,10 @@ const data = [
         "SCH": 186,
         "HP": 1146,
         "AP": "£719,188",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 1102,
         "SN": "North Hykeham",
         "REG": "East Midlands",
         "OR": 1102,
@@ -15437,11 +14337,10 @@ const data = [
         "SCH": 497,
         "HP": 353,
         "AP": "£377,395",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 1103,
         "SN": "North Wingfield and Holmewood",
         "REG": "East Midlands",
         "OR": 1103,
@@ -15451,11 +14350,10 @@ const data = [
         "SCH": 1363,
         "HP": 1212,
         "AP": "£331,690",
-        "SPC": "9.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.6%"
     },
     {
+        "UID": 1104,
         "SN": "Tonyrefail",
         "REG": "Wales",
         "OR": 1104,
@@ -15465,11 +14363,10 @@ const data = [
         "SCH": 798,
         "HP": 643,
         "AP": "£270,108",
-        "SPC": "-5.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.7%"
     },
     {
+        "UID": 1105,
         "SN": "Coleshill (North Warwickshire)",
         "REG": "West Midlands",
         "OR": 1104,
@@ -15479,11 +14376,10 @@ const data = [
         "SCH": 600,
         "HP": 384,
         "AP": "£468,894",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 1106,
         "SN": "Kearsley",
         "REG": "North West",
         "OR": 1106,
@@ -15493,11 +14389,10 @@ const data = [
         "SCH": 84,
         "HP": 1307,
         "AP": "£312,851",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 1107,
         "SN": "Wath upon Dearne",
         "REG": "Yorkshire and The Humber",
         "OR": 1106,
@@ -15507,11 +14402,10 @@ const data = [
         "SCH": 996,
         "HP": 896,
         "AP": "£252,238",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 1108,
         "SN": "Darwen",
         "REG": "North West",
         "OR": 1108,
@@ -15521,11 +14415,10 @@ const data = [
         "SCH": 313,
         "HP": 1052,
         "AP": "£213,148",
-        "SPC": "-1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.5%"
     },
     {
+        "UID": 1109,
         "SN": "Pontypridd",
         "REG": "Wales",
         "OR": 1109,
@@ -15535,11 +14428,10 @@ const data = [
         "SCH": 341,
         "HP": 1250,
         "AP": "£254,374",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1110,
         "SN": "Byfleet",
         "REG": "South East",
         "OR": 1109,
@@ -15549,11 +14441,10 @@ const data = [
         "SCH": 1123,
         "HP": 185,
         "AP": "£858,775",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1111,
         "SN": "Morecambe",
         "REG": "North West",
         "OR": 1111,
@@ -15563,11 +14454,10 @@ const data = [
         "SCH": 171,
         "HP": 1295,
         "AP": "£299,162",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 1112,
         "SN": "Sherburn in Elmet",
         "REG": "Yorkshire and The Humber",
         "OR": 1111,
@@ -15577,11 +14467,10 @@ const data = [
         "SCH": 1269,
         "HP": 171,
         "AP": "£360,647",
-        "SPC": "-4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.3%"
     },
     {
+        "UID": 1113,
         "SN": "Broad Blunsdon",
         "REG": "South West",
         "OR": 1113,
@@ -15591,11 +14480,10 @@ const data = [
         "SCH": 1271,
         "HP": 360,
         "AP": "£505,456",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 1114,
         "SN": "Bovey Tracey",
         "REG": "South West",
         "OR": 1114,
@@ -15605,11 +14493,10 @@ const data = [
         "SCH": 1210,
         "HP": 1011,
         "AP": "£527,469",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1115,
         "SN": "Coleford (Forest of Dean)",
         "REG": "South West",
         "OR": 1115,
@@ -15619,11 +14506,10 @@ const data = [
         "SCH": 1275,
         "HP": 525,
         "AP": "£419,211",
-        "SPC": "0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.7%"
     },
     {
+        "UID": 1116,
         "SN": "Gorseinon",
         "REG": "Wales",
         "OR": 1116,
@@ -15633,11 +14519,10 @@ const data = [
         "SCH": 1213,
         "HP": 948,
         "AP": "£291,285",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 1117,
         "SN": "Adwick le Street",
         "REG": "Yorkshire and The Humber",
         "OR": 1117,
@@ -15647,11 +14532,10 @@ const data = [
         "SCH": 313,
         "HP": 681,
         "AP": "£226,249",
-        "SPC": "-6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.2%"
     },
     {
+        "UID": 1118,
         "SN": "Hoo St Werburgh",
         "REG": "South East",
         "OR": 1118,
@@ -15661,11 +14545,10 @@ const data = [
         "SCH": 1008,
         "HP": 1018,
         "AP": "£550,334",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1119,
         "SN": "Lower Willingdon",
         "REG": "South East",
         "OR": 1119,
@@ -15675,11 +14558,10 @@ const data = [
         "SCH": 1394,
         "HP": 1242,
         "AP": "£663,872",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 1120,
         "SN": "Burnham-on-Crouch",
         "REG": "East of England",
         "OR": 1120,
@@ -15689,11 +14571,10 @@ const data = [
         "SCH": 1351,
         "HP": 304,
         "AP": "£605,318",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 1121,
         "SN": "Thornton (Bradford)",
         "REG": "Yorkshire and The Humber",
         "OR": 1121,
@@ -15703,11 +14584,10 @@ const data = [
         "SCH": 901,
         "HP": 1360,
         "AP": "£265,951",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 1122,
         "SN": "Andover",
         "REG": "South East",
         "OR": 1122,
@@ -15717,11 +14597,10 @@ const data = [
         "SCH": 682,
         "HP": 988,
         "AP": "£491,255",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1123,
         "SN": "Gainsborough",
         "REG": "East Midlands",
         "OR": 1123,
@@ -15731,11 +14610,10 @@ const data = [
         "SCH": 626,
         "HP": 547,
         "AP": "£201,127",
-        "SPC": "-5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.2%"
     },
     {
+        "UID": 1124,
         "SN": "Haydock",
         "REG": "North West",
         "OR": 1124,
@@ -15745,11 +14623,10 @@ const data = [
         "SCH": 472,
         "HP": 1207,
         "AP": "£268,395",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1125,
         "SN": "Newhaven",
         "REG": "South East",
         "OR": 1125,
@@ -15759,11 +14636,10 @@ const data = [
         "SCH": 239,
         "HP": 1283,
         "AP": "£495,596",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1126,
         "SN": "Nuneaton",
         "REG": "West Midlands",
         "OR": 1126,
@@ -15773,11 +14649,10 @@ const data = [
         "SCH": 569,
         "HP": 1025,
         "AP": "£368,326",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 1127,
         "SN": "Huthwaite",
         "REG": "East Midlands",
         "OR": 1127,
@@ -15787,11 +14662,10 @@ const data = [
         "SCH": 622,
         "HP": 1043,
         "AP": "£277,866",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 1128,
         "SN": "Carlton in Lindrick",
         "REG": "East Midlands",
         "OR": 1128,
@@ -15801,11 +14675,10 @@ const data = [
         "SCH": 1380,
         "HP": 1403,
         "AP": "£317,703",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1129,
         "SN": "Annesley Woodhouse",
         "REG": "East Midlands",
         "OR": 1129,
@@ -15815,11 +14688,10 @@ const data = [
         "SCH": 452,
         "HP": 1383,
         "AP": "£333,827",
-        "SPC": "7.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.7%"
     },
     {
+        "UID": 1130,
         "SN": "Wigton",
         "REG": "North West",
         "OR": 1130,
@@ -15829,11 +14701,10 @@ const data = [
         "SCH": 711,
         "HP": 1101,
         "AP": "£273,506",
-        "SPC": "7.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.1%"
     },
     {
+        "UID": 1131,
         "SN": "Somerton",
         "REG": "South West",
         "OR": 1131,
@@ -15843,11 +14714,10 @@ const data = [
         "SCH": 1358,
         "HP": 1270,
         "AP": "£519,209",
-        "SPC": "8.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.9%"
     },
     {
+        "UID": 1132,
         "SN": "Kirkby",
         "REG": "North West",
         "OR": 1132,
@@ -15857,11 +14727,10 @@ const data = [
         "SCH": 183,
         "HP": 1273,
         "AP": "£252,707",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 1133,
         "SN": "East Leake",
         "REG": "East Midlands",
         "OR": 1132,
@@ -15871,11 +14740,10 @@ const data = [
         "SCH": 730,
         "HP": 159,
         "AP": "£434,329",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1134,
         "SN": "Blackpool",
         "REG": "North West",
         "OR": 1134,
@@ -15885,11 +14753,10 @@ const data = [
         "SCH": 353,
         "HP": 1224,
         "AP": "£224,543",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 1135,
         "SN": "Barnham (Arun)",
         "REG": "South East",
         "OR": 1134,
@@ -15899,11 +14766,10 @@ const data = [
         "SCH": 1378,
         "HP": 1092,
         "AP": "£568,024",
-        "SPC": "-0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.4%"
     },
     {
+        "UID": 1136,
         "SN": "Hilton (South Derbyshire)",
         "REG": "East Midlands",
         "OR": 1134,
@@ -15913,11 +14779,10 @@ const data = [
         "SCH": 1343,
         "HP": 241,
         "AP": "£372,235",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 1137,
         "SN": "Bognor Regis",
         "REG": "South East",
         "OR": 1137,
@@ -15927,11 +14792,10 @@ const data = [
         "SCH": 1334,
         "HP": 1255,
         "AP": "£541,627",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 1138,
         "SN": "Balderton",
         "REG": "East Midlands",
         "OR": 1138,
@@ -15941,11 +14805,10 @@ const data = [
         "SCH": 237,
         "HP": 375,
         "AP": "£346,624",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1139,
         "SN": "Ringwood",
         "REG": "South East",
         "OR": 1138,
@@ -15955,11 +14818,10 @@ const data = [
         "SCH": 1329,
         "HP": 1126,
         "AP": "£634,628",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 1140,
         "SN": "Stone (Stafford)",
         "REG": "West Midlands",
         "OR": 1140,
@@ -15969,11 +14831,10 @@ const data = [
         "SCH": 813,
         "HP": 465,
         "AP": "£399,753",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 1141,
         "SN": "Barking and Dagenham",
         "REG": "Greater London",
         "OR": 1141,
@@ -15983,11 +14844,10 @@ const data = [
         "SCH": 221,
         "HP": 1377,
         "AP": "£673,317",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1142,
         "SN": "Bryn-Mawr",
         "REG": "Wales",
         "OR": 1142,
@@ -15997,11 +14857,10 @@ const data = [
         "SCH": 1188,
         "HP": 1424,
         "AP": "£253,741",
-        "SPC": "17.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "17.4%"
     },
     {
+        "UID": 1143,
         "SN": "New Milton",
         "REG": "South East",
         "OR": 1143,
@@ -16011,11 +14870,10 @@ const data = [
         "SCH": 1240,
         "HP": 582,
         "AP": "£590,848",
-        "SPC": "-1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.9%"
     },
     {
+        "UID": 1144,
         "SN": "Kingsteignton",
         "REG": "South West",
         "OR": 1144,
@@ -16025,11 +14883,10 @@ const data = [
         "SCH": 666,
         "HP": 1226,
         "AP": "£503,490",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 1145,
         "SN": "Llangefni",
         "REG": "Wales",
         "OR": 1145,
@@ -16039,11 +14896,10 @@ const data = [
         "SCH": 1194,
         "HP": 417,
         "AP": "£292,807",
-        "SPC": "-6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.5%"
     },
     {
+        "UID": 1146,
         "SN": "Staveley (Chesterfield)",
         "REG": "East Midlands",
         "OR": 1146,
@@ -16053,11 +14909,10 @@ const data = [
         "SCH": 1294,
         "HP": 909,
         "AP": "£304,405",
-        "SPC": "-3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.1%"
     },
     {
+        "UID": 1147,
         "SN": "Hoyland",
         "REG": "Yorkshire and The Humber",
         "OR": 1147,
@@ -16067,11 +14922,10 @@ const data = [
         "SCH": 722,
         "HP": 1340,
         "AP": "£268,652",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 1148,
         "SN": "Pocklington",
         "REG": "Yorkshire and The Humber",
         "OR": 1147,
@@ -16081,11 +14935,10 @@ const data = [
         "SCH": 949,
         "HP": 598,
         "AP": "£439,696",
-        "SPC": "13.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.9%"
     },
     {
+        "UID": 1149,
         "SN": "Midhurst",
         "REG": "South East",
         "OR": 1149,
@@ -16095,11 +14948,10 @@ const data = [
         "SCH": 1209,
         "HP": 1200,
         "AP": "£637,078",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 1150,
         "SN": "Edwinstowe",
         "REG": "East Midlands",
         "OR": 1149,
@@ -16109,11 +14961,10 @@ const data = [
         "SCH": 622,
         "HP": 833,
         "AP": "£376,105",
-        "SPC": "7.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.0%"
     },
     {
+        "UID": 1151,
         "SN": "Corby",
         "REG": "East Midlands",
         "OR": 1151,
@@ -16123,11 +14974,10 @@ const data = [
         "SCH": 284,
         "HP": 686,
         "AP": "£368,880",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 1152,
         "SN": "Market Deeping",
         "REG": "East Midlands",
         "OR": 1152,
@@ -16137,11 +14987,10 @@ const data = [
         "SCH": 1138,
         "HP": 849,
         "AP": "£444,645",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1153,
         "SN": "Ashford (Spelthorne)",
         "REG": "South East",
         "OR": 1153,
@@ -16151,11 +15000,10 @@ const data = [
         "SCH": 590,
         "HP": 610,
         "AP": "£717,053",
-        "SPC": "8.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.6%"
     },
     {
+        "UID": 1154,
         "SN": "Connah's Quay",
         "REG": "Wales",
         "OR": 1154,
@@ -16165,11 +15013,10 @@ const data = [
         "SCH": 342,
         "HP": 975,
         "AP": "£325,025",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 1155,
         "SN": "Newton Abbot",
         "REG": "South West",
         "OR": 1155,
@@ -16179,11 +15026,10 @@ const data = [
         "SCH": 798,
         "HP": 1286,
         "AP": "£439,706",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 1156,
         "SN": "Golborne",
         "REG": "North West",
         "OR": 1156,
@@ -16193,11 +15039,10 @@ const data = [
         "SCH": 456,
         "HP": 779,
         "AP": "£331,117",
-        "SPC": "-2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.0%"
     },
     {
+        "UID": 1157,
         "SN": "Great Dunmow",
         "REG": "East of England",
         "OR": 1156,
@@ -16207,11 +15052,10 @@ const data = [
         "SCH": 1426,
         "HP": 295,
         "AP": "£625,733",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1158,
         "SN": "Shevington",
         "REG": "North West",
         "OR": 1158,
@@ -16221,11 +15065,10 @@ const data = [
         "SCH": 426,
         "HP": 1195,
         "AP": "£361,138",
-        "SPC": "4.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.7%"
     },
     {
+        "UID": 1159,
         "SN": "Cudworth and Shafton",
         "REG": "Yorkshire and The Humber",
         "OR": 1159,
@@ -16235,11 +15078,10 @@ const data = [
         "SCH": 492,
         "HP": 821,
         "AP": "£252,342",
-        "SPC": "-5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.0%"
     },
     {
+        "UID": 1160,
         "SN": "Cuddington (Cheshire West and Chester)",
         "REG": "North West",
         "OR": 1159,
@@ -16249,11 +15091,10 @@ const data = [
         "SCH": 1155,
         "HP": 423,
         "AP": "£444,929",
-        "SPC": "5.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.9%"
     },
     {
+        "UID": 1161,
         "SN": "Holmes Chapel",
         "REG": "North West",
         "OR": 1161,
@@ -16263,11 +15104,10 @@ const data = [
         "SCH": 1246,
         "HP": 372,
         "AP": "£476,729",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 1162,
         "SN": "Highworth",
         "REG": "South West",
         "OR": 1162,
@@ -16277,11 +15117,10 @@ const data = [
         "SCH": 1225,
         "HP": 983,
         "AP": "£506,252",
-        "SPC": "9.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.9%"
     },
     {
+        "UID": 1163,
         "SN": "Abercarn",
         "REG": "Wales",
         "OR": 1163,
@@ -16291,11 +15130,10 @@ const data = [
         "SCH": 766,
         "HP": 994,
         "AP": "£268,327",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 1164,
         "SN": "Breaston and Draycott",
         "REG": "East Midlands",
         "OR": 1164,
@@ -16305,11 +15143,10 @@ const data = [
         "SCH": 1172,
         "HP": 716,
         "AP": "£453,822",
-        "SPC": "10.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.6%"
     },
     {
+        "UID": 1165,
         "SN": "Brownhills",
         "REG": "West Midlands",
         "OR": 1165,
@@ -16319,11 +15156,10 @@ const data = [
         "SCH": 1141,
         "HP": 1171,
         "AP": "£359,470",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 1166,
         "SN": "Pyle",
         "REG": "Wales",
         "OR": 1166,
@@ -16333,11 +15169,10 @@ const data = [
         "SCH": 1001,
         "HP": 916,
         "AP": "£282,124",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 1167,
         "SN": "Yatton",
         "REG": "South West",
         "OR": 1167,
@@ -16347,11 +15182,10 @@ const data = [
         "SCH": 1181,
         "HP": 533,
         "AP": "£553,100",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 1168,
         "SN": "Chafford Hundred and West Thurrock",
         "REG": "East of England",
         "OR": 1168,
@@ -16361,11 +15195,10 @@ const data = [
         "SCH": 128,
         "HP": 796,
         "AP": "£672,131",
-        "SPC": "6.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.5%"
     },
     {
+        "UID": 1169,
         "SN": "Penkridge",
         "REG": "West Midlands",
         "OR": 1168,
@@ -16375,11 +15208,10 @@ const data = [
         "SCH": 1386,
         "HP": 227,
         "AP": "£422,048",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 1170,
         "SN": "Ammanford",
         "REG": "Wales",
         "OR": 1170,
@@ -16389,11 +15221,10 @@ const data = [
         "SCH": 1185,
         "HP": 607,
         "AP": "£258,393",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 1171,
         "SN": "Steeton",
         "REG": "Yorkshire and The Humber",
         "OR": 1170,
@@ -16403,11 +15234,10 @@ const data = [
         "SCH": 1310,
         "HP": 985,
         "AP": "£413,882",
-        "SPC": "11.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.8%"
     },
     {
+        "UID": 1172,
         "SN": "Thundersley and South Benfleet",
         "REG": "East of England",
         "OR": 1172,
@@ -16417,11 +15247,10 @@ const data = [
         "SCH": 817,
         "HP": 979,
         "AP": "£640,223",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 1173,
         "SN": "Haverfordwest",
         "REG": "Wales",
         "OR": 1173,
@@ -16431,11 +15260,10 @@ const data = [
         "SCH": 1311,
         "HP": 605,
         "AP": "£282,211",
-        "SPC": "-3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.9%"
     },
     {
+        "UID": 1174,
         "SN": "Hythe and Dibden Purlieu",
         "REG": "South East",
         "OR": 1174,
@@ -16445,11 +15273,10 @@ const data = [
         "SCH": 1172,
         "HP": 594,
         "AP": "£571,179",
-        "SPC": "-3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.0%"
     },
     {
+        "UID": 1175,
         "SN": "Pelton and Ouston",
         "REG": "North East",
         "OR": 1174,
@@ -16459,11 +15286,10 @@ const data = [
         "SCH": 1317,
         "HP": 407,
         "AP": "£239,728",
-        "SPC": "-5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.3%"
     },
     {
+        "UID": 1176,
         "SN": "Davenham",
         "REG": "North West",
         "OR": 1174,
@@ -16473,11 +15299,10 @@ const data = [
         "SCH": 1069,
         "HP": 528,
         "AP": "£426,616",
-        "SPC": "8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.7%"
     },
     {
+        "UID": 1177,
         "SN": "Thrybergh and Dalton",
         "REG": "Yorkshire and The Humber",
         "OR": 1177,
@@ -16487,11 +15312,10 @@ const data = [
         "SCH": 1032,
         "HP": 834,
         "AP": "£270,605",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 1178,
         "SN": "Normanton (Wakefield)",
         "REG": "Yorkshire and The Humber",
         "OR": 1178,
@@ -16501,11 +15325,10 @@ const data = [
         "SCH": 661,
         "HP": 1270,
         "AP": "£297,269",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 1179,
         "SN": "Quedgeley and Hardwicke",
         "REG": "South West",
         "OR": 1178,
@@ -16515,11 +15338,10 @@ const data = [
         "SCH": 575,
         "HP": 1305,
         "AP": "£470,129",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1180,
         "SN": "Newport (Newport)",
         "REG": "Wales",
         "OR": 1180,
@@ -16529,11 +15351,10 @@ const data = [
         "SCH": 542,
         "HP": 889,
         "AP": "£332,813",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 1181,
         "SN": "Wincanton",
         "REG": "South West",
         "OR": 1180,
@@ -16543,11 +15364,10 @@ const data = [
         "SCH": 1334,
         "HP": 1355,
         "AP": "£453,588",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 1182,
         "SN": "Kirby Cross",
         "REG": "East of England",
         "OR": 1182,
@@ -16557,11 +15377,10 @@ const data = [
         "SCH": 749,
         "HP": 1343,
         "AP": "£559,743",
-        "SPC": "9.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.9%"
     },
     {
+        "UID": 1183,
         "SN": "Welshpool",
         "REG": "Wales",
         "OR": 1183,
@@ -16571,11 +15390,10 @@ const data = [
         "SCH": 379,
         "HP": 1329,
         "AP": "£311,438",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 1184,
         "SN": "Thornton (Wyre)",
         "REG": "North West",
         "OR": 1183,
@@ -16585,11 +15403,10 @@ const data = [
         "SCH": 873,
         "HP": 723,
         "AP": "£301,739",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 1185,
         "SN": "Finningley",
         "REG": "Yorkshire and The Humber",
         "OR": 1185,
@@ -16599,11 +15416,10 @@ const data = [
         "SCH": 499,
         "HP": 1053,
         "AP": "£342,052",
-        "SPC": "10.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.4%"
     },
     {
+        "UID": 1186,
         "SN": "Willenhall",
         "REG": "West Midlands",
         "OR": 1186,
@@ -16613,11 +15429,10 @@ const data = [
         "SCH": 764,
         "HP": 1364,
         "AP": "£323,275",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1187,
         "SN": "Great Notley",
         "REG": "East of England",
         "OR": 1187,
@@ -16627,11 +15442,10 @@ const data = [
         "SCH": 1291,
         "HP": 876,
         "AP": "£618,969",
-        "SPC": "6.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.9%"
     },
     {
+        "UID": 1188,
         "SN": "Leigh (Wigan)",
         "REG": "North West",
         "OR": 1188,
@@ -16641,11 +15455,10 @@ const data = [
         "SCH": 191,
         "HP": 1247,
         "AP": "£271,883",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 1189,
         "SN": "Billingshurst",
         "REG": "South East",
         "OR": 1189,
@@ -16655,11 +15468,10 @@ const data = [
         "SCH": 1322,
         "HP": 712,
         "AP": "£629,931",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 1190,
         "SN": "Iver Heath",
         "REG": "South East",
         "OR": 1190,
@@ -16669,11 +15481,10 @@ const data = [
         "SCH": 1062,
         "HP": 465,
         "AP": "£831,709",
-        "SPC": "6.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.1%"
     },
     {
+        "UID": 1191,
         "SN": "Cannock",
         "REG": "West Midlands",
         "OR": 1191,
@@ -16683,11 +15494,10 @@ const data = [
         "SCH": 1075,
         "HP": 1167,
         "AP": "£387,393",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1192,
         "SN": "Kempston",
         "REG": "East of England",
         "OR": 1192,
@@ -16697,11 +15507,10 @@ const data = [
         "SCH": 298,
         "HP": 1203,
         "AP": "£505,353",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1193,
         "SN": "Mold",
         "REG": "Wales",
         "OR": 1193,
@@ -16711,11 +15520,10 @@ const data = [
         "SCH": 1204,
         "HP": 866,
         "AP": "£352,880",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 1194,
         "SN": "Towcester",
         "REG": "East Midlands",
         "OR": 1194,
@@ -16725,11 +15533,10 @@ const data = [
         "SCH": 1385,
         "HP": 127,
         "AP": "£543,399",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 1195,
         "SN": "Gwersyllt",
         "REG": "Wales",
         "OR": 1195,
@@ -16739,11 +15546,10 @@ const data = [
         "SCH": 1086,
         "HP": 746,
         "AP": "£306,322",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 1196,
         "SN": "South Molton",
         "REG": "South West",
         "OR": 1196,
@@ -16753,11 +15559,10 @@ const data = [
         "SCH": 1419,
         "HP": 1027,
         "AP": "£419,122",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 1197,
         "SN": "Horbury",
         "REG": "Yorkshire and The Humber",
         "OR": 1197,
@@ -16767,11 +15572,10 @@ const data = [
         "SCH": 1239,
         "HP": 1184,
         "AP": "£365,404",
-        "SPC": "7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.6%"
     },
     {
+        "UID": 1198,
         "SN": "Melton Mowbray",
         "REG": "East Midlands",
         "OR": 1198,
@@ -16781,11 +15585,10 @@ const data = [
         "SCH": 537,
         "HP": 720,
         "AP": "£389,286",
-        "SPC": "-0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.2%"
     },
     {
+        "UID": 1199,
         "SN": "Penwortham",
         "REG": "North West",
         "OR": 1199,
@@ -16795,11 +15598,10 @@ const data = [
         "SCH": 458,
         "HP": 886,
         "AP": "£358,293",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1200,
         "SN": "Gowerton",
         "REG": "Wales",
         "OR": 1200,
@@ -16809,11 +15611,10 @@ const data = [
         "SCH": 1142,
         "HP": 703,
         "AP": "£313,177",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 1201,
         "SN": "Holyhead",
         "REG": "Wales",
         "OR": 1200,
@@ -16823,11 +15624,10 @@ const data = [
         "SCH": 1135,
         "HP": 777,
         "AP": "£243,933",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1202,
         "SN": "Barton on Sea",
         "REG": "South East",
         "OR": 1202,
@@ -16837,11 +15637,10 @@ const data = [
         "SCH": 1285,
         "HP": 286,
         "AP": "£745,023",
-        "SPC": "-1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.7%"
     },
     {
+        "UID": 1203,
         "SN": "Blackheath",
         "REG": "West Midlands",
         "OR": 1203,
@@ -16851,11 +15650,10 @@ const data = [
         "SCH": 829,
         "HP": 1129,
         "AP": "£327,778",
-        "SPC": "-0.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.7%"
     },
     {
+        "UID": 1204,
         "SN": "Flint",
         "REG": "Wales",
         "OR": 1204,
@@ -16865,11 +15663,10 @@ const data = [
         "SCH": 614,
         "HP": 856,
         "AP": "£292,965",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 1205,
         "SN": "Stanford-le-Hope",
         "REG": "East of England",
         "OR": 1205,
@@ -16879,11 +15676,10 @@ const data = [
         "SCH": 625,
         "HP": 539,
         "AP": "£608,904",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 1206,
         "SN": "Dunscroft and Hatfield",
         "REG": "Yorkshire and The Humber",
         "OR": 1206,
@@ -16893,11 +15689,10 @@ const data = [
         "SCH": 515,
         "HP": 639,
         "AP": "£290,739",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 1207,
         "SN": "Aylsham",
         "REG": "East of England",
         "OR": 1207,
@@ -16907,11 +15702,10 @@ const data = [
         "SCH": 1353,
         "HP": 1300,
         "AP": "£561,672",
-        "SPC": "11.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.6%"
     },
     {
+        "UID": 1208,
         "SN": "Swinton (Rotherham)",
         "REG": "Yorkshire and The Humber",
         "OR": 1208,
@@ -16921,11 +15715,10 @@ const data = [
         "SCH": 1050,
         "HP": 810,
         "AP": "£269,219",
-        "SPC": "-1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.1%"
     },
     {
+        "UID": 1209,
         "SN": "South Hayling",
         "REG": "South East",
         "OR": 1208,
@@ -16935,11 +15728,10 @@ const data = [
         "SCH": 1324,
         "HP": 1239,
         "AP": "£564,151",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1210,
         "SN": "Eastleigh",
         "REG": "South East",
         "OR": 1210,
@@ -16949,11 +15741,10 @@ const data = [
         "SCH": 1142,
         "HP": 901,
         "AP": "£521,917",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1211,
         "SN": "Newbiggin-by-the-Sea",
         "REG": "North East",
         "OR": 1211,
@@ -16963,11 +15754,10 @@ const data = [
         "SCH": 907,
         "HP": 1056,
         "AP": "£192,780",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1212,
         "SN": "Coseley",
         "REG": "West Midlands",
         "OR": 1212,
@@ -16977,11 +15767,10 @@ const data = [
         "SCH": 601,
         "HP": 1319,
         "AP": "£333,529",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 1213,
         "SN": "Cross Hands and Pen-y-groes",
         "REG": "Wales",
         "OR": 1213,
@@ -16991,11 +15780,10 @@ const data = [
         "SCH": 951,
         "HP": 858,
         "AP": "£289,362",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 1214,
         "SN": "Horndean",
         "REG": "South East",
         "OR": 1213,
@@ -17005,11 +15793,10 @@ const data = [
         "SCH": 1260,
         "HP": 1046,
         "AP": "£550,022",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 1215,
         "SN": "Marston Moretaine",
         "REG": "East of England",
         "OR": 1215,
@@ -17019,11 +15806,10 @@ const data = [
         "SCH": 904,
         "HP": 812,
         "AP": "£541,150",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 1216,
         "SN": "New Rossington and Rossington",
         "REG": "Yorkshire and The Humber",
         "OR": 1216,
@@ -17033,11 +15819,10 @@ const data = [
         "SCH": 129,
         "HP": 584,
         "AP": "£267,506",
-        "SPC": "-4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.6%"
     },
     {
+        "UID": 1217,
         "SN": "Felixstowe",
         "REG": "East of England",
         "OR": 1216,
@@ -17047,11 +15832,10 @@ const data = [
         "SCH": 1158,
         "HP": 905,
         "AP": "£485,380",
-        "SPC": "-2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.1%"
     },
     {
+        "UID": 1218,
         "SN": "Middlewich",
         "REG": "North West",
         "OR": 1218,
@@ -17061,11 +15845,10 @@ const data = [
         "SCH": 867,
         "HP": 586,
         "AP": "£348,555",
-        "SPC": "4.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.8%"
     },
     {
+        "UID": 1219,
         "SN": "Grove (Vale of White Horse)",
         "REG": "South East",
         "OR": 1219,
@@ -17075,11 +15858,10 @@ const data = [
         "SCH": 173,
         "HP": 1121,
         "AP": "£572,947",
-        "SPC": "10.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.8%"
     },
     {
+        "UID": 1220,
         "SN": "Newmarket",
         "REG": "East of England",
         "OR": 1219,
@@ -17089,11 +15871,10 @@ const data = [
         "SCH": 1145,
         "HP": 982,
         "AP": "£477,030",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1221,
         "SN": "Red Lodge",
         "REG": "East of England",
         "OR": 1221,
@@ -17103,11 +15884,10 @@ const data = [
         "SCH": 381,
         "HP": 967,
         "AP": "£426,983",
-        "SPC": "-3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.3%"
     },
     {
+        "UID": 1222,
         "SN": "Bishop Auckland",
         "REG": "North East",
         "OR": 1222,
@@ -17117,11 +15897,10 @@ const data = [
         "SCH": 632,
         "HP": 1268,
         "AP": "£189,976",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 1223,
         "SN": "Melksham",
         "REG": "South West",
         "OR": 1223,
@@ -17131,11 +15910,10 @@ const data = [
         "SCH": 1189,
         "HP": 970,
         "AP": "£458,130",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 1224,
         "SN": "Bedworth",
         "REG": "West Midlands",
         "OR": 1224,
@@ -17145,11 +15923,10 @@ const data = [
         "SCH": 405,
         "HP": 1321,
         "AP": "£376,667",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1225,
         "SN": "Thurnscoe",
         "REG": "Yorkshire and The Humber",
         "OR": 1224,
@@ -17159,11 +15936,10 @@ const data = [
         "SCH": 1262,
         "HP": 890,
         "AP": "£208,012",
-        "SPC": "-5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-5.4%"
     },
     {
+        "UID": 1226,
         "SN": "Elland",
         "REG": "Yorkshire and The Humber",
         "OR": 1226,
@@ -17173,11 +15949,10 @@ const data = [
         "SCH": 984,
         "HP": 1063,
         "AP": "£310,760",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1227,
         "SN": "Lydney",
         "REG": "South West",
         "OR": 1227,
@@ -17187,11 +15962,10 @@ const data = [
         "SCH": 1391,
         "HP": 834,
         "AP": "£432,269",
-        "SPC": "4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.1%"
     },
     {
+        "UID": 1228,
         "SN": "Yapton",
         "REG": "South East",
         "OR": 1228,
@@ -17201,11 +15975,10 @@ const data = [
         "SCH": 1344,
         "HP": 1398,
         "AP": "£585,301",
-        "SPC": "9.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.2%"
     },
     {
+        "UID": 1229,
         "SN": "Peterborough",
         "REG": "East of England",
         "OR": 1229,
@@ -17215,11 +15988,10 @@ const data = [
         "SCH": 621,
         "HP": 1394,
         "AP": "£381,345",
-        "SPC": "3.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.4%"
     },
     {
+        "UID": 1230,
         "SN": "Cradley Heath",
         "REG": "West Midlands",
         "OR": 1230,
@@ -17229,11 +16001,10 @@ const data = [
         "SCH": 736,
         "HP": 984,
         "AP": "£340,456",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 1231,
         "SN": "Stone (Dartford)",
         "REG": "South East",
         "OR": 1231,
@@ -17243,11 +16014,10 @@ const data = [
         "SCH": 567,
         "HP": 909,
         "AP": "£595,165",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1232,
         "SN": "St Austell",
         "REG": "South West",
         "OR": 1231,
@@ -17257,11 +16027,10 @@ const data = [
         "SCH": 783,
         "HP": 1333,
         "AP": "£425,002",
-        "SPC": "5.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.0%"
     },
     {
+        "UID": 1233,
         "SN": "Caerleon",
         "REG": "Wales",
         "OR": 1233,
@@ -17271,11 +16040,10 @@ const data = [
         "SCH": 664,
         "HP": 874,
         "AP": "£419,876",
-        "SPC": "6.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.3%"
     },
     {
+        "UID": 1234,
         "SN": "Sedgley",
         "REG": "West Midlands",
         "OR": 1234,
@@ -17285,11 +16053,10 @@ const data = [
         "SCH": 1022,
         "HP": 782,
         "AP": "£365,980",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1235,
         "SN": "Burnham-on-Sea",
         "REG": "South West",
         "OR": 1235,
@@ -17299,11 +16066,10 @@ const data = [
         "SCH": 265,
         "HP": 891,
         "AP": "£450,361",
-        "SPC": "-1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.0%"
     },
     {
+        "UID": 1236,
         "SN": "Mildenhall (West Suffolk)",
         "REG": "East of England",
         "OR": 1236,
@@ -17313,11 +16079,10 @@ const data = [
         "SCH": 761,
         "HP": 1161,
         "AP": "£418,898",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 1237,
         "SN": "Desborough",
         "REG": "East Midlands",
         "OR": 1237,
@@ -17327,11 +16092,10 @@ const data = [
         "SCH": 1267,
         "HP": 884,
         "AP": "£399,259",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 1238,
         "SN": "Braintree",
         "REG": "East of England",
         "OR": 1238,
@@ -17341,11 +16105,10 @@ const data = [
         "SCH": 1341,
         "HP": 787,
         "AP": "£543,860",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 1239,
         "SN": "Fence Houses",
         "REG": "North East",
         "OR": 1239,
@@ -17355,11 +16118,10 @@ const data = [
         "SCH": 432,
         "HP": 1338,
         "AP": "£212,866",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1240,
         "SN": "Grantham",
         "REG": "East Midlands",
         "OR": 1240,
@@ -17369,11 +16131,10 @@ const data = [
         "SCH": 140,
         "HP": 1217,
         "AP": "£330,549",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1241,
         "SN": "CwmbrÃ¢n",
         "REG": "Wales",
         "OR": 1240,
@@ -17383,11 +16144,10 @@ const data = [
         "SCH": 675,
         "HP": 710,
         "AP": "£327,902",
-        "SPC": "-0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.9%"
     },
     {
+        "UID": 1242,
         "SN": "West Moors",
         "REG": "South West",
         "OR": 1242,
@@ -17397,11 +16157,10 @@ const data = [
         "SCH": 1365,
         "HP": 391,
         "AP": "£625,470",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 1243,
         "SN": "Bentley (Doncaster)",
         "REG": "Yorkshire and The Humber",
         "OR": 1243,
@@ -17411,11 +16170,10 @@ const data = [
         "SCH": 49,
         "HP": 1149,
         "AP": "£199,859",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1244,
         "SN": "Longstanton and Northstowe",
         "REG": "East of England",
         "OR": 1244,
@@ -17425,11 +16183,10 @@ const data = [
         "SCH": 1331,
         "HP": 636,
         "AP": "£541,858",
-        "SPC": "4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.9%"
     },
     {
+        "UID": 1245,
         "SN": "Fleetwood",
         "REG": "North West",
         "OR": 1245,
@@ -17439,11 +16196,10 @@ const data = [
         "SCH": 82,
         "HP": 1359,
         "AP": "£225,397",
-        "SPC": "8.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.2%"
     },
     {
+        "UID": 1246,
         "SN": "Heysham",
         "REG": "North West",
         "OR": 1245,
@@ -17453,11 +16209,10 @@ const data = [
         "SCH": 422,
         "HP": 1042,
         "AP": "£301,096",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 1247,
         "SN": "Prudhoe",
         "REG": "North East",
         "OR": 1245,
@@ -17467,11 +16222,10 @@ const data = [
         "SCH": 1374,
         "HP": 279,
         "AP": "£275,123",
-        "SPC": "1.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.5%"
     },
     {
+        "UID": 1248,
         "SN": "Purfleet-on-Thames",
         "REG": "East of England",
         "OR": 1248,
@@ -17481,11 +16235,10 @@ const data = [
         "SCH": 288,
         "HP": 904,
         "AP": "£580,514",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1249,
         "SN": "Atherstone",
         "REG": "West Midlands",
         "OR": 1249,
@@ -17495,11 +16248,10 @@ const data = [
         "SCH": 1114,
         "HP": 538,
         "AP": "£358,663",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1250,
         "SN": "Barnstaple",
         "REG": "South West",
         "OR": 1250,
@@ -17509,11 +16261,10 @@ const data = [
         "SCH": 1067,
         "HP": 1386,
         "AP": "£456,831",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1251,
         "SN": "Holbury",
         "REG": "South East",
         "OR": 1251,
@@ -17523,11 +16274,10 @@ const data = [
         "SCH": 1336,
         "HP": 1064,
         "AP": "£525,606",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 1252,
         "SN": "Attleborough",
         "REG": "East of England",
         "OR": 1251,
@@ -17537,11 +16287,10 @@ const data = [
         "SCH": 636,
         "HP": 1390,
         "AP": "£462,969",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1253,
         "SN": "North Anston",
         "REG": "Yorkshire and The Humber",
         "OR": 1251,
@@ -17551,11 +16300,10 @@ const data = [
         "SCH": 1377,
         "HP": 759,
         "AP": "£312,562",
-        "SPC": "0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.8%"
     },
     {
+        "UID": 1254,
         "SN": "South Woodham Ferrers",
         "REG": "East of England",
         "OR": 1254,
@@ -17565,11 +16313,10 @@ const data = [
         "SCH": 1417,
         "HP": 474,
         "AP": "£637,211",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 1255,
         "SN": "Baglan",
         "REG": "Wales",
         "OR": 1255,
@@ -17579,11 +16326,10 @@ const data = [
         "SCH": 624,
         "HP": 1155,
         "AP": "£250,804",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 1256,
         "SN": "Wingate",
         "REG": "North East",
         "OR": 1256,
@@ -17593,11 +16339,10 @@ const data = [
         "SCH": 582,
         "HP": 722,
         "AP": "£147,902",
-        "SPC": "-16.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-16.6%"
     },
     {
+        "UID": 1257,
         "SN": "Measham",
         "REG": "East Midlands",
         "OR": 1257,
@@ -17607,11 +16352,10 @@ const data = [
         "SCH": 1111,
         "HP": 275,
         "AP": "£361,892",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 1258,
         "SN": "Hindley",
         "REG": "North West",
         "OR": 1258,
@@ -17621,11 +16365,10 @@ const data = [
         "SCH": 481,
         "HP": 1027,
         "AP": "£272,291",
-        "SPC": "-2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.7%"
     },
     {
+        "UID": 1259,
         "SN": "East Tilbury",
         "REG": "East of England",
         "OR": 1259,
@@ -17635,11 +16378,10 @@ const data = [
         "SCH": 920,
         "HP": 669,
         "AP": "£552,067",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1260,
         "SN": "Thirsk",
         "REG": "Yorkshire and The Humber",
         "OR": 1260,
@@ -17649,11 +16391,10 @@ const data = [
         "SCH": 1052,
         "HP": 707,
         "AP": "£425,048",
-        "SPC": "10.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.6%"
     },
     {
+        "UID": 1261,
         "SN": "Boston",
         "REG": "East Midlands",
         "OR": 1261,
@@ -17663,11 +16404,10 @@ const data = [
         "SCH": 1041,
         "HP": 1331,
         "AP": "£282,854",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1262,
         "SN": "Sprotbrough",
         "REG": "Yorkshire and The Humber",
         "OR": 1262,
@@ -17677,11 +16417,10 @@ const data = [
         "SCH": 139,
         "HP": 871,
         "AP": "£378,898",
-        "SPC": "7.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.7%"
     },
     {
+        "UID": 1263,
         "SN": "Killamarsh",
         "REG": "East Midlands",
         "OR": 1263,
@@ -17691,11 +16430,10 @@ const data = [
         "SCH": 1009,
         "HP": 860,
         "AP": "£321,268",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1264,
         "SN": "Bloxwich",
         "REG": "West Midlands",
         "OR": 1264,
@@ -17705,11 +16443,10 @@ const data = [
         "SCH": 707,
         "HP": 1293,
         "AP": "£309,976",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 1265,
         "SN": "Goole",
         "REG": "Yorkshire and The Humber",
         "OR": 1265,
@@ -17719,11 +16456,10 @@ const data = [
         "SCH": 604,
         "HP": 524,
         "AP": "£234,433",
-        "SPC": "-4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.0%"
     },
     {
+        "UID": 1266,
         "SN": "Todmorden",
         "REG": "Yorkshire and The Humber",
         "OR": 1266,
@@ -17733,11 +16469,10 @@ const data = [
         "SCH": 1322,
         "HP": 994,
         "AP": "£264,986",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1267,
         "SN": "Bridgwater",
         "REG": "South West",
         "OR": 1267,
@@ -17747,11 +16482,10 @@ const data = [
         "SCH": 426,
         "HP": 1323,
         "AP": "£392,168",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 1268,
         "SN": "Ashford Common",
         "REG": "South East",
         "OR": 1268,
@@ -17761,11 +16495,10 @@ const data = [
         "SCH": 939,
         "HP": 451,
         "AP": "£759,210",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 1269,
         "SN": "Barrowford",
         "REG": "North West",
         "OR": 1269,
@@ -17775,11 +16508,10 @@ const data = [
         "SCH": 1307,
         "HP": 1142,
         "AP": "£302,260",
-        "SPC": "0.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.1%"
     },
     {
+        "UID": 1270,
         "SN": "Hailsham",
         "REG": "South East",
         "OR": 1270,
@@ -17789,11 +16521,10 @@ const data = [
         "SCH": 1186,
         "HP": 1344,
         "AP": "£548,321",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 1271,
         "SN": "Murton (County Durham)",
         "REG": "North East",
         "OR": 1271,
@@ -17803,11 +16534,10 @@ const data = [
         "SCH": 494,
         "HP": 1301,
         "AP": "£170,698",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1272,
         "SN": "Needham Market",
         "REG": "East of England",
         "OR": 1272,
@@ -17817,11 +16547,10 @@ const data = [
         "SCH": 1080,
         "HP": 1360,
         "AP": "£496,293",
-        "SPC": "11.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.0%"
     },
     {
+        "UID": 1273,
         "SN": "Chelmsford",
         "REG": "East of England",
         "OR": 1273,
@@ -17831,11 +16560,10 @@ const data = [
         "SCH": 1100,
         "HP": 389,
         "AP": "£643,719",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 1274,
         "SN": "Takeley and Little Canfield",
         "REG": "East of England",
         "OR": 1274,
@@ -17845,11 +16573,10 @@ const data = [
         "SCH": 1251,
         "HP": 565,
         "AP": "£616,547",
-        "SPC": "8.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.7%"
     },
     {
+        "UID": 1275,
         "SN": "Walton-on-the-Naze",
         "REG": "East of England",
         "OR": 1275,
@@ -17859,11 +16586,10 @@ const data = [
         "SCH": 786,
         "HP": 1274,
         "AP": "£480,377",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 1276,
         "SN": "Bilston (Wolverhampton)",
         "REG": "West Midlands",
         "OR": 1276,
@@ -17873,11 +16599,10 @@ const data = [
         "SCH": 586,
         "HP": 1276,
         "AP": "£305,696",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1277,
         "SN": "Stratton St Margaret",
         "REG": "South West",
         "OR": 1277,
@@ -17887,11 +16612,10 @@ const data = [
         "SCH": 635,
         "HP": 871,
         "AP": "£473,911",
-        "SPC": "3.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.7%"
     },
     {
+        "UID": 1278,
         "SN": "Ince-in-Makerfield",
         "REG": "North West",
         "OR": 1278,
@@ -17901,11 +16625,10 @@ const data = [
         "SCH": 187,
         "HP": 1027,
         "AP": "£240,377",
-        "SPC": "-6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.8%"
     },
     {
+        "UID": 1279,
         "SN": "Bangor",
         "REG": "Wales",
         "OR": 1279,
@@ -17915,11 +16638,10 @@ const data = [
         "SCH": 870,
         "HP": 1202,
         "AP": "£275,722",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 1280,
         "SN": "Oldbury (Sandwell)",
         "REG": "West Midlands",
         "OR": 1280,
@@ -17929,11 +16651,10 @@ const data = [
         "SCH": 669,
         "HP": 1363,
         "AP": "£360,756",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1281,
         "SN": "Watton",
         "REG": "East of England",
         "OR": 1281,
@@ -17943,11 +16664,10 @@ const data = [
         "SCH": 827,
         "HP": 1132,
         "AP": "£428,145",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 1282,
         "SN": "Cullompton",
         "REG": "South West",
         "OR": 1282,
@@ -17957,11 +16677,10 @@ const data = [
         "SCH": 720,
         "HP": 1299,
         "AP": "£439,444",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1283,
         "SN": "Street",
         "REG": "South West",
         "OR": 1282,
@@ -17971,11 +16690,10 @@ const data = [
         "SCH": 1373,
         "HP": 1136,
         "AP": "£455,927",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1284,
         "SN": "Burton upon Trent",
         "REG": "West Midlands",
         "OR": 1284,
@@ -17985,11 +16703,10 @@ const data = [
         "SCH": 539,
         "HP": 1075,
         "AP": "£325,865",
-        "SPC": "0.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.2%"
     },
     {
+        "UID": 1285,
         "SN": "Scawthorpe and Cusworth",
         "REG": "Yorkshire and The Humber",
         "OR": 1285,
@@ -17999,11 +16716,10 @@ const data = [
         "SCH": 5,
         "HP": 1217,
         "AP": "£300,711",
-        "SPC": "9.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.3%"
     },
     {
+        "UID": 1286,
         "SN": "Runcorn",
         "REG": "North West",
         "OR": 1286,
@@ -18013,11 +16729,10 @@ const data = [
         "SCH": 605,
         "HP": 834,
         "AP": "£285,631",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1287,
         "SN": "Highbridge",
         "REG": "South West",
         "OR": 1287,
@@ -18027,11 +16742,10 @@ const data = [
         "SCH": 554,
         "HP": 979,
         "AP": "£343,386",
-        "SPC": "-3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.6%"
     },
     {
+        "UID": 1288,
         "SN": "Wisbech",
         "REG": "East of England",
         "OR": 1288,
@@ -18041,11 +16755,10 @@ const data = [
         "SCH": 392,
         "HP": 1371,
         "AP": "£329,037",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1289,
         "SN": "Whiteley",
         "REG": "South East",
         "OR": 1289,
@@ -18055,11 +16768,10 @@ const data = [
         "SCH": 907,
         "HP": 830,
         "AP": "£571,067",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1290,
         "SN": "Clowne",
         "REG": "East Midlands",
         "OR": 1290,
@@ -18069,11 +16781,10 @@ const data = [
         "SCH": 1399,
         "HP": 1425,
         "AP": "£301,011",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 1291,
         "SN": "Sacriston",
         "REG": "North East",
         "OR": 1291,
@@ -18083,11 +16794,10 @@ const data = [
         "SCH": 1355,
         "HP": 596,
         "AP": "£208,922",
-        "SPC": "-4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.9%"
     },
     {
+        "UID": 1292,
         "SN": "Buckingham",
         "REG": "South East",
         "OR": 1292,
@@ -18097,11 +16807,10 @@ const data = [
         "SCH": 1235,
         "HP": 921,
         "AP": "£562,015",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1293,
         "SN": "Peterlee",
         "REG": "North East",
         "OR": 1292,
@@ -18111,11 +16820,10 @@ const data = [
         "SCH": 698,
         "HP": 1193,
         "AP": "£182,678",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1294,
         "SN": "Acrefair and Cefn-mawr",
         "REG": "Wales",
         "OR": 1294,
@@ -18125,11 +16833,10 @@ const data = [
         "SCH": 1096,
         "HP": 993,
         "AP": "£271,347",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1295,
         "SN": "Ebbw Vale",
         "REG": "Wales",
         "OR": 1295,
@@ -18139,11 +16846,10 @@ const data = [
         "SCH": 926,
         "HP": 1392,
         "AP": "£248,249",
-        "SPC": "4.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.3%"
     },
     {
+        "UID": 1296,
         "SN": "Fazeley",
         "REG": "West Midlands",
         "OR": 1296,
@@ -18153,11 +16859,10 @@ const data = [
         "SCH": 355,
         "HP": 646,
         "AP": "£439,419",
-        "SPC": "10.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.3%"
     },
     {
+        "UID": 1297,
         "SN": "Market Drayton",
         "REG": "West Midlands",
         "OR": 1297,
@@ -18167,11 +16872,10 @@ const data = [
         "SCH": 1254,
         "HP": 798,
         "AP": "£368,958",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 1298,
         "SN": "Llanelli",
         "REG": "Wales",
         "OR": 1298,
@@ -18181,11 +16885,10 @@ const data = [
         "SCH": 961,
         "HP": 990,
         "AP": "£228,817",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1299,
         "SN": "Stainforth",
         "REG": "Yorkshire and The Humber",
         "OR": 1298,
@@ -18195,11 +16898,10 @@ const data = [
         "SCH": 384,
         "HP": 791,
         "AP": "£192,090",
-        "SPC": "-2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.9%"
     },
     {
+        "UID": 1300,
         "SN": "Porth",
         "REG": "Wales",
         "OR": 1300,
@@ -18209,11 +16911,10 @@ const data = [
         "SCH": 487,
         "HP": 1336,
         "AP": "£202,404",
-        "SPC": "4.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.4%"
     },
     {
+        "UID": 1301,
         "SN": "Thetford",
         "REG": "East of England",
         "OR": 1301,
@@ -18223,11 +16924,10 @@ const data = [
         "SCH": 395,
         "HP": 1421,
         "AP": "£403,342",
-        "SPC": "5.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.2%"
     },
     {
+        "UID": 1302,
         "SN": "Ruthin",
         "REG": "Wales",
         "OR": 1302,
@@ -18237,11 +16937,10 @@ const data = [
         "SCH": 1286,
         "HP": 705,
         "AP": "£334,724",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 1303,
         "SN": "Wickersley and Bramley",
         "REG": "Yorkshire and The Humber",
         "OR": 1303,
@@ -18251,11 +16950,10 @@ const data = [
         "SCH": 1133,
         "HP": 682,
         "AP": "£373,578",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1304,
         "SN": "Sarn",
         "REG": "Wales",
         "OR": 1304,
@@ -18265,11 +16963,10 @@ const data = [
         "SCH": 663,
         "HP": 1005,
         "AP": "£301,919",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 1305,
         "SN": "March",
         "REG": "East of England",
         "OR": 1305,
@@ -18279,11 +16976,10 @@ const data = [
         "SCH": 643,
         "HP": 1374,
         "AP": "£385,349",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 1306,
         "SN": "West Bromwich",
         "REG": "West Midlands",
         "OR": 1306,
@@ -18293,11 +16989,10 @@ const data = [
         "SCH": 864,
         "HP": 1335,
         "AP": "£361,306",
-        "SPC": "4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.2%"
     },
     {
+        "UID": 1307,
         "SN": "Wetherby",
         "REG": "Yorkshire and The Humber",
         "OR": 1307,
@@ -18307,11 +17002,10 @@ const data = [
         "SCH": 1178,
         "HP": 121,
         "AP": "£490,531",
-        "SPC": "0.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.9%"
     },
     {
+        "UID": 1308,
         "SN": "Coppull",
         "REG": "North West",
         "OR": 1308,
@@ -18321,11 +17015,10 @@ const data = [
         "SCH": 788,
         "HP": 1190,
         "AP": "£311,982",
-        "SPC": "7.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.4%"
     },
     {
+        "UID": 1309,
         "SN": "Sheerness",
         "REG": "South East",
         "OR": 1309,
@@ -18335,11 +17028,10 @@ const data = [
         "SCH": 329,
         "HP": 1313,
         "AP": "£347,944",
-        "SPC": "3.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.3%"
     },
     {
+        "UID": 1310,
         "SN": "Cheddar",
         "REG": "South West",
         "OR": 1310,
@@ -18349,11 +17041,10 @@ const data = [
         "SCH": 1366,
         "HP": 1267,
         "AP": "£526,064",
-        "SPC": "10.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "10.4%"
     },
     {
+        "UID": 1311,
         "SN": "Blythe Bridge and Forsbrook",
         "REG": "West Midlands",
         "OR": 1311,
@@ -18363,11 +17054,10 @@ const data = [
         "SCH": 1152,
         "HP": 443,
         "AP": "£349,292",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 1312,
         "SN": "Crigglestone and Durkar",
         "REG": "Yorkshire and The Humber",
         "OR": 1312,
@@ -18377,11 +17067,10 @@ const data = [
         "SCH": 918,
         "HP": 827,
         "AP": "£378,746",
-        "SPC": "2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.1%"
     },
     {
+        "UID": 1313,
         "SN": "Glastonbury",
         "REG": "South West",
         "OR": 1313,
@@ -18391,11 +17080,10 @@ const data = [
         "SCH": 1389,
         "HP": 1312,
         "AP": "£500,214",
-        "SPC": "13.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "13.7%"
     },
     {
+        "UID": 1314,
         "SN": "Stanley (County Durham)",
         "REG": "North East",
         "OR": 1314,
@@ -18405,11 +17093,10 @@ const data = [
         "SCH": 1124,
         "HP": 1159,
         "AP": "£154,597",
-        "SPC": "1.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.7%"
     },
     {
+        "UID": 1315,
         "SN": "Brandon (West Suffolk)",
         "REG": "East of England",
         "OR": 1315,
@@ -18419,11 +17106,10 @@ const data = [
         "SCH": 460,
         "HP": 1031,
         "AP": "£415,295",
-        "SPC": "-2.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.1%"
     },
     {
+        "UID": 1316,
         "SN": "Elworth",
         "REG": "North West",
         "OR": 1316,
@@ -18433,11 +17119,10 @@ const data = [
         "SCH": 1360,
         "HP": 485,
         "AP": "£407,261",
-        "SPC": "7.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.8%"
     },
     {
+        "UID": 1317,
         "SN": "Yaxley (Huntingdonshire)",
         "REG": "East of England",
         "OR": 1317,
@@ -18447,11 +17132,10 @@ const data = [
         "SCH": 1032,
         "HP": 1199,
         "AP": "£415,386",
-        "SPC": "1.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.8%"
     },
     {
+        "UID": 1318,
         "SN": "Hemsby",
         "REG": "East of England",
         "OR": 1318,
@@ -18461,11 +17145,10 @@ const data = [
         "SCH": 1328,
         "HP": 1412,
         "AP": "£478,466",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 1319,
         "SN": "Crawley (Crawley)",
         "REG": "South East",
         "OR": 1319,
@@ -18475,11 +17158,10 @@ const data = [
         "SCH": 831,
         "HP": 1245,
         "AP": "£600,145",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1320,
         "SN": "Brierley Hill",
         "REG": "West Midlands",
         "OR": 1320,
@@ -18489,11 +17171,10 @@ const data = [
         "SCH": 1037,
         "HP": 1240,
         "AP": "£356,877",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 1321,
         "SN": "Newtown (Powys)",
         "REG": "Wales",
         "OR": 1321,
@@ -18503,11 +17184,10 @@ const data = [
         "SCH": 847,
         "HP": 1263,
         "AP": "£275,420",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1322,
         "SN": "Cambourne",
         "REG": "East of England",
         "OR": 1321,
@@ -18517,11 +17197,10 @@ const data = [
         "SCH": 1159,
         "HP": 605,
         "AP": "£503,585",
-        "SPC": "3.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.0%"
     },
     {
+        "UID": 1323,
         "SN": "Polegate",
         "REG": "South East",
         "OR": 1323,
@@ -18531,11 +17210,10 @@ const data = [
         "SCH": 942,
         "HP": 1331,
         "AP": "£599,541",
-        "SPC": "7.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.0%"
     },
     {
+        "UID": 1324,
         "SN": "Pontardawe",
         "REG": "Wales",
         "OR": 1324,
@@ -18545,11 +17223,10 @@ const data = [
         "SCH": 1243,
         "HP": 1201,
         "AP": "£285,768",
-        "SPC": "6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.6%"
     },
     {
+        "UID": 1325,
         "SN": "Seaton (Allerdale)",
         "REG": "North West",
         "OR": 1325,
@@ -18559,11 +17236,10 @@ const data = [
         "SCH": 1342,
         "HP": 373,
         "AP": "£257,399",
-        "SPC": "-8.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-8.4%"
     },
     {
+        "UID": 1326,
         "SN": "Shepton Mallet",
         "REG": "South West",
         "OR": 1326,
@@ -18573,11 +17249,10 @@ const data = [
         "SCH": 1403,
         "HP": 1367,
         "AP": "£446,486",
-        "SPC": "8.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.8%"
     },
     {
+        "UID": 1327,
         "SN": "Selsey",
         "REG": "South East",
         "OR": 1327,
@@ -18587,11 +17262,10 @@ const data = [
         "SCH": 1224,
         "HP": 1251,
         "AP": "£604,144",
-        "SPC": "5.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.8%"
     },
     {
+        "UID": 1328,
         "SN": "South Elmsall",
         "REG": "Yorkshire and The Humber",
         "OR": 1328,
@@ -18601,11 +17275,10 @@ const data = [
         "SCH": 873,
         "HP": 1119,
         "AP": "£241,708",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1329,
         "SN": "Haverhill",
         "REG": "East of England",
         "OR": 1329,
@@ -18615,11 +17288,10 @@ const data = [
         "SCH": 1045,
         "HP": 1208,
         "AP": "£476,909",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1330,
         "SN": "Armthorpe",
         "REG": "Yorkshire and The Humber",
         "OR": 1330,
@@ -18629,11 +17301,10 @@ const data = [
         "SCH": 413,
         "HP": 770,
         "AP": "£285,393",
-        "SPC": "0.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.3%"
     },
     {
+        "UID": 1331,
         "SN": "Prestatyn",
         "REG": "Wales",
         "OR": 1331,
@@ -18643,11 +17314,10 @@ const data = [
         "SCH": 660,
         "HP": 971,
         "AP": "£340,679",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 1332,
         "SN": "Witham",
         "REG": "East of England",
         "OR": 1332,
@@ -18657,11 +17327,10 @@ const data = [
         "SCH": 1303,
         "HP": 473,
         "AP": "£543,960",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 1333,
         "SN": "Rowley Regis",
         "REG": "West Midlands",
         "OR": 1333,
@@ -18671,11 +17340,10 @@ const data = [
         "SCH": 835,
         "HP": 1374,
         "AP": "£371,640",
-        "SPC": "8.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.5%"
     },
     {
+        "UID": 1334,
         "SN": "Tipton",
         "REG": "West Midlands",
         "OR": 1334,
@@ -18685,11 +17353,10 @@ const data = [
         "SCH": 956,
         "HP": 1387,
         "AP": "£326,810",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1335,
         "SN": "Burton Latimer",
         "REG": "East Midlands",
         "OR": 1335,
@@ -18699,11 +17366,10 @@ const data = [
         "SCH": 1225,
         "HP": 894,
         "AP": "£408,437",
-        "SPC": "3.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.8%"
     },
     {
+        "UID": 1336,
         "SN": "Long Sutton (South Holland)",
         "REG": "East Midlands",
         "OR": 1336,
@@ -18713,11 +17379,10 @@ const data = [
         "SCH": 1358,
         "HP": 1339,
         "AP": "£369,260",
-        "SPC": "7.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.9%"
     },
     {
+        "UID": 1337,
         "SN": "Rogerstone",
         "REG": "Wales",
         "OR": 1337,
@@ -18727,11 +17392,10 @@ const data = [
         "SCH": 881,
         "HP": 782,
         "AP": "£453,545",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1338,
         "SN": "Abercynon",
         "REG": "Wales",
         "OR": 1338,
@@ -18741,11 +17405,10 @@ const data = [
         "SCH": 546,
         "HP": 1148,
         "AP": "£209,439",
-        "SPC": "1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.2%"
     },
     {
+        "UID": 1339,
         "SN": "Upton (Wakefield)",
         "REG": "Yorkshire and The Humber",
         "OR": 1338,
@@ -18755,11 +17418,10 @@ const data = [
         "SCH": 780,
         "HP": 1396,
         "AP": "£284,556",
-        "SPC": "11.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.0%"
     },
     {
+        "UID": 1340,
         "SN": "Abergele",
         "REG": "Wales",
         "OR": 1340,
@@ -18769,11 +17431,10 @@ const data = [
         "SCH": 844,
         "HP": 764,
         "AP": "£369,595",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1341,
         "SN": "Rhondda",
         "REG": "Wales",
         "OR": 1341,
@@ -18783,11 +17444,10 @@ const data = [
         "SCH": 811,
         "HP": 1234,
         "AP": "£196,538",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1342,
         "SN": "Castleford",
         "REG": "Yorkshire and The Humber",
         "OR": 1341,
@@ -18797,11 +17457,10 @@ const data = [
         "SCH": 790,
         "HP": 1101,
         "AP": "£278,768",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 1343,
         "SN": "Scunthorpe",
         "REG": "Yorkshire and The Humber",
         "OR": 1343,
@@ -18811,11 +17470,10 @@ const data = [
         "SCH": 426,
         "HP": 861,
         "AP": "£237,934",
-        "SPC": "-3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-3.6%"
     },
     {
+        "UID": 1344,
         "SN": "Worksop",
         "REG": "East Midlands",
         "OR": 1344,
@@ -18825,11 +17483,10 @@ const data = [
         "SCH": 1043,
         "HP": 1319,
         "AP": "£289,546",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 1345,
         "SN": "Pontarddulais",
         "REG": "Wales",
         "OR": 1344,
@@ -18839,11 +17496,10 @@ const data = [
         "SCH": 1030,
         "HP": 824,
         "AP": "£274,073",
-        "SPC": "-0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.0%"
     },
     {
+        "UID": 1346,
         "SN": "Waverley and Catcliffe",
         "REG": "Yorkshire and The Humber",
         "OR": 1346,
@@ -18853,11 +17509,10 @@ const data = [
         "SCH": 1356,
         "HP": 310,
         "AP": "£343,359",
-        "SPC": "-6.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-6.6%"
     },
     {
+        "UID": 1347,
         "SN": "Northallerton",
         "REG": "Yorkshire and The Humber",
         "OR": 1347,
@@ -18867,11 +17522,10 @@ const data = [
         "SCH": 1396,
         "HP": 237,
         "AP": "£364,854",
-        "SPC": "-1.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.2%"
     },
     {
+        "UID": 1348,
         "SN": "Cawston (Rugby)",
         "REG": "West Midlands",
         "OR": 1348,
@@ -18881,11 +17535,10 @@ const data = [
         "SCH": 1258,
         "HP": 258,
         "AP": "£444,408",
-        "SPC": "2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.2%"
     },
     {
+        "UID": 1349,
         "SN": "Newton Aycliffe",
         "REG": "North East",
         "OR": 1349,
@@ -18895,11 +17548,10 @@ const data = [
         "SCH": 672,
         "HP": 748,
         "AP": "£222,139",
-        "SPC": "0.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.0%"
     },
     {
+        "UID": 1350,
         "SN": "Ruskington",
         "REG": "East Midlands",
         "OR": 1350,
@@ -18909,11 +17561,10 @@ const data = [
         "SCH": 1279,
         "HP": 962,
         "AP": "£369,178",
-        "SPC": "6.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.4%"
     },
     {
+        "UID": 1351,
         "SN": "Rhyl",
         "REG": "Wales",
         "OR": 1351,
@@ -18923,11 +17574,10 @@ const data = [
         "SCH": 941,
         "HP": 1349,
         "AP": "£285,828",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 1352,
         "SN": "Redditch",
         "REG": "West Midlands",
         "OR": 1352,
@@ -18937,11 +17587,10 @@ const data = [
         "SCH": 529,
         "HP": 1144,
         "AP": "£418,347",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1353,
         "SN": "Brierfield",
         "REG": "North West",
         "OR": 1353,
@@ -18951,11 +17600,10 @@ const data = [
         "SCH": 1052,
         "HP": 1409,
         "AP": "£216,820",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 1354,
         "SN": "Godmanchester",
         "REG": "East of England",
         "OR": 1354,
@@ -18965,11 +17613,10 @@ const data = [
         "SCH": 1203,
         "HP": 1082,
         "AP": "£489,033",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1355,
         "SN": "Skegness",
         "REG": "East Midlands",
         "OR": 1355,
@@ -18979,11 +17626,10 @@ const data = [
         "SCH": 680,
         "HP": 925,
         "AP": "£306,357",
-        "SPC": "-4.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.2%"
     },
     {
+        "UID": 1356,
         "SN": "Appley Bridge",
         "REG": "North West",
         "OR": 1356,
@@ -18993,11 +17639,10 @@ const data = [
         "SCH": 851,
         "HP": 592,
         "AP": "£391,535",
-        "SPC": "-0.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.8%"
     },
     {
+        "UID": 1357,
         "SN": "Moorends",
         "REG": "Yorkshire and The Humber",
         "OR": 1357,
@@ -19007,11 +17652,10 @@ const data = [
         "SCH": 439,
         "HP": 838,
         "AP": "£204,185",
-        "SPC": "-1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.6%"
     },
     {
+        "UID": 1358,
         "SN": "Coningsby and Tattershall",
         "REG": "East Midlands",
         "OR": 1358,
@@ -19021,11 +17665,10 @@ const data = [
         "SCH": 1413,
         "HP": 956,
         "AP": "£318,158",
-        "SPC": "-2.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.2%"
     },
     {
+        "UID": 1359,
         "SN": "Raunds",
         "REG": "East Midlands",
         "OR": 1359,
@@ -19035,11 +17678,10 @@ const data = [
         "SCH": 1238,
         "HP": 815,
         "AP": "£439,912",
-        "SPC": "4.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.0%"
     },
     {
+        "UID": 1360,
         "SN": "Undy and Magor",
         "REG": "Wales",
         "OR": 1360,
@@ -19049,11 +17691,10 @@ const data = [
         "SCH": 1338,
         "HP": 163,
         "AP": "£506,659",
-        "SPC": "2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.5%"
     },
     {
+        "UID": 1361,
         "SN": "Bordon",
         "REG": "South East",
         "OR": 1361,
@@ -19063,11 +17704,10 @@ const data = [
         "SCH": 1017,
         "HP": 1185,
         "AP": "£565,627",
-        "SPC": "8.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.3%"
     },
     {
+        "UID": 1362,
         "SN": "Holbeach",
         "REG": "East Midlands",
         "OR": 1362,
@@ -19077,11 +17717,10 @@ const data = [
         "SCH": 1164,
         "HP": 1109,
         "AP": "£346,722",
-        "SPC": "1.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.0%"
     },
     {
+        "UID": 1363,
         "SN": "Winsford",
         "REG": "North West",
         "OR": 1363,
@@ -19091,11 +17730,10 @@ const data = [
         "SCH": 794,
         "HP": 863,
         "AP": "£314,147",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 1364,
         "SN": "Rawmarsh",
         "REG": "Yorkshire and The Humber",
         "OR": 1364,
@@ -19105,11 +17743,10 @@ const data = [
         "SCH": 645,
         "HP": 1378,
         "AP": "£243,368",
-        "SPC": "15.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "15.6%"
     },
     {
+        "UID": 1365,
         "SN": "Cleveleys",
         "REG": "North West",
         "OR": 1365,
@@ -19119,11 +17756,10 @@ const data = [
         "SCH": 592,
         "HP": 1111,
         "AP": "£312,618",
-        "SPC": "5.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.1%"
     },
     {
+        "UID": 1366,
         "SN": "Pontyclun",
         "REG": "Wales",
         "OR": 1366,
@@ -19133,11 +17769,10 @@ const data = [
         "SCH": 463,
         "HP": 799,
         "AP": "£462,990",
-        "SPC": "9.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.2%"
     },
     {
+        "UID": 1367,
         "SN": "Forest Town",
         "REG": "East Midlands",
         "OR": 1367,
@@ -19147,11 +17782,10 @@ const data = [
         "SCH": 580,
         "HP": 1409,
         "AP": "£331,757",
-        "SPC": "9.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.0%"
     },
     {
+        "UID": 1368,
         "SN": "Crofton",
         "REG": "Yorkshire and The Humber",
         "OR": 1368,
@@ -19161,11 +17795,10 @@ const data = [
         "SCH": 1318,
         "HP": 708,
         "AP": "£367,473",
-        "SPC": "0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.6%"
     },
     {
+        "UID": 1369,
         "SN": "Treharris",
         "REG": "Wales",
         "OR": 1369,
@@ -19175,11 +17808,10 @@ const data = [
         "SCH": 836,
         "HP": 1234,
         "AP": "£253,545",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1370,
         "SN": "Tilbury",
         "REG": "East of England",
         "OR": 1370,
@@ -19189,11 +17821,10 @@ const data = [
         "SCH": 483,
         "HP": 947,
         "AP": "£542,751",
-        "SPC": "3.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.6%"
     },
     {
+        "UID": 1371,
         "SN": "Clacton-on-Sea",
         "REG": "East of England",
         "OR": 1371,
@@ -19203,11 +17834,10 @@ const data = [
         "SCH": 1035,
         "HP": 953,
         "AP": "£458,224",
-        "SPC": "-4.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.1%"
     },
     {
+        "UID": 1372,
         "SN": "Eye (Peterborough)",
         "REG": "East of England",
         "OR": 1372,
@@ -19217,11 +17847,10 @@ const data = [
         "SCH": 845,
         "HP": 1383,
         "AP": "£386,961",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 1373,
         "SN": "Huntingdon",
         "REG": "East of England",
         "OR": 1373,
@@ -19231,11 +17860,10 @@ const data = [
         "SCH": 1346,
         "HP": 1197,
         "AP": "£451,196",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1374,
         "SN": "Bagillt",
         "REG": "Wales",
         "OR": 1374,
@@ -19245,11 +17873,10 @@ const data = [
         "SCH": 1038,
         "HP": 914,
         "AP": "£266,279",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1375,
         "SN": "Kingswinford",
         "REG": "West Midlands",
         "OR": 1375,
@@ -19259,11 +17886,10 @@ const data = [
         "SCH": 1135,
         "HP": 1076,
         "AP": "£431,028",
-        "SPC": "5.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.6%"
     },
     {
+        "UID": 1376,
         "SN": "Grimsby",
         "REG": "Yorkshire and The Humber",
         "OR": 1376,
@@ -19273,11 +17899,10 @@ const data = [
         "SCH": 1062,
         "HP": 1062,
         "AP": "£193,229",
-        "SPC": "-7.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-7.6%"
     },
     {
+        "UID": 1377,
         "SN": "Humberston and New Waltham",
         "REG": "Yorkshire and The Humber",
         "OR": 1377,
@@ -19287,11 +17912,10 @@ const data = [
         "SCH": 1395,
         "HP": 1209,
         "AP": "£358,241",
-        "SPC": "5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.4%"
     },
     {
+        "UID": 1378,
         "SN": "Bradwell (Great Yarmouth)",
         "REG": "East of England",
         "OR": 1378,
@@ -19301,11 +17925,10 @@ const data = [
         "SCH": 1014,
         "HP": 1413,
         "AP": "£470,995",
-        "SPC": "7.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.5%"
     },
     {
+        "UID": 1379,
         "SN": "Retford",
         "REG": "East Midlands",
         "OR": 1378,
@@ -19315,11 +17938,10 @@ const data = [
         "SCH": 1357,
         "HP": 1349,
         "AP": "£294,267",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1380,
         "SN": "New Ollerton and Ollerton",
         "REG": "East Midlands",
         "OR": 1380,
@@ -19329,11 +17951,10 @@ const data = [
         "SCH": 579,
         "HP": 893,
         "AP": "£291,907",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1381,
         "SN": "Aylesham",
         "REG": "South East",
         "OR": 1380,
@@ -19343,11 +17964,10 @@ const data = [
         "SCH": 1013,
         "HP": 1399,
         "AP": "£528,347",
-        "SPC": "16.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "16.8%"
     },
     {
+        "UID": 1382,
         "SN": "South Kirkby",
         "REG": "Yorkshire and The Humber",
         "OR": 1382,
@@ -19357,11 +17977,10 @@ const data = [
         "SCH": 1161,
         "HP": 1037,
         "AP": "£237,600",
-        "SPC": "-2.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-2.5%"
     },
     {
+        "UID": 1383,
         "SN": "Bridgend",
         "REG": "Wales",
         "OR": 1383,
@@ -19371,11 +17990,10 @@ const data = [
         "SCH": 832,
         "HP": 788,
         "AP": "£371,884",
-        "SPC": "3.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.2%"
     },
     {
+        "UID": 1384,
         "SN": "Havant",
         "REG": "South East",
         "OR": 1383,
@@ -19385,11 +18003,10 @@ const data = [
         "SCH": 1048,
         "HP": 1346,
         "AP": "£489,982",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1385,
         "SN": "Grimethorpe",
         "REG": "Yorkshire and The Humber",
         "OR": 1385,
@@ -19399,11 +18016,10 @@ const data = [
         "SCH": 768,
         "HP": 1257,
         "AP": "£213,839",
-        "SPC": "1.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.9%"
     },
     {
+        "UID": 1386,
         "SN": "Littleport",
         "REG": "East of England",
         "OR": 1386,
@@ -19413,11 +18029,10 @@ const data = [
         "SCH": 1364,
         "HP": 852,
         "AP": "£415,575",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1387,
         "SN": "Ramsey",
         "REG": "East of England",
         "OR": 1387,
@@ -19427,11 +18042,10 @@ const data = [
         "SCH": 1422,
         "HP": 1368,
         "AP": "£404,632",
-        "SPC": "6.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.0%"
     },
     {
+        "UID": 1388,
         "SN": "Uttoxeter",
         "REG": "West Midlands",
         "OR": 1388,
@@ -19441,11 +18055,10 @@ const data = [
         "SCH": 1029,
         "HP": 1268,
         "AP": "£377,572",
-        "SPC": "5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.4%"
     },
     {
+        "UID": 1389,
         "SN": "Dinnington (Rotherham)",
         "REG": "Yorkshire and The Humber",
         "OR": 1389,
@@ -19455,11 +18068,10 @@ const data = [
         "SCH": 1097,
         "HP": 1130,
         "AP": "£276,519",
-        "SPC": "2.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.6%"
     },
     {
+        "UID": 1390,
         "SN": "Minster (Swale)",
         "REG": "South East",
         "OR": 1390,
@@ -19469,11 +18081,10 @@ const data = [
         "SCH": 743,
         "HP": 1316,
         "AP": "£545,588",
-        "SPC": "8.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "8.9%"
     },
     {
+        "UID": 1391,
         "SN": "St Neots",
         "REG": "East of England",
         "OR": 1391,
@@ -19483,11 +18094,10 @@ const data = [
         "SCH": 954,
         "HP": 1080,
         "AP": "£517,185",
-        "SPC": "2.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.7%"
     },
     {
+        "UID": 1392,
         "SN": "St Ives (Huntingdonshire)",
         "REG": "East of England",
         "OR": 1392,
@@ -19497,11 +18107,10 @@ const data = [
         "SCH": 1045,
         "HP": 1033,
         "AP": "£543,142",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 1393,
         "SN": "Clydach (Swansea)",
         "REG": "Wales",
         "OR": 1393,
@@ -19511,11 +18120,10 @@ const data = [
         "SCH": 1128,
         "HP": 1245,
         "AP": "£262,822",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1394,
         "SN": "Stowmarket",
         "REG": "East of England",
         "OR": 1394,
@@ -19525,11 +18133,10 @@ const data = [
         "SCH": 1166,
         "HP": 1016,
         "AP": "£433,320",
-        "SPC": "-0.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-0.6%"
     },
     {
+        "UID": 1395,
         "SN": "Broughton (Flintshire)",
         "REG": "Wales",
         "OR": 1395,
@@ -19539,11 +18146,10 @@ const data = [
         "SCH": 1219,
         "HP": 476,
         "AP": "£368,133",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1396,
         "SN": "Bolton upon Dearne",
         "REG": "Yorkshire and The Humber",
         "OR": 1396,
@@ -19553,11 +18159,10 @@ const data = [
         "SCH": 990,
         "HP": 1341,
         "AP": "£218,956",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1397,
         "SN": "Kirton (Boston)",
         "REG": "East Midlands",
         "OR": 1397,
@@ -19567,11 +18172,10 @@ const data = [
         "SCH": 1367,
         "HP": 1416,
         "AP": "£315,309",
-        "SPC": "6.2%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.2%"
     },
     {
+        "UID": 1398,
         "SN": "Ystrad Mynach",
         "REG": "Wales",
         "OR": 1398,
@@ -19581,11 +18185,10 @@ const data = [
         "SCH": 936,
         "HP": 1056,
         "AP": "£318,617",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1399,
         "SN": "Waterlooville",
         "REG": "South East",
         "OR": 1399,
@@ -19595,11 +18198,10 @@ const data = [
         "SCH": 1073,
         "HP": 1304,
         "AP": "£539,545",
-        "SPC": "2.0%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.0%"
     },
     {
+        "UID": 1400,
         "SN": "Jaywick",
         "REG": "East of England",
         "OR": 1400,
@@ -19609,11 +18211,10 @@ const data = [
         "SCH": 572,
         "HP": 1022,
         "AP": "£313,543",
-        "SPC": "-18.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-18.1%"
     },
     {
+        "UID": 1401,
         "SN": "Sutton on Sea and Trusthorpe",
         "REG": "East Midlands",
         "OR": 1401,
@@ -19623,11 +18224,10 @@ const data = [
         "SCH": 1306,
         "HP": 1147,
         "AP": "£441,771",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 1402,
         "SN": "Port Talbot",
         "REG": "Wales",
         "OR": 1402,
@@ -19637,11 +18237,10 @@ const data = [
         "SCH": 749,
         "HP": 1294,
         "AP": "£229,874",
-        "SPC": "5.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.4%"
     },
     {
+        "UID": 1403,
         "SN": "Thurcroft",
         "REG": "Yorkshire and The Humber",
         "OR": 1403,
@@ -19651,11 +18250,10 @@ const data = [
         "SCH": 1083,
         "HP": 1089,
         "AP": "£250,203",
-        "SPC": "1.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.4%"
     },
     {
+        "UID": 1404,
         "SN": "Ystalyfera",
         "REG": "Wales",
         "OR": 1404,
@@ -19665,11 +18263,10 @@ const data = [
         "SCH": 1272,
         "HP": 1423,
         "AP": "£255,884",
-        "SPC": "7.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "7.3%"
     },
     {
+        "UID": 1405,
         "SN": "Maltby",
         "REG": "Yorkshire and The Humber",
         "OR": 1404,
@@ -19679,11 +18276,10 @@ const data = [
         "SCH": 1326,
         "HP": 1237,
         "AP": "£248,401",
-        "SPC": "3.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.1%"
     },
     {
+        "UID": 1406,
         "SN": "Thrapston",
         "REG": "East Midlands",
         "OR": 1406,
@@ -19693,11 +18289,10 @@ const data = [
         "SCH": 1416,
         "HP": 690,
         "AP": "£429,738",
-        "SPC": "2.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.4%"
     },
     {
+        "UID": 1407,
         "SN": "Treorchy",
         "REG": "Wales",
         "OR": 1407,
@@ -19707,11 +18302,10 @@ const data = [
         "SCH": 503,
         "HP": 1228,
         "AP": "£213,792",
-        "SPC": "2.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.3%"
     },
     {
+        "UID": 1408,
         "SN": "Canvey Island",
         "REG": "East of England",
         "OR": 1408,
@@ -19721,11 +18315,10 @@ const data = [
         "SCH": 1054,
         "HP": 766,
         "AP": "£602,020",
-        "SPC": "0.4%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.4%"
     },
     {
+        "UID": 1409,
         "SN": "Whittlesey",
         "REG": "East of England",
         "OR": 1409,
@@ -19735,11 +18328,10 @@ const data = [
         "SCH": 1124,
         "HP": 1388,
         "AP": "£395,236",
-        "SPC": "3.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.9%"
     },
     {
+        "UID": 1410,
         "SN": "Thorne",
         "REG": "Yorkshire and The Humber",
         "OR": 1410,
@@ -19749,11 +18341,10 @@ const data = [
         "SCH": 513,
         "HP": 991,
         "AP": "£247,661",
-        "SPC": "1.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.1%"
     },
     {
+        "UID": 1411,
         "SN": "Brigg",
         "REG": "Yorkshire and The Humber",
         "OR": 1411,
@@ -19763,11 +18354,10 @@ const data = [
         "SCH": 1056,
         "HP": 1229,
         "AP": "£294,825",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1412,
         "SN": "Ackworth Moor Top",
         "REG": "Yorkshire and The Humber",
         "OR": 1412,
@@ -19777,11 +18367,10 @@ const data = [
         "SCH": 1368,
         "HP": 1173,
         "AP": "£340,932",
-        "SPC": "4.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.5%"
     },
     {
+        "UID": 1413,
         "SN": "Pontefract",
         "REG": "Yorkshire and The Humber",
         "OR": 1413,
@@ -19791,11 +18380,10 @@ const data = [
         "SCH": 858,
         "HP": 1090,
         "AP": "£305,631",
-        "SPC": "1.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.6%"
     },
     {
+        "UID": 1414,
         "SN": "Kirk Sandall and Edenthorpe",
         "REG": "Yorkshire and The Humber",
         "OR": 1414,
@@ -19805,11 +18393,10 @@ const data = [
         "SCH": 934,
         "HP": 1019,
         "AP": "£334,025",
-        "SPC": "6.7%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.7%"
     },
     {
+        "UID": 1415,
         "SN": "Kinmel Bay",
         "REG": "Wales",
         "OR": 1415,
@@ -19819,11 +18406,10 @@ const data = [
         "SCH": 1109,
         "HP": 588,
         "AP": "£336,869",
-        "SPC": "0.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "0.5%"
     },
     {
+        "UID": 1416,
         "SN": "Littlestone-on-Sea",
         "REG": "South East",
         "OR": 1416,
@@ -19833,11 +18419,10 @@ const data = [
         "SCH": 1300,
         "HP": 1306,
         "AP": "£547,413",
-        "SPC": "2.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.9%"
     },
     {
+        "UID": 1417,
         "SN": "Mablethorpe",
         "REG": "East Midlands",
         "OR": 1417,
@@ -19847,11 +18432,10 @@ const data = [
         "SCH": 1265,
         "HP": 1298,
         "AP": "£363,591",
-        "SPC": "5.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "5.3%"
     },
     {
+        "UID": 1418,
         "SN": "Brampton (Huntingdonshire)",
         "REG": "East of England",
         "OR": 1418,
@@ -19861,11 +18445,10 @@ const data = [
         "SCH": 1372,
         "HP": 1145,
         "AP": "£520,174",
-        "SPC": "3.5%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "3.5%"
     },
     {
+        "UID": 1419,
         "SN": "Pencoed",
         "REG": "Wales",
         "OR": 1419,
@@ -19875,11 +18458,10 @@ const data = [
         "SCH": 1087,
         "HP": 1039,
         "AP": "£356,770",
-        "SPC": "6.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "6.8%"
     },
     {
+        "UID": 1420,
         "SN": "Chatteris",
         "REG": "East of England",
         "OR": 1420,
@@ -19889,11 +18471,10 @@ const data = [
         "SCH": 1379,
         "HP": 1422,
         "AP": "£405,126",
-        "SPC": "9.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "9.8%"
     },
     {
+        "UID": 1421,
         "SN": "Sawtry",
         "REG": "East of England",
         "OR": 1421,
@@ -19903,11 +18484,10 @@ const data = [
         "SCH": 1411,
         "HP": 1287,
         "AP": "£477,564",
-        "SPC": "4.6%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "4.6%"
     },
     {
+        "UID": 1422,
         "SN": "Havercroft and Ryhill",
         "REG": "Yorkshire and The Humber",
         "OR": 1422,
@@ -19917,11 +18497,10 @@ const data = [
         "SCH": 1274,
         "HP": 1411,
         "AP": "£262,597",
-        "SPC": "11.1%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "11.1%"
     },
     {
+        "UID": 1423,
         "SN": "Harworth and Bircotes",
         "REG": "East Midlands",
         "OR": 1423,
@@ -19931,11 +18510,10 @@ const data = [
         "SCH": 1330,
         "HP": 1071,
         "AP": "£285,285",
-        "SPC": "-4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.9%"
     },
     {
+        "UID": 1424,
         "SN": "Goldthorpe",
         "REG": "Yorkshire and The Humber",
         "OR": 1424,
@@ -19945,11 +18523,10 @@ const data = [
         "SCH": 1284,
         "HP": 867,
         "AP": "£195,042",
-        "SPC": "-11.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-11.3%"
     },
     {
+        "UID": 1425,
         "SN": "Immingham",
         "REG": "Yorkshire and The Humber",
         "OR": 1425,
@@ -19959,11 +18536,10 @@ const data = [
         "SCH": 1223,
         "HP": 1049,
         "AP": "£236,296",
-        "SPC": "-4.9%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-4.9%"
     },
     {
+        "UID": 1426,
         "SN": "Spalding",
         "REG": "East Midlands",
         "OR": 1426,
@@ -19973,11 +18549,10 @@ const data = [
         "SCH": 964,
         "HP": 1297,
         "AP": "£329,986",
-        "SPC": "2.8%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "2.8%"
     },
     {
+        "UID": 1427,
         "SN": "Featherstone (Wakefield)",
         "REG": "Yorkshire and The Humber",
         "OR": 1427,
@@ -19987,11 +18562,10 @@ const data = [
         "SCH": 1236,
         "HP": 1229,
         "AP": "£259,614",
-        "SPC": "1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "1.3%"
     },
     {
+        "UID": 1428,
         "SN": "Wick (Arun)",
         "REG": "South East",
         "OR": 1428,
@@ -20001,11 +18575,10 @@ const data = [
         "SCH": 1402,
         "HP": 1121,
         "AP": "£529,174",
-        "SPC": "-1.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-1.3%"
     },
     {
+        "UID": 1429,
         "SN": "Knottingley",
         "REG": "Yorkshire and The Humber",
         "OR": 1429,
@@ -20015,8 +18588,7 @@ const data = [
         "SCH": 1248,
         "HP": 914,
         "AP": "£238,533",
-        "SPC": "-11.3%",
-        "FIELD11": "",
-        "FIELD12": ""
+        "SPC": "-11.3%"
     }
 ]
+export default data;

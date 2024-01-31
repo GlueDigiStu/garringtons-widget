@@ -78,20 +78,21 @@ input{
 }
 
 .result{
-  background-color:#BB775A;
-  color: white;
+  /*background-color:#BB775A;*/
+  /*color: white;*/
   padding: 5px;
   float: right;
-  border-radius: 5px;
+  font-size: 21px;
+  /*border-radius: 5px;*/
 }
 
 hr{
-  color: #BB775A;
-  border: 1px solid #BB775A;
+  color: #2D2C2E;
+  border: 1px solid #2D2C2E;
 }
 
 .result span {
-  color: white;
+  color: #2D2C2E;
 }
 
 .mini{
@@ -115,10 +116,10 @@ hr{
 
 .data-box{
   flex: 1 1 calc(50% - 10px);
-  background: #fff;
-  padding: 10px;
+  background: #C6BDAC;
+  padding: 20px;
   margin: 5px;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 .data-box p{
@@ -127,6 +128,7 @@ hr{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 0;
 }
 
 .data-box button{
@@ -136,20 +138,30 @@ hr{
   cursor: pointer;
 }
 .data-box .pin-me{
-  border: 1px solid black;
+  border: 1px solid #2D2C2E;
   padding: 5px;
   transition: all 0.2s;
+  background-color: #2D2C2E;
+  color: white;
 }
 
 .data-box .pin-me:hover{
-  background-color: black;
-  color: white;
+  background-color: transparent;
+  color: #2D2C2E;
   transition: all 0.2s;
 }
 
 .data-box h1{
   margin-top: 0;
-  color: #BB775A;
+  color: #2D2C2E;;
+}
+
+.data-box p.large{
+  font-size: 1.1875rem;
+}
+
+.data-box .result.large{
+  font-size: 1.875rem;
 }
 
 .select-region{
@@ -173,6 +185,11 @@ hr{
   opacity: 0.5;
   border: none;
   cursor: pointer;
+  font-family: ivyjournal, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .tab-buttons button.active{

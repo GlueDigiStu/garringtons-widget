@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBox from "./components/search-box";
-import data from "./data/data-2022";
+import data from "./data/data-2024-en";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
 import SelectRegion from "./components/select-region";

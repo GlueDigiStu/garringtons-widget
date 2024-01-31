@@ -33,7 +33,7 @@ class SelectRegion extends React.Component{
                     <option value="South West">South West</option>
                     <option value="Wales">Wales</option>
                     <option value="West Midlands">West Midlands</option>
-                    <option value="Yorkshire and Humberside">Yorkshire and Humberside</option>
+                    <option value="Yorkshire and The Humber">Yorkshire and The Humber</option>
                 </select>
             </div>
         )

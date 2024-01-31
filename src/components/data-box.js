@@ -9,33 +9,34 @@ class DataBox extends React.Component{
 
 
         if (val.length > 0) {
-            let PBC = null;
-            if(val[0].PB === "Over £650k"){
-                PBC = "106";
-            }else if(val[0].PB === "£350k-£650k"){
-                PBC = "605"
-            } else if(val[0].PB === "less than £350k"){
-                PBC = "661"
-            } else{
-                PBC = null;
-            }
+        //     let PBC = null;
+        //     if(val[0].PB === "Over £650k"){
+        //         PBC = "106";
+        //     }else if(val[0].PB === "£350k-£650k"){
+        //         PBC = "605"
+        //     } else if(val[0].PB === "less than £350k"){
+        //         PBC = "661"
+        //     } else{
+        //         PBC = null;
+        //     }
             return (
                 <div className="data-box">
                     {!this.props.unpin ?
                     <button className="pin-me" onClick={this.handleClick}>Pin Me</button> :
                         <button onClick={this.handleClick}><i className="fas fa-times"></i></button>}
                     <h1>{val[0].SN}</h1>
-                    <p>Overall rank: <span className="result">{val[0].OR} /<span className="mini"> 1372</span></span> </p>
-                    <p>Change since last year: <span className="result">{val[0].CHANGE * -1}</span> </p>
+                    <p className='large'>Overall rank: <span className="result large">{val[0].OR} /<span className="mini"> 1429</span></span> </p>
+                    {/*<p>Change since last year: <span className="result">{val[0].CHANGE * -1}</span> </p>*/}
                     <hr/>
-                    <p>Natural beauty rank: <span className="result">{val[0].PE} /<span className="mini"> 1372</span></span></p>
-                    <p>Quality of life rank: <span className="result">{val[0].QL} /<span className="mini"> 1372</span></span></p>
-                    <p>Architectural beauty rank: <span className="result">{val[0].AC} /<span className="mini"> 1372</span></span></p>
-                    <p>Green rank: <span className="result">{val[0].GGR} /<span className="mini"> 1372</span></span></p>
+                    <p>Natural Environment: <span className="result">{val[0].NE}</span></p>
+                    <p>Wellbeing: <span className="result">{val[0].WB}</span></p>
+                    <p>Heritage / Culture: <span className="result">{val[0].HC}</span></p>
+                    <p>Schools, employment and connectivity: <span className="result">{val[0].SCH}</span></p>
+                    <p>House Price Quality and Value: <span className="result">{val[0].HP}</span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <hr/>
-                    <p>Average family home cost: <span className="result">{val[0].PB}</span></p>
-                    <p>Rank in price band: <span className="result">{val[0].PBR} / <span className="mini"> {PBC}</span></span></p>
+                    <p>Average family home cost: <span className="result">{val[0].AP}</span></p>
+                    <p>Average sales price change in last 12 months: <span className="result">{val[0].SPC}</span></p>
                 </div>
             )
         } else {
