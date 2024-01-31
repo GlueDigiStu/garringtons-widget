@@ -112,7 +112,7 @@ class App extends React.Component {
             }
         }
 
-        const currentTab = this.state.activeTab;
+        // const currentTab = this.state.activeTab;
 
         return (
             <div className="App">
