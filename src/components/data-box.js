@@ -31,7 +31,7 @@ class DataBox extends React.Component{
                     <p>Natural Environment: <span className="result">{val[0].NE}</span></p>
                     <p>Wellbeing: <span className="result">{val[0].WB}</span></p>
                     <p>Heritage / Culture: <span className="result">{val[0].HC}</span></p>
-                    <p>Schools, employment and connectivity: <span className="result">{val[0].SCH}</span></p>
+                    <p>Schools, Employment and Connectivity: <span className="result">{val[0].SCH}</span></p>
                     <p>House Price Quality and Value: <span className="result">{val[0].HP}</span></p>
                     {/*<p>Overall Ranking: </p>*/}
                     <hr/>

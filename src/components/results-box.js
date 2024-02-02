@@ -12,7 +12,7 @@ import React from 'react'
         } else if (this.props.query.length > 2 && this.props.data.length === 0 ) {
             return (
                 <div className='results-text'>
-                    <p>Hmm, we can’t seem to find that one. Try somewhere nearby.</p>
+                    <p>Unfortunately, your search has not made our results table. Please try searching again with somewhere nearby.</p>
                 </div>
             )
         } else {
