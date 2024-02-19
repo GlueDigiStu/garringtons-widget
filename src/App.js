@@ -4,7 +4,10 @@ import data from "./data/data-2024-en";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
 import SelectRegion from "./components/select-region";
+import SelectMetric from "./components/select-metric";
+import SelectOrder from "./components/select-order";
 import SelectPlaceInRegion from "./components/select-place-in-region";
+import ListAllPlaces from "./components/list-all-places";
 
 
 class App extends React.Component {
@@ -16,9 +19,11 @@ class App extends React.Component {
             _data: [],
             _selected: {},
             _pinned: {},
-            _regionPlaces : [],
+            _regionPlaces: [],
             activeTab: 'search',
-            selectedRegion: ''
+            selectedRegion: '',
+            selectedOrder: 'asc',
+            selectedMetric: 'OR'
         }
     }
 
@@ -36,10 +41,20 @@ class App extends React.Component {
         )
     }
 
-    handleSelectRegion(value){
+    handleSelectRegion(value) {
         console.log(value);
         const matches = this.state.data.filter(v => v.REG === value)
         this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value});
+    }
+
+    handleSelectMetric(value) {
+        console.log(value);
+        this.setState({selectedMetric: value});
+    }
+
+    handleSelectOrder(value) {
+        console.log(value);
+        this.setState({selectedOrder: value});
     }
 
     changeActiveTab(value) {
@@ -55,7 +70,7 @@ class App extends React.Component {
         })
     }
 
-    handleRegionPlaceClick(value){
+    handleRegionPlaceClick(value) {
         const selected = this.state._data.filter(v => v.UID === value)
         this.setState({_selected: selected, searchValue: ''}, () => {
             console.log(this.state)
@@ -90,24 +105,56 @@ class App extends React.Component {
     render() {
 
         const activeTab = () => {
+            console.log(this.state.data);
             if (this.state.activeTab === 'search') {
                 return <div>
                     <SearchBox
-                    onFormSubmit={(e) => this.onFormSubmit(e)}
-                    handleKeyUp={(value) => this.handleKeyUp(value)}
-                    value={this.state.searchValue}/>
+                        onFormSubmit={(e) => this.onFormSubmit(e)}
+                        handleKeyUp={(value) => this.handleKeyUp(value)}
+                        value={this.state.searchValue}/>
                     <ResultsBox
                         handleClick={(value) => this.handleClick(value)}
                         data={this.state._data}
                         query={this.state.searchValue}/></div>
-            } else {
+            } else if (this.state.activeTab === 'browse') {
                 return <div><SelectRegion
-                            selectedRegion={this.state.selectedRegion}
-                            handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
-                <SelectPlaceInRegion
-                    handleClick={(value) => this.handleRegionPlaceClick(value)}
-                    places={this.state._regionPlaces}
-                />
+                    selectedRegion={this.state.selectedRegion}
+                    handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
+                    <SelectPlaceInRegion
+                        handleClick={(value) => this.handleRegionPlaceClick(value)}
+                        places={this.state._regionPlaces}
+                    />
+                </div>
+            } else {
+                return <div>
+                    <div className='sort-filters'>
+                        <div>
+                            <p>Region</p>
+                            <SelectRegion
+                                selectedRegion={this.state.selectedRegion}
+                                handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
+                        </div>
+                        <div>
+                            <p>Metric to order by</p>
+                            <SelectMetric
+                                handleSelectMetric={(value) => this.handleSelectMetric(value)}/>
+                        </div>
+                        <div>
+                            <p>Order</p>
+                            <SelectOrder
+                                handleSelectOrder={(value) => this.handleSelectOrder(value)}/>
+                        </div>
+                    </div>
+                    <p>Click a place name below to see additional information</p>
+
+                    <div>
+                        <ListAllPlaces
+                            places={this.state._data.length > 0 ? this.state._data : this.state.data}
+                            metric={this.state.selectedMetric}
+                            order={this.state.selectedOrder}
+                        />
+
+                    </div>
                 </div>
             }
         }
@@ -127,6 +174,11 @@ class App extends React.Component {
                         className={currentTab === 'browse' ? 'active' : null}
                         onClick={() => this.changeActiveTab('browse')}>
                         Browse by region
+                    </button>
+                    <button
+                        className={currentTab === 'sort' ? 'active' : null}
+                        onClick={() => this.changeActiveTab('sort')}>
+                        Sort by Ranking
                     </button>
                 </div>
 
