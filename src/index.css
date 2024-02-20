@@ -263,7 +263,7 @@ hr{
   }
 
     .tab-buttons{
-        justify-content: center;
+        justify-content: flex-start;
       align-items: center;
     }
 
@@ -274,6 +274,7 @@ hr{
   .tab-buttons > button.active{
     display: block;
     flex-basis: 90%;
+    max-width: calc(100% - 50px);
   }
 
     .mobile-toggle{
@@ -298,6 +299,9 @@ hr{
 
     .tab-buttons.mobile-hide .mobile-toggle .show{
         display: block;
+      position: absolute;
+      top: 22px;
+      right: 8px;
     }
 
   .tab-buttons.mobile-show{
@@ -309,6 +313,7 @@ hr{
     .tab-buttons.mobile-show > button{
       display: block;
       flex-basis: 90%;
+      max-width: calc(100% - 50px);
     }
 
     .mobile-toggle button{

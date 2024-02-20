@@ -184,7 +184,7 @@ class App extends React.Component {
                     <button
                         className={currentTab === 'sort' ? 'active' : null}
                         onClick={() => this.changeActiveTab('sort')}>
-                        Sort by Ranking
+                        Sort by ranking
                     </button>
 
                     <div className='mobile-toggle'>
