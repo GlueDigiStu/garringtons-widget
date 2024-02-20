@@ -313,7 +313,7 @@ hr{
     .tab-buttons.mobile-show > button{
       display: block;
       flex-basis: 90%;
-      max-width: calc(100% - 50px);
+      max-width: calc(100% - 65px);
     }
 
     .mobile-toggle button{
