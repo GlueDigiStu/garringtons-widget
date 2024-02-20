@@ -23,7 +23,8 @@ class App extends React.Component {
             activeTab: 'search',
             selectedRegion: '',
             selectedOrder: 'asc',
-            selectedMetric: 'OR'
+            selectedMetric: 'OR',
+            mobileShowMenu: false
         }
     }
 
@@ -59,7 +60,8 @@ class App extends React.Component {
 
     changeActiveTab(value) {
         this.setState({
-            activeTab: value
+            activeTab: value,
+            mobileShowMenu: false
         })
     }
 
@@ -100,6 +102,10 @@ class App extends React.Component {
             this.handleClick(this.state._data[0].UID)
         }
 
+    }
+
+    handleMobileToggle() {
+        this.setState({mobileShowMenu: !this.state.mobileShowMenu})
     }
 
     render() {
@@ -164,7 +170,7 @@ class App extends React.Component {
         return (
             <div className="App">
 
-                <div className="tab-buttons">
+                <div className={this.state.mobileShowMenu ? ' tab-buttons mobile-show' : 'tab-buttons mobile-hide'}>
                     <button
                         className={currentTab === 'search' ? 'active' : null}
                         onClick={() => this.changeActiveTab('search')}>
@@ -180,6 +186,35 @@ class App extends React.Component {
                         onClick={() => this.changeActiveTab('sort')}>
                         Sort by Ranking
                     </button>
+
+                    <div className='mobile-toggle'>
+                        <button className='show'
+                        onClick={() => this.handleMobileToggle()}
+                        >
+                            <svg width="35px" height="35px" viewBox="0 0 35 35" >
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A" stroke-width="3">
+                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line"></line>
+                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy" transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+
+                        <button
+                            onClick={() => this.handleMobileToggle()}
+                            className='hide'>
+                            <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1">
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A" stroke-width="3">
+                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy" transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+
+                    </div>
+
                 </div>
 
                 {activeTab()}

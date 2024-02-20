@@ -66,7 +66,7 @@ class ListAllPlaces extends React.Component {
             return sortedData.map((place) => {
                 return (
                     <div className='place-row' key={place.UID} onClick={() => this.toggleExtraContent(place.UID)}>
-                        <h1>{place.SN}</h1>
+                        <h1 className='place-name'>{place.SN}</h1>
                         <h1>{place[this.props.metric]}</h1>
                         {this.state.expandedPlaces[place.UID] && ( // Check the visibility state for this place
 
