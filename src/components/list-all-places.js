@@ -81,7 +81,7 @@ class ListAllPlaces extends React.Component {
                                 <p>House Price Quality & Value: <span className="result">{place.HP}</span></p>
                                 {/*<p>Overall Ranking: </p>*/}
                                 <p>Average family home cost: <span className="result">{place.AP}</span></p>
-                                <p>Average sales price change in last 12 months: <span
+                                <p>Sales price change in last 12 months: <span
                                     className="result">{place.SPC}</span></p>
                             </div>
                         )}

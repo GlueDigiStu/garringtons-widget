@@ -4,6 +4,7 @@ import data from "./data/data-2024-en";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
 import SelectRegion from "./components/select-region";
+import SelectCounty from "./components/select-county";
 import SelectMetric from "./components/select-metric";
 import SelectOrder from "./components/select-order";
 import SelectPlaceInRegion from "./components/select-place-in-region";
@@ -22,9 +23,11 @@ class App extends React.Component {
             _regionPlaces: [],
             activeTab: 'search',
             selectedRegion: '',
+            selectedCounty: '',
             selectedOrder: 'asc',
             selectedMetric: 'OR',
-            mobileShowMenu: false
+            mobileShowMenu: false,
+            countiesList: []
         }
     }
 
@@ -45,7 +48,17 @@ class App extends React.Component {
     handleSelectRegion(value) {
         console.log(value);
         const matches = this.state.data.filter(v => v.REG === value)
-        this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value});
+        let counties = matches.map(v => v.COU);
+        counties= counties.filter((value, index, array) => array.indexOf(value) === index);
+
+        this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value, countiesList: counties});
+        console.log(this.state.countiesList)
+    }
+
+    handleSelectCounty(value) {
+        console.log(value);
+        const matches = this.state.data.filter(v => v.COU === value)
+        this.setState({_data: matches, selectedCounty: value});
     }
 
     handleSelectMetric(value) {
@@ -139,6 +152,13 @@ class App extends React.Component {
                             <SelectRegion
                                 selectedRegion={this.state.selectedRegion}
                                 handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
+                        </div>
+                        <div>
+                            <p>County</p>
+                            <SelectCounty
+                                countiesList={this.state.countiesList}
+                                selectedCounty={this.state.selectedCounty}
+                                handleSelectCounty={(value) => this.handleSelectCounty(value)}/>
                         </div>
                         <div>
                             <p>Metric to order by</p>
