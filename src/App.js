@@ -154,7 +154,7 @@ class App extends React.Component {
                                 handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
                         </div>
                         <div>
-                            <p>County</p>
+                            <p>County / Unitary Authority</p>
                             <SelectCounty
                                 countiesList={this.state.countiesList}
                                 selectedCounty={this.state.selectedCounty}
