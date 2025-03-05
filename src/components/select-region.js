@@ -15,10 +15,10 @@ class SelectRegion extends React.Component{
         })
         this.props.handleSelectRegion(e.target.value)
     }
-
     render(){
+        console.log(this.props)
         return(
-            <div>
+            <div className='select-region-container'>
                 <select
                     className="select-region"
                     value={this.props.selectedRegion}
@@ -35,6 +35,10 @@ class SelectRegion extends React.Component{
                     <option value="West Midlands">West Midlands</option>
                     <option value="Yorkshire and The Humber">Yorkshire and The Humber</option>
                 </select>
+                <div className='prime-only-container'>
+                    <label style={{whiteSpace: 'nowrap'}} htmlFor="primeOnly">Prime Locations Only</label>
+                <input style={{margin: 0}} type="checkbox" id="primeOnly" name="primeOnly" checked={this.props.primeOnly} onChange={(e) => this.props.handlePrimeOnly(e.target.checked)} />
+                </div>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchBox from "./components/search-box";
-import data from "./data/data-2024-en";
+import data from "./data/data-2025-en";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
 import SelectRegion from "./components/select-region";
@@ -46,13 +46,32 @@ class App extends React.Component {
     }
 
     handleSelectRegion(value) {
-        console.log(value);
+        // console.log(value);
         const matches = this.state.data.filter(v => v.REG === value)
         let counties = matches.map(v => v.COU);
         counties= counties.filter((value, index, array) => array.indexOf(value) === index);
+        console.log('primeOnly', this.state.primeOnly);
 
-        this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value, countiesList: counties});
+
+        this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value, countiesList: counties}, () => {
+            if(this.state.primeOnly){
+                this.handlePrimeOnly(true)
+            }
+        });
         console.log(this.state.countiesList)
+    }
+
+    handlePrimeOnly(value) {
+        this.setState({primeOnly: value});
+        //Remove any places that are not prime
+        if (value === true) {
+            const matches = this.state._data.filter(v => v.PRIME === 'PRIME')
+            const filteredRegionPlaces = this.state._regionPlaces.filter(v => v.PRIME === 'PRIME')
+            this.setState({_data: matches, _regionPlaces: filteredRegionPlaces})
+        } else {
+            this.handleSelectRegion(this.state.selectedRegion)
+            // this.setState({_data: this.state.data})
+        }
     }
 
     handleSelectCounty(value) {
@@ -124,7 +143,6 @@ class App extends React.Component {
     render() {
 
         const activeTab = () => {
-            console.log(this.state.data);
             if (this.state.activeTab === 'search') {
                 return <div>
                     <SearchBox
@@ -138,6 +156,8 @@ class App extends React.Component {
             } else if (this.state.activeTab === 'browse') {
                 return <div><SelectRegion
                     selectedRegion={this.state.selectedRegion}
+                    handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
+                    primeOnly={this.state.primeOnly}
                     handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
                     <SelectPlaceInRegion
                         handleClick={(value) => this.handleRegionPlaceClick(value)}
@@ -151,6 +171,8 @@ class App extends React.Component {
                             <p>Region</p>
                             <SelectRegion
                                 selectedRegion={this.state.selectedRegion}
+                                handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
+                                primeOnly={this.state.primeOnly}
                                 handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
                         </div>
                         <div>
