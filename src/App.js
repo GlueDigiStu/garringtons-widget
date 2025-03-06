@@ -27,7 +27,8 @@ class App extends React.Component {
             selectedOrder: 'asc',
             selectedMetric: 'OR',
             mobileShowMenu: false,
-            countiesList: []
+            countiesList: [],
+            noResultsText: ''
         }
     }
 
@@ -49,12 +50,12 @@ class App extends React.Component {
         // console.log(value);
         const matches = this.state.data.filter(v => v.REG === value)
         let counties = matches.map(v => v.COU);
-        counties= counties.filter((value, index, array) => array.indexOf(value) === index);
+        counties = counties.filter((value, index, array) => array.indexOf(value) === index);
         console.log('primeOnly', this.state.primeOnly);
 
 
         this.setState({_regionPlaces: matches, _data: matches, selectedRegion: value, countiesList: counties}, () => {
-            if(this.state.primeOnly){
+            if (this.state.primeOnly) {
                 this.handlePrimeOnly(true)
             }
         });
@@ -64,19 +65,60 @@ class App extends React.Component {
     handlePrimeOnly(value) {
         this.setState({primeOnly: value});
         //Remove any places that are not prime
+        let matches;
         if (value === true) {
-            const matches = this.state._data.filter(v => v.PRIME === 'PRIME')
-            const filteredRegionPlaces = this.state._regionPlaces.filter(v => v.PRIME === 'PRIME')
+            if (this.state.selectedRegion) {
+                matches = this.state._data.filter(v => v.PRIME === 'PRIME')
+            } else {
+                matches = this.state.data.filter(v => v.PRIME === 'PRIME')
+            }
+            console.log('matches', matches)
+            let filteredRegionPlaces = this.state._regionPlaces.filter(v => v.PRIME === 'PRIME')
+            if (this.state.selectedCounty) {
+                matches = filteredRegionPlaces.filter(v => v.COU === this.state.selectedCounty)
+            }
+            if (matches.length === 0) {
+                this.setState({noResultsText: 'No prime locations found in this region'})
+            } else {
+                this.setState({noResultsText: ''})
+            }
             this.setState({_data: matches, _regionPlaces: filteredRegionPlaces})
         } else {
-            this.handleSelectRegion(this.state.selectedRegion)
+            if (this.state.selectedRegion) {
+                matches = this.state.data.filter(v => v.REG === this.state.selectedRegion)
+
+                if (this.state.selectedCounty) {
+                    matches = matches.filter(v => v.COU === this.state.selectedCounty)
+                }
+
+                this.setState({_data: matches, _regionPlaces: matches})
+
+            } else {
+                this.setState({_data: this.state.data, _regionPlaces: this.state.data})
+            }
+            this.setState({noResultsText: ''})
+
+
             // this.setState({_data: this.state.data})
         }
     }
 
-    handleSelectCounty(value) {
+    async handleSelectCounty(value) {
         console.log(value);
-        const matches = this.state.data.filter(v => v.COU === value)
+        let matches;
+        if (value) {
+            matches = this.state.data.filter(v => v.COU === value)
+        } else {
+            matches = this.state.data.filter(v => v.REG === this.state.selectedRegion)
+        }
+        if (this.state.primeOnly) {
+            matches = matches.filter(v => v.PRIME === 'PRIME')
+        }
+        if (matches.length === 0) {
+            await this.setState({noResultsText: 'No prime locations found in this region'})
+        } else {
+            await this.setState({noResultsText: ''})
+        }
         this.setState({_data: matches, selectedCounty: value});
     }
 
@@ -141,7 +183,6 @@ class App extends React.Component {
     }
 
     render() {
-
         const activeTab = () => {
             if (this.state.activeTab === 'search') {
                 return <div>
@@ -196,11 +237,14 @@ class App extends React.Component {
                     <p>Click a place name below to see additional information</p>
 
                     <div>
-                        <ListAllPlaces
-                            places={this.state._data.length > 0 ? this.state._data : this.state.data}
-                            metric={this.state.selectedMetric}
-                            order={this.state.selectedOrder}
-                        />
+                        {this.state.noResultsText !== '' ?
+                            <div className='results-text'><p>{this.state.noResultsText}</p></div> :
+                            <ListAllPlaces
+                                places={this.state._data.length > 0 ? this.state._data : this.state.data}
+                                metric={this.state.selectedMetric}
+                                order={this.state.selectedOrder}
+                            />
+                        }
 
                     </div>
                 </div>
@@ -231,13 +275,16 @@ class App extends React.Component {
 
                     <div className='mobile-toggle'>
                         <button className='show'
-                        onClick={() => this.handleMobileToggle()}
+                                onClick={() => this.handleMobileToggle()}
                         >
-                            <svg width="35px" height="35px" viewBox="0 0 35 35" >
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A" stroke-width="3">
+                            <svg width="35px" height="35px" viewBox="0 0 35 35">
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                   stroke-linecap="square">
+                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A"
+                                       stroke-width="3">
                                         <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line"></line>
-                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy" transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
+                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy"
+                                              transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
                                     </g>
                                 </g>
                             </svg>
@@ -247,9 +294,12 @@ class App extends React.Component {
                             onClick={() => this.handleMobileToggle()}
                             className='hide'>
                             <svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1">
-                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
-                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A" stroke-width="3">
-                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy" transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                   stroke-linecap="square">
+                                    <g id="Group" transform="translate(1.000000, 1.000000)" stroke="#BB775A"
+                                       stroke-width="3">
+                                        <line x1="16.5" y1="0.5" x2="16.5" y2="32.5" id="Line-Copy"
+                                              transform="translate(16.500000, 16.500000) rotate(-90.000000) translate(-16.500000, -16.500000) "></line>
                                     </g>
                                 </g>
                             </svg>
