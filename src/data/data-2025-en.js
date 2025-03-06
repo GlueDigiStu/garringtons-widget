@@ -10653,7 +10653,7 @@ const data = [
     {
         "UID": 710,
         "SN": "Barton on Sea",
-        "COU": "Dorset",
+        "COU": "Hampshire",
         "REG": "South East",
         "PRIME": "",
         "OR": 710,
