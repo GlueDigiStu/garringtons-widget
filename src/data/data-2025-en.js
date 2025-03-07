@@ -1337,7 +1337,7 @@ const data = [
     },
     {
         "UID": 89,
-        "SN": "LB Camden",
+        "SN": "London Borough of Camden",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "PRIME",
@@ -1412,7 +1412,7 @@ const data = [
     },
     {
         "UID": 94,
-        "SN": "LB Hackney",
+        "SN": "London Borough of Hackney",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -1487,7 +1487,7 @@ const data = [
     },
     {
         "UID": 99,
-        "SN": "RB Kensington and Chelsea",
+        "SN": "Royal Borough of Kensington and Chelsea",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "PRIME",
@@ -1637,7 +1637,7 @@ const data = [
     },
     {
         "UID": 109,
-        "SN": "LB Merton",
+        "SN": "London Borough of Merton",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -1667,7 +1667,7 @@ const data = [
     },
     {
         "UID": 111,
-        "SN": "LB Wandsworth",
+        "SN": "",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -2072,7 +2072,7 @@ const data = [
     },
     {
         "UID": 138,
-        "SN": "LB Barnet",
+        "SN": "London Borough of Barnet",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -2147,7 +2147,7 @@ const data = [
     },
     {
         "UID": 143,
-        "SN": "LB Richmond upon Thames",
+        "SN": "London Borough of Richmond upon Thames",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -2222,7 +2222,7 @@ const data = [
     },
     {
         "UID": 148,
-        "SN": "LB Haringey",
+        "SN": "London Borough of Haringey",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -2492,7 +2492,7 @@ const data = [
     },
     {
         "UID": 166,
-        "SN": "LB Bromley",
+        "SN": "London Borough of Bromley",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -2972,7 +2972,7 @@ const data = [
     },
     {
         "UID": 198,
-        "SN": "LB Islington",
+        "SN": "London Borough of Islington",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -3257,7 +3257,7 @@ const data = [
     },
     {
         "UID": 217,
-        "SN": "LB Hammersmith and Fulham",
+        "SN": "London Borough of Hammersmith and Fulham",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "PRIME",
@@ -3617,7 +3617,7 @@ const data = [
     },
     {
         "UID": 241,
-        "SN": "LB Ealing",
+        "SN": "London Borough of Ealing",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -3902,7 +3902,7 @@ const data = [
     },
     {
         "UID": 260,
-        "SN": "LB Harrow",
+        "SN": "London Borough of Harrow",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4097,7 +4097,7 @@ const data = [
     },
     {
         "UID": 273,
-        "SN": "LB Lambeth",
+        "SN": "London Borough of Lambeth",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4142,7 +4142,7 @@ const data = [
     },
     {
         "UID": 276,
-        "SN": "LB Southwark",
+        "SN": "London Borough of Southwark",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4202,7 +4202,7 @@ const data = [
     },
     {
         "UID": 280,
-        "SN": "RB Kingston upon Thames",
+        "SN": "Royal Borough of Kingston upon Thames",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4307,7 +4307,7 @@ const data = [
     },
     {
         "UID": 287,
-        "SN": "LB Lewisham",
+        "SN": "London Borough of Lewisham",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4352,7 +4352,7 @@ const data = [
     },
     {
         "UID": 290,
-        "SN": "LB Croydon",
+        "SN": "London Borough of Croydon",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4487,7 +4487,7 @@ const data = [
     },
     {
         "UID": 299,
-        "SN": "LB Tower Hamlets",
+        "SN": "London Borough of Tower Hamlets",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4667,7 +4667,7 @@ const data = [
     },
     {
         "UID": 311,
-        "SN": "LB Sutton",
+        "SN": "London Borough of Sutton",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4697,7 +4697,7 @@ const data = [
     },
     {
         "UID": 313,
-        "SN": "LB Brent",
+        "SN": "London Borough of Brent",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -4803,7 +4803,7 @@ const data = [
     {
         "UID": 320,
         "SN": "Aveley",
-        "COU": "Greater London",
+        "COU": "Essex",
         "REG": "East of England",
         "PRIME": "",
         "OR": 320,
@@ -5672,7 +5672,7 @@ const data = [
     },
     {
         "UID": 378,
-        "SN": "LB Waltham Forest",
+        "SN": "London Borough of Waltham Forest",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -5942,7 +5942,7 @@ const data = [
     },
     {
         "UID": 396,
-        "SN": "LB Redbridge",
+        "SN": "London Borough of Redbridge",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -6047,7 +6047,7 @@ const data = [
     },
     {
         "UID": 403,
-        "SN": "RB Greenwich",
+        "SN": "Royal Borough of Greenwich",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -8507,7 +8507,7 @@ const data = [
     },
     {
         "UID": 567,
-        "SN": "LB Enfield",
+        "SN": "London Borough of Enfield",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -9632,7 +9632,7 @@ const data = [
     },
     {
         "UID": 642,
-        "SN": "LB Hounslow",
+        "SN": "London Borough of Hounslow",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -11507,7 +11507,7 @@ const data = [
     },
     {
         "UID": 767,
-        "SN": "LB Newham",
+        "SN": "London Borough of Newham",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -11747,7 +11747,7 @@ const data = [
     },
     {
         "UID": 783,
-        "SN": "LB Bexley",
+        "SN": "London Borough of Bexley",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -17357,7 +17357,7 @@ const data = [
     },
     {
         "UID": 1157,
-        "SN": "LB Hillingdon",
+        "SN": "London Borough of Hillingdon",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -17597,7 +17597,7 @@ const data = [
     },
     {
         "UID": 1173,
-        "SN": "LB Barking and Dagenham",
+        "SN": "London Borough of Barking and Dagenham",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
@@ -18977,7 +18977,7 @@ const data = [
     },
     {
         "UID": 1265,
-        "SN": "LB Havering",
+        "SN": "London Borough of Havering",
         "COU": "Greater London",
         "REG": "Greater London",
         "PRIME": "",
