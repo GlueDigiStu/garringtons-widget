@@ -14,22 +14,24 @@ import ListAllPlaces from "./components/list-all-places";
 class App extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            searchValue: '',
-            data: data,
-            _data: [],
-            _selected: {},
-            _pinned: {},
-            _regionPlaces: [],
-            activeTab: 'search',
-            selectedRegion: '',
-            selectedCounty: '',
-            selectedOrder: 'asc',
-            selectedMetric: 'OR',
-            mobileShowMenu: false,
-            countiesList: [],
-            noResultsText: ''
-        }
+        this.state = this.defaultState
+    }
+
+    defaultState = {
+        searchValue: '',
+        data: data,
+        _data: [],
+        _selected: {},
+        _pinned: {},
+        _regionPlaces: [],
+        activeTab: 'search',
+        selectedRegion: '',
+        selectedCounty: '',
+        selectedOrder: 'asc',
+        selectedMetric: 'OR',
+        mobileShowMenu: false,
+        countiesList: [],
+        noResultsText: ''
     }
 
     handleKeyUp(value) {
@@ -51,6 +53,17 @@ class App extends React.Component {
         const matches = this.state.data.filter(v => v.REG === value)
         let counties = matches.map(v => v.COU);
         counties = counties.filter((value, index, array) => array.indexOf(value) === index);
+
+        //Sort the counties alphabetically
+
+        counties.sort((a, b) => {
+            if (a < b) {
+                return -1;
+            } else {
+                return 1;
+            }
+        });
+
         console.log('primeOnly', this.state.primeOnly);
 
 
@@ -84,19 +97,22 @@ class App extends React.Component {
             }
             this.setState({_data: matches, _regionPlaces: filteredRegionPlaces})
         } else {
-            if (this.state.selectedRegion) {
-                matches = this.state.data.filter(v => v.REG === this.state.selectedRegion)
+            this.setState({noResultsText: ''}, () => {
 
-                if (this.state.selectedCounty) {
-                    matches = matches.filter(v => v.COU === this.state.selectedCounty)
+                if (this.state.selectedRegion) {
+                    matches = this.state.data.filter(v => v.REG === this.state.selectedRegion)
+
+                    if (this.state.selectedCounty) {
+                        matches = matches.filter(v => v.COU === this.state.selectedCounty)
+                    }
+
+                    this.setState({_data: matches, _regionPlaces: matches})
+
+                } else {
+                    this.setState({_data: this.state.data, _regionPlaces: this.state.data})
                 }
 
-                this.setState({_data: matches, _regionPlaces: matches})
-
-            } else {
-                this.setState({_data: this.state.data, _regionPlaces: this.state.data})
-            }
-            this.setState({noResultsText: ''})
+            })
 
 
             // this.setState({_data: this.state.data})
@@ -135,8 +151,14 @@ class App extends React.Component {
     changeActiveTab(value) {
         this.setState({
             activeTab: value,
-            mobileShowMenu: false
+            mobileShowMenu: false,
         })
+        if (value === 'sort') {
+            let newState = this.defaultState;
+            newState.activeTab = value;
+            this.setState(this.defaultState)
+        }
+
     }
 
     handleClick(value) {
