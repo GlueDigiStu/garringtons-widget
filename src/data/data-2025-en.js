@@ -3927,7 +3927,7 @@ const data = [
         "HC": 306,
         "SCH": 276,
         "HP": 619,
-        "AP": "",
+        "AP": "£376,635",
         "SPC": "-4.3%"
     },
     {
@@ -11088,7 +11088,7 @@ const data = [
     {
         "UID": 739,
         "SN": "Haslemere",
-        "COU": "West Sussex",
+        "COU": "Surrey",
         "REG": "South East",
         "PRIME": "",
         "OR": 739,
@@ -21432,7 +21432,7 @@ const data = [
         "HC": 1251,
         "SCH": 1167,
         "HP": 1062,
-        "AP": "",
+        "AP": "£295,500",
         "SPC": "4.9%"
     },
     {

@@ -218,6 +218,7 @@ class App extends React.Component {
                         query={this.state.searchValue}/></div>
             } else if (this.state.activeTab === 'browse') {
                 return <div><SelectRegion
+                    activeTab={this.state.activeTab}
                     selectedRegion={this.state.selectedRegion}
                     handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
                     primeOnly={this.state.primeOnly}
@@ -233,6 +234,7 @@ class App extends React.Component {
                         <div>
                             <p>Region</p>
                             <SelectRegion
+                                activeTab={this.state.activeTab}
                                 selectedRegion={this.state.selectedRegion}
                                 handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
                                 primeOnly={this.state.primeOnly}

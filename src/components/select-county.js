@@ -23,7 +23,7 @@ class SelectCounty extends React.Component{
                     className="select-region"
                     value={this.props.selectedCounty}
                     onChange={(event) => this.handleSelectCounty(event)} >
-                    <option> </option>
+                    <option value=''>All Counties</option>
                     {this.props.countiesList.map((county, index) => {
                         return <option key={index} value={county}>{county}</option>
                     })}
