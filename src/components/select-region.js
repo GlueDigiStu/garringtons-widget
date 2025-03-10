@@ -42,7 +42,7 @@ class SelectRegion extends React.Component{
                     <option value="Yorkshire and The Humber">Yorkshire and The Humber</option>
                 </select>
                 <div className='prime-only-container'>
-                    <img onClick={this.handleInfoBoxClick} style={{width: "15px", marginRight: '10px'}} src="info.svg"/>
+                    <img alt="" onClick={this.handleInfoBoxClick} style={{width: "15px", marginRight: '10px'}} src="info.svg"/>
                     <p className="info-window" style={{display: this.state.displayInfo}}>A prime location is defined as an area where property values are at least 20% higher than the regional average.</p>
                     <label
                         style={{whiteSpace: 'nowrap'}} htmlFor="primeOnly"> Prime Locations Only </label>
