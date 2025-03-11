@@ -72,12 +72,11 @@ class ListAllPlaces extends React.Component {
 
                             <div className='place-extra-content'>
                                 <p className='large'>Overall rank: <span className="result large">{place.OR} /<span
-                                    className="mini"> 1429</span></span></p>
+                                    className="mini"> 161</span></span></p>
                                 {/*<p>Change since last year: <span className="result">{place.CHANGE * -1}</span> </p>*/}
                                 <p>Natural Environment: <span className="result">{place.NE}</span></p>
                                 <p>Wellbeing: <span className="result">{place.WB}</span></p>
-                                <p>Heritage / Culture: <span className="result">{place.HC}</span></p>
-                                <p>Schools, Employment & Connectivity: <span className="result">{place.SCH}</span></p>
+                                <p>Employment / Connectivity: <span className="result">{place.EC}</span></p>
                                 <p>House Price Quality & Value: <span className="result">{place.HP}</span></p>
                                 {/*<p>Overall Ranking: </p>*/}
                                 <p>Average family home cost: <span className="result">{place.AP}</span></p>

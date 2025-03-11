@@ -1,9 +1,9 @@
 import React from 'react';
 import SearchBox from "./components/search-box";
-import data from "./data/data-2025-en";
+import data from "./data/data-2025-scot";
 import ResultsBox from "./components/results-box";
 import DataBox from "./components/data-box";
-import SelectRegion from "./components/select-region";
+// import SelectRegion from "./components/select-region";
 import SelectCounty from "./components/select-county";
 import SelectMetric from "./components/select-metric";
 import SelectOrder from "./components/select-order";
@@ -80,42 +80,31 @@ class App extends React.Component {
         //Remove any places that are not prime
         let matches;
         if (value === true) {
-            if (this.state.selectedRegion) {
-                matches = this.state._data.filter(v => v.PRIME === 'PRIME')
-            } else {
-                matches = this.state.data.filter(v => v.PRIME === 'PRIME')
-            }
-            console.log('matches', matches)
-            let filteredRegionPlaces = this.state._regionPlaces.filter(v => v.PRIME === 'PRIME')
             if (this.state.selectedCounty) {
-                matches = filteredRegionPlaces.filter(v => v.COU === this.state.selectedCounty)
+                matches = this.state._data.filter(v => v.COU === this.state.selectedCounty)
+            } else {
+                matches = this.state.data;
             }
+
+            matches = matches.filter(v => v.PRIME === 'PRIME')
+
+            console.log('matches', matches)
             if (matches.length === 0) {
                 this.setState({noResultsText: 'No prime locations found in this region'})
             } else {
                 this.setState({noResultsText: ''})
             }
-            this.setState({_data: matches, _regionPlaces: filteredRegionPlaces})
+            this.setState({_data: matches})
         } else {
-            this.setState({noResultsText: ''}, () => {
-
-                if (this.state.selectedRegion) {
-                    matches = this.state.data.filter(v => v.REG === this.state.selectedRegion)
-
-                    if (this.state.selectedCounty) {
-                        matches = matches.filter(v => v.COU === this.state.selectedCounty)
-                    }
-
-                    this.setState({_data: matches, _regionPlaces: matches})
-
-                } else {
-                    this.setState({_data: this.state.data, _regionPlaces: this.state.data})
-                }
-
-            })
+            if (this.state.selectedCounty) {
+                matches = this.state.data.filter(v => v.COU === this.state.selectedCounty)
+            } else {
+                matches = this.state.data;
+            }
+            console.log('matches', matches)
+            this.setState({noResultsText: '', _data: matches, _regionPlaces: matches})
 
 
-            // this.setState({_data: this.state.data})
         }
     }
 
@@ -158,6 +147,27 @@ class App extends React.Component {
             newState.activeTab = value;
             this.setState(this.defaultState)
         }
+
+        let counties = [...new Set(this.state.data.map(item => item.COU))];
+        //Sort the counties alphabetically
+
+        counties.sort((a, b) => {
+            if (a < b) {
+                return -1;
+            } else {
+                return 1;
+            }
+        });
+
+        console.log('primeOnly', this.state.primeOnly);
+
+
+        this.setState({countiesList: counties}, () => {
+            if (this.state.primeOnly) {
+                this.handlePrimeOnly(true)
+            }
+            console.log(this.state.countiesList)
+        });
 
     }
 
@@ -217,32 +227,33 @@ class App extends React.Component {
                         data={this.state._data}
                         query={this.state.searchValue}/></div>
             } else if (this.state.activeTab === 'browse') {
-                return <div><SelectRegion
-                    activeTab={this.state.activeTab}
-                    selectedRegion={this.state.selectedRegion}
+                return <div><SelectCounty
                     handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
-                    primeOnly={this.state.primeOnly}
-                    handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
-                    <SelectPlaceInRegion
-                        handleClick={(value) => this.handleRegionPlaceClick(value)}
-                        places={this.state._regionPlaces}
-                    />
+                    countiesList={this.state.countiesList}
+                    selectedCounty={this.state.selectedCounty}
+                    handleSelectCounty={(value) => this.handleSelectCounty(value)}/>
+                    {this.state.noResultsText !== '' ?
+                        <div className='results-text'><p>{this.state.noResultsText}</p></div> : <SelectPlaceInRegion
+                            handleClick={(value) => this.handleRegionPlaceClick(value)}
+                            places={this.state._data}
+                        />}
                 </div>
             } else {
                 return <div>
                     <div className='sort-filters'>
+                        {/*<div>*/}
+                        {/*    <p>County</p>*/}
+                        {/*    <SelectRegion*/}
+                        {/*        activeTab={this.state.activeTab}*/}
+                        {/*        selectedRegion={this.state.selectedRegion}*/}
+                        {/*        handlePrimeOnly={(value) => this.handlePrimeOnly(value)}*/}
+                        {/*        primeOnly={this.state.primeOnly}*/}
+                        {/*        handleSelectRegion={(value) => this.handleSelectRegion(value)}/>*/}
+                        {/*</div>*/}
                         <div>
-                            <p>Region</p>
-                            <SelectRegion
-                                activeTab={this.state.activeTab}
-                                selectedRegion={this.state.selectedRegion}
-                                handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
-                                primeOnly={this.state.primeOnly}
-                                handleSelectRegion={(value) => this.handleSelectRegion(value)}/>
-                        </div>
-                        <div>
-                            <p>County / Unitary Authority</p>
+                            <p>County</p>
                             <SelectCounty
+                                handlePrimeOnly={(value) => this.handlePrimeOnly(value)}
                                 countiesList={this.state.countiesList}
                                 selectedCounty={this.state.selectedCounty}
                                 handleSelectCounty={(value) => this.handleSelectCounty(value)}/>
@@ -289,7 +300,7 @@ class App extends React.Component {
                     <button
                         className={currentTab === 'browse' ? 'active' : null}
                         onClick={() => this.changeActiveTab('browse')}>
-                        Browse by region
+                        Browse by county
                     </button>
                     <button
                         className={currentTab === 'sort' ? 'active' : null}
