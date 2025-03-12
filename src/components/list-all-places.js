@@ -72,7 +72,7 @@ class ListAllPlaces extends React.Component {
 
                             <div className='place-extra-content'>
                                 <p className='large'>Overall rank: <span className="result large">{place.OR} /<span
-                                    className="mini"> 1429</span></span></p>
+                                    className="mini"> 1447</span></span></p>
                                 {/*<p>Change since last year: <span className="result">{place.CHANGE * -1}</span> </p>*/}
                                 <p>Natural Environment: <span className="result">{place.NE}</span></p>
                                 <p>Wellbeing: <span className="result">{place.WB}</span></p>
@@ -85,7 +85,7 @@ class ListAllPlaces extends React.Component {
                                 {/*    className="result">{place.SPC}</span></p>*/}
                                 <div>
                                 <p style={{fontSize: '12px'}}>Average price of family home (based on average sales price
-                                    per square foot in last year x 1500 square foot home): <span
+                                    per square foot in last year x 1500 sq ft home): <span
                                         style={{textAlign: 'right', float: 'none'}} className="result">{place.AP}</span></p>
                                 <p style={{fontSize: '12px'}}>Average sales price change in last 12 months (based on
                                     change in overall average price per sq ft): <span style={{textAlign: 'right', float: 'none'}}
