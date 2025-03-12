@@ -85,7 +85,13 @@ input {
     padding: 5px;
     float: right;
     font-size: 21px;
+
     /*border-radius: 5px;*/
+}
+
+.data-box .result{
+    width: 210px;
+    text-align: right;
 }
 
 hr {

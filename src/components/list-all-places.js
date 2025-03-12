@@ -80,9 +80,18 @@ class ListAllPlaces extends React.Component {
                                 <p>Schools, Employment & Connectivity: <span className="result">{place.SCH}</span></p>
                                 <p>House Price Quality & Value: <span className="result">{place.HP}</span></p>
                                 {/*<p>Overall Ranking: </p>*/}
-                                <p>Average family home cost: <span className="result">{place.AP}</span></p>
-                                <p>Sales price change in last 12 months: <span
-                                    className="result">{place.SPC}</span></p>
+                                {/*<p>Average family home cost: <span className="result">{place.AP}</span></p>*/}
+                                {/*<p>Sales price change in last 12 months: <span*/}
+                                {/*    className="result">{place.SPC}</span></p>*/}
+                                <div>
+                                <p style={{fontSize: '12px'}}>Average price of family home (based on average sales price
+                                    per square foot in last year x 1500 square foot home): <span
+                                        style={{textAlign: 'right', float: 'none'}} className="result">{place.AP}</span></p>
+                                <p style={{fontSize: '12px'}}>Average sales price change in last 12 months (based on
+                                    change in overall average price per sq ft): <span style={{textAlign: 'right', float: 'none'}}
+                                                                                      className="result">{place.SPC}</span>
+                                </p>
+                                </div>
                             </div>
                         )}
                     </div>
